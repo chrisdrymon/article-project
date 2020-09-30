@@ -29,6 +29,7 @@ if {'sentence_counter.json', 'articular_counter.pickle', 'articular_lemma_counte
     with open("sentence_counter.json", 'r') as infile:
         sentence_counter = json.load(infile)
     sentences = sentences[sentence_counter:]
+    print(f'Checkpoint files found. Starting data collection at sentence {sentence_counter}.')
 else:
     wordform_counter = {}
     lemma_counter = {}
@@ -105,3 +106,12 @@ with open("sentence_counter.json", 'w') as outfile:
     json.dump(sentence_counter, outfile)
 with open("abbreviations.json", 'w') as outfile:
     json.dump(abbreviation_dict, outfile)
+
+with open("wordform_counter.pickle", "wb") as outfile:
+    pickle.dump(wordform_counter, outfile)
+with open("lemma_counter.pickle", "wb") as outfile:
+    pickle.dump(lemma_counter, outfile)
+with open("articular_counter.pickle", "wb") as outfile:
+    pickle.dump(articular_counter, outfile)
+with open("articular_lemma_counter.pickle", "wb") as outfile:
+    pickle.dump(articular_lemma_counter, outfile)
