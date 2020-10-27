@@ -37,9 +37,8 @@ else:
     articular_lemma_counter = {}
     sentence_counter = 0
 
-# We are creating a counter object / dictionary  that looks like this: {word1:{NN: 3, NNP: 7}, word2:{NN:1, NNP:2}}. It
-# is only counting nouns and each entry is made lower case so that words which begin a sentence are not counted
-# separately.
+# This creates a dictionary that counts its occurrences broken down by part of speech. It will look like this:
+# {word1:{NN: 3, NNP: 7}, word2:{NN:1, NNP:2}}. It is only counting nouns and makes them all lower case.
 
 for sentence in sentences:
     doc = nlp(sentence)
@@ -75,7 +74,7 @@ for sentence in sentences:
     # This may take hours to complete. This is here to create occasional backups in case it's interrupted.
     # These backups need to be saved as pickles because Counter objects get reloaded as normal dictionaries if they
     # are saved as JSONs. The final files will be saved as both JSONs and pickles. I like JSON, but if the files need
-    # unforeseen edits in the future, preserving the Counters will be useful.
+    # edits in the future, preserving the Counters will be useful.
     if sentence_counter % 10000 == 0:
         with open("wordform_counter.pickle", "wb") as outfile:
             pickle.dump(wordform_counter, outfile)
@@ -89,7 +88,7 @@ for sentence in sentences:
             json.dump(sentence_counter, outfile)
         print('Backup created!')
 
-# This creates a list of
+# This will be a JSON of the grammatical abbreviations Spacy uses.
 for lemma in lemma_counter:
     for key in lemma_counter[lemma]:
         if key not in abbreviation_list:
