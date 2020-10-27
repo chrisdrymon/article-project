@@ -5,8 +5,8 @@ from collections import Counter
 import pickle
 import json
 
-df = pd.read_table(os.path.join('data/corpora', 'eng_wikipedia_2016_1M-sentences.txt'), '\t', index_col=0, header=None,
-                   names=['Sentences'])
+df = pd.read_table(os.path.join('data', 'corpora', 'eng_wikipedia_2016_1M-sentences.txt'), '\t', index_col=0,
+                   header=None, names=['Sentences'])
 sentences = tuple(df['Sentences'].to_list())
 nlp = spacy.load('en_core_web_sm')
 
@@ -37,39 +37,42 @@ else:
     articular_lemma_counter = {}
     sentence_counter = 0
 
-# We are creating a dictionary that looks like this:
-# wordform = {word1:{NN: 3, NNP: 7}, word2:{NN:1, NNP:2}}
+# We are creating a counter object / dictionary  that looks like this: {word1:{NN: 3, NNP: 7}, word2:{NN:1, NNP:2}}. It
+# is only counting nouns and each entry is made lower case so that words which begin a sentence are not counted
+# separately.
 
 for sentence in sentences:
     doc = nlp(sentence)
     for word in doc:
-        l_word = word.text.lower()
         l_lemma = word.lemma_.lower()
-        if l_word in wordform_counter:
-            wordform_counter[l_word][word.tag_] += 1
-        else:
-            wordform_counter[l_word] = Counter({word.tag_: 1})
-        if l_lemma in lemma_counter:
-            lemma_counter[l_lemma][word.tag_] += 1
-        else:
-            lemma_counter[l_lemma] = Counter({word.tag_: 1})
-        if l_lemma == 'the':
+        if word.tag_ in ['NN', 'NNPS', 'NNP', 'NNS']:
+            l_word = word.text.lower()
+            if l_word in wordform_counter:
+                wordform_counter[l_word][word.tag_] += 1
+            else:
+                wordform_counter[l_word] = Counter({word.tag_: 1})
+            if l_lemma in lemma_counter:
+                lemma_counter[l_lemma][word.tag_] += 1
+            else:
+                lemma_counter[l_lemma] = Counter({word.tag_: 1})
+        elif l_lemma == 'the':
             l_head = word.head.text.lower()
-            l_head_lemma = word.head.lemma_.lower()
-            if l_head in articular_counter:
-                articular_counter[l_head][word.head.tag_] += 1
-            else:
-                articular_counter[l_head] = Counter({word.head.tag_: 1})
-            if l_head_lemma in articular_lemma_counter:
-                articular_lemma_counter[l_head_lemma][word.head.tag_] += 1
-            else:
-                articular_lemma_counter[l_head_lemma] = Counter({word.head.tag_: 1})
+            if l_head in ['NN', 'NNPS', 'NNP', 'NNS']:
+                l_head_lemma = word.head.lemma_.lower()
+                if l_head in articular_counter:
+                    articular_counter[l_head][word.head.tag_] += 1
+                else:
+                    articular_counter[l_head] = Counter({word.head.tag_: 1})
+                if l_head_lemma in articular_lemma_counter:
+                    articular_lemma_counter[l_head_lemma][word.head.tag_] += 1
+                else:
+                    articular_lemma_counter[l_head_lemma] = Counter({word.head.tag_: 1})
 
     sentence_counter += 1
     if sentence_counter % 1000 == 0:
         print(f'Sentence {sentence_counter}!')
 
-    # This may take hours to complete. This is here to create occassional backups in case it's interrupted.
+    # This may take hours to complete. This is here to create occasional backups in case it's interrupted.
     # These backups need to be saved as pickles because Counter objects get reloaded as normal dictionaries if they
     # are saved as JSONs. The final files will be saved as both JSONs and pickles. I like JSON, but if the files need
     # unforeseen edits in the future, preserving the Counters will be useful.
@@ -86,6 +89,7 @@ for sentence in sentences:
             json.dump(sentence_counter, outfile)
         print('Backup created!')
 
+# This creates a list of
 for lemma in lemma_counter:
     for key in lemma_counter[lemma]:
         if key not in abbreviation_list:
