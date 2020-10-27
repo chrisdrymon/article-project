@@ -56,7 +56,7 @@ for sentence in sentences:
                 lemma_counter[l_lemma] = Counter({word.tag_: 1})
         elif l_lemma == 'the':
             l_head = word.head.text.lower()
-            if l_head in ['NN', 'NNPS', 'NNP', 'NNS']:
+            if word.head.tag_ in ['NN', 'NNPS', 'NNP', 'NNS']:
                 l_head_lemma = word.head.lemma_.lower()
                 if l_head in articular_counter:
                     articular_counter[l_head][word.head.tag_] += 1
@@ -67,14 +67,16 @@ for sentence in sentences:
                 else:
                     articular_lemma_counter[l_head_lemma] = Counter({word.head.tag_: 1})
 
+    # This gives some feedback to let the user known how far along the program has progressed.
     sentence_counter += 1
     if sentence_counter % 1000 == 0:
         print(f'Sentence {sentence_counter}!')
 
     # This may take hours to complete. This is here to create occasional backups in case it's interrupted.
     # These backups need to be saved as pickles because Counter objects get reloaded as normal dictionaries if they
-    # are saved as JSONs. The final files will be saved as both JSONs and pickles. I like JSON, but if the files need
-    # edits in the future, preserving the Counters will be useful.
+    # are saved as JSONs. Usually, this is an easy fix, but since these are Counter objects nested within a dictionary,
+    # it's quite a nuisance. Thus, the final files will be saved as both JSONs and pickles. I like JSON, but if the
+    # files need edits in the future, preserving the Counters will be useful.
     if sentence_counter % 10000 == 0:
         with open("wordform_counter.pickle", "wb") as outfile:
             pickle.dump(wordform_counter, outfile)
@@ -94,27 +96,30 @@ for lemma in lemma_counter:
         if key not in abbreviation_list:
             abbreviation_list.append(key)
 
+# This creates a dictionary of abbreviations that Spacy uses. It will be save as a JSON eventually.
 for abbreviation in abbreviation_list:
     abbreviation_dict[abbreviation] = spacy.explain(abbreviation)
 
-with open("wordform_counter.json", "w") as outfile:
+# Saves the files to the working directory. I'd recommend manually moving them to [cwd]/data/databases/english once they
+# have completed.
+with open('wordform_counter.json', 'w') as outfile:
     json.dump(wordform_counter, outfile)
-with open("lemma_counter.json", "w") as outfile:
+with open('lemma_counter.json', 'w') as outfile:
     json.dump(lemma_counter, outfile)
-with open("articular_counter.json", "w") as outfile:
+with open('articular_counter.json', 'w') as outfile:
     json.dump(articular_counter, outfile)
-with open("articular_lemma_counter.json", "w") as outfile:
+with open('articular_lemma_counter.json', 'w') as outfile:
     json.dump(articular_lemma_counter, outfile)
-with open("sentence_counter.json", 'w') as outfile:
+with open('sentence_counter.json', 'w') as outfile:
     json.dump(sentence_counter, outfile)
-with open("abbreviations.json", 'w') as outfile:
+with open('abbreviations.json', 'w') as outfile:
     json.dump(abbreviation_dict, outfile)
 
-with open("wordform_counter.pickle", "wb") as outfile:
+with open('wordform_counter.pickle', 'wb') as outfile:
     pickle.dump(wordform_counter, outfile)
-with open("lemma_counter.pickle", "wb") as outfile:
+with open('lemma_counter.pickle', 'wb') as outfile:
     pickle.dump(lemma_counter, outfile)
-with open("articular_counter.pickle", "wb") as outfile:
+with open('articular_counter.pickle', 'wb') as outfile:
     pickle.dump(articular_counter, outfile)
-with open("articular_lemma_counter.pickle", "wb") as outfile:
+with open('articular_lemma_counter.pickle', 'wb') as outfile:
     pickle.dump(articular_lemma_counter, outfile)
