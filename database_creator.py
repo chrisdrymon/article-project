@@ -18,15 +18,15 @@ abbreviation_dict = {}
 
 if {'sentence_counter.json', 'articular_counter.pickle', 'articular_lemma_counter.pickle', 'lemma_counter.pickle',
     'wordform_counter.pickle'}.issubset(os.listdir(os.getcwd())):
-    with open("articular_counter.pickle", 'rb') as infile:
+    with open('articular_counter.pickle', 'rb') as infile:
         articular_counter = pickle.load(infile)
-    with open("articular_lemma_counter.pickle", 'rb') as infile:
+    with open('articular_lemma_counter.pickle', 'rb') as infile:
         articular_lemma_counter = pickle.load(infile)
-    with open("lemma_counter.pickle", 'rb') as infile:
+    with open('lemma_counter.pickle', 'rb') as infile:
         lemma_counter = pickle.load(infile)
-    with open("wordform_counter.pickle", 'rb') as infile:
+    with open('wordform_counter.pickle', 'rb') as infile:
         wordform_counter = pickle.load(infile)
-    with open("sentence_counter.json", 'r') as infile:
+    with open('sentence_counter.json', 'r') as infile:
         sentence_counter = json.load(infile)
     sentences = sentences[sentence_counter:]
     print(f'Checkpoint files found. Starting data collection at sentence {sentence_counter}.')
@@ -78,15 +78,15 @@ for sentence in sentences:
     # it's quite a nuisance. Thus, the final files will be saved as both JSONs and pickles. I like JSON, but if the
     # files need edits in the future, preserving the Counters will be useful.
     if sentence_counter % 10000 == 0:
-        with open("wordform_counter.pickle", "wb") as outfile:
+        with open('wordform_counter.pickle', 'wb') as outfile:
             pickle.dump(wordform_counter, outfile)
-        with open("lemma_counter.pickle", "wb") as outfile:
+        with open('lemma_counter.pickle', 'wb') as outfile:
             pickle.dump(lemma_counter, outfile)
-        with open("articular_counter.pickle", "wb") as outfile:
+        with open('articular_counter.pickle', 'wb') as outfile:
             pickle.dump(articular_counter, outfile)
-        with open("articular_lemma_counter.pickle", "wb") as outfile:
+        with open('articular_lemma_counter.pickle', 'wb') as outfile:
             pickle.dump(articular_lemma_counter, outfile)
-        with open("sentence_counter.json", 'w') as outfile:
+        with open('sentence_counter.json', 'w') as outfile:
             json.dump(sentence_counter, outfile)
         print('Backup created!')
 
@@ -123,3 +123,4 @@ with open('articular_counter.pickle', 'wb') as outfile:
     pickle.dump(articular_counter, outfile)
 with open('articular_lemma_counter.pickle', 'wb') as outfile:
     pickle.dump(articular_lemma_counter, outfile)
+
