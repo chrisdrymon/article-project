@@ -1,0 +1,1818 @@
+<?xml version="1.0" encoding="utf-8"?>
+<treebank direction="ltr" format="jmhgreek" version="1.5" xml:lang="grc" xmlns:saxon="http://saxon.sf.net/">
+ <date writing='150'>
+  2018-12-05 20:02:34 UTC
+ </date>
+ <annotator>
+  <short/>
+  <name/>
+  <address/>
+  <uri>
+   http://github.com/latin-language-toolkit/arethusa
+  </uri>
+ </annotator>
+ <annotator>
+  <short>
+   Glenn Maur
+  </short>
+  <name>
+   Glenn Maur
+  </name>
+  <address>
+   gmaur01@tufts.edu
+  </address>
+  <uri>
+   http://data.perseus.org/sosol/users/Glenn%20Maur
+  </uri>
+ </annotator>
+ <annotator>
+  <short>
+   jmharrington
+  </short>
+  <name>
+   J Matthew Harrington
+  </name>
+  <address>
+   matthew.harrington@tufts.edu
+  </address>
+  <uri>
+   http://data.perseus.org/sosol/users/jmharrington
+  </uri>
+ </annotator>
+ <sentence document_id="Life of Aesop (Vita G)" id="1" span="" subdoc="31">
+  <word form="ἡ" head="2" id="1" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="γυνὴ" head="15" id="2" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="τοῦ" head="4" id="3" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="4" lemma="Ξάνθος" postag="n-s---mg-" presentation-after="," relation="G-POSS"/>
+  <word form="τοῦ" head="7" id="6" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Αἰσώπου" head="12" id="7" lemma="Αἴσωπος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="ἰδοῦσα" head="2" id="8" lemma="εἶδον" postag="v-sapafn-" relation="CP-TEMPOR"/>
+  <word form="τὸ" head="10" id="9" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="κακοπινὲς" head="8" id="10" lemma="κακοπινής" postag="a-s---na-" relation="A-DO"/>
+  <word form="τοῦ" head="12" id="11" lemma="ὁ" postag="l-s---ng-" relation="ATR"/>
+  <word form="προσώπου" head="10" id="12" lemma="πρόσωπον" postag="n-s---ng-" presentation-after="," relation="G-DESC"/>
+  <word form="ἀπεστράφη" head="15" id="14" lemma="ἀποστρέφω" postag="v3saip---" relation="PRED_CO"/>
+  <word form="καὶ" head="0" id="15" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="πρὸς" head="19" id="16" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="18" id="17" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="Ξάνθον" head="16" id="18" lemma="Ξάνθος" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="λέγει" head="15" id="19" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED_CO"/>
+  <word form="οὐᾶ" head="30" id="21" lemma="οὐά" postag="i--------" presentation-after="," relation="INTRJ"/>
+  <word form="Ξάνθε" head="30" id="23" lemma="Ξάνθος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="εὐεπινοήτως" head="26" id="25" lemma="εὐεπινόητος" postag="d-------p" relation="ADV_CO"/>
+  <word form="καὶ" head="30" id="26" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="φιλοσόφως" head="26" id="27" lemma="φιλόσοφος" postag="d-------p" relation="ADV_CO"/>
+  <word form="καὶ" head="26" id="28" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="πρεπόντως" head="26" id="29" lemma="πρεπόντως" postag="d--------" relation="ADV_CO"/>
+  <word form="ἔπραξας" head="19" id="30" lemma="πράσσω" postag="v2saia---" presentation-after="·" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="2" span="" subdoc="31">
+  <word form="ἑτέραν" head="4" id="1" lemma="ἕτερος" postag="a-s---fa-" relation="ATR"/>
+  <word form="λαβεῖν" head="3" id="2" lemma="λαμβάνω" postag="v--ana---" relation="INF-COMP"/>
+  <word form="βουλόμενος" head="5" id="3" lemma="βούλομαι" postag="v-sppemn-" relation="CP-CAUSAL_SUBJ-CO"/>
+  <word form="γυναῖκα" head="2" id="4" lemma="γυνή" postag="n-s---fa-" relation="A-DO"/>
+  <word form="καὶ" head="16" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μὴ" head="7" id="6" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="τολμῶν" head="5" id="7" lemma="τολμάω" postag="v-sppamn-" relation="CP-CAUSAL_SUBJ-CO"/>
+  <word form="μοι" head="11" id="8" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="κατ'" head="11" id="9" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="ὄψιν" head="9" id="10" lemma="ὄψις" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="εἰπεῖν" head="7" id="11" lemma="εἶπον" postag="v--ana---" presentation-after="'" relation="INF-COMP"/>
+  <word form="πορεύου" head="11" id="13" lemma="πορεύω" postag="v2spme---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἀπ'" head="13" id="14" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="ἐμοῦ" head="14" id="15" lemma="ἐγώ" postag="p1s---mg-" presentation-after=",'" relation="G-ORIENT"/>
+  <word form="ἐπιστάμενός" head="16" id="18" lemma="ἐπίσταμαι" postag="v-sppemn-" relation="CP-CAUSAL_SUBJ-CO"/>
+  <word form="μου" head="21" id="19" lemma="ἐγώ" postag="p1s---mg-" relation="G-POSS"/>
+  <word form="τὸ" head="21" id="20" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="φιλοκάθαρον" head="18" id="21" lemma="φιλοκάθαρος" postag="a-s---na-" relation="A-DO"/>
+  <word form="ἤνεγκάς" head="40" id="22" lemma="φέρω" postag="v2saia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="μοι" head="22" id="23" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="τοῦτον" head="22" id="24" lemma="οὗτος" postag="p-s---ma-" relation="A-DO"/>
+  <word form="ἐπίτηδες" head="22" id="25" lemma="ἐπίτηδες" postag="d--------" presentation-after="," relation="ADV"/>
+  <word form="ἵνα" head="22" id="27" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="μὴ" head="29" id="28" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="ὑποφέρουσα" head="41" id="29" lemma="ὑποφέρω" postag="v-sppafn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="ὐπ'" head="32" id="30" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="αὐτοῦ" head="30" id="31" lemma="αὐτός" postag="p-s---mg-" relation="G-AGENT"/>
+  <word form="δουλεύεσθαι" head="29" id="32" lemma="δουλεύω" postag="v--pne---" relation="INF-COMP"/>
+  <word form="φύγω" head="27" id="33" lemma="φεύγω" postag="v1sasa---" relation="ADV-PURP"/>
+  <word form="ἐπ'" head="38" id="34" lemma="ἐπί" postag="r--------" relation="AuxP"/>
+  <word form="ἐμαυτῆς" head="34" id="35" lemma="ἐμαυτοῦ" postag="p-s---fg-" relation="G-ORIENT"/>
+  <word form="τὴν" head="37" id="36" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="οἰκίαν" head="38" id="37" lemma="οἰκία" postag="n-s---fa-" relation="A-DO"/>
+  <word form="καταλιποῦσα" head="41" id="38" lemma="καταλιμπάνω" postag="v-sapafn-" presentation-after="." relation="CP-TEMPOR_SUBJ-CO"/>
+  <word artificial="elliptic" form="(ἡ γυνὴ τοῦ Ξάνθου λέγει)" head="0" id="40" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="[ ]" head="33" id="41" insertion_id="0032e" relation="COORD"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="3" span="" subdoc="31">
+  <word form="δός" head="6" id="1" lemma="δίδωμι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="μοι" head="1" id="2" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="οὖν" head="6" id="3" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="τὴν" head="5" id="4" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="προῖκα" head="1" id="5" lemma="προίξ" postag="n-s---fa-" relation="A-DO"/>
+  <word form="καί" head="13" id="6" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἐγὼ" head="8" id="7" lemma="ἐγώ" postag="p1s---mn-" relation="N-SUBJ"/>
+  <word form="πορεύσομαι" head="6" id="8" lemma="πορεύω" postag="v1sfim---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="καθ'" head="8" id="9" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="ἑαυτήν" head="9" id="10" lemma="ἑαυτοῦ" postag="p-s---fa-" presentation-after='."' relation="A-ORIENT"/>
+  <word artificial="elliptic" form="(ἡ γυνὴ τοῦ Ξάνθου λέγει)" head="0" id="13" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="4" span="" subdoc="31">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="οἴμοι" head="20" id="5" lemma="οἴμοι" postag="i--------" presentation-after="," relation="INTRJ"/>
+  <word form="ἵνα" head="18" id="7" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="μὴ" head="13" id="8" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="εἰς" head="13" id="9" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="11" id="10" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="ὁδὸν" head="9" id="11" lemma="ὁδός2" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="περιπατῶν" head="13" id="12" lemma="περιπατέω" postag="v-sppamn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="οὐρήσω" head="7" id="13" lemma="οὐρέω" postag="v1sasa---" presentation-after="," relation="ADV-PURP"/>
+  <word form="ἑπτασφόνδυλά" head="17" id="15" lemma="ἑπτασφόνδυλος" postag="a-p---nap" relation="ATR"/>
+  <word form="μοι" head="18" id="16" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="ῥήματα" head="18" id="17" lemma="ῥῆμα" postag="n-p---na-" relation="A-DO"/>
+  <word form="εἶπας" head="20" id="18" lemma="εἶπον" postag="v2saia---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="καὶ" head="3" id="20" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="νῦν" head="23" id="21" lemma="νῦν" postag="d--------" relation="ADV"/>
+  <word form="οὐδὲν" head="23" id="22" lemma="οὐδείς" postag="p-s---na-" relation="A-DO"/>
+  <word form="λέγεις" head="20" id="23" lemma="λέγω1" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="πρὸς" head="23" id="24" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="αὐτήν" head="24" id="25" lemma="αὐτός" postag="p-s---fa-" presentation-after=';"' relation="A-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="5" span="" subdoc="31">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπε" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="τοιγὰρ" head="5" id="4" lemma="τοιγάρ" postag="d--------" relation="AuxY"/>
+  <word form="πορεύηται" head="2" id="5" lemma="πορεύω" postag="v3spse---" relation="NOM-DS-HORT_OBJ"/>
+  <word form="καθ'" head="5" id="6" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="ἑαυτὴν" head="6" id="7" lemma="ἑαυτοῦ" postag="p-s---fa-" relation="A-ORIENT"/>
+  <word form="εἰς" head="5" id="8" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="10" id="9" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="σκότος" head="8" id="10" lemma="σκότος" postag="n-s---na-" presentation-after='."' relation="A-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="6" span="" subdoc="31">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="σιώπα" head="8" id="5" lemma="σιωπάω" postag="v2spma---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="κάθαρμα" head="5" id="7" lemma="κάθαρμα" postag="n-s---nv-" presentation-after="," relation="V-VOC"/>
+  <word form="οὐκ" head="10" id="9" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="οἶδας" head="8" id="10" lemma="οἶδα" postag="v2sria---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ὅτι" head="10" id="11" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="φιλῶ" head="11" id="12" lemma="φιλέω" postag="v1spia---" relation="NOM-INDSTAT_OBJ"/>
+  <word form="αὐτὴν" head="12" id="13" lemma="αὐτός" postag="p-s---fa-" relation="A-DO"/>
+  <word form="ὑπὲρ" head="12" id="14" lemma="ὑπέρ" postag="r--------" relation="AuxP"/>
+  <word form="ἐμαυτόν" head="14" id="15" lemma="ἐμαυτοῦ" postag="p-s---ma-" presentation-after=';"' relation="A-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="7" span="" subdoc="31">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="φιλεῖς" head="2" id="4" lemma="φιλέω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὸ" head="6" id="5" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="γύναιον" head="4" id="6" lemma="γύναιον" postag="n-s---na-" presentation-after=';"' relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="8" span="" subdoc="31">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="καὶ" head="3" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μᾶλα" head="9" id="6" lemma="μᾶλα" postag="d-------p" presentation-after='."' relation="ADV"/>
+  <word artificial="elliptic" form="(φιλῶ τὸ γύναιον)" head="5" id="9" insertion_id="0006e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="9" span="" subdoc="31">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="θέλεις" head="2" id="4" lemma="ἐθέλω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οὖν" head="4" id="5" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="ἵνα" head="7" id="6" lemma="ἵνα" postag="c--------" relation="ADV"/>
+  <word form="μένῃ" head="4" id="7" lemma="μένω" postag="v3spsa---" presentation-after=';"' relation="NOM-DS-HORT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="10" span="" subdoc="31">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="θέλω" head="3" id="5" lemma="ἐθέλω" postag="v1spia---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ταπεινέ" head="5" id="7" lemma="ταπεινός" postag="a-s---mv-" presentation-after='."' relation="V-VOC"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="11" span="" subdoc="31">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ὑποκρινοῦμαι" head="2" id="4" lemma="ὑποκρίνομαι" postag="v1sfim---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ὡς" head="4" id="5" lemma="ὡς" postag="c--------" relation="AuxC"/>
+  <word form="θέλεις" head="5" id="6" lemma="ἐθέλω" postag="v2spia---" presentation-after='."' relation="ADV-COMPAR"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="12" span="" subdoc="31">
+  <word form="καὶ" head="0" id="1" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ῥήξας" head="9" id="2" lemma="ῥήσσω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="τὸν" head="4" id="3" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="πόδα" head="2" id="4" lemma="πούς" postag="n-s---ma-" relation="A-DO"/>
+  <word form="εἰς" head="2" id="5" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="7" id="6" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="μέσον" head="5" id="7" lemma="μέσος" postag="a-s---na-" relation="A-DO"/>
+  <word form="ὁ" head="9" id="8" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Aἴσωπος" head="10" id="9" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἀνέκραγεν" head="1" id="10" lemma="ἀνακράζω" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="εἰ" head="21" id="12" lemma="εἰ" postag="c--------" relation="AuxC"/>
+  <word form="Ξάνθος" head="30" id="13" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ_AP"/>
+  <word form="ὁ" head="15" id="14" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="φιλόσοφος" head="30" id="15" lemma="φιλόσοφος" postag="n-s---mn-" relation="N-SUBJ_AP"/>
+  <word form="γυναικοκρατεῖται" head="12" id="16" lemma="γυναικοκρατέομαι" postag="v3spie---" presentation-after="," relation="ADV-PROTAS"/>
+  <word form="αὔριον" head="21" id="18" lemma="αὔριον" postag="d--------" relation="ADV"/>
+  <word form="αὐτὸν" head="26" id="19" lemma="αὐτός" postag="p-s---ma-" relation="A-SUBJ"/>
+  <word form="ἐγὼ" head="21" id="20" lemma="ἐγώ" postag="p1s---mn-" relation="N-SUBJ"/>
+  <word form="δείξω" head="10" id="21" lemma="δείκνυμι" postag="v1sfia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἐν" head="21" id="22" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τοῖς" head="24" id="23" lemma="ὁ" postag="l-p---nd-" relation="ATR"/>
+  <word form="ἀκροατηρίοις" head="22" id="24" lemma="ἀκροατήριον" postag="n-p---nd-" relation="D-LOCAT"/>
+  <word form="οἷόν" head="27" id="25" lemma="οἷος" postag="a-s---na-" relation="ATR"/>
+  <word form="ἐστιν" head="21" id="26" lemma="εἰμί" postag="v3spia---" relation="NOM-INDQUES_OBJ"/>
+  <word form="περικάθαρμα" head="26" id="27" lemma="περικάθαρμα" postag="n-s---na-" presentation-after='."' relation="A-PRED"/>
+  <word artificial="elliptic" form="[ ]" head="16" id="30" insertion_id="0013e" relation="APOS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="13" span="" subdoc="31">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="καλῶς" head="10" id="5" lemma="καλός" postag="d-------p" presentation-after="," relation="ADV"/>
+  <word form="Aἴσωπε" head="10" id="7" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after=';"' relation="V-VOC"/>
+  <word artificial="elliptic" form="(δείξεις)" head="3" id="10" insertion_id="0004e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="14" span="" subdoc="32">
+  <word form="Aἴσωπος" head="5" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="πρὸς" head="5" id="2" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="4" id="3" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="κυρὰν" head="2" id="4" lemma="κυρία" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="εἶπεν" head="0" id="5" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="τάδε" head="13" id="7" lemma="ὅδε" postag="p-p---na-" relation="A-DO"/>
+  <word form="πρὸς" head="13" id="8" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="σέ" head="8" id="9" lemma="σύ" postag="p2s----a-" presentation-after="," relation="A-ORIENT"/>
+  <word form="γύναι" head="13" id="11" lemma="γυνή" postag="n-s---fv-" presentation-after="," relation="V-VOC"/>
+  <word form="βούλει" head="5" id="13" lemma="βούλομαι" postag="v2spie---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἵνα" head="13" id="15" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="σου" head="18" id="16" lemma="σύ" postag="p2s----g-" relation="G-POSS"/>
+  <word form="ὁ" head="18" id="17" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="ἀνὴρ" head="21" id="18" lemma="ἀνήρ" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἐξιὼν" head="18" id="19" lemma="ἔξειμι2" postag="v-sppamn-" relation="CP-TEMPOR"/>
+  <word form="ποταπὸν" head="19" id="20" lemma="ποταπὸς" postag="a-s---nap" relation="A-ORIENT"/>
+  <word form="ὠνήσηται" head="15" id="21" lemma="ὠνέομαι" postag="v3sasm---" relation="NOM-INDSTAT_OBJ"/>
+  <word form="σωμάτιον" head="21" id="22" lemma="σωμάτιον" postag="n-s---na-" relation="A-DO"/>
+  <word form="εὐήλικον" head="24" id="23" lemma="εὐήλιξ" postag="a-s---map" presentation-after="," relation="ATR_CO"/>
+  <word form="περικαλλῆ" head="24" id="25" lemma="περικαλλής" postag="a-s---ma-" presentation-after="," relation="ATR_CO"/>
+  <word form="εὐηδῆ" head="24" id="27" lemma="εὐηδής" postag="a-s---map" presentation-after="," relation="ATR_CO"/>
+  <word form="εὐόφθαλμον" head="24" id="29" lemma="εὐόφθαλμος" postag="a-s---ma-" presentation-after="," relation="ATR_CO"/>
+  <word form="ξανθόν" head="24" id="31" lemma="ξανθός" postag="a-s---ma-" presentation-after='."' relation="ATR_CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="15" span="" subdoc="32">
+  <word form="ἡ" head="2" id="1" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="γυνὴ" head="5" id="2" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="τοῦ" head="4" id="3" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="4" lemma="Ξάνθος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="εἶπεν" head="0" id="5" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="ἵνα" head="11" id="7" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="τί" head="11" id="8" lemma="τίς" postag="x-s---na-" presentation-after=';"' relation="A-ADVERB"/>
+  <word artificial="elliptic" form="(βούλομαι)" head="5" id="11" insertion_id="0006e" relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(σωμάτιον ὠνήσηται)" head="7" id="12" insertion_id="0007e" relation="NOM-INDSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="16" span="" subdoc="32">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἵνα" head="96" id="4" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="ὁ" head="7" id="5" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="καλὸς" head="7" id="6" lemma="καλός" postag="a-s---mn-" relation="ATR"/>
+  <word form="δοῦλος" head="8" id="7" lemma="δοῦλος" postag="a-s---mn-" relation="N-SUBJ"/>
+  <word form="ἀκολουθῇ" head="89" id="8" lemma="ἀκολουθέω" postag="v3spsa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="σοι" head="8" id="9" lemma="σύ" postag="p2s----d-" relation="D-ACCOMP"/>
+  <word form="εἰς" head="8" id="10" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="12" id="11" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="βαλανεῖον" head="10" id="12" lemma="βαλανεῖον" postag="n-s---na-" presentation-after="," relation="A-EXTENT"/>
+  <word form="εἶτα" head="18" id="14" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="ὁ" head="17" id="15" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="καλὸς" head="17" id="16" lemma="καλός" postag="a-s---mn-" relation="ATR"/>
+  <word form="δοῦλος" head="18" id="17" lemma="δοῦλος" postag="a-s---mn-" relation="N-SUBJ"/>
+  <word form="λάβῃ" head="89" id="18" lemma="λαμβάνω" postag="v3sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="παρὰ" head="18" id="19" lemma="παρά" postag="r--------" relation="AuxP"/>
+  <word form="σοῦ" head="19" id="20" lemma="σύ" postag="p2s----g-" relation="G-ORIENT"/>
+  <word form="τὰ" head="22" id="21" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ἱμάτιά" head="18" id="22" lemma="ἱμάτιον" postag="n-p---na-" relation="A-DO"/>
+  <word form="σου" head="22" id="23" lemma="σύ" postag="p2s----g-" presentation-after="," relation="G-POSS"/>
+  <word form="εἶτα" head="37" id="25" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="ὁ" head="28" id="26" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="καλὸς" head="28" id="27" lemma="καλός" postag="a-s---mn-" relation="ATR"/>
+  <word form="δοῦλος" head="37" id="28" lemma="δοῦλος" postag="a-s---mn-" relation="N-SUBJ"/>
+  <word form="ἐξερχομένης" head="34" id="29" lemma="ἐξέρχομαι" postag="v-sppefg-" relation="G-ABSOL"/>
+  <word form="σοῦ" head="29" id="30" lemma="σύ" postag="p2s----g-" relation="G-ABSOL"/>
+  <word form="ἀπὸ" head="34" id="31" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τοῦ" head="33" id="32" lemma="ὁ" postag="l-s---ng-" relation="ATR"/>
+  <word form="βαλανείου" head="31" id="33" lemma="βαλανεῖον" postag="n-s---ng-" relation="G-ORIENT"/>
+  <word form="ἐπιβάλῃ" head="37" id="34" lemma="ἐπιβάλλω" postag="v3sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="τὸ" head="36" id="35" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="θερίστριον" head="34" id="36" lemma="θερίστριον" postag="n-s---na-" relation="A-DO"/>
+  <word form="καὶ" head="89" id="37" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="συγκαθεσθεὶς" head="39" id="38" lemma="σύν,κατά-ἕζομαι" postag="v-sappmn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="ὑποδήσῃ" head="37" id="39" lemma="ὑποδέω" postag="v3sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="σε" head="39" id="40" lemma="σύ" postag="p2s----a-" relation="A-DO"/>
+  <word form="τὸ" head="42" id="41" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="ὑπόδημά" head="39" id="42" lemma="ὑπόδημα" postag="n-s---na-" relation="A-INTOBJ"/>
+  <word form="σου" head="42" id="43" lemma="σύ" postag="p2s----g-" presentation-after="," relation="G-POSS"/>
+  <word form="εἶτα" head="48" id="45" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="συμπαίξῃ" head="48" id="46" lemma="συμπαίζω" postag="v3sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="σοι" head="46" id="47" lemma="σύ" postag="p2s----d-" relation="D-ACCOMP"/>
+  <word form="καὶ" head="89" id="48" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἀντιβλέψῃ" head="48" id="49" lemma="ἀντιβλέπω" postag="v3sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="σοι" head="49" id="50" lemma="σύ" postag="p2s----d-" relation="D-REFER"/>
+  <word form="ὡς" head="49" id="51" lemma="ὡς" postag="c--------" relation="AuxC"/>
+  <word form="εὐαρέστῃ" head="97" id="52" lemma="εὐάρεστος" postag="a-s---fdp" relation="D-REFER"/>
+  <word form="ἀργυρωνήτῳ" head="52" id="53" lemma="ἀργυρώνητος" postag="a-s---fd-" presentation-after="," relation="ATR"/>
+  <word form="εἶτα" head="58" id="55" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="σὺ" head="57" id="56" lemma="σύ" postag="p2s----n-" relation="N-SUBJ"/>
+  <word form="ἀντιμειδιάσῃς" head="58" id="57" lemma="ἀντί-μειδιάω" postag="v2sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="καὶ" head="89" id="58" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="νέον" head="60" id="59" lemma="νέος" postag="a-s---ma-" relation="A-DO"/>
+  <word form="βλέπουσα" head="61" id="60" lemma="βλέπω" postag="v-sppafn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="ἐρεθισθῇς" head="58" id="61" lemma="ἐρεθίζω" postag="v2sasp---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="καὶ" head="58" id="62" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="καλέσῃς" head="58" id="63" lemma="καλέω" postag="v2sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="εἰς" head="63" id="64" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="66" id="65" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="κοιτῶνα" head="64" id="66" lemma="κοιτών" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="ἵνα" head="63" id="67" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="τρίβῃ" head="67" id="68" lemma="τρίβω" postag="v3spsa---" relation="ADV-PURP"/>
+  <word form="τοὺς" head="70" id="69" lemma="ὁ" postag="l-p---ma-" relation="ATR"/>
+  <word form="πόδας" head="68" id="70" lemma="πούς" postag="n-p---ma-" relation="A-DO"/>
+  <word form="σου" head="70" id="71" lemma="σύ" postag="p2s----g-" presentation-after="," relation="G-POSS"/>
+  <word form="εἶτα" head="77" id="73" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="σὺ" head="77" id="74" lemma="σύ" postag="p2s----n-" relation="N-SUBJ"/>
+  <word form="κατανυγεῖσα" head="74" id="75" lemma="κατανύσσομαι" postag="v-sappfn-" relation="CP-TEMPOR"/>
+  <word form="ἐπισπάσῃ" head="77" id="76" lemma="ἐπισπάω" postag="v2sasm---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="καὶ" head="89" id="77" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="καταφιλήσῃς" head="77" id="78" lemma="καταφιλέω" postag="v2sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="αὐτὸν" head="78" id="79" lemma="αὐτός" postag="p-s---ma-" relation="A-DO"/>
+  <word form="καὶ" head="77" id="80" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="πράξῃς" head="77" id="81" lemma="πράσσω" postag="v2sasa---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="τὰ" head="84" id="82" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="σοὶ" head="84" id="83" lemma="σύ" postag="p2s----d-" relation="D-REFER"/>
+  <word form="πρέποντα" head="81" id="84" lemma="πρέπω" postag="v-pppana-" relation="A-DO"/>
+  <word form="τῇ" head="87" id="85" lemma="ὁ" postag="l-s---fd-" relation="ATR"/>
+  <word form="αἰσχρᾷ" head="87" id="86" lemma="αἰσχρός" postag="a-s---fd-" relation="ATR"/>
+  <word form="ὕβρει" head="84" id="87" lemma="ὕβρις" postag="n-d---fn-" presentation-after="," relation="D-REFER"/>
+  <word form="καὶ" head="4" id="89" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="καταισχυνθῇ" head="93" id="90" lemma="καταισχύνω" postag="v3sasp---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ὁ" head="92" id="91" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="φιλόσοφος" head="93" id="92" lemma="φιλόσοφος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="καὶ" head="89" id="93" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="διαπαιχθῇ" head="93" id="94" lemma="διαπαίζω" postag="v3sasp---" presentation-after="." relation="NOM-INDSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(βούλει)" head="2" id="96" insertion_id="0003e" relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(ἀντιβλέψῃ)" head="51" id="97" insertion_id="0051e" relation="ADV-COMPAR"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="17" span="" subdoc="32">
+  <word form="εὖγε" head="6" id="1" lemma="εὖγε" postag="d--------" relation="ADV"/>
+  <word form="Εὐριπίδη" head="6" id="2" lemma="Εὐριπίδης" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="χρυσῶσαί" head="6" id="4" lemma="χρυσόω" postag="v--ana---" relation="INF-COMP"/>
+  <word form="σου" head="8" id="5" lemma="σύ" postag="p2s----g-" relation="G-POSS"/>
+  <word form="ἔδει" head="12" id="6" lemma="δεῖ" postag="v3siia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὸ" head="8" id="7" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="στόμα" head="4" id="8" lemma="στόμα" postag="n-s---na-" relation="A-DO"/>
+  <word form="ὅτε" head="6" id="9" lemma="ὅτε" postag="c--------" relation="AuxC"/>
+  <word form="ἔλεγες" head="9" id="10" lemma="λέγω1" postag="v2siia---" presentation-after="·" relation="ADV-TEMPOR"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="12" insertion_id="0000e" relation="PRED"/>
+  <word form="δεινὴ" head="44" id="13" lemma="δεινός" postag="a-s---fn-" relation="N-PRED"/>
+  <word form="μὲν" head="44" id="14" lemma="μέν" postag="d--------" relation="ADV"/>
+  <word form="ὀργὴ" head="44" id="15" lemma="ὀργή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="κυμάτων" head="15" id="16" lemma="κῦμα" postag="n-p---ng-" relation="G-POSS"/>
+  <word form="θαλασσίων" head="16" id="17" lemma="θαλάσσιος" postag="a-p---ng-" presentation-after="," relation="ATR"/>
+  <word form="δειναὶ" head="45" id="19" lemma="δεινός" postag="a-p---fn-" relation="N-PRED"/>
+  <word form="δὲ" head="36" id="20" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="ποταμοῦ" head="22" id="21" lemma="ποταμός" postag="n-s---mg-" relation="G-POSS_CO"/>
+  <word form="καὶ" head="25" id="22" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="πυρὸς" head="22" id="23" lemma="πῦρ" postag="n-s---ng-" relation="G-POSS_CO"/>
+  <word form="θερμοῦ" head="23" id="24" lemma="θερμός" postag="a-s---ng-" relation="ATR"/>
+  <word form="πνοαί" head="45" id="25" lemma="πνοή" postag="n-p---fn-" presentation-after="," relation="N-SUBJ"/>
+  <word form="δεινὴ" head="46" id="27" lemma="δεινός" postag="a-s---fn-" relation="N-PRED"/>
+  <word form="δὲ" head="20" id="28" lemma="δέ" postag="d--------" relation="ADV"/>
+  <word form="πενία" head="46" id="29" lemma="πενία" postag="n-s---fn-" presentation-after="," relation="N-SUBJ"/>
+  <word form="δεινὰ" head="47" id="31" lemma="δεινός" postag="a-p---nn-" relation="N-PRED"/>
+  <word form="δ'" head="20" id="32" lemma="δέ" postag="d--------" relation="ADV"/>
+  <word form="ἄλλα" head="34" id="33" lemma="ἄλλος" postag="p-p---nn-" relation="ATR"/>
+  <word form="μυρία" head="47" id="34" lemma="μυρίος" postag="a-p---nn-" presentation-after="," relation="N-SUBJ"/>
+  <word form="πλὴν" head="10" id="36" lemma="πλήν" postag="r--------" relation="COORD"/>
+  <word form="οὐδὲν" head="48" id="37" lemma="οὐδείς" postag="p-s---nn-" relation="N-SUBJ"/>
+  <word form="οὕτω" head="39" id="38" lemma="οὕτως" postag="d--------" relation="ADV"/>
+  <word form="δεινὸν" head="48" id="39" lemma="δεινός" postag="a-s---nn-" relation="N-PRED"/>
+  <word form="ὡς" head="38" id="40" lemma="ὡς" postag="c--------" relation="AuxC"/>
+  <word form="γυνὴ" head="49" id="41" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="κακὸν" head="49" id="42" lemma="κακός" postag="a-s---nn-" presentation-after="." relation="N-PRED"/>
+  <word artificial="elliptic" form="(ἐστί)" head="20" id="44" insertion_id="0017e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(εἰσί)" head="20" id="45" insertion_id="0025e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ἐστί)" head="20" id="46" insertion_id="0029e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(εἰσί)" head="20" id="47" insertion_id="0034e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ἐστί)" head="36" id="48" insertion_id="0039e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ἐστί)" head="40" id="49" insertion_id="0042e" relation="ADV-COMPAR"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="18" span="" subdoc="32">
+  <word form="σὺ" head="7" id="1" lemma="σύ" postag="p2s----n-" relation="N-SUBJ_AP"/>
+  <word form="δὲ" head="24" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="φιλοσόφου" head="5" id="3" lemma="φιλόσοφος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="οὖσα" head="1" id="4" lemma="εἰμί" postag="v-sppafn-" relation="CP-CONCESS"/>
+  <word form="γυνὴ" head="4" id="5" lemma="γυνή" postag="n-s---fn-" relation="N-PRED"/>
+  <word form="σοφή" head="5" id="6" lemma="σοφός" postag="a-s---fn-" presentation-after="," relation="ATR"/>
+  <word form="ἡ" head="12" id="8" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="ἀπὸ" head="13" id="9" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="ὠραίων" head="11" id="10" lemma="ὡραῖος" postag="a-p---ngp" relation="ATR"/>
+  <word form="σωματίων" head="9" id="11" lemma="σωμάτιον" postag="n-p---ng-" relation="G-AGENT"/>
+  <word form="θέλουσα" head="7" id="12" lemma="ἐθέλω" postag="v-sppafn-" relation="N-SUBJ_AP"/>
+  <word form="δουλεύεσθαι" head="12" id="13" lemma="δουλεύω" postag="v--pne---" presentation-after="," relation="INF-COMP"/>
+  <word form="φέρεις" head="2" id="15" lemma="φέρω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οἱ" head="15" id="16" lemma="ἕ" postag="p-s---md-" relation="D-IO"/>
+  <word form="οὐ" head="18" id="17" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="μετρίαν" head="19" id="18" lemma="μέτριος" postag="a-s---fa-" relation="ATR"/>
+  <word form="διαβολὴν" head="20" id="19" lemma="διαβολή" postag="n-s---fa-" relation="A-DO_CO"/>
+  <word form="καὶ" head="15" id="20" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μέγα" head="22" id="21" lemma="μέγας" postag="a-s---na-" relation="ATR"/>
+  <word form="ὄνειδος" head="20" id="22" lemma="ὄνειδος" postag="n-s---na-" presentation-after="." relation="A-DO_CO"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="24" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="19" span="" subdoc="32">
+  <word form="σὺ" head="7" id="1" lemma="σύ" postag="p2s----n-" relation="N-SUBJ"/>
+  <word form="δέ" head="23" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="μοι" head="4" id="3" lemma="ἐγώ" postag="p1s---md-" relation="D-REFER"/>
+  <word form="δοκεῖς" head="7" id="4" lemma="δοκέω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="κινητιᾶν" head="4" id="5" lemma="κινητιάω" postag="v--pna---" presentation-after="," relation="INF-COMP"/>
+  <word form="καὶ" head="2" id="7" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="οὐ" head="9" id="8" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="πράσσεις" head="7" id="9" lemma="πράσσω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="τὰ" head="11" id="10" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ἴδια" head="9" id="11" lemma="ἴδιος" postag="a-p---na-" relation="A-DO"/>
+  <word form="ἴδε" head="9" id="12" lemma="εἶδον" postag="v2sama---" relation="INTRJ"/>
+  <word form="μή" head="9" id="13" lemma="μή" postag="c--------" relation="AuxC"/>
+  <word form="σοι" head="15" id="14" lemma="σύ" postag="p2s----d-" relation="D-INTER"/>
+  <word form="δείξω" head="13" id="15" lemma="δείκνυμι" postag="v1sasa---" relation="ADV-PURP"/>
+  <word form="ἀνδρὸς" head="18" id="16" lemma="ἀνήρ" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="νεωνήτου" head="16" id="17" lemma="νεώνητος" postag="a-s---mg-" relation="ATR"/>
+  <word form="θυμόν" head="15" id="18" lemma="θυμός" postag="n-s---ma-" presentation-after="," relation="A-DO"/>
+  <word form="ἱπποπόρνη" head="15" id="20" lemma="ἱπποπόρνη" postag="n-s---fn-" presentation-after='."' relation="V-VOC"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="23" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="20" span="" subdoc="32">
+  <word form="ἡ" head="2" id="1" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="γυνὴ" head="5" id="2" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="τοῦ" head="4" id="3" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="4" lemma="Ξάνθος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="εἶπεν" head="0" id="5" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="πόθεν" head="14" id="7" lemma="πόθεν" postag="d--------" relation="ADV"/>
+  <word form="μοι" head="14" id="8" lemma="ἐγώ" postag="p1s---md-" relation="D-INTER"/>
+  <word form="τοῦτο" head="11" id="9" lemma="οὗτος" postag="p-s---nn-" relation="ATR"/>
+  <word form="τὸ" head="11" id="10" lemma="ὁ" postag="l-s---nn-" relation="ATR"/>
+  <word form="κακὸν" head="14" id="11" lemma="κακός" postag="a-s---nn-" presentation-after=';"' relation="N-SUBJ"/>
+  <word artificial="elliptic" form="(ἐστί)" head="5" id="14" insertion_id="0011e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="21" span="" subdoc="32">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" relation="PRED"/>
+  <word form="“" head="5" id="4" lemma="" postag="" relation="AuxG"/>
+  <word form="καὶ" head="3" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ταῦτα" head="10" id="6" lemma="οὗτος" postag="p-p---na-" relation="A-DO"/>
+  <word form="μέν" head="10" id="7" lemma="μέν" postag="d--------" relation="ADV"/>
+  <word form="σοι" head="10" id="8" lemma="σύ" postag="p-s---fd-" relation="D-IO"/>
+  <word form="οὕτως" head="10" id="9" lemma="οὕτως" postag="d--------" relation="ADV"/>
+  <word form="εἶπεν" head="5" id="10" lemma="εἶπον" postag="v3saia---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="κυρά" head="10" id="12" lemma="κυρία" postag="n-s---fv-" presentation-after="·" relation="V-VOC"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="22" span="" subdoc="32">
+  <word form="βλέπε" head="2" id="1" lemma="βλέπω" postag="v2spma---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="δὲ" head="17" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="μή" head="1" id="3" lemma="μή" postag="c--------" relation="AuxC"/>
+  <word form="σε" head="7" id="4" lemma="σύ" postag="p2s----a-" relation="A-SUBJ"/>
+  <word form="ἴδῃ" head="3" id="5" lemma="εἶδον" postag="v3sasa---" relation="ADV-PURP"/>
+  <word form="χέζουσαν" head="7" id="6" lemma="χέζω" postag="v-sppafa-" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ἢ" head="5" id="7" lemma="ἤ1" postag="c--------" relation="COORD"/>
+  <word form="οὐροῦσαν" head="7" id="8" lemma="οὐρέω" postag="v-sppafa-" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ἐπεὶ" head="1" id="10" lemma="ἐπεί" postag="c--------" relation="AuxC"/>
+  <word form="ὄψει" head="10" id="11" lemma="ὁράω" postag="v2sfim---" relation="ADV-CAUSAL"/>
+  <word form="Aἴσωπον" head="18" id="12" lemma="Aἴσωπος" postag="n-s---ma-" relation="A-SUBJ"/>
+  <word form="Δημοσθένην" head="18" id="13" lemma="Δημοσθένης" postag="n-s---ma-" relation="A-PRED"/>
+  <word form="καθαρόν" head="13" id="14" lemma="καθαρός" postag="a-s---ma-" presentation-after='."' relation="ATR"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="17" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="(ειναι)" head="11" id="18" insertion_id="0014e" relation="NOM-INDSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="23" span="" subdoc="32">
+  <word form="ἡ" head="2" id="1" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="γυνὴ" head="5" id="2" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="τοῦ" head="4" id="3" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="4" lemma="Ξάνθος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="εἶπεν" head="0" id="5" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="μὰ" head="13" id="7" lemma="μά" postag="d--------" relation="INTRJ"/>
+  <word form="τὰς" head="9" id="8" lemma="ὁ" postag="l-p---fa-" relation="ATR"/>
+  <word form="Μούσας" head="7" id="9" lemma="Μοῦσα" postag="n-p---fa-" presentation-after="," relation="A-DO"/>
+  <word form="γοργόν" head="16" id="11" lemma="γοργός" postag="a-s---nn-" relation="N-PRED_CO"/>
+  <word form="μοι" head="13" id="12" lemma="ἐγώ" postag="p1s---md-" relation="D-REFER"/>
+  <word form="φαίνεται" head="5" id="13" lemma="φαίνω" postag="v3spie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὸ" head="15" id="14" lemma="ὁ" postag="l-s---nn-" relation="ATR"/>
+  <word form="ἀνθρωπάριον" head="13" id="15" lemma="ἀνθρωπάριον" postag="n-s---nn-" relation="N-SUBJ"/>
+  <word form="καὶ" head="19" id="16" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="εὐτράπελον" head="16" id="17" lemma="εὐτράπελος" postag="a-s---nn-" presentation-after="." relation="N-PRED_CO"/>
+  <word artificial="elliptic" form="(ειναι)" head="13" id="19" insertion_id="0017e" relation="NOM-INDSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="24" span="" subdoc="32">
+  <word form="διαλλάσσομαι" head="6" id="1" lemma="διαλλάσσω" postag="v1spie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τοίνυν" head="1" id="2" lemma="τοίνυν" postag="d--------" relation="ADV"/>
+  <word form="αὐτῷ" head="1" id="3" lemma="αὐτός" postag="p-s---md-" presentation-after='."' relation="D-REFER"/>
+  <word artificial="elliptic" form="(ἡ γυνὴ τοῦ Ξάνθου εἶπεν)" head="0" id="6" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="25" span="" subdoc="32">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="Aἴσωπε" head="7" id="5" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="διήλλακταί" head="3" id="7" lemma="διαλλάσσω" postag="v3srie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="σου" head="10" id="8" lemma="σύ" postag="p2s----g-" relation="G-POSS"/>
+  <word form="ἡ" head="10" id="9" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="κυρία" head="7" id="10" lemma="κυρία" postag="n-s---fn-" presentation-after='."' relation="N-SUBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="26" span="" subdoc="32">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="μέγα" head="5" id="4" lemma="μέγας" postag="a-s---nn-" relation="ATR"/>
+  <word form="πρᾶγμα" head="13" id="5" lemma="πρᾶγμα" postag="n-s---nn-" presentation-after="," relation="N-PRED"/>
+  <word form="εἰ" head="13" id="7" lemma="εἰ" postag="c--------" relation="AuxC"/>
+  <word form="γύναιον" head="10" id="8" lemma="γύναιον" postag="n-s---na-" relation="A-DO"/>
+  <word form="καταπλήξει" head="10" id="9" lemma="κατάπληξις" postag="n-s---fd-" relation="D-MEANS"/>
+  <word form="ἐπράυνα" head="7" id="10" lemma="πραύνω" postag="v1saia---" presentation-after='."' relation="ADV-PROTAS"/>
+  <word artificial="elliptic" form="(ἐστί)" head="2" id="13" insertion_id="0005e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="27" span="" subdoc="32">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="οὐᾶ" head="3" id="5" lemma="οὐά" postag="i--------" presentation-after="," relation="INTRJ"/>
+  <word form="δραπέτα" head="5" id="7" lemma="δραπέτης" postag="n-s---mv-" presentation-after='."' relation="V-VOC"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="28" span="" subdoc="33">
+  <word form="ἡ" head="2" id="1" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="γυνὴ" head="5" id="2" lemma="γυνή" postag="n-s---fn-" relation="N-SUBJ"/>
+  <word form="τοῦ" head="4" id="3" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="4" lemma="Ξάνθος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="εἶπεν" head="0" id="5" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="Aἴσωπε" head="19" id="7" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="ὅτι" head="17" id="9" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="μὲν" head="17" id="10" lemma="μέν" postag="d--------" relation="ADV"/>
+  <word form="εἶ" head="9" id="11" lemma="εἶμι" postag="v2spia---" relation="NOM-INDSTAT_SBJ"/>
+  <word form="λόγιος" head="11" id="12" lemma="λόγιος" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="ἀπὸ" head="17" id="13" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τῶν" head="15" id="14" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="εἰρημένων" head="13" id="15" lemma="ἐρῶ" postag="v-prpeng-" relation="G-CAUSE"/>
+  <word form="ἐμφανές" head="17" id="16" lemma="ἐμφανής" postag="a-s---nn-" relation="N-PRED"/>
+  <word form="ἐστιν" head="19" id="17" lemma="εἰμί" postag="v3spia---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἀλλ'" head="5" id="19" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="ἐγὼ" head="21" id="20" lemma="ἐγώ" postag="p1s---mn-" relation="N-SUBJ"/>
+  <word form="ἐπλανήθην" head="19" id="21" lemma="πλανάω" postag="v1saip---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="τῷ" head="23" id="22" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="ὀνείρῳ" head="21" id="23" lemma="ὄνειρος" postag="n-s---md-" relation="D-MEANS"/>
+  <word form="καλὸν" head="29" id="24" lemma="καλός" postag="a-s---ma-" relation="ATR"/>
+  <word form="γὰρ" head="30" id="25" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="ὑπελάμβανον" head="30" id="26" lemma="ὑπολαμβάνω" postag="v1siia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἠγοράσθαι" head="26" id="27" lemma="ἀγοράζω" postag="v--rne---" relation="NOM-INDSTAT_OBJ"/>
+  <word form="μοι" head="27" id="28" lemma="ἐγώ" postag="p1s---md-" relation="D-INTER"/>
+  <word form="δοῦλον" head="27" id="29" lemma="δοῦλος" postag="a-s---ma-" presentation-after="," relation="A-SUBJ"/>
+  <word form="οὐ" head="37" id="31" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="δὲ" head="30" id="32" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="σαπρὸς" head="34" id="33" lemma="σαπρός" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="εἶ" head="32" id="34" lemma="εἶμι" postag="v2spia---" presentation-after='."' relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(καλον δουλον ηγορασται)" head="32" id="37" insertion_id="0031e" relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="29" span="" subdoc="33">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="μὴ" head="5" id="4" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="ξενίζου" head="2" id="5" lemma="ξενίζω" postag="v2spme---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="κυρά" head="5" id="7" lemma="κυρία" postag="n-s---fv-" presentation-after="," relation="V-VOC"/>
+  <word form="ἐπὶ" head="5" id="9" lemma="ἐπί" postag="r--------" relation="AuxP"/>
+  <word form="τῷ" head="11" id="10" lemma="ὁ" postag="l-s---nd-" relation="ATR"/>
+  <word form="ἐσκελίσθαι" head="9" id="11" lemma="σκελίζω" postag="v--pne---" relation="D-LOCAT"/>
+  <word form="σε" head="11" id="12" lemma="σύ" postag="p2s----a-" relation="A-SUBJ"/>
+  <word form="τῷ" head="14" id="13" lemma="ὁ" postag="l-s---nd-" relation="ATR"/>
+  <word form="ἐνυπνίῳ" head="11" id="14" lemma="ἐνύπνιον" postag="n-s---nd-" presentation-after="·" relation="D-MEANS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="30" span="" subdoc="33">
+  <word form="οὐ" head="3" id="1" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="γὰρ" head="5" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="πάντες" head="7" id="3" lemma="πᾶς" postag="a-p---mn-" relation="ATR"/>
+  <word form="ἀληθεῖς" head="5" id="4" lemma="ἀληθής" postag="a-p---mn-" relation="N-PRED"/>
+  <word form="εἰσιν" head="9" id="5" lemma="εἰμί" postag="v3ppia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οἱ" head="7" id="6" lemma="ὁ" postag="l-p---mn-" relation="ATR"/>
+  <word form="ὄνειροι" head="5" id="7" lemma="ὄνειρος" postag="n-p---mn-" presentation-after="." relation="N-SUBJ"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="9" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="31" span="" subdoc="33">
+  <word form="δεομένῳ" head="4" id="1" lemma="δέομαι" postag="v-sppemd-" relation="ATR"/>
+  <word form="γὰρ" head="9" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="τῷ" head="4" id="3" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="προστάτῃ" head="9" id="4" lemma="προστάτης" postag="n-s---md-" relation="D-IO"/>
+  <word form="τῶν" head="6" id="5" lemma="ὁ" postag="l-p---fg-" relation="ATR"/>
+  <word form="Μουσῶν" head="4" id="6" lemma="Μοῦσα" postag="n-p---fg-" relation="G-POSS"/>
+  <word form="ὁ" head="8" id="7" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ζεὺς" head="9" id="8" lemma="Ζεύς" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἐχαρίσατο" head="22" id="9" lemma="χαρίζομαι" postag="v3saie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὴν" head="11" id="10" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="μαντικήν" head="9" id="11" lemma="μαντικός" postag="a-s---fa-" presentation-after="," relation="A-DO"/>
+  <word form="ὥστε" head="9" id="13" lemma="ὥστε" postag="d--------" relation="AuxC"/>
+  <word form="καὶ" head="20" id="14" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="πάντας" head="20" id="15" lemma="πᾶς" postag="a-p---ma-" relation="A-DO"/>
+  <word form="τοὺς" head="15" id="16" lemma="ὁ" postag="l-p---ma-" relation="ADV"/>
+  <word form="ἐν" head="20" id="17" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τῷ" head="19" id="18" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="χρησμῷ" head="17" id="19" lemma="χρησμός" postag="n-s---md-" relation="D-LOCAT"/>
+  <word form="ὑπερέχειν" head="13" id="20" lemma="ὑπερέχω" postag="v--pna---" presentation-after="." relation="ADV-RESULT"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="22" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="32" span="" subdoc="33">
+  <word form="ὁ" head="3" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="δὲ" head="24" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="προστάτης" head="18" id="3" lemma="προστάτης" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="τῶν" head="5" id="4" lemma="ὁ" postag="l-p---fg-" relation="ATR"/>
+  <word form="Μουσῶν" head="3" id="5" lemma="Μοῦσα" postag="n-p---fg-" relation="G-POSS"/>
+  <word form="ὑπὸ" head="8" id="6" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="πάντων" head="9" id="7" lemma="πᾶς" postag="a-p---mg-" relation="ATR"/>
+  <word form="θαυμαζόμενος" head="10" id="8" lemma="θαυμάζω" postag="v-sppemn-" relation="CP-CAUSAL_CO"/>
+  <word form="ἀνθρώπων" head="6" id="9" lemma="ἄνθρωπος" postag="n-p---mg-" presentation-after="," relation="G-AGENT"/>
+  <word form="τῶν" head="14" id="11" lemma="ὁ" postag="l-p---mg-" relation="ATR"/>
+  <word form="ἄλλων" head="14" id="12" lemma="ἄλλος" postag="p-p---mg-" relation="ATR"/>
+  <word form="ὑπερφρονεῖν" head="15" id="13" lemma="ὑπερφρονέω" postag="v--pna---" relation="INF-COMP"/>
+  <word form="πάντων" head="13" id="14" lemma="πᾶς" postag="a-p---mg-" relation="G-ORIENT"/>
+  <word form="νομίσας" head="10" id="15" lemma="νομίζω" postag="v-sapamn-" presentation-after="," relation="CP-CAUSAL_CO"/>
+  <word form="ἀλαζονικώτερος" head="18" id="17" lemma="ἀλαζονικός" postag="a-s---mnc" relation="N-PRED"/>
+  <word form="ἦν" head="2" id="18" lemma="εἰμί" postag="v3siia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἐν" head="17" id="19" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τοῖς" head="22" id="20" lemma="ὁ" postag="l-p---nd-" relation="ATR"/>
+  <word form="ἄλλοις" head="22" id="21" lemma="ἄλλος" postag="p-p---nd-" relation="ATR"/>
+  <word form="ἅπασιν" head="19" id="22" lemma="ἅπας" postag="a-p---nd-" presentation-after="." relation="D-LOCAT"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="24" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="33" span="" subdoc="33">
+  <word form="διὸ" head="16" id="1" lemma="διό" postag="c--------" relation="AuxY"/>
+  <word form="ὁ" head="4" id="2" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="τούτου" head="4" id="3" lemma="οὗτος" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="μείζων" head="16" id="4" lemma="μέγας" postag="a-s---mnc" presentation-after="," relation="N-SUBJ"/>
+  <word form="ὀργισθεὶς" head="7" id="6" lemma="ὀργίζω" postag="v-sappmn-" relation="CP-CAUSAL_CO"/>
+  <word form="καὶ" head="4" id="7" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μὴ" head="9" id="8" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="θέλων" head="7" id="9" lemma="ἐθέλω" postag="v-sppamn-" relation="CP-CAUSAL_CO"/>
+  <word form="τοῦτον" head="14" id="10" lemma="οὗτος" postag="p-s---ma-" relation="A-SUBJ"/>
+  <word form="παρὰ" head="14" id="11" lemma="παρά" postag="r--------" relation="AuxP"/>
+  <word form="ἀνθρώποις" head="11" id="12" lemma="ἄνθρωπος" postag="n-p---md-" relation="D-ACCOMP"/>
+  <word form="τοσοῦτον" head="14" id="13" lemma="τοσοῦτος" postag="p-s---ma-" relation="A-ADVERB"/>
+  <word form="ἰσχύειν" head="9" id="14" lemma="ἰσχύω" postag="v--pna---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἔπλασέν" head="30" id="16" lemma="πλάσσω" postag="v3saia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τινας" head="18" id="17" lemma="τις" postag="p-p---ma-" relation="ATR"/>
+  <word form="ὀνείρους" head="16" id="18" lemma="ὄνειρος" postag="n-p---ma-" relation="A-DO"/>
+  <word form="ἀληθεῖς" head="18" id="19" lemma="ἀληθής" postag="a-p---ma-" presentation-after="," relation="ATR"/>
+  <word form="οἵτινες" head="22" id="21" lemma="ὅστις" postag="p-p---mn-" relation="N-SUBJ"/>
+  <word form="ἔλεγον" head="18" id="22" lemma="λέγω1" postag="v3piia---" relation="ADJ-RC"/>
+  <word form="ἐν" head="22" id="23" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τοῖς" head="25" id="24" lemma="ὁ" postag="l-p---md-" relation="ATR"/>
+  <word form="ὕπνοις" head="23" id="25" lemma="ὕπνος" postag="n-p---md-" relation="D-LOCAT"/>
+  <word form="τὰ" head="27" id="26" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="μέλλοντα" head="22" id="27" lemma="μέλλω" postag="v-pppana-" relation="A-DO"/>
+  <word form="γίνεσθαι" head="27" id="28" lemma="γίγνομαι" postag="v--pne---" presentation-after="." relation="INF-COMP"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="30" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="34" span="" subdoc="33">
+  <word form="ἐπιγνοὺς" head="4" id="1" lemma="ἐπιγιγνώσκω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="δὲ" head="28" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="ὁ" head="4" id="3" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="μείζων" head="16" id="4" lemma="μέγας" postag="a-s---mnc" relation="N-SUBJ"/>
+  <word form="τῶν" head="6" id="5" lemma="ὁ" postag="l-p---fg-" relation="ATR"/>
+  <word form="Μουσῶν" head="4" id="6" lemma="Μοῦσα" postag="n-p---fg-" relation="G-POSS"/>
+  <word form="ὡς" head="1" id="7" lemma="ὡς" postag="c--------" relation="AuxC"/>
+  <word form="οὐδεὶς" head="11" id="8" lemma="οὐδείς" postag="p-s---mn-" relation="N-SUBJ"/>
+  <word form="αὐτοῦ" head="10" id="9" lemma="αὐτός" postag="p-s---mg-" relation="G-OBJEC"/>
+  <word form="χρείαν" head="11" id="10" lemma="χρεία" postag="n-s---fa-" relation="A-DO"/>
+  <word form="ἔχει" head="7" id="11" lemma="ἔχω" postag="v3spia---" relation="NOM-INDSTAT_OBJ"/>
+  <word form="τῆς" head="13" id="12" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="μαντικῆς" head="14" id="13" lemma="μαντικός" postag="a-s---fg-" relation="G-POSS"/>
+  <word form="ἕνεκεν" head="11" id="14" lemma="ἕνεκα" postag="r--------" presentation-after="," relation="AuxP"/>
+  <word form="ἠρώτησεν" head="2" id="16" lemma="ἐρωτάω" postag="v3saia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὸν" head="18" id="17" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="Δία" head="16" id="18" lemma="Ζεύς" postag="n-s---ma-" relation="A-DO"/>
+  <word form="καταλλαγῆναι" head="21" id="19" lemma="καταλλάσσω" postag="v--anp---" relation="A-INTOBJ_CO"/>
+  <word form="αὐτῷ" head="19" id="20" lemma="αὐτός" postag="p-s---mg-" relation="D-REFER"/>
+  <word form="καὶ" head="16" id="21" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μὴ" head="23" id="22" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="ἀκυρῶσαι" head="21" id="23" lemma="ἀκυρόω" postag="v--ana---" relation="A-INTOBJ_CO"/>
+  <word form="αὐτοῦ" head="26" id="24" lemma="αὐτός" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="τὴν" head="26" id="25" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="μαντικήν" head="23" id="26" lemma="μαντικός" postag="a-s---fa-" presentation-after="." relation="A-DO"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="28" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="35" span="" subdoc="33">
+  <word form="ὁ" head="3" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="δὲ" head="33" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="καταλλαγεὶς" head="10" id="3" lemma="καταλλάσσω" postag="v-sappmn-" relation="N-SUBJ_SBJ"/>
+  <word form="αὐτῷ" head="3" id="4" lemma="αὐτός" postag="p-s---md-" presentation-after="," relation="D-REFER"/>
+  <word form="καὶ" head="10" id="6" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="οὕτως" head="10" id="7" lemma="οὕτως" postag="d--------" relation="ADV"/>
+  <word form="ὀνείρους" head="10" id="8" lemma="ὄνειρος" postag="n-p---ma-" relation="A-DO"/>
+  <word form="ἑτέρους" head="8" id="9" lemma="ἕτερος" postag="a-p---ma-" relation="ATR"/>
+  <word form="ἔπλασεν" head="2" id="10" lemma="πλάσσω" postag="v3saia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="εἰς" head="10" id="11" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τοὺς" head="13" id="12" lemma="ὁ" postag="l-p---ma-" relation="ATR"/>
+  <word form="ἀνθρώπους" head="11" id="13" lemma="ἄνθρωπος" postag="n-p---ma-" relation="A-ORIENT"/>
+  <word form="ὅπως" head="20" id="14" lemma="ὅπως" postag="c--------" relation="AuxC"/>
+  <word form="αὐτοῖς" head="19" id="15" lemma="αὐτός" postag="p-p---md-" relation="D-IO"/>
+  <word form="καθ'" head="19" id="16" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="ὕπνους" head="16" id="17" lemma="ὕπνος" postag="n-p---ma-" relation="A-EXTENT"/>
+  <word form="ψευδῆ" head="19" id="18" lemma="ψευδής" postag="a-p---na-" relation="A-DO"/>
+  <word form="δεικνύωσιν" head="14" id="19" lemma="δείκνυμι" postag="v3ppsa---" presentation-after="," relation="ADV-PURP_CO"/>
+  <word form="ἵνα" head="20" id="21" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="πλανηθέντες" head="30" id="22" lemma="πλανάω" postag="v-pappmn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="τὴν" head="24" id="23" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="ἀκρίβειαν" head="22" id="24" lemma="ἀκρίβεια" postag="n-s---fa-" relation="A-INTOBJ"/>
+  <word form="πάλιν" head="30" id="25" lemma="πάλιν" postag="d--------" relation="ADV"/>
+  <word form="ὑπὸ" head="30" id="26" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="31" id="27" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="τοῦ" head="29" id="28" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="πρωτοτύπου" head="31" id="29" lemma="πρωτότυπος" postag="a-s---mg-" relation="G-POSS"/>
+  <word form="καταφύγωσι" head="21" id="30" lemma="καταφεύγω" postag="v3pasa---" relation="ADV-PURP_CO"/>
+  <word form="μαντείαν" head="26" id="31" lemma="μαντεία" postag="n-s---fa-" presentation-after="." relation="A-ORIENT"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="33" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="36" span="" subdoc="33">
+  <word form="διὰ" head="14" id="1" lemma="διά" postag="r--------" relation="AuxC"/>
+  <word form="ταὺτην" head="5" id="2" lemma="οὗτος" postag="p-s---fa-" relation="ATR"/>
+  <word form="τοίνυν" head="14" id="3" lemma="τοίνυν" postag="d--------" relation="ADV"/>
+  <word form="τὴν" head="5" id="4" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="αἰτίαν" head="1" id="5" lemma="αἰτία" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="ὁ" head="8" id="6" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="προπλασθεὶς" head="8" id="7" lemma="πρό-πλάσσω" postag="v-sappmn-" relation="ATR"/>
+  <word form="ὄνειρος" head="14" id="8" lemma="ὄνειρος" postag="n-s---mn-" presentation-after="," relation="N-SUBJ"/>
+  <word form="ἐὰν" head="14" id="10" lemma="ἐάν" postag="c--------" relation="AuxC"/>
+  <word form="ἐπιστῇ" head="10" id="11" lemma="ἐφίστημι" postag="v3spsa---" presentation-after="," relation="ADV-PROTAS"/>
+  <word form="ἀληθινὸν" head="15" id="13" lemma="ἀληθινός" postag="a-s---na-" relation="A-PRED"/>
+  <word form="ἐμφαίνει" head="19" id="14" lemma="ἐμφαίνω" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ὂν" head="17" id="15" lemma="εἰμί" postag="v-sppana-" relation="ATR"/>
+  <word form="τὸ" head="17" id="16" lemma="ὁ" postag="l-s---nn-" relation="ATR"/>
+  <word form="ἐνύπνιον" head="14" id="17" lemma="ἐνύπνιος" postag="a-s---na-" presentation-after="." relation="NOM-INDSTAT_OBJ"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="19" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="37" span="" subdoc="33">
+  <word form="ὥστε" head="4" id="1" lemma="ὥστε" postag="d--------" relation="ADV"/>
+  <word form="οὖν" head="4" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="μὴ" head="4" id="3" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="θαυμάσῃς" head="16" id="4" lemma="θαυμάζω" postag="v2sasa---" relation="NOM-DS-HORT_OBJ"/>
+  <word form="ὅτι" head="4" id="5" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="ἄλλα" head="10" id="6" lemma="ἄλλος" postag="p-p---na-" relation="A-DO"/>
+  <word form="μὲν" head="10" id="7" lemma="μέν" postag="d--------" relation="ADV"/>
+  <word form="καθ'" head="10" id="8" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="ὕπνους" head="8" id="9" lemma="ὕπνος" postag="n-p---ma-" relation="A-EXTENT"/>
+  <word form="ἑώρακας" head="13" id="10" lemma="ὁράω" postag="v2sria---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ἄλλα" head="14" id="12" lemma="ἄλλος" postag="p-p---nn-" relation="N-SUBJ"/>
+  <word form="δὲ" head="5" id="13" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="ἀπέβη" head="13" id="14" lemma="ἀποβαίνω" postag="v3saia---" presentation-after="·" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="16" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="38" span="" subdoc="33">
+  <word form="οὐ" head="3" id="1" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="γὰρ" head="9" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="ἦν" head="9" id="3" lemma="εἰμί" postag="v3siia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ὁ" head="5" id="4" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="πρότερος" head="3" id="5" lemma="πρότερος" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="ὃν" head="7" id="6" lemma="ὅς" postag="p-s---ma-" relation="A-DO"/>
+  <word form="ἐθεάσω" head="3" id="7" lemma="θεάομαι" postag="v2saie---" presentation-after="," relation="ADJ-RC_SBJ"/>
+  <word form="ἀλλὰ" head="20" id="9" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="σοί" head="14" id="10" lemma="σύ" postag="p2s----d-" relation="D-REFER"/>
+  <word form="τις" head="14" id="11" lemma="τις" postag="p-s---mn-" relation="N-SUBJ"/>
+  <word form="τῶν" head="13" id="12" lemma="ὁ" postag="l-p---mg-" relation="ATR"/>
+  <word form="ψευδηγόρων" head="11" id="13" lemma="ψευδήγορος" postag="a-p---ng-" relation="G-PART"/>
+  <word form="παρέστη" head="9" id="14" lemma="παρίστημι" postag="v3saia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ψευδέσιν" head="17" id="15" lemma="ψευδής" postag="a-p---nd-" relation="ATR"/>
+  <word form="ἐξαπατῶν" head="11" id="16" lemma="ἐξαπατάω" postag="v-sppamn-" relation="CP-TEMPOR"/>
+  <word form="ἐνυπνίοις" head="16" id="17" lemma="ἐνύπνιον" postag="n-p---nd-" presentation-after='."' relation="D-MEANS"/>
+  <word artificial="elliptic" form="(Aἴσωπος λέγει)" head="0" id="20" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="39" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="17" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="τὸν" head="4" id="3" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="Aἴσωπον" head="5" id="4" lemma="Aἴσωπος" postag="n-s---ma-" relation="A-DO"/>
+  <word form="ἐπαινέσας" head="7" id="5" lemma="ἐπαινέω" postag="v-sapamn-" presentation-after="," relation="CP-TEMPOR_CO"/>
+  <word form="καὶ" head="2" id="7" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="τὸ" head="9" id="8" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="φρόνιμον" head="12" id="9" lemma="φρόνιμος" postag="a-s---na-" relation="A-DO_CO"/>
+  <word form="αὐτοῦ" head="9" id="10" lemma="αὐτός" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="γνοὺς" head="7" id="11" lemma="γιγνώσκω" postag="v-sapamn-" relation="CP-TEMPOR_CO"/>
+  <word form="καὶ" head="11" id="12" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ὅτι" head="12" id="13" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="ἐστὶν" head="13" id="14" lemma="εἰμί" postag="v3spia---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="εὐρεσίλογος" head="14" id="15" lemma="εὐρεσίλογος" postag="a-s---mnp" presentation-after="," relation="N-PRED"/>
+  <word form="λέγει" head="0" id="17" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="NOM-DIRSTAT_OBJ"/>
+  <word form="Aἴσωπε" head="23" id="19" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="ἆρον" head="23" id="21" lemma="αἴρω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ὠμόλινον" head="21" id="22" lemma="ὠμόλινον" postag="n-s---na-" relation="A-DO"/>
+  <word form="καὶ" head="17" id="23" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἀκολούθησόν" head="23" id="24" lemma="ἀκολουθέω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="μοι" head="24" id="25" lemma="ἐγώ" postag="p1s---md-" presentation-after="," relation="D-REFER"/>
+  <word form="ὅπως" head="23" id="27" lemma="ὅπως" postag="c--------" relation="AuxC"/>
+  <word form="ἀπὸ" head="34" id="28" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τῶν" head="30" id="29" lemma="ὁ" postag="l-p---mg-" relation="ATR"/>
+  <word form="κήπων" head="28" id="30" lemma="κῆπος" postag="n-p---mg-" relation="G-ORIENT"/>
+  <word form="λάχανα" head="34" id="31" lemma="λάχανον" postag="n-p---na-" relation="A-DO"/>
+  <word form="εἰς" head="31" id="32" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="ἕψησιν" head="32" id="33" lemma="ἕψησις" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="πριώμεθα" head="27" id="34" lemma="πρίαμαι" postag="v1ppsm---" presentation-after='."' relation="ADV-PURP"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="40" span="" subdoc="34">
+  <word form="Aἴσωπος" head="8" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἐπιθέμενος" head="1" id="2" lemma="ἐπιτίθημι" postag="v-sapmmn-" relation="CP-TEMPOR"/>
+  <word form="κατὰ" head="2" id="3" lemma="κατά" postag="r--------" relation="AuxP"/>
+  <word form="τοῦ" head="5" id="4" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="ὤμου" head="3" id="5" lemma="ὦμος" postag="n-s---mg-" relation="G-ORIENT"/>
+  <word form="τὸ" head="7" id="6" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="ὠμόλινον" head="2" id="7" lemma="ὠμόλινον" postag="n-s---na-" relation="A-DO"/>
+  <word form="ἠκολούθησεν" head="0" id="8" lemma="ἀκολουθέω" postag="v3saia---" presentation-after="." relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="41" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="15" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="παραγενάμενος" head="10" id="3" lemma="παραγίγνομαι" postag="v-sapemnp" relation="CP-TEMPOR_CO"/>
+  <word form="σὺν" head="3" id="4" lemma="σύν" postag="r--------" relation="AuxP"/>
+  <word form="τῷ" head="6" id="5" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Αἰσώπῳ" head="4" id="6" lemma="Αἴσωπος" postag="n-s---md-" relation="D-ACCOMP"/>
+  <word form="εἰς" head="3" id="7" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="9" id="8" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="κῆπον" head="7" id="9" lemma="κῆπος" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="καὶ" head="2" id="10" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="περιτυχών" head="10" id="11" lemma="περιτυγχάνω" postag="v-sapamn-" relation="CP-TEMPOR_CO"/>
+  <word form="τῷ" head="13" id="12" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="κηπουρῷ" head="11" id="13" lemma="κηπουρός" postag="n-s---md-" presentation-after="," relation="D-LOCAT"/>
+  <word form="λέγει" head="0" id="15" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="δός" head="15" id="17" lemma="δίδωμι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="μοι" head="17" id="18" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="λάχανα" head="17" id="19" lemma="λάχανον" postag="n-p---na-" relation="A-DO"/>
+  <word form="εἰς" head="19" id="20" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="ἕψησιν" head="20" id="21" lemma="ἕψησις" postag="n-s---fa-" presentation-after='."' relation="A-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="42" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="6" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἄρας" head="2" id="3" lemma="αἴρω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="τὸ" head="5" id="4" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="δρέπανον" head="3" id="5" lemma="δρέπανον" postag="n-s---na-" relation="A-DO"/>
+  <word form="ἀπεθέρισεν" head="20" id="6" lemma="ἀποθερίζω" postag="v3saia---" relation="PRED_CO"/>
+  <word form="καυλοὺς" head="6" id="7" lemma="καυλός" postag="n-p---ma-" relation="A-DO"/>
+  <word form="κράμβης" head="15" id="8" lemma="κράμβη" postag="n-s---fg-" presentation-after="," relation="G-POSS_CO"/>
+  <word form="σεύτλου" head="15" id="10" lemma="σεῦτλον" postag="n-s---ng-" presentation-after="," relation="G-POSS_CO"/>
+  <word form="ἀσπαράγου" head="15" id="12" lemma="ἀσφάραγος1" postag="n-s---mg-" relation="G-POSS_CO"/>
+  <word form="κεφαλωτοῦ" head="12" id="13" lemma="κεφαλωτός" postag="a-s---mg-" presentation-after="," relation="ATR"/>
+  <word form="καὶ" head="7" id="15" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="τῶν" head="18" id="16" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="λοιπῶν" head="18" id="17" lemma="λοιπός" postag="a-p---ng-" relation="ATR"/>
+  <word form="ἀρτυμάτων" head="15" id="18" lemma="ἄρτυμα" postag="n-p---ng-" presentation-after="," relation="G-POSS_CO"/>
+  <word form="καὶ" head="0" id="20" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="κοσμήσας" head="25" id="21" lemma="κοσμέω" postag="v-sapamn-" relation="N-SUBJ"/>
+  <word form="εὐτελές" head="24" id="22" lemma="εὐτελής" postag="a-s---na-" relation="ATR"/>
+  <word form="τι" head="24" id="23" lemma="τις" postag="p-s---na-" relation="ATR"/>
+  <word form="φορτίον" head="21" id="24" lemma="φορτίον" postag="n-s---na-" relation="A-DO"/>
+  <word form="ἐπέδωκεν" head="20" id="25" lemma="ἐπιδίδωμι" postag="v3saia---" relation="PRED_CO"/>
+  <word form="τῷ" head="27" id="26" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Αἰσώπῳ" head="25" id="27" lemma="Αἴσωπος" postag="n-s---md-" presentation-after="·" relation="D-IO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="43" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="6" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἀνοίξας" head="2" id="3" lemma="ἀνοίγνυμι" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="τὸ" head="5" id="4" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="γλωσσόκομον" head="3" id="5" lemma="γλωσσόκομον" postag="n-s---na-" relation="A-DO"/>
+  <word form="ἐδίδου" head="0" id="6" lemma="δίδωμι" postag="v3siia---" relation="PRED"/>
+  <word form="τὸ" head="8" id="7" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="κέρμα" head="6" id="8" lemma="κέρμα" postag="n-s---na-" relation="A-DO"/>
+  <word form="τῶν" head="10" id="9" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="λαχάνων" head="8" id="10" lemma="λάχανον" postag="n-p---ng-" presentation-after="." relation="G-POSS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="44" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="πρὸς" head="12" id="5" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="τί" head="5" id="6" lemma="τίς" postag="x-s---na-" relation="A-ORIENT"/>
+  <word form="τοῦτο" head="12" id="7" lemma="οὗτος" postag="p-s---nn-" presentation-after="," relation="N-PRED"/>
+  <word form="καθηγητά" head="12" id="9" lemma="καθηγητής" postag="n-s---mv-" presentation-after=';"' relation="V-VOC"/>
+  <word artificial="elliptic" form="(ἐστί)" head="3" id="12" insertion_id="0007e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="45" span="" subdoc="34">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="τῶν" head="6" id="5" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="λαχάνων" head="8" id="6" lemma="λάχανον" postag="n-p---ng-" relation="G-POSS"/>
+  <word form="ἡ" head="8" id="7" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="τιμή" head="11" id="8" lemma="τιμή" postag="n-s---fn-" presentation-after='."' relation="N-PRED"/>
+  <word artificial="elliptic" form="(ἐστί)" head="3" id="11" insertion_id="0008e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="46" span="" subdoc="35">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ποῦ" head="7" id="5" lemma="πού" postag="d--------" relation="ADV"/>
+  <word form="μοι" head="7" id="6" lemma="ἐγώ" postag="p1s---md-" relation="D-REFER"/>
+  <word form="ὑπάγει" head="3" id="7" lemma="ὑπάγω" postag="v3spia---" presentation-after=";" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="47" span="" subdoc="35">
+  <word form="καὶ" head="12" id="1" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ὁ" head="3" id="2" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κῆπος" head="4" id="3" lemma="κῆπος" postag="n-s---mn-" relation="N-SUBJ_CO"/>
+  <word form="καὶ" head="10" id="4" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἡ" head="6" id="5" lemma="ὁ" postag="l-s---fn-" relation="ATR"/>
+  <word form="φυτεία" head="4" id="6" lemma="φυτεία" postag="n-s---fn-" presentation-after="," relation="N-SUBJ_CO"/>
+  <word form="περίψημά" head="10" id="8" lemma="περίψημα" postag="n-s---na-" relation="A-DO"/>
+  <word form="σοι" head="10" id="9" lemma="σύ" postag="p2s----d-" relation="D-INTER"/>
+  <word form="ποίει" head="1" id="10" lemma="ποιέω" postag="v3siia---" presentation-after="." relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(ὁ κηπουρὸς λέγει)" head="0" id="12" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="48" span="" subdoc="35">
+  <word form="μόνον" head="4" id="1" lemma="μόνος" postag="a-s---na-" relation="A-ADVERB"/>
+  <word form="ἑνὸς" head="3" id="2" lemma="εἷς" postag="n-s---mg-" relation="ATR"/>
+  <word form="λόγου" head="4" id="3" lemma="λόγος" postag="n-s---mg-" relation="G-DESC"/>
+  <word form="καταξίωσόν" head="8" id="4" lemma="καταξιόω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="με" head="4" id="5" lemma="ἐγώ" postag="p1s---ma-" presentation-after='."' relation="A-DO"/>
+  <word artificial="elliptic" form="(ὁ κηπουρὸς λέγει)" head="0" id="8" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="49" span="" subdoc="35">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="3" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="καὶ" head="3" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μὰ" head="13" id="6" lemma="μά" postag="d--------" relation="INTRJ"/>
+  <word form="τὰς" head="8" id="7" lemma="ὁ" postag="l-p---fa-" relation="ATR"/>
+  <word form="Μούσας" head="6" id="8" lemma="Μοῦσα" postag="n-p---fa-" presentation-after="," relation="A-DO"/>
+  <word form="οὐ" head="12" id="10" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="λήψομαι" head="13" id="11" lemma="λαμβάνω" postag="v1sfim---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="οὔ" head="11" id="12" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="-τε" head="5" id="13" lemma="τε" postag="d--------" relation="COORD"/>
+  <word form="τὸ" head="15" id="14" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="κέρμα" head="11" id="15" lemma="κέρμα" postag="n-s---na-" relation="A-DO_CO"/>
+  <word form="οὔ" head="37" id="16" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="-τε" head="13" id="17" lemma="τε" postag="d--------" relation="ADV"/>
+  <word form="τὰ" head="19" id="18" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="λάχανα" head="37" id="19" lemma="λάχανον" postag="n-p---na-" presentation-after="," relation="A-DO_CO"/>
+  <word form="εἰ" head="13" id="21" lemma="εἰ" postag="c--------" relation="AuxC"/>
+  <word form="μή" head="24" id="22" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="μοι" head="24" id="23" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="εἴπῃς" head="21" id="24" lemma="εἶπον" postag="v2sasa---" relation="ADV-PROTAS"/>
+  <word form="πρότερον" head="24" id="25" lemma="πρότερος" postag="a-s---na-" relation="A-ADVERB"/>
+  <word form="τί" head="28" id="26" lemma="τίς" postag="x-s---na-" relation="A-ADVERB"/>
+  <word form="σε" head="38" id="27" lemma="σύ" postag="p2s----a-" relation="A-DO_AP"/>
+  <word form="δύναται" head="24" id="28" lemma="δύναμαι" postag="v3spie---" relation="NOM-INDQUES_OBJ"/>
+  <word form="ὠφελῆσαι" head="28" id="29" lemma="ὠφελέω" postag="v--ana---" relation="INF-COMP"/>
+  <word form="ὁ" head="32" id="30" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="ἐμὸς" head="32" id="31" lemma="ἐμός" postag="a-s---mn-" relation="ATR"/>
+  <word form="λόγος" head="28" id="32" lemma="λόγος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="κηπουρὸν" head="34" id="33" lemma="κηπουρός" postag="n-s---ma-" relation="A-PRED"/>
+  <word form="ὄντα" head="35" id="34" lemma="εἰμί" postag="v-sppama-" relation="ATR"/>
+  <word form="σε" head="38" id="35" lemma="σύ" postag="p2s----a-" presentation-after="·" relation="A-DO_AP"/>
+  <word artificial="elliptic" form="(λήψομαι)" head="13" id="37" insertion_id="0019e" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="[ ]" head="29" id="38" insertion_id="0034e" relation="APOS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="50" span="" subdoc="35">
+  <word form="οὔ" head="5" id="1" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="-τε" head="17" id="2" lemma="τε" postag="d--------" relation="COORD"/>
+  <word form="γὰρ" head="17" id="3" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="χειροτέχνης" head="5" id="4" lemma="χειροτέχνης" postag="n-s---mn-" relation="N-PRED_CO"/>
+  <word form="εἰμὶ" head="2" id="5" lemma="εἰμί" postag="v1spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="οὔ" head="23" id="6" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="-τε" head="2" id="7" lemma="τε" postag="d--------" relation="ADV"/>
+  <word form="χαλκεύς" head="23" id="8" lemma="χαλκεύς" postag="n-s---mn-" presentation-after="," relation="N-PRED_CO"/>
+  <word form="ἵνα" head="2" id="10" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="σοι" head="12" id="11" lemma="σύ" postag="p2s----d-" relation="D-INTER"/>
+  <word form="ποιήσω" head="10" id="12" lemma="ποιέω" postag="v1sasa---" relation="ADV-PURP"/>
+  <word form="σκαλίδα" head="14" id="13" lemma="σκαλίς" postag="n-s---fa-" relation="A-DO_CO"/>
+  <word form="ἢ" head="12" id="14" lemma="ἤ1" postag="c--------" relation="COORD"/>
+  <word form="πρασόκουρον" head="14" id="15" lemma="πρασόκουρον" postag="n-s---na-" presentation-after="," relation="A-DO_CO"/>
+  <word form="ἀλλὰ" head="22" id="17" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="φιλόσοφος" head="19" id="18" lemma="φιλόσοφος" postag="n-s---mn-" relation="N-PRED"/>
+  <word form="ὑπάρχω" head="17" id="19" lemma="ὑπάρχω" postag="v1spia---" presentation-after='."' relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος εἶπεν)" head="0" id="22" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="(εἰμὶ)" head="2" id="23" insertion_id="0008e" relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="51" span="" subdoc="35">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="δέσποτα" head="9" id="5" lemma="δεσπότης" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="πολλά" head="9" id="7" lemma="πολύς" postag="a-p---na-" relation="A-ADVERB"/>
+  <word form="με" head="9" id="8" lemma="ἐγώ" postag="p1s---ma-" relation="A-DO"/>
+  <word form="ὠφελήσεις" head="3" id="9" lemma="ὠφελέω" postag="v2sfia---" presentation-after="·" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="52" span="" subdoc="35">
+  <word form="ζητηματίῳ" head="4" id="1" lemma="ζητημάτιον" postag="n-s---nd-" relation="D-MEANS"/>
+  <word form="γάρ" head="8" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="τινι" head="1" id="3" lemma="τις" postag="p-s----d-" relation="ATR"/>
+  <word form="λυπούμενος" head="8" id="4" lemma="λυπέω" postag="v-sppemn-" relation="CP-CAUSAL_SBJ"/>
+  <word form="τὰς" head="6" id="5" lemma="ὁ" postag="l-p---fa-" relation="ATR"/>
+  <word form="νύκτας" head="8" id="6" lemma="νύξ" postag="n-p---fa-" relation="A-EXTENT"/>
+  <word form="οὐ" head="8" id="7" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="κοιμῶμαι" head="47" id="8" lemma="κοιμάω" postag="v1spie---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="λογιζόμενος" head="11" id="10" lemma="λογίζομαι" postag="v-sppemn-" relation="CP-CAUSAL_CO"/>
+  <word form="καὶ" head="4" id="11" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="συζητῶν" head="11" id="12" lemma="συζητέω" postag="v-sppamn-" relation="CP-CAUSAL_CO"/>
+  <word form="δι'" head="17" id="13" lemma="διά" postag="r--------" relation="AuxP"/>
+  <word form="ὅ" head="15" id="14" lemma="ὅς" postag="p-s---na-" relation="ATR"/>
+  <word form="τι" head="13" id="15" lemma="τις" postag="p-s---na-" relation="A-EXTENT"/>
+  <word form="φυτὰ" head="17" id="16" lemma="φυτόν" postag="n-p---na-" relation="A-DO"/>
+  <word form="βάλλω" head="31" id="17" lemma="βάλλω" postag="v1spsa---" relation="NOM-INDQUES_OBJ-CO"/>
+  <word form="εἰς" head="17" id="18" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="20" id="19" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="γῆν" head="18" id="20" lemma="γῆ" postag="n-s---fa-" presentation-after="-" relation="A-ORIENT"/>
+  <word form="ταῦτα" head="24" id="22" lemma="οὗτος" postag="p-p---na-" relation="A-DO"/>
+  <word form="σκάλλω" head="24" id="23" lemma="σκάλλω" postag="v1spia---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ποτίζω" head="24" id="25" lemma="ποτίζω" postag="v1spia---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἐπιμελείας" head="29" id="27" lemma="ἐπιμέλεια" postag="n-s---fg-" relation="G-DESC"/>
+  <word form="πολλῆς" head="27" id="28" lemma="πολύς" postag="a-s---fg-" relation="ATR"/>
+  <word form="καταξιῶ" head="24" id="29" lemma="καταξιόω" postag="v1spia---" presentation-after="-" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="καὶ" head="11" id="31" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="τάχιον" head="33" id="32" lemma="τάχα" postag="d-------c" relation="A-ADVERB"/>
+  <word form="ἀναβαίνει" head="31" id="33" lemma="ἀναβαίνω" postag="v3spia---" relation="NOM-INDQUES_OBJ-CO"/>
+  <word form="τὰ" head="35" id="34" lemma="ὁ" postag="l-p---nn-" relation="ATR"/>
+  <word form="ἄγρια" head="48" id="35" lemma="ἄγριος" postag="a-p---nn-" relation="N-SUBJ_AP"/>
+  <word form="τὰ" head="48" id="36" lemma="ὁ" postag="l-p---nn-" relation="N-SUBJ_AP"/>
+  <word form="ἀπὸ" head="36" id="37" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τῆς" head="39" id="38" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="γῆς" head="37" id="39" lemma="γῆ" postag="n-s---fg-" relation="G-ORIENT"/>
+  <word form="ἢ" head="32" id="40" lemma="ἤ1" postag="c--------" relation="AuxC"/>
+  <word form="τὰ" head="44" id="41" lemma="ὁ" postag="l-p---nn-" relation="ATR_CO"/>
+  <word form="ἀπ'" head="44" id="42" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="ἐμοῦ" head="42" id="43" lemma="ἐγώ" postag="p1s---mg-" relation="G-AGENT"/>
+  <word form="τιθέμενα" head="49" id="44" lemma="τίθημι" postag="v-pppenn-" presentation-after='."' relation="N-SUBJ"/>
+  <word artificial="elliptic" form="(ὁ κηπουρὸς λέγει)" head="0" id="47" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="[ ]" head="33" id="48" insertion_id="0035e" relation="APOS"/>
+  <word artificial="elliptic" form="(ἀναβαίνει)" head="40" id="49" insertion_id="0040e" relation="ADV-COMPAR"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="53" span="" subdoc="35">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="18" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἀκούσας" head="11" id="3" lemma="ἀκούω" postag="v-sapamn-" relation="CP-TEMPOR_CO"/>
+  <word form="φιλοσόφου" head="6" id="4" lemma="φιλόσοφος" postag="n-s---mg-" relation="G-POSS"/>
+  <word form="μὲν" head="3" id="5" lemma="μέν" postag="d--------" relation="ADV"/>
+  <word form="ζήτημα" head="3" id="6" lemma="ζήτημα" postag="n-s---na-" presentation-after="," relation="A-DO"/>
+  <word form="μὴ" head="9" id="8" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="εὑρίσκων" head="11" id="9" lemma="εὑρίσκω" postag="v-sppamn-" relation="CP-TEMPOR_CO"/>
+  <word form="αὐτὸ" head="13" id="10" lemma="αὐτός" postag="p-s---na-" relation="A-DO"/>
+  <word form="δὲ" head="2" id="11" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="ταχέως" head="13" id="12" lemma="ταχέως" postag="d--------" relation="ADV"/>
+  <word form="ἀναλῦσαι" head="9" id="13" lemma="ἀναλύω" postag="v--ana---" presentation-after="," relation="A-DO"/>
+  <word form="τῷ" head="16" id="15" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Αἰσώπῳ" head="18" id="16" lemma="Αἴσωπος" postag="n-s---md-" relation="D-IO"/>
+  <word form="ἑστῶτι" head="16" id="17" lemma="ἵστημι" postag="v-srpamd-" relation="ATR"/>
+  <word form="λέγει" head="0" id="18" lemma="λέγω1" postag="v3spia---" relation="PRED"/>
+  <word form="πάντα" head="23" id="19" lemma="πᾶς" postag="a-p---nn-" relation="N-SUBJ"/>
+  <word form="τῇ" head="22" id="20" lemma="ὁ" postag="l-s---fd-" relation="ATR"/>
+  <word form="θείᾳ" head="22" id="21" lemma="θεῖος1" postag="a-s---fd-" relation="ATR"/>
+  <word form="προνοίᾳ" head="23" id="22" lemma="πρόνοια" postag="n-s---fd-" relation="D-MEANS"/>
+  <word form="διοικεῖται" head="18" id="23" lemma="διοικέω" postag="v3spie---" presentation-after="." relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="54" span="" subdoc="36">
+  <word form="Αἴσωπος" head="6" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ὀπίσω" head="3" id="2" lemma="ὀπίσω" postag="d--------" relation="ADV"/>
+  <word form="ἑστὼς" head="1" id="3" lemma="ἵστημι" postag="v-srpamn-" relation="ATR"/>
+  <word form="τοῦ" head="5" id="4" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="Ξάνθου" head="2" id="5" lemma="Ξάνθος" postag="n-s---mg-" relation="G-ORIENT"/>
+  <word form="ἀνεγέλασεν" head="0" id="6" lemma="ἀναγελάω" postag="v3saia---" presentation-after="." relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="55" span="" subdoc="36">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="Aἴσωπε" head="8" id="5" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="γελᾷς" head="8" id="7" lemma="γελάω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἢ" head="3" id="8" lemma="ἤ1" postag="c--------" relation="COORD"/>
+  <word form="καταγελᾷς" head="8" id="9" lemma="καταγελάω" postag="v2spia---" presentation-after=';"' relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="56" span="" subdoc="36">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="μὴ" head="9" id="4" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="γὰρ" head="9" id="5" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="σοῦ" head="9" id="6" lemma="σύ" postag="p2s----g-" presentation-after=';"' relation="G-ORIENT"/>
+  <word artificial="elliptic" form="(καταγελῶ)" head="2" id="9" insertion_id="0006e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="57" span="" subdoc="36">
+  <word form="Ξάνθος" head="2" id="1" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="ἀλλὰ" head="2" id="4" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="τίνος" head="8" id="5" lemma="τίς" postag="x-s----g-" presentation-after=';"' relation="G-ORIENT"/>
+  <word artificial="elliptic" form="(καταγελᾷς)" head="4" id="8" insertion_id="0005e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="58" span="" subdoc="36">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="τοῦ" head="7" id="4" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="σε" head="6" id="5" lemma="σύ" postag="p2s----a-" relation="A-DO"/>
+  <word form="διδάξαντος" head="7" id="6" lemma="διδάσκω" postag="v-sapamg-" relation="ATR"/>
+  <word form="καθηγητοῦ" head="10" id="7" lemma="καθηγητής" postag="n-s---mg-" presentation-after='."' relation="G-ORIENT"/>
+  <word artificial="elliptic" form="(καταγελῶ)" head="2" id="10" insertion_id="0007e" relation="NOM-DIRSTAT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="59" span="" subdoc="36">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="κατάρατε" head="12" id="5" lemma="κατάρατος" postag="a-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="εἰς" head="12" id="7" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="9" id="8" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="κοινὸν" head="7" id="9" lemma="κοινός" postag="a-s---na-" relation="A-ORIENT"/>
+  <word form="τῆς" head="11" id="10" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="Ἑλλάδος" head="9" id="11" lemma="Ἑλλάς" postag="n-s---fg-" relation="G-POSS"/>
+  <word form="βλασφημῶν" head="13" id="12" lemma="βλασφημέω" postag="v-sppamn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="λέγεις" head="3" id="13" lemma="λέγω1" postag="v2spia---" presentation-after="·" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="60" span="" subdoc="36">
+  <word form="ἐν" head="4" id="1" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="Ἀθήναις" head="1" id="2" lemma="Ἀθήνη" postag="n-p---fd-" relation="D-LOCAT"/>
+  <word form="γὰρ" head="4" id="3" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="ἐσχόλασα" head="12" id="4" lemma="σχολάζω" postag="v1saia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="παρὰ" head="4" id="5" lemma="παρά" postag="r--------" relation="AuxP"/>
+  <word form="φιλοσόφοις" head="7" id="6" lemma="φιλόσοφος" postag="n-p---md-" presentation-after="," relation="D-LOCAT_CO"/>
+  <word form="ῥήτορσι" head="7" id="8" lemma="ῥήτωρ" postag="n-p---md-" presentation-after="," relation="D-LOCAT_CO"/>
+  <word form="γραμματικοῖς" head="7" id="10" lemma="γραμματικός" postag="a-p---md-" presentation-after="." relation="D-LOCAT"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="12" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="61" span="" subdoc="36">
+  <word form="ἔξεστιν" head="12" id="1" lemma="ἔξεστι" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οὖν" head="1" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="σοὶ" head="1" id="3" lemma="σύ" postag="p2s----d-" relation="D-POSS"/>
+  <word form="εἰς" head="9" id="4" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="6" id="5" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="Ἑλικῶνα" head="4" id="6" lemma="Ἑλικών" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="τῶν" head="8" id="7" lemma="ὁ" postag="l-p---fg-" relation="ATR"/>
+  <word form="Μουσῶν" head="6" id="8" lemma="Μοῦσα" postag="n-p---fg-" relation="G-POSS"/>
+  <word form="εἰσελθεῖν" head="1" id="9" lemma="εἰσέρχομαι" postag="v--ana---" presentation-after=';"' relation="N-SUBJ"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="12" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="62" span="" subdoc="36">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="ἐὰν" head="9" id="4" lemma="ἐάν" postag="c--------" relation="AuxC"/>
+  <word form="μηδὲν" head="6" id="5" lemma="μηδείς" postag="p-s---na-" relation="A-DO"/>
+  <word form="λέγῃς" head="4" id="6" lemma="λέγω2" postag="v2spsa---" relation="ADV-PROTAS"/>
+  <word form="χλευάζεσθαί" head="9" id="7" lemma="χλευάζω" postag="v--pne---" relation="NOM-INDSTAT_SBJ"/>
+  <word form="σε" head="7" id="8" lemma="σύ" postag="p2s----a-" relation="A-SUBJ"/>
+  <word form="δεῖ" head="2" id="9" lemma="δεῖ" postag="v3spia---" presentation-after='."' relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="63" span="" subdoc="36">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἔχει" head="3" id="5" lemma="ἔχω" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οὖν" head="5" id="6" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="τὸ" head="8" id="7" lemma="ὁ" postag="l-s---nn-" relation="ATR"/>
+  <word form="ζήτημα" head="5" id="8" lemma="ζήτημα" postag="n-s---nn-" relation="N-SUBJ"/>
+  <word form="ἑτέραν" head="10" id="9" lemma="ἕτερος" postag="a-s---fa-" relation="ATR"/>
+  <word form="λύσιν" head="5" id="10" lemma="λύσις" postag="n-s---fa-" presentation-after=";" relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="64" span="" subdoc="36">
+  <word form="τὰ" head="6" id="1" lemma="ὁ" postag="l-p---nn-" relation="ATR"/>
+  <word form="γὰρ" head="11" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="ὑπὸ" head="6" id="3" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="θείας" head="5" id="4" lemma="θεῖος1" postag="a-s---fg-" relation="ATR"/>
+  <word form="φύσεως" head="3" id="5" lemma="φύσις" postag="n-s---fg-" relation="G-AGENT"/>
+  <word form="διοικούμενα" head="11" id="6" lemma="διοικέω" postag="v-pppenn-" relation="N-SUBJ"/>
+  <word form="ὑπὸ" head="9" id="7" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="φιλοσόφων" head="7" id="8" lemma="φιλόσοφος" postag="n-p---mg-" relation="G-AGENT"/>
+  <word form="ζητεῖσθαι" head="11" id="9" lemma="ζητέω" postag="v--pne---" relation="INF-COMP"/>
+  <word form="οὐ" head="11" id="10" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="δύναται" head="13" id="11" lemma="δύναμαι" postag="v3spie---" presentation-after="." relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="13" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="65" span="" subdoc="36">
+  <word form="σὺ" head="4" id="1" lemma="σύ" postag="p2s----n-" relation="N-SUBJ"/>
+  <word form="οὖν" head="4" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="αὐτῷ" head="5" id="3" lemma="αὐτός" postag="p-s---nd-" relation="D-INTER"/>
+  <word form="δύνασαι" head="8" id="4" lemma="δύναμαι" postag="v2spie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="διαλῦσαι" head="4" id="5" lemma="διαλύω" postag="v--ana---" presentation-after=';"' relation="INF-COMP"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="8" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="66" span="" subdoc="36">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="ὑπόσχου" head="5" id="4" lemma="ὑπισχνέομαι" postag="v2samm---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="καὶ" head="2" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="διαλύσω" head="5" id="6" lemma="διαλύω" postag="v1sfia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="αὐτό" head="6" id="7" lemma="αὐτός" postag="p-s---na-" presentation-after='."' relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="67" span="" subdoc="37">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="4" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="διατρεπόμενος" head="2" id="3" lemma="διατρέπω" postag="v-sppemn-" relation="CP-TEMPOR"/>
+  <word form="λέγει" head="0" id="4" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="κομψότατε" head="21" id="6" lemma="κομψός" postag="a-s---mvs" presentation-after="," relation="V-VOC"/>
+  <word form="ἀπρεπές" head="9" id="8" lemma="ἀπρεπής" postag="a-s---nn-" relation="N-PRED"/>
+  <word form="ἐστιν" head="21" id="9" lemma="εἰμί" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἐμὲ" head="26" id="10" lemma="ἐγώ" postag="p1s---ma-" relation="A-SUBJ_AP"/>
+  <word form="τὸν" head="15" id="11" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="ἐν" head="15" id="12" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τοσούτοις" head="14" id="13" lemma="τοσοῦτος" postag="p-p---nd-" relation="ATR"/>
+  <word form="ἀκροατηρίοις" head="12" id="14" lemma="ἀκροατήριον" postag="n-p---nd-" relation="D-LOCAT"/>
+  <word form="διαλεγόμενον" head="26" id="15" lemma="διαλέγω" postag="v-sppema-" relation="CP-TEMPOR_SUBJ-AP"/>
+  <word form="νῦν" head="19" id="16" lemma="νῦν" postag="d--------" relation="ADV"/>
+  <word form="ἐν" head="19" id="17" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="κήποις" head="17" id="18" lemma="κῆπος" postag="n-p---md-" relation="D-LOCAT"/>
+  <word form="διαλέγεσθαι" head="9" id="19" lemma="διαλέγω" postag="v--pne---" presentation-after="," relation="NOM-INDSTAT_SBJ"/>
+  <word form="ἀλλ'" head="4" id="21" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="ἀκολούθει" head="21" id="22" lemma="ἀκολουθέω" postag="v2spma---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="μοι" head="22" id="23" lemma="ἐγώ" postag="p1s---md-" presentation-after='."' relation="D-REFER"/>
+  <word artificial="elliptic" form="[ ]" head="19" id="26" insertion_id="0010e" relation="APOS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="68" span="" subdoc="37">
+  <word form="πορευομένων" head="8" id="1" lemma="πορεύω" postag="v-pppemg-" relation="G-ABSOL"/>
+  <word form="δὲ" head="0" id="2" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="αὐτῶν" head="1" id="3" lemma="αὐτός" postag="p-p---mg-" relation="G-ABSOL"/>
+  <word form="ὁ" head="5" id="4" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="8" id="5" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="τῷ" head="7" id="6" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="κηπουρῷ" head="8" id="7" lemma="κηπουρός" postag="n-s---md-" relation="D-IO"/>
+  <word form="λέγει" head="2" id="8" lemma="λέγω1" postag="v3spia---" relation="PRED"/>
+  <word form="παῖς" head="25" id="9" lemma="πᾶς" postag="a-s---mn-" relation="N-SUBJ_AP"/>
+  <word form="πολύπειρός" head="9" id="10" lemma="πολύπειρος" postag="a-s---mn-" relation="ATR"/>
+  <word form="ἐστίν" head="17" id="11" lemma="εἰμί" postag="v3spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="μοι" head="11" id="12" lemma="ἐγώ" postag="p1s---md-" relation="D-POSS"/>
+  <word form="ὁ" head="16" id="13" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="σὺν" head="16" id="14" lemma="σύν" postag="r--------" relation="AuxP"/>
+  <word form="ἡμῖν" head="14" id="15" lemma="ἐγώ" postag="p1p---md-" relation="D-ACCOMP"/>
+  <word form="βαδίζων" head="25" id="16" lemma="βαδίζω" postag="v-sppamn-" presentation-after="," relation="N-SUBJ_AP"/>
+  <word form="αὐτῷ" head="19" id="18" lemma="αὐτός" postag="p-s---md-" relation="D-IO"/>
+  <word form="ἀνάθου" head="20" id="19" lemma="ἀνατίθημι" postag="v2samm---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="καὶ" head="17" id="20" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="διαλύσει" head="20" id="21" lemma="διαλύω" postag="v2sfim---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="τὸ" head="23" id="22" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="ζήτημα" head="21" id="23" lemma="ζήτημα" postag="n-s---na-" presentation-after="." relation="A-DO"/>
+  <word artificial="elliptic" form="[ ]" head="11" id="25" insertion_id="0012e" relation="APOS"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="69" span="" subdoc="37">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἴδε" head="6" id="5" lemma="εἶδον" postag="v2sama---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="οὗτος" head="9" id="7" lemma="οὗτος" postag="p-s---mn-" relation="ATR"/>
+  <word form="ὁ" head="9" id="8" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="σαπρὸς" head="11" id="9" lemma="σαπρός" postag="a-s---mn-" relation="N-SUBJ"/>
+  <word form="γράμματα" head="11" id="10" lemma="γράμμα" postag="n-p---na-" relation="A-DO"/>
+  <word form="οἶδεν" head="6" id="11" lemma="οἶδα" postag="v3sria---" presentation-after=';"' relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="70" span="" subdoc="37">
+  <word form="Aἴσωπος" head="3" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="γελάσας" head="1" id="2" lemma="γελάω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" relation="PRED"/>
+  <word form="τῷ" head="5" id="4" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="κηπουρῷ" head="3" id="5" lemma="κηπουρός" postag="n-s---md-" presentation-after='"' relation="D-IO"/>
+  <word form="ὧδε" head="13" id="7" lemma="ὧδε" postag="d--------" relation="ADV"/>
+  <word form="σύ" head="13" id="8" lemma="σύ" postag="p2s----n-" presentation-after="," relation="N-SUBJ"/>
+  <word form="κακόπαθε" head="8" id="10" lemma="κακόπαθος" postag="a-s---mv-" presentation-after=';"' relation="V-VOC"/>
+  <word artificial="elliptic" form="(λέγεις)" head="3" id="13" insertion_id="0008e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="71" span="" subdoc="37">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="κακόπαθός" head="6" id="5" lemma="κακόπαθος" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="εἰμι" head="3" id="6" lemma="εἰμί" postag="v1spia---" presentation-after=';"' relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="72" span="" subdoc="37">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="μὴ" head="5" id="4" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="οὐκ" head="6" id="5" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="εἶ" head="2" id="6" lemma="εἶμι" postag="v2spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="κηπουρός" head="6" id="7" lemma="κηπουρός" postag="n-s---mn-" presentation-after=';"' relation="N-PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="73" span="" subdoc="37">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="κηπουρὸς" head="3" id="2" lemma="κηπουρός" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ναὶ" head="8" id="5" lemma="ναί" postag="d--------" presentation-after='."' relation="INTRJ"/>
+  <word artificial="elliptic" form="(κηπουρὸς εἰμι)" head="3" id="8" insertion_id="0005e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="74" span="" subdoc="37">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἀγανακτεῖς" head="2" id="4" lemma="ἀγανακτέω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οὖν" head="4" id="5" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="ἀκούων" head="4" id="6" lemma="ἀκούω" postag="v-sppamn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="κακόπαθος" head="13" id="7" lemma="κακόπαθος" postag="a-s---mn-" presentation-after="," relation="N-PRED"/>
+  <word form="εἰ" head="4" id="9" lemma="εἰ" postag="c--------" relation="AuxC"/>
+  <word form="κηπουρὸς" head="11" id="10" lemma="κηπουρός" postag="n-s---mn-" relation="N-PRED"/>
+  <word form="εἶ" head="9" id="11" lemma="εἶμι" postag="v2spia---" presentation-after="." relation="ADV-PROTAS"/>
+  <word artificial="elliptic" form="(εἶ)" head="6" id="13" insertion_id="0007e" relation="NOM-INDSTAT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="75" span="" subdoc="37">
+  <word form="ζητεῖς" head="22" id="1" lemma="ζητέω" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="οὖν" head="22" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="γνῶναι" head="1" id="3" lemma="γιγνώσκω" postag="v--ana---" relation="INF-COMP"/>
+  <word form="διὰ" head="8" id="4" lemma="διά" postag="r--------" relation="AuxP"/>
+  <word form="ποίαν" head="6" id="5" lemma="ποῖος" postag="a-s---fa-" relation="ATR"/>
+  <word form="αἰτίαν" head="4" id="6" lemma="αἰτία" postag="n-s---fa-" relation="A-EXTENT"/>
+  <word form="φυτὰ" head="8" id="7" lemma="φυτόν" postag="n-p---na-" relation="A-DO"/>
+  <word form="βάλλεις" head="12" id="8" lemma="βάλλω" postag="v2spia---" relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="εἰς" head="8" id="9" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="11" id="10" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="γῆν" head="9" id="11" lemma="γῆ" postag="n-s---fa-" presentation-after="," relation="A-ORIENT"/>
+  <word form="ταῦτα" head="15" id="13" lemma="οὗτος" postag="p-p---na-" relation="A-DO"/>
+  <word form="σκάλλεις" head="15" id="14" lemma="σκάλλω" postag="v2spia---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ποτίζεις" head="15" id="16" lemma="ποτίζω" postag="v2spia---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ἐπιμελείας" head="20" id="18" lemma="ἐπιμέλεια" postag="n-s---fg-" relation="G-VALUE"/>
+  <word form="πολλῆς" head="18" id="19" lemma="πολύς" postag="a-s---fg-" relation="ATR"/>
+  <word form="ἀξιοῖς" head="15" id="20" lemma="ἀξιόω" postag="v2spia---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="καὶ" head="38" id="22" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="τάχιον" head="25" id="23" lemma="τάχα" postag="d-------c" relation="A-ADVERB"/>
+  <word form="λέγεις" head="22" id="24" lemma="λέγω1" postag="v2spia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἀναβαίνειν" head="24" id="25" lemma="ἀναβαίνω" postag="v--pna---" relation="NOM-INDSTAT_OBJ"/>
+  <word form="τὰ" head="27" id="26" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ἄγρια" head="39" id="27" lemma="ἄγριος" postag="a-p---na-" relation="A-SUBJ_AP"/>
+  <word form="τὰ" head="29" id="28" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="αὐτόματα" head="39" id="29" lemma="αὐτόματος" postag="a-p---na-" relation="A-SUBJ_CO"/>
+  <word form="τῆς" head="31" id="30" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="γῆς" head="29" id="31" lemma="γῆ" postag="n-s---fg-" relation="G-ORIENT"/>
+  <word form="ἢ" head="23" id="32" lemma="ἤ1" postag="c--------" relation="AuxC"/>
+  <word form="τὰ" head="36" id="33" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ὑπὸ" head="36" id="34" lemma="ὑπό" postag="r--------" relation="AuxP"/>
+  <word form="σοῦ" head="34" id="35" lemma="σύ" postag="p2s----g-" relation="G-AGENT"/>
+  <word form="τιθέμενα" head="40" id="36" lemma="τίθημι" postag="v-pppena-" presentation-after="..." relation="A-SUBJ_CO"/>
+  <word artificial="elliptic" form="(Αἴσωπος λέγει)" head="0" id="38" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="[ ]" head="25" id="39" insertion_id="0027e" relation="APOS"/>
+  <word artificial="elliptic" form="(ἀναβαίνει)" head="32" id="40" insertion_id="0036e" presentation-after="..." relation="ADV-COMPAR"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="76" span="" subdoc="38">
+  <word form="ἵνα" head="15" id="2" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="μὴ" head="4" id="3" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="βλάπτῃς" head="2" id="4" lemma="βλάπτω" postag="v2spsa---" relation="ADV-PURP"/>
+  <word form="με" head="4" id="5" lemma="ἐγώ" postag="p1s---ma-" relation="A-DO"/>
+  <word form="περισσότερον" head="7" id="6" lemma="περισσός" postag="a-s---nac" relation="A-DO_CO"/>
+  <word form="ἢ" head="12" id="7" lemma="ἤ1" postag="c--------" relation="COORD"/>
+  <word form="ἔλαττον" head="7" id="8" lemma="ἐλάσσων" postag="a-s---nac" relation="A-DO_CO"/>
+  <word form="τῶν" head="10" id="9" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="ἐπιταττομένων" head="7" id="10" lemma="ἐπιτάσσω" postag="v-pppeng-" relation="G-COMPAR"/>
+  <word form="σοι" head="12" id="11" lemma="σύ" postag="p2s----d-" relation="D-INTER"/>
+  <word form="ποιῶν" head="4" id="12" lemma="ποιέω" postag="v-sppamn-" presentation-after="." relation="CP-TEMPOR_SBJ"/>
+  <word artificial="elliptic" form="(Ξάνθος λέγει)" head="0" id="14" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="[ lacuna ]" head="14" id="15" insertion_id="0000f" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="77" span="" subdoc="38">
+  <word form="ἆρον" head="9" id="1" lemma="αἴρω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἐπὶ" head="1" id="2" lemma="ἐπί" postag="r--------" relation="AuxP"/>
+  <word form="χειρῶν" head="2" id="3" lemma="χείρ" postag="n-p---fg-" relation="G-ORIENT"/>
+  <word form="σου" head="3" id="4" lemma="σύ" postag="p2s----g-" relation="G-POSS"/>
+  <word form="λήκυθον" head="7" id="5" lemma="λήκυθος" postag="n-s---fa-" relation="A-DO_CO"/>
+  <word form="λέντιά" head="7" id="6" lemma="λέντιον" postag="n-p---na-" relation="A-DO_CO"/>
+  <word form="τε" head="1" id="7" lemma="τε" postag="d--------" presentation-after="," relation="COORD"/>
+  <word form="καὶ" head="16" id="9" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἄγωμεν" head="9" id="10" lemma="ἄγω" postag="v1ppsa---" relation="NOM-DS-HORT"/>
+  <word form="εἰς" head="10" id="11" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="13" id="12" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="βαλανεῖον" head="11" id="13" lemma="βαλανεῖον" postag="n-s---na-" presentation-after='."' relation="A-ORIENT"/>
+  <word artificial="elliptic" form="(Ξάνθος λέγει)" head="0" id="16" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="78" span="" subdoc="38">
+  <word form="Aἴσωπος" head="4" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="πρὸς" head="4" id="2" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="ἑαυτὸν" head="2" id="3" lemma="ἑαυτοῦ" postag="p-s---ma-" relation="A-ORIENT"/>
+  <word form="εἶπεν" head="0" id="4" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="οἱ" head="12" id="6" lemma="ὁ" postag="l-p---mn-" relation="ATR"/>
+  <word form="τῷ" head="8" id="7" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="νῷ" head="9" id="8" lemma="νόος" postag="n-s---md-" relation="D-RESPECT"/>
+  <word form="περίπικροι" head="12" id="9" lemma="περίπικρος" postag="a-p---mn-" relation="ATR"/>
+  <word form="περὶ" head="9" id="10" lemma="περί" postag="r--------" relation="AuxP"/>
+  <word form="διακονίαν" head="10" id="11" lemma="διακονία" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="δεσπόται" head="15" id="12" lemma="δεσπότης" postag="n-p---mn-" relation="N-SUBJ"/>
+  <word form="κακοδαιμονίας" head="16" id="13" lemma="κακοδαιμονία" postag="n-s---fg-" relation="G-DESC"/>
+  <word form="ἑαυτοῖς" head="16" id="14" lemma="ἑαυτοῦ" postag="p-p---md-" relation="D-REFER"/>
+  <word form="γίνονται" head="4" id="15" lemma="γίγνομαι" postag="v3ppie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="παραίτιοι" head="15" id="16" lemma="παραίτιος" postag="a-p---mn-" presentation-after="." relation="N-PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="79" span="" subdoc="38">
+  <word form="ἐγὼ" head="5" id="1" lemma="ἐγώ" postag="p1s---mn-" relation="N-SUBJ"/>
+  <word form="τοῦτον" head="4" id="2" lemma="οὗτος" postag="p-s---ma-" relation="ATR"/>
+  <word form="τὸν" head="4" id="3" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="φιλόσοφον" head="5" id="4" lemma="φιλόσοφος" postag="n-s---ma-" relation="A-DO"/>
+  <word form="παιδεύσω" head="15" id="5" lemma="παιδεύω" postag="v1sfia---" presentation-after="," relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἵνα" head="5" id="7" lemma="ἵνα" postag="c--------" relation="AuxC"/>
+  <word form="μάθῃ" head="7" id="8" lemma="μανθάνω" postag="v3sasa---" relation="ADV-PURP"/>
+  <word form="πῶς" head="11" id="9" lemma="πως" postag="d--------" relation="ADV"/>
+  <word form="αὐτὸν" head="12" id="10" lemma="αὐτός" postag="p-s---ma-" relation="A-SUBJ"/>
+  <word form="δεῖ" head="8" id="11" lemma="δεῖ" postag="v3siia---" relation="NOM-INDQUES_OBJ"/>
+  <word form="ἐπιτάττειν" head="11" id="12" lemma="ἐπιτάσσω" postag="v--pna---" presentation-after='."' relation="NOM-INDSTAT_SBJ"/>
+  <word artificial="elliptic" form="(Aἴσωπος εἶπεν)" head="0" id="15" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="80" span="" subdoc="38">
+  <word form="ἄρας" head="5" id="1" lemma="αἴρω" postag="v-sapamn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="οὖν" head="12" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="τὰ" head="4" id="3" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="προειρημένα" head="1" id="4" lemma="προερέω" postag="v-prpena-" relation="A-DO"/>
+  <word form="καὶ" head="12" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="μὴ" head="7" id="6" lemma="μή" postag="c--------" relation="ADV"/>
+  <word form="βαλὼν" head="5" id="7" lemma="βάλλω" postag="v-sapamn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="ἔλαιον" head="7" id="8" lemma="ἔλαιον" postag="n-s---na-" relation="A-DO"/>
+  <word form="εἰς" head="7" id="9" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="11" id="10" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="λήκυθον" head="9" id="11" lemma="λήκυθος" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="ἠκολούθει" head="0" id="12" lemma="ἀκολουθέω" postag="v3siia---" relation="PRED"/>
+  <word form="τῷ" head="14" id="13" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Ξάνθῳ" head="12" id="14" lemma="Ξάνθος" postag="n-s---md-" relation="D-REFER"/>
+  <word form="εἰς" head="12" id="15" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="17" id="16" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="βαλανεῖον" head="15" id="17" lemma="βαλανεῖον" postag="n-s---na-" presentation-after="." relation="A-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="81" span="" subdoc="38">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="10" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἀποδυσάμενος" head="2" id="3" lemma="ἀποδύω" postag="v-sapmmn-" relation="CP-TEMPOR"/>
+  <word form="τὰ" head="5" id="4" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ἱμάτια" head="3" id="5" lemma="ἱμάτιον" postag="n-p---na-" relation="A-DO"/>
+  <word form="αὐτοῦ" head="5" id="6" lemma="αὐτός" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="ἔδωκεν" head="10" id="7" lemma="δίδωμι" postag="v3saia---" relation="PRED_CO"/>
+  <word form="τῷ" head="9" id="8" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Αἰσώπῳ" head="7" id="9" lemma="Αἴσωπος" postag="n-s---md-" relation="D-IO"/>
+  <word form="καὶ" head="0" id="10" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="λέγει" head="10" id="11" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED_CO"/>
+  <word form="δὸς" head="11" id="13" lemma="δίδωμι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὴν" head="15" id="14" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="λήκυθον" head="13" id="15" lemma="λήκυθος" postag="n-s---fa-" presentation-after='."' relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="82" span="" subdoc="38">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἐπέδωκεν" head="0" id="2" lemma="ἐπιδίδωμι" postag="v3saia---" presentation-after="." relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="83" span="" subdoc="38">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="8" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λαβὼν" head="6" id="3" lemma="λαμβάνω" postag="v-sapamn-" relation="CP-TEMPOR_CO"/>
+  <word form="τὴν" head="5" id="4" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="λήκυθον" head="3" id="5" lemma="λήκυθος" postag="n-s---fa-" relation="A-DO"/>
+  <word form="καὶ" head="2" id="6" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="κατακενώσας" head="6" id="7" lemma="κατακενόω" postag="v-sapamn-" relation="CP-TEMPOR_CO"/>
+  <word form="εὗρεν" head="11" id="8" lemma="εὑρίσκω" postag="v3saia---" relation="PRED_CO"/>
+  <word form="οὐδέν" head="8" id="9" lemma="οὐδείς" postag="p-s---na-" presentation-after="," relation="A-DO"/>
+  <word form="καὶ" head="0" id="11" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="λέγει" head="11" id="12" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED_CO"/>
+  <word form="Aἴσωπε" head="21" id="14" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="τὸ" head="17" id="16" lemma="ὁ" postag="l-s---nn-" relation="ATR"/>
+  <word form="ἔλαιον" head="21" id="17" lemma="ἔλαιον" postag="n-s---nn-" relation="N-SUBJ"/>
+  <word form="ποῦ" head="21" id="18" lemma="πού" postag="d--------" presentation-after=';"' relation="ADV"/>
+  <word artificial="elliptic" form="(ἐστί)" head="12" id="21" insertion_id="0018e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="84" span="" subdoc="38">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="εἰς" head="8" id="4" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="οἶκον" head="4" id="5" lemma="οἶκος" postag="n-s---ma-" presentation-after='."' relation="A-ORIENT"/>
+  <word artificial="elliptic" form="(τὸ ἔλαιον ἐστί)" head="2" id="8" insertion_id="0005e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="85" span="" subdoc="38">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="διὰ" head="9" id="5" lemma="διά" postag="r--------" relation="AuxP"/>
+  <word form="τί" head="5" id="6" lemma="τίς" postag="x-s---na-" presentation-after=';"' relation="A-EXTENT"/>
+  <word artificial="elliptic" form="(τὸ ἔλαιον εἰς οἶκον ἐστί)" head="3" id="9" insertion_id="0006e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="86" span="" subdoc="38">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ὅτι" head="21" id="4" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="σύ" head="7" id="5" lemma="σύ" postag="p2s----n-" relation="N-SUBJ"/>
+  <word form="μοι" head="7" id="6" lemma="ἐγώ" postag="p1s---md-" relation="D-IO"/>
+  <word form="εἶπας" head="16" id="7" lemma="εἶπον" postag="v2saia---" presentation-after="'" relation="ADV-CAUSAL_CO"/>
+  <word form="ἆρον" head="7" id="9" lemma="αἴρω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="λήκυθον" head="11" id="10" lemma="λήκυθος" postag="n-s---fa-" relation="A-DO_CO"/>
+  <word form="καὶ" head="9" id="11" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="λέντια" head="11" id="12" lemma="λέντιον" postag="n-p---na-" presentation-after=",'" relation="A-DO_CO"/>
+  <word form="ἔλαιον" head="20" id="15" lemma="ἔλαιον" postag="n-s---na-" relation="A-DO"/>
+  <word form="δὲ" head="4" id="16" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="οὐκ" head="18" id="17" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="εἶπας" head="16" id="18" lemma="εἶπον" postag="v2saia---" presentation-after="." relation="ADV-CAUSAL_CO"/>
+  <word artificial="elliptic" form="(ἆρον)" head="18" id="20" insertion_id="0014e" relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(τὸ ἔλαιον εἰς οἶκον ἐστί)" head="2" id="21" insertion_id="0003e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="87" span="" subdoc="38">
+  <word form="ἔδει" head="10" id="1" lemma="δεῖ" postag="v3siia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="οὖν" head="1" id="2" lemma="οὖν" postag="d--------" relation="AuxY"/>
+  <word form="με" head="8" id="3" lemma="ἐγώ" postag="p1s---ma-" relation="A-SUBJ"/>
+  <word form="μηδὲν" head="8" id="4" lemma="μηδείς" postag="p-s---na-" relation="A-DO"/>
+  <word form="τῶν" head="6" id="5" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="εἰρημένων" head="7" id="6" lemma="ἐρῶ" postag="v-prpeng-" relation="G-COMPAR"/>
+  <word form="πλέον" head="4" id="7" lemma="πλέος" postag="a-s---na-" relation="ATR"/>
+  <word form="ποιεῖν" head="1" id="8" lemma="ποιέω" postag="v--pna---" presentation-after="·" relation="NOM-INDSTAT_SBJ"/>
+  <word artificial="elliptic" form="(Αἴσωπος λέγει)" head="0" id="10" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="88" span="" subdoc="38">
+  <word form="ἐπεὶ" head="10" id="1" lemma="ἐπεί" postag="c--------" relation="AuxC"/>
+  <word form="τοῦ" head="3" id="2" lemma="ὁ" postag="l-s---mg-" relation="ATR"/>
+  <word form="νόμου" head="4" id="3" lemma="νόμος" postag="n-s---mg-" relation="G-OBJEC"/>
+  <word form="σφαλεὶς" head="7" id="4" lemma="σφάλλω" postag="v-sappmn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="πληγῶν" head="6" id="5" lemma="πληγή" postag="n-p---fg-" relation="G-OBJEC"/>
+  <word form="ὑπεύθυνος" head="7" id="6" lemma="ὑπεύθυνος" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="ἤμην" head="1" id="7" lemma="εἰμί" postag="v1siim---" presentation-after='."' relation="ADV-CAUSAL"/>
+  <word artificial="elliptic" form="(Αἴσωπος λέγει)" head="0" id="10" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="89" span="" subdoc="38">
+  <word form="καὶ" head="0" id="1" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἐν" head="4" id="2" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τούτῳ" head="2" id="3" lemma="οὗτος" postag="p-s---nd-" relation="D-LOCAT"/>
+  <word form="ἡσύχασεν" head="1" id="4" lemma="ἡσυχάζω" postag="v3saia---" presentation-after="." relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="90" span="" subdoc="39">
+  <word form="Ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="19" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εὑρὼν" head="2" id="3" lemma="εὑρίσκω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="φίλους" head="3" id="4" lemma="φίλος" postag="a-p---ma-" relation="A-DO"/>
+  <word form="εἰς" head="3" id="5" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="7" id="6" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="βαλανεῖον" head="5" id="7" lemma="βαλανεῖον" postag="n-s---na-" relation="A-ORIENT"/>
+  <word form="τοῖς" head="11" id="8" lemma="ὁ" postag="l-p---nd-" relation="ATR"/>
+  <word form="τῶν" head="10" id="9" lemma="ὁ" postag="l-p---mg-" relation="ATR"/>
+  <word form="φίλων" head="11" id="10" lemma="φίλος" postag="a-p---mg-" relation="G-POSS"/>
+  <word form="παιδαρίοις" head="12" id="11" lemma="παιδάριον" postag="n-p---nd-" relation="D-IO"/>
+  <word form="δοῦναι" head="13" id="12" lemma="δίδωμι" postag="v--ana---" relation="A-INTOBJ"/>
+  <word form="ἐκέλευσε" head="19" id="13" lemma="κελεύω" postag="v3saia---" relation="PRED_CO"/>
+  <word form="τὸν" head="15" id="14" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="Aἴσωπον" head="13" id="15" lemma="Aἴσωπος" postag="n-s---ma-" relation="A-DO"/>
+  <word form="τὰ" head="17" id="16" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="ἱμάτια" head="12" id="17" lemma="ἱμάτιον" postag="n-p---na-" presentation-after="," relation="A-DO"/>
+  <word form="καὶ" head="0" id="19" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="λέγει" head="19" id="20" lemma="λέγω1" postag="v3spia---" relation="PRED_CO"/>
+  <word form="αὐτῷ" head="20" id="21" lemma="αὐτός" postag="p-s---md-" presentation-after='"' relation="D-IO"/>
+  <word form="ὕπαγε" head="31" id="23" lemma="ὑπάγω" postag="v2spma---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="Aἴσωπε" head="23" id="25" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="εἰς" head="23" id="27" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="29" id="28" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="οἰκίαν" head="27" id="29" lemma="οἰκία" postag="n-s---fa-" presentation-after="," relation="A-ORIENT"/>
+  <word form="καὶ" head="20" id="31" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἐπειδὴ" head="45" id="32" lemma="ἐπεί" postag="c--------" relation="AuxC"/>
+  <word form="διὰ" head="39" id="33" lemma="διά" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="35" id="34" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="μανίαν" head="33" id="35" lemma="μανία" postag="n-s---fa-" relation="A-EXTENT"/>
+  <word form="τῆς" head="37" id="36" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="γυναικός" head="35" id="37" lemma="γυνή" postag="n-s---fg-" relation="G-POSS"/>
+  <word form="μου" head="37" id="38" lemma="ἐγώ" postag="p1s---mg-" relation="G-POSS"/>
+  <word form="συνεπατήθη" head="32" id="39" lemma="συμπατέω" postag="v3saip---" relation="ADV-CAUSAL"/>
+  <word form="τὰ" head="41" id="40" lemma="ὁ" postag="l-p---nn-" relation="ATR"/>
+  <word form="λάχανα" head="39" id="41" lemma="λάχανον" postag="n-p---nn-" presentation-after="," relation="N-SUBJ"/>
+  <word form="ἀπελθὼν" head="45" id="43" lemma="ἀπέρχομαι" postag="v-sapamn-" relation="CP-TEMPOR_SBJ"/>
+  <word form="φακὸν" head="45" id="44" lemma="φακός" postag="n-s---ma-" relation="A-DO"/>
+  <word form="ἕψησον" head="31" id="45" lemma="ἕψω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἡμῖν" head="45" id="46" lemma="ἐγώ" postag="p1p---md-" presentation-after="." relation="D-INTER"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="91" span="" subdoc="39">
+  <word form="καὶ" head="30" id="1" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="βάλε" head="13" id="2" lemma="βάλλω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="αὐτὸν" head="8" id="3" lemma="αὐτός" postag="p-s---ma-" relation="A-DO_CO"/>
+  <word form="εἰς" head="2" id="4" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="6" id="5" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="κάκκαβον" head="4" id="6" lemma="κάκκαβος" postag="n-s---ma-" presentation-after="," relation="A-ORIENT"/>
+  <word form="καὶ" head="2" id="8" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ὕδωρ" head="8" id="9" lemma="ὕδωρ" postag="n-s---na-" relation="A-DO_CO"/>
+  <word form="μετ'" head="9" id="10" lemma="μετά" postag="r--------" relation="AuxP"/>
+  <word form="αὐτοῦ" head="10" id="11" lemma="αὐτός" postag="p-s---mg-" presentation-after="," relation="G-ACCOMP"/>
+  <word form="καὶ" head="1" id="13" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἐπίθες" head="13" id="14" lemma="ἐπιτίθημι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἐπὶ" head="14" id="15" lemma="ἐπί" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="18" id="16" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="μαγειρικὴν" head="18" id="17" lemma="μαγειρικός" postag="a-s---fa-" relation="ATR"/>
+  <word form="ἑστίαν" head="15" id="18" lemma="ἑστία" postag="n-s---fa-" presentation-after="," relation="A-ORIENT"/>
+  <word form="καὶ" head="13" id="20" lemma="καί" postag="c--------" relation="ADV"/>
+  <word form="ὑπόθες" head="23" id="21" lemma="ὑποτίθημι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ξύλα" head="21" id="22" lemma="ξύλον" postag="n-p---na-" relation="A-DO"/>
+  <word form="καὶ" head="13" id="23" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="καῦσον" head="23" id="24" lemma="καίω" postag="v2sama---" presentation-after="," relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ἐὰν" head="28" id="26" lemma="ἐάν" postag="c--------" relation="AuxC"/>
+  <word form="σβεσθῇ" head="26" id="27" lemma="σβέννυμι" postag="v3sasp---" relation="ADV-PROTAS"/>
+  <word form="φύσησον" head="13" id="28" lemma="φυσάω" postag="v2sama---" presentation-after="·" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="30" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="92" span="" subdoc="39">
+  <word form="ἴδε" head="2" id="1" lemma="εἶδον" postag="v2sama---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="οὕτως" head="4" id="3" lemma="οὕτως" postag="d--------" relation="ADV"/>
+  <word form="ποίησον" head="2" id="4" lemma="ποιέω" postag="v2sama---" presentation-after='."' relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="7" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="93" span="" subdoc="39">
+  <word form="Aἴσωπος" head="7" id="1" lemma="Aἴσωπος" postag="n-s---mn-" presentation-after='·"' relation="N-SUBJ"/>
+  <word form="ποιήσω" head="7" id="4" lemma="ποιέω" postag="v1sfia---" presentation-after='."' relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(λέγει)" head="0" id="7" insertion_id="0001e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="94" span="" subdoc="39">
+  <word form="καὶ" head="0" id="1" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἐλθὼν" head="6" id="2" lemma="ἔρχομαι" postag="v-sapamn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="ἐν" head="2" id="3" lemma="ἐν" postag="r--------" relation="AuxP"/>
+  <word form="τῇ" head="5" id="4" lemma="ὁ" postag="l-s---fd-" relation="ATR"/>
+  <word form="οἰκίᾳ" head="3" id="5" lemma="οἰκία" postag="n-s---fd-" relation="D-LOCAT"/>
+  <word form="καὶ" head="11" id="6" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="εἰσελθὼν" head="6" id="7" lemma="εἰσέρχομαι" postag="v-sapamn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="εἰς" head="7" id="8" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸ" head="10" id="9" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
+  <word form="μαγειρεῖον" head="8" id="10" lemma="μαγειρεῖον" postag="n-s---na-" presentation-after="," relation="A-ORIENT"/>
+  <word form="βαλὼν" head="11" id="12" lemma="βάλλω" postag="v-sapamn-" relation="CP-TEMPOR_SUBJ-CO"/>
+  <word form="εἰς" head="12" id="13" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὸν" head="15" id="14" lemma="ὁ" postag="l-s---ma-" relation="ATR"/>
+  <word form="κάκκαβον" head="13" id="15" lemma="κάκκαβος" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="ἕνα" head="17" id="16" lemma="εἷς" postag="n-s---ma-" relation="ATR"/>
+  <word form="φακόν" head="12" id="17" lemma="φακός" postag="n-s---ma-" presentation-after="," relation="A-DO"/>
+  <word form="ἥψει" head="1" id="19" lemma="ἕψω" postag="v3siia---" presentation-after="." relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="95" span="" subdoc="39">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="8" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="σὺν" head="7" id="3" lemma="σύν" postag="r--------" relation="AuxP"/>
+  <word form="τοῖς" head="5" id="4" lemma="ὁ" postag="l-p---md-" relation="ATR"/>
+  <word form="φίλοις" head="3" id="5" lemma="φίλος" postag="a-p---md-" relation="D-ACCOMP"/>
+  <word form="αὐτοῦ" head="5" id="6" lemma="αὐτός" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="λουσάμενος" head="2" id="7" lemma="λούω" postag="v-sapmmn-" relation="CP-TEMPOR"/>
+  <word form="λέγει" head="0" id="8" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἄνδρες" head="12" id="10" lemma="ἀνήρ" postag="n-p---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="δύνασθε" head="8" id="12" lemma="δύναμαι" postag="v2ppie---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="πρὸς" head="16" id="13" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="ἐμὲ" head="13" id="14" lemma="ἐγώ" postag="p1s---ma-" relation="A-ORIENT"/>
+  <word form="εὐτελῶς" head="16" id="15" lemma="εὐτελής" postag="d-------p" relation="ADV"/>
+  <word form="ἀριστῆσαι" head="12" id="16" lemma="ἀριστάω" postag="v--ana---" presentation-after=";" relation="INF-COMP"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="96" span="" subdoc="39">
+  <word form="πρὸς" head="5" id="1" lemma="πρός" postag="r--------" relation="AuxP"/>
+  <word form="φακὸν" head="1" id="2" lemma="φακός" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="γὰρ" head="5" id="3" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="ἡμῖν" head="5" id="4" lemma="ἐγώ" postag="p1p---md-" relation="D-POSS"/>
+  <word form="ἐστιν" head="7" id="5" lemma="εἰμί" postag="v3spia---" presentation-after="." relation="NOM-DIRSTAT_OBJ"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="7" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="97" span="" subdoc="39">
+  <word form="οὐ" head="2" id="1" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="δεῖ" head="12" id="2" lemma="δεῖ" postag="v3siia---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="δὲ" head="17" id="3" lemma="δέ" postag="d--------" relation="COORD"/>
+  <word form="τῇ" head="5" id="4" lemma="ὁ" postag="l-s---fd-" relation="ATR"/>
+  <word form="πολυτελείᾳ" head="10" id="5" lemma="πολυτέλεια" postag="n-s---fd-" relation="D-MANN"/>
+  <word form="τῶν" head="7" id="6" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="ἐδεσμάτων" head="5" id="7" lemma="ἔδεσμα" postag="n-p---ng-" relation="G-POSS"/>
+  <word form="τοὺς" head="9" id="8" lemma="ὁ" postag="l-p---ma-" relation="ATR"/>
+  <word form="φίλους" head="10" id="9" lemma="φίλος" postag="a-p---ma-" relation="A-SUBJ"/>
+  <word form="κρίνειν" head="2" id="10" lemma="κρίνω" postag="v--pna---" presentation-after="," relation="NOM-INDSTAT_SUBJ-CO"/>
+  <word form="ἀλλὰ" head="3" id="12" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="τῇ" head="14" id="13" lemma="ὁ" postag="l-s---fd-" relation="ATR"/>
+  <word form="προθυμίᾳ" head="15" id="14" lemma="προθυμία" postag="n-s---fd-" relation="D-MANN"/>
+  <word form="δοκιμάζειν" head="18" id="15" lemma="δοκιμάζω" postag="v--pna---" presentation-after="·" relation="NOM-INDSTAT_SUBJ-CO"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="17" insertion_id="0000e" relation="PRED"/>
+  <word artificial="elliptic" form="(δεῖ)" head="12" id="18" insertion_id="0012e" relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="98" span="" subdoc="39">
+  <word form="καιρῷ" head="8" id="1" lemma="καιρός" postag="n-s---md-" relation="D-LOCAT"/>
+  <word form="γὰρ" head="8" id="2" lemma="γάρ" postag="d--------" relation="AuxY"/>
+  <word form="τὰ" head="4" id="3" lemma="ὁ" postag="l-p---nn-" relation="ATR"/>
+  <word form="ἐλάχιστα" head="8" id="4" lemma="ἐλάχιστος" postag="a-p---nn-" relation="N-SUBJ"/>
+  <word form="τῶν" head="6" id="5" lemma="ὁ" postag="l-p---ng-" relation="ATR"/>
+  <word form="κομψοτέρων" head="4" id="6" lemma="κομψός" postag="a-p---ngc" relation="G-PART"/>
+  <word form="προσηνεστέραν" head="10" id="7" lemma="προσηνής" postag="a-s---fac" relation="ATR"/>
+  <word form="ἔχει" head="20" id="8" lemma="ἔχω" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τὴν" head="10" id="9" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="ἀπόλαυσιν" head="8" id="10" lemma="ἀπόλαυσις" postag="n-s---fa-" presentation-after="," relation="A-DO"/>
+  <word form="ὅταν" head="8" id="12" lemma="ὅταν" postag="c--------" relation="AuxC"/>
+  <word form="ὁ" head="14" id="13" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="παρέχων" head="17" id="14" lemma="παρέχω" postag="v-sppamn-" relation="N-SUBJ"/>
+  <word form="μετ'" head="17" id="15" lemma="μετά" postag="r--------" relation="AuxP"/>
+  <word form="εὐνοίας" head="15" id="16" lemma="εὔνοια" postag="n-s---fg-" relation="G-ACCOMP"/>
+  <word form="προτρέπεται" head="12" id="17" lemma="προτρέπω" postag="v3spie---" presentation-after='."' relation="ADV-TEMPOR"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="20" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="99" span="" subdoc="39">
+  <word form="οἱ" head="2" id="1" lemma="ὁ" postag="l-p---mn-" relation="ATR"/>
+  <word form="φίλοι" head="3" id="2" lemma="φίλος" postag="a-p---mn-" relation="N-SUBJ"/>
+  <word form="εἶπον" head="0" id="3" lemma="εἶπον" postag="v3paia---" presentation-after='"' relation="PRED"/>
+  <word form="ἀπίωμεν" head="3" id="5" lemma="ἄπειμι1" postag="v1ppsa---" presentation-after='."' relation="NOM-DS-HORT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="100" span="" subdoc="40">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="N-SUBJ"/>
+  <word form="Ξάνθος" head="8" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="ἤγαγεν" head="8" id="3" lemma="ἄγω" postag="v3saia---" relation="PRED_CO"/>
+  <word form="αὐτοὺς" head="3" id="4" lemma="αὐτός" postag="p-p---ma-" relation="A-DO"/>
+  <word form="εἰς" head="3" id="5" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="τὴν" head="7" id="6" lemma="ὁ" postag="l-s---fa-" relation="ATR"/>
+  <word form="οἰκίαν" head="5" id="7" lemma="οἰκία" postag="n-s---fa-" relation="A-ORIENT"/>
+  <word form="καὶ" head="0" id="8" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="λέγει" head="8" id="9" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED_CO"/>
+  <word form="Aἴσωπε" head="13" id="11" lemma="Aἴσωπος" postag="n-s---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="δὸς" head="9" id="13" lemma="δίδωμι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἡμῖν" head="13" id="14" lemma="ἐγώ" postag="p1p---md-" relation="D-IO"/>
+  <word form="πιεῖν" head="13" id="15" lemma="πίνω" postag="v--ana---" relation="A-DO"/>
+  <word form="ἀπὸ" head="15" id="16" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τοῦ" head="18" id="17" lemma="ὁ" postag="l-s---ng-" relation="ATR"/>
+  <word form="βαλανείου" head="16" id="18" lemma="βαλανεῖον" postag="n-s---ng-" presentation-after='."' relation="G-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="101" span="" subdoc="40">
+  <word form="Αἴσωπος" head="5" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἰς" head="4" id="2" lemma="εἰς" postag="r--------" relation="AuxP"/>
+  <word form="ξέστην" head="2" id="3" lemma="ξέστης" postag="n-s---ma-" relation="A-ORIENT"/>
+  <word form="βαλὼν" head="1" id="4" lemma="βάλλω" postag="v-sapamn-" relation="CP-TEMPOR"/>
+  <word form="ἐπέδωκεν" head="0" id="5" lemma="ἐπιδίδωμι" postag="v3saia---" relation="PRED"/>
+  <word form="τῷ" head="7" id="6" lemma="ὁ" postag="l-s---md-" relation="ATR"/>
+  <word form="Ξάνθῳ" head="5" id="7" lemma="Ξάνθος" postag="n-s---md-" relation="D-IO"/>
+  <word form="εὔκρατον" head="5" id="8" lemma="εὔκρατος" postag="a-s---ma-" relation="A-DO"/>
+  <word form="ἐκ" head="8" id="9" lemma="ἐκ" postag="r--------" relation="AuxP"/>
+  <word form="τῆς" head="11" id="10" lemma="ὁ" postag="l-s---fg-" relation="ATR"/>
+  <word form="ἐμβάσεως" head="9" id="11" lemma="ἔμβασις" postag="n-s---fg-" presentation-after="." relation="G-ORIENT"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="102" span="" subdoc="40">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="τί" head="6" id="5" lemma="τίς" postag="x-s---nn-" relation="N-PRED"/>
+  <word form="ἐστιν" head="3" id="6" lemma="εἰμί" postag="v3spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="τοῦτο" head="6" id="7" lemma="οὗτος" postag="p-s---nn-" presentation-after=';"' relation="N-SUBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="103" span="" subdoc="40">
+  <word form="Aἴσωπος" head="2" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="εἶπεν" head="0" id="2" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="ἀπὸ" head="7" id="4" lemma="ἀπό" postag="r--------" relation="AuxP"/>
+  <word form="τοῦ" head="6" id="5" lemma="ὁ" postag="l-s---ng-" relation="ATR"/>
+  <word form="βαλανείου" head="4" id="6" lemma="βαλανεῖον" postag="n-s---ng-" relation="G-ORIENT"/>
+  <word form="πιεῖν" head="10" id="7" lemma="πίνω" postag="v--ana---" presentation-after='."' relation="N-PRED"/>
+  <word artificial="elliptic" form="(ἐστιν)" head="2" id="10" insertion_id="0007e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="104" span="" subdoc="40">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="7" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="στυγνὸς" head="4" id="3" lemma="στυγνός" postag="a-s---mn-" relation="N-PRED"/>
+  <word form="γενόμενος" head="2" id="4" lemma="γίγνομαι" postag="v-sapmmn-" relation="CP-TEMPOR"/>
+  <word form="μετὰ" head="7" id="5" lemma="μετά" postag="r--------" relation="AuxP"/>
+  <word form="μικρὸν" head="5" id="6" lemma="μικρός" postag="a-s---na-" relation="A-ORIENT"/>
+  <word form="εἶπεν" head="0" id="7" lemma="εἶπον" postag="v3saia---" presentation-after='"' relation="PRED"/>
+  <word form="παράθες" head="7" id="9" lemma="παρατίθημι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="μοι" head="9" id="10" lemma="ἐγώ" postag="p1s---md-" relation="D-REFER"/>
+  <word form="λεκάνην" head="9" id="11" lemma="λεκάνη" postag="n-s---fa-" presentation-after='."' relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="105" span="" subdoc="40">
+  <word form="Aἴσωπος" head="5" id="1" lemma="Aἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="παρέθηκεν" head="5" id="2" lemma="παρατίθημι" postag="v3saia---" relation="PRED_CO"/>
+  <word form="χωρὶς" head="8" id="3" lemma="χωρίς" postag="d--------" relation="AuxP"/>
+  <word form="ὕδατος" head="3" id="4" lemma="ὕδωρ" postag="n-s---ng-" relation="G-SEPAR"/>
+  <word form="καὶ" head="0" id="5" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἵστατο" head="5" id="6" lemma="ἵστημι" postag="v3siie---" presentation-after="." relation="PRED_CO"/>
+  <word artificial="elliptic" form="(λεκάνην)" head="5" id="8" insertion_id="0004e" relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="106" span="" subdoc="40">
+  <word form="Ξάνθος" head="9" id="1" lemma="Ξάνθος" postag="n-s---mn-" presentation-after='·"' relation="N-SUBJ"/>
+  <word form="τοῦτο" head="10" id="4" lemma="οὗτος" postag="p-s---nn-" relation="N-SUBJ"/>
+  <word form="πάλιν" head="10" id="5" lemma="πάλιν" postag="d--------" relation="ADV"/>
+  <word form="τί" head="10" id="6" lemma="τίς" postag="x-s---nn-" presentation-after=';"' relation="N-PRED"/>
+  <word artificial="elliptic" form="(εἶπεν)" head="0" id="9" insertion_id="0001e" relation="PRED"/>
+  <word artificial="elliptic" form="(ἐστιν)" head="9" id="10" insertion_id="0006e" relation="NOM-DIRSTAT_OBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="107" span="" subdoc="40">
+  <word form="Αἴσωπος" head="2" id="1" lemma="Αἴσωπος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="εἶπας" head="8" id="4" lemma="εἶπον" postag="v2saia---" presentation-after="'" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="παράθες" head="4" id="6" lemma="παρατίθημι" postag="v2sama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="λεκάνην" head="6" id="7" lemma="λεκάνη" postag="n-s---fa-" presentation-after=",'" relation="A-DO"/>
+  <word form="οὐκ" head="11" id="10" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="εἶπες" head="8" id="11" lemma="εἶπον" postag="v2saia---" presentation-after="'" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="βάλε" head="15" id="13" lemma="βάλλω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="ὕδωρ" head="13" id="14" lemma="ὕδωρ" postag="n-s---na-" relation="A-DO"/>
+  <word form="καὶ" head="11" id="15" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="νίψον" head="15" id="16" lemma="νίζω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="μου" head="19" id="17" lemma="ἐγώ" postag="p1s---mg-" relation="G-POSS"/>
+  <word form="τοὺς" head="19" id="18" lemma="ὁ" postag="l-p---ma-" relation="ATR"/>
+  <word form="πόδας" head="16" id="19" lemma="πούς" postag="n-p---ma-" presentation-after=".'&quot;" relation="A-DO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="108" span="" subdoc="40">
+  <word form="ὁ" head="2" id="1" lemma="ὁ" postag="l-s---mn-" relation="ATR"/>
+  <word form="Ξάνθος" head="3" id="2" lemma="Ξάνθος" postag="n-s---mn-" relation="N-SUBJ"/>
+  <word form="λέγει" head="0" id="3" lemma="λέγω1" postag="v3spia---" presentation-after='"' relation="PRED"/>
+  <word form="ἔπαρε" head="9" id="5" lemma="ἐπαίρω" postag="v2sama---" relation="NOM-DIRSTAT_OBJ-CO"/>
+  <word form="τὰ" head="7" id="6" lemma="ὁ" postag="l-p---na-" relation="ATR"/>
+  <word form="σανδάλιά" head="5" id="7" lemma="σανδάλιον" postag="n-p---na-" relation="A-DO"/>
+  <word form="μου" head="7" id="8" lemma="ἐγώ" postag="p1s---mg-" relation="G-POSS"/>
+  <word form="καὶ" head="3" id="9" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="τὰ" head="12" id="10" lemma="ὁ" postag="l-p---na-" relation="A-DO"/>
+  <word form="ἑξῆς" head="12" id="11" lemma="ἑξῆς" postag="d--------" relation="ADV"/>
+  <word form="ποίησον" head="9" id="12" lemma="ποιέω" postag="v2sama---" presentation-after='."' relation="NOM-DIRSTAT_OBJ-CO"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="109" span="" subdoc="40">
+  <word form="εἶτα" head="2" id="1" lemma="εἶτα" postag="d--------" relation="ADV"/>
+  <word form="λέγει" head="0" id="2" lemma="λέγω1" postag="v3spia---" relation="PRED"/>
+  <word form="τοῖς" head="5" id="3" lemma="ὁ" postag="l-p---md-" relation="ATR"/>
+  <word form="ἑαυτοῦ" head="5" id="4" lemma="ἑαυτοῦ" postag="p-s---mg-" relation="G-POSS"/>
+  <word form="φίλοις" head="2" id="5" lemma="φίλος" postag="a-p---md-" presentation-after='"' relation="D-IO"/>
+  <word form="ἄνδρες" head="9" id="7" lemma="ἀνήρ" postag="n-p---mv-" presentation-after="," relation="V-VOC"/>
+  <word form="εὑρίσκω" head="2" id="9" lemma="εὑρίσκω" postag="v1spia---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ὅτι" head="9" id="10" lemma="ὅτι2" postag="c--------" relation="AuxC"/>
+  <word form="δοῦλον" head="13" id="11" lemma="δοῦλος" postag="a-s---ma-" relation="A-DO"/>
+  <word form="οὐκ" head="13" id="12" lemma="οὐ" postag="d--------" relation="ADV"/>
+  <word form="ἠγόρασα" head="15" id="13" lemma="ἀγοράζω" postag="v1saia---" presentation-after="," relation="NOM-INDSTAT_OBJ-CO"/>
+  <word form="ἀλλὰ" head="10" id="15" lemma="ἀλλά" postag="d--------" relation="COORD"/>
+  <word form="καθηγητὴν" head="18" id="16" lemma="καθηγητής" postag="n-s---ma-" relation="A-DO"/>
+  <word form="ἐμαυτῷ" head="18" id="17" lemma="ἐμαυτοῦ" postag="p-s---md-" relation="D-INTER"/>
+  <word form="ἐώνημαι" head="15" id="18" lemma="ὠνέομαι" postag="v1srie---" presentation-after="." relation="NOM-INDSTAT_OBJ-CO"/>
+  <word artificial="elliptic" form="(Ξάνθος)" head="2" id="20" insertion_id="0001e" relation="N-SUBJ"/>
+ </sentence>
+ <sentence document_id="Life of Aesop (Vita G)" id="110" span="" subdoc="40">
+  <word form="νῦν" head="2" id="1" lemma="νῦν" postag="d--------" relation="ADV"/>
+  <word form="κελεύσατε" head="7" id="2" lemma="κελεύω" postag="v2pama---" relation="NOM-DIRSTAT_OBJ"/>
+  <word form="ἀναστῶμεν" head="4" id="3" lemma="ἀνίστημι" postag="v1pasa---" relation="NOM-DS-HORT_OBJ-CO"/>
+  <word form="καὶ" head="2" id="4" lemma="καί" postag="c--------" relation="COORD"/>
+  <word form="ἀκουμβήσωμεν" head="4" id="5" lemma="ἀκουμβέω" postag="v1pasa---" presentation-after="." relation="NOM-DS-HORT_OBJ-CO"/>
+  <word artificial="elliptic" form="(ὁ Ξάνθος λέγει)" head="0" id="7" insertion_id="0000e" relation="PRED"/>
+ </sentence>
+</treebank>

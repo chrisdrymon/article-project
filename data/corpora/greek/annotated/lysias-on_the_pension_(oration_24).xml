@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="utf-8"?>
+<treebank format="aldt" version="1.5" xml:lang="grc" xmlns:saxon="http://saxon.sf.net/">
+ <!--
+  <date>2019-04-07</date>
+  <Title>Lysias, Or. 24: a preliminary dependency treebank. See readme-file for more information and copyright issues</title>
+<annotator>Louis Verreth, Toon Van Hal, Alek Keersmaekers</annotator>
+
+-->
+ <date writing='-403'/>
+ <sentence Author="Lysias" document_id="0540-024" id="1">
+  <word form="οὐ" head="3" id="1" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|1|1" relation="AuxZ" sem=""/>
+  <word form="πολλοῦ" head="3" id="2" lemma="πολύς" postag="a-s---ng-" ref="Leuven|0540-024|1|2" relation="OBJ" sem=""/>
+  <word form="δέω" head="0" id="3" lemma="δέω" postag="v1spia---" ref="Leuven|0540-024|1|3" relation="PRED" sem=""/>
+  <word form="χάριν" head="5" id="4" lemma="χάρις" postag="n-s---fa-" ref="Leuven|0540-024|1|4" relation="OBJ" sem=""/>
+  <word form="ἔχειν" head="3" id="5" lemma="ἔχω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|1|5" relation="OBJ" sem=""/>
+  <word form="ὦ" head="8" id="7" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|1|7" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="3" id="8" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|1|8" relation="ExD" sem=""/>
+  <word form="τῷ" head="11" id="10" lemma="ὁ" postag="l-s---md-" ref="Leuven|0540-024|1|10" relation="ATR" sem=""/>
+  <word form="κατηγόρῳ" head="5" id="11" lemma="κατήγορος" postag="a-s---md-" presentation-after="," ref="Leuven|0540-024|1|11" relation="OBJ" sem="recipient"/>
+  <word form="ὅτι" head="3" id="13" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|1|13" relation="AuxC" sem=""/>
+  <word form="μοι" head="15" id="14" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|1|14" relation="ADV" sem="beneficiary/maleficiary"/>
+  <word form="παρεσκεύασε" head="13" id="15" lemma="παρασκευάζω" postag="v3saia---" ref="Leuven|0540-024|1|15" relation="ADV" sem=""/>
+  <word form="τὸν" head="17" id="16" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|1|16" relation="ATR" sem=""/>
+  <word form="ἀγῶνα" head="15" id="17" lemma="ἀγών" postag="n-s---ma-" ref="Leuven|0540-024|1|17" relation="OBJ" sem=""/>
+  <word form="τουτονί" head="17" id="18" lemma="οὗτος" postag="p-s---ma-" presentation-after="." ref="Leuven|0540-024|1|18" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="2">
+  <word form="πρότερον" head="4" id="1" lemma="πρότερος" postag="d-------c" ref="Leuven|0540-024|2|1" relation="ADV" sem=""/>
+  <word form="γὰρ" head="4" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|2|2" relation="AuxY" sem=""/>
+  <word form="οὐκ" head="4" id="3" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|2|3" relation="AuxZ" sem=""/>
+  <word form="ἔχων" head="16" id="4" lemma="ἔχω" postag="v-sppamn-" ref="Leuven|0540-024|2|4" relation="ADV" sem=""/>
+  <word form="πρόφασιν" head="4" id="5" lemma="πρόφασις" postag="n-s---fa-" ref="Leuven|0540-024|2|5" relation="OBJ" sem=""/>
+  <word form="ἐφ’" head="11" id="6" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|2|6" relation="AuxP" sem=""/>
+  <word form="ἧς" head="6" id="7" lemma="ὅς" postag="p-s---fg-" ref="Leuven|0540-024|2|7" relation="ADV" sem=""/>
+  <word form="τοῦ" head="9" id="8" lemma="ὁ" postag="l-s---mg-" ref="Leuven|0540-024|2|8" relation="ATR" sem=""/>
+  <word form="βίου" head="10" id="9" lemma="βίος" postag="n-s---mg-" ref="Leuven|0540-024|2|9" relation="ATR" sem=""/>
+  <word form="λόγον" head="11" id="10" lemma="λόγος" postag="n-s---ma-" ref="Leuven|0540-024|2|10" relation="OBJ" sem=""/>
+  <word form="δοίην" head="5" id="11" lemma="δίδωμι" postag="v1saoa---" presentation-after="," ref="Leuven|0540-024|2|11" relation="ATR" sem=""/>
+  <word form="νυνὶ" head="16" id="13" lemma="νυνί" postag="d--------" ref="Leuven|0540-024|2|13" relation="ADV" sem=""/>
+  <word form="διὰ" head="16" id="14" lemma="διά" postag="r--------" ref="Leuven|0540-024|2|14" relation="AuxP" sem=""/>
+  <word form="τοῦτον" head="14" id="15" lemma="οὗτος" postag="p-s---ma-" ref="Leuven|0540-024|2|15" relation="ADV" sem=""/>
+  <word form="εἴληφα" head="0" id="16" lemma="λαμβάνω" postag="v1sria---" presentation-after="." ref="Leuven|0540-024|2|16" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="3">
+  <word form="καὶ" head="2" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|3|1" relation="AuxY" sem=""/>
+  <word form="πειράσομαι" head="0" id="2" lemma="πειράω" postag="v1sfim---" ref="Leuven|0540-024|3|2" relation="PRED" sem=""/>
+  <word form="τῷ" head="4" id="3" lemma="ὁ" postag="l-s---md-" ref="Leuven|0540-024|3|3" relation="ATR" sem=""/>
+  <word form="λόγῳ" head="7" id="4" lemma="λόγος" postag="n-s---md-" ref="Leuven|0540-024|3|4" relation="ADV" sem=""/>
+  <word form="τοῦτον" head="8" id="5" lemma="οὗτος" postag="p-s---ma-" ref="Leuven|0540-024|3|5" relation="SBJ" sem=""/>
+  <word form="μὲν" head="11" id="6" lemma="μέν" postag="d--------" ref="Leuven|0540-024|3|6" relation="AuxY" sem=""/>
+  <word form="ἐπιδεῖξαι" head="2" id="7" lemma="ἐπιδείκνυμι" postag="v--ana---" ref="Leuven|0540-024|3|7" relation="OBJ" sem=""/>
+  <word form="ψευδόμενον" head="11" id="8" lemma="ψεύδω" postag="v-sppema-" presentation-after="," ref="Leuven|0540-024|3|8" relation="OBJ_CO" sem=""/>
+  <word form="ἐμαυτὸν" head="12" id="10" lemma="ἐμαυτοῦ" postag="p1s---ma-" ref="Leuven|0540-024|3|10" relation="SBJ" sem=""/>
+  <word form="δὲ" head="7" id="11" lemma="δέ" postag="b--------" ref="Leuven|0540-024|3|11" relation="COORD" sem=""/>
+  <word form="βεβιωκότα" head="11" id="12" lemma="βιόω" postag="v-srpama-" ref="Leuven|0540-024|3|12" relation="OBJ_CO" sem=""/>
+  <word form="μέχρι" head="12" id="13" lemma="μέχρι" postag="r--------" ref="Leuven|0540-024|3|13" relation="AuxP" sem=""/>
+  <word form="τῆσδε" head="16" id="14" lemma="ὅδε" postag="p-s---fg-" ref="Leuven|0540-024|3|14" relation="ATR" sem=""/>
+  <word form="τῆς" head="16" id="15" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|3|15" relation="ATR" sem=""/>
+  <word form="ἡμέρας" head="13" id="16" lemma="ἡμέρα" postag="n-s---fg-" ref="Leuven|0540-024|3|16" relation="ADV" sem=""/>
+  <word form="ἐπαίνου" head="19" id="17" lemma="ἔπαινος" postag="n-s---mg-" ref="Leuven|0540-024|3|17" relation="ADV" sem=""/>
+  <word form="μᾶλλον" head="19" id="18" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|3|18" relation="ADV" sem=""/>
+  <word form="ἄξιον" head="12" id="19" lemma="ἄξιος" postag="a-s---ma-" ref="Leuven|0540-024|3|19" relation="ADV" sem=""/>
+  <word form="ἤ" head="18" id="20" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|3|20" relation="AuxC" sem=""/>
+  <word form="φθόνου" head="20" id="21" lemma="φθόνος" postag="n-s---mg-" presentation-after="·" ref="Leuven|0540-024|3|21" relation="ADV" sem="comparison"/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="4">
+  <word form="διὰ" head="6" id="1" lemma="διά" postag="r--------" ref="Leuven|0540-024|4|1" relation="AuxP" sem=""/>
+  <word form="γὰρ" head="6" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|4|2" relation="AuxY" sem=""/>
+  <word form="οὐδὲν" head="1" id="3" lemma="οὐδείς" postag="p-s---na-" ref="Leuven|0540-024|4|3" relation="ADV" sem=""/>
+  <word form="ἄλλο" head="3" id="4" lemma="ἄλλος" postag="p-s---na-" ref="Leuven|0540-024|4|4" relation="ATR" sem=""/>
+  <word form="μοι" head="6" id="5" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|4|5" relation="OBJ" sem=""/>
+  <word form="δοκεῖ" head="0" id="6" lemma="δοκέω" postag="v3spia---" ref="Leuven|0540-024|4|6" relation="PRED" sem=""/>
+  <word form="παρασκευάσαι" head="6" id="7" lemma="παρασκευάζω" postag="v--ana---" ref="Leuven|0540-024|4|7" relation="OBJ" sem=""/>
+  <word form="τόνδε" head="11" id="8" lemma="ὅδε" postag="p-s---ma-" ref="Leuven|0540-024|4|8" relation="ATR" sem=""/>
+  <word form="μοι" head="7" id="9" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|4|9" relation="OBJ" sem="beneficiary/maleficiary"/>
+  <word form="τὸν" head="11" id="10" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|4|10" relation="ATR" sem=""/>
+  <word form="κίνδυνον" head="7" id="11" lemma="κίνδυνος" postag="n-s---ma-" ref="Leuven|0540-024|4|11" relation="OBJ" sem=""/>
+  <word form="οὗτος" head="6" id="12" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|4|12" relation="SBJ" sem=""/>
+  <word form="ἢ" head="4" id="13" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|4|13" relation="AuxC" sem=""/>
+  <word form="διὰ" head="13" id="14" lemma="διά" postag="r--------" ref="Leuven|0540-024|4|14" relation="AuxP" sem=""/>
+  <word form="φθόνον" head="14" id="15" lemma="φθόνος" postag="n-s---ma-" presentation-after="." ref="Leuven|0540-024|4|15" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="5">
+  <word form="καίτοι" head="16" id="1" lemma="καίτοι" postag="d--------" ref="Leuven|0540-024|5|1" relation="AuxY" sem=""/>
+  <word form="ὅστις" head="4" id="2" lemma="ὅστις" postag="p-s---mn-" ref="Leuven|0540-024|5|2" relation="SBJ" sem=""/>
+  <word form="τούτοις" head="4" id="3" lemma="οὗτος" postag="p-p---md-" ref="Leuven|0540-024|5|3" relation="OBJ" sem=""/>
+  <word form="φθονεῖ" head="14" id="4" lemma="φθονέω" postag="v3spia---" ref="Leuven|0540-024|5|4" relation="ATR" sem=""/>
+  <word form="οὓς" head="8" id="5" lemma="ὅς" postag="p-p---ma-" ref="Leuven|0540-024|5|5" relation="OBJ" sem=""/>
+  <word form="οἱ" head="7" id="6" lemma="ὁ" postag="l-p---mn-" ref="Leuven|0540-024|5|6" relation="ATR" sem=""/>
+  <word form="ἄλλοι" head="8" id="7" lemma="ἄλλος" postag="p-p---mn-" ref="Leuven|0540-024|5|7" relation="SBJ" sem=""/>
+  <word form="ἐλεοῦσι" head="3" id="8" lemma="ἐλεάω" postag="v3ppia---" presentation-after="," ref="Leuven|0540-024|5|8" relation="ATR" sem=""/>
+  <word form="τίνος" head="17" id="10" lemma="τίς" postag="p-s---cg-" ref="Leuven|0540-024|5|10" relation="ATR" sem=""/>
+  <word form="ἂν" head="15" id="11" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|5|11" relation="AuxY" sem=""/>
+  <word form="ὑμῖν" head="16" id="12" lemma="σύ" postag="p2p---cd-" ref="Leuven|0540-024|5|12" relation="OBJ" sem=""/>
+  <word form="ὁ" head="14" id="13" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|5|13" relation="ATR" sem=""/>
+  <word form="τοιοῦτος" head="16" id="14" lemma="τοιοῦτος" postag="p-s---mn-" ref="Leuven|0540-024|5|14" relation="SBJ" sem=""/>
+  <word form="ἀποσχέσθαι" head="16" id="15" lemma="ἀπέχω" postag="v--anm---" ref="Leuven|0540-024|5|15" relation="OBJ" sem=""/>
+  <word form="δοκεῖ" head="0" id="16" lemma="δοκέω" postag="v3spia---" ref="Leuven|0540-024|5|16" relation="PRED" sem=""/>
+  <word form="πονηρίας" head="15" id="17" lemma="πονηρία" postag="n-s---fg-" presentation-after=";" ref="Leuven|0540-024|5|17" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="6">
+  <word form="εἰ" head="10" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|6|1" relation="AuxC" sem=""/>
+  <word form="μὲν" head="10" id="2" lemma="μέν" postag="d--------" ref="Leuven|0540-024|6|2" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="10" id="3" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|6|3" relation="AuxY" sem=""/>
+  <word form="ἕνεκα" head="7" id="4" lemma="ἕνεκα" postag="r--------" ref="Leuven|0540-024|6|4" relation="AuxP" sem=""/>
+  <word form="χρημάτων" head="4" id="5" lemma="χρῆμα" postag="n-p---ng-" ref="Leuven|0540-024|6|5" relation="ADV" sem=""/>
+  <word form="με" head="7" id="6" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|6|6" relation="OBJ" sem=""/>
+  <word form="συκοφαντεῖ" head="1" id="7" lemma="συκοφαντέω" postag="v3spia---" presentation-after="—·" ref="Leuven|0540-024|6|7" relation="ADV" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="10" insertion_id="0009e" lemma="_" postag="---------" ref="Leuven|0540-024|6|10" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="7">
+  <word form="εἰ" head="9" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|7|1" relation="AuxC" sem=""/>
+  <word form="δ’" head="9" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|7|2" relation="AuxY" sem=""/>
+  <word form="ὡς" head="7" id="3" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|7|3" relation="AuxC" sem=""/>
+  <word form="ἐχθρὸν" head="11" id="4" lemma="ἐχθρός" postag="a-s---ma-" ref="Leuven|0540-024|7|4" relation="OBJ" sem=""/>
+  <word form="ἑαυτοῦ" head="4" id="5" lemma="ἑαυτοῦ" postag="p-s---mg-" ref="Leuven|0540-024|7|5" relation="ATR" sem="possessor"/>
+  <word form="με" head="7" id="6" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|7|6" relation="OBJ" sem=""/>
+  <word form="τιμωρεῖται" head="1" id="7" lemma="τιμωρέω" postag="v3spie---" presentation-after="," ref="Leuven|0540-024|7|7" relation="ADV" sem=""/>
+  <word form="ψεύδεται" head="0" id="9" lemma="ψεύδω" postag="v3spie---" presentation-after="·" ref="Leuven|0540-024|7|9" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="τιμωρεῖται" head="3" id="11" insertion_id="0010e" lemma="_" postag="---------" ref="Leuven|0540-024|7|11" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="8">
+  <word form="διὰ" head="11" id="1" lemma="διά" postag="r--------" ref="Leuven|0540-024|8|1" relation="AuxP" sem=""/>
+  <word form="γὰρ" head="11" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|8|2" relation="AuxY" sem=""/>
+  <word form="τὴν" head="4" id="3" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|8|3" relation="ATR" sem=""/>
+  <word form="πονηρίαν" head="1" id="4" lemma="πονηρία" postag="n-s---fa-" ref="Leuven|0540-024|8|4" relation="ADV" sem=""/>
+  <word form="αὐτοῦ" head="4" id="5" lemma="αὐτός" postag="p-s---mg-" ref="Leuven|0540-024|8|5" relation="ATR" sem=""/>
+  <word form="οὔτε" head="8" id="6" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|8|6" relation="AuxY" sem=""/>
+  <word form="φίλῳ" head="8" id="7" lemma="φίλος" postag="a-s---md-" ref="Leuven|0540-024|8|7" relation="OCOMP_CO" sem=""/>
+  <word form="οὔτε" head="11" id="8" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|8|8" relation="COORD" sem=""/>
+  <word form="ἐχθρῷ" head="8" id="9" lemma="ἐχθρός" postag="a-s---md-" ref="Leuven|0540-024|8|9" relation="OCOMP_CO" sem=""/>
+  <word form="πώποτε" head="11" id="10" lemma="πώποτε" postag="d--------" ref="Leuven|0540-024|8|10" relation="ADV" sem=""/>
+  <word form="ἐχρησάμην" head="0" id="11" lemma="χράω" postag="v1saim---" ref="Leuven|0540-024|8|11" relation="PRED" sem=""/>
+  <word form="αὐτῷ" head="11" id="12" lemma="αὐτός" postag="p-s---md-" presentation-after="." ref="Leuven|0540-024|8|12" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="9">
+  <word form="ἤδη" head="8" id="1" lemma="ἤδη" postag="d--------" ref="Leuven|0540-024|9|1" relation="ADV" sem=""/>
+  <word form="τοίνυν" head="8" id="2" lemma="τοίνυν" postag="d--------" presentation-after="," ref="Leuven|0540-024|9|2" relation="AuxY" sem=""/>
+  <word form="ὦ" head="5" id="4" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|9|4" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="8" id="5" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|9|5" relation="ExD" sem=""/>
+  <word form="δῆλός" head="8" id="7" lemma="δῆλος" postag="a-s---mn-" ref="Leuven|0540-024|9|7" relation="PNOM" sem=""/>
+  <word form="ἐστι" head="0" id="8" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|9|8" relation="PRED" sem=""/>
+  <word form="φθονῶν" head="7" id="9" lemma="φθονέω" postag="v-sppamn-" presentation-after="," ref="Leuven|0540-024|9|9" relation="ADV" sem=""/>
+  <word form="ὅτι" head="8" id="11" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|9|11" relation="AuxC" sem=""/>
+  <word form="τοιαύτῃ" head="14" id="12" lemma="τοιοῦτος" postag="p-s---fd-" ref="Leuven|0540-024|9|12" relation="ATR" sem=""/>
+  <word form="κεχρημένος" head="17" id="13" lemma="χράω" postag="v-srpemn-" ref="Leuven|0540-024|9|13" relation="ADV" sem=""/>
+  <word form="συμφορᾷ" head="13" id="14" lemma="συμφορά" postag="n-s---fd-" ref="Leuven|0540-024|9|14" relation="OBJ" sem=""/>
+  <word form="τούτου" head="16" id="15" lemma="οὗτος" postag="p-s---mg-" ref="Leuven|0540-024|9|15" relation="ADV" sem="comparison"/>
+  <word form="βελτίων" head="18" id="16" lemma="βελτίων" postag="a-s---mnc" ref="Leuven|0540-024|9|16" relation="ATR" sem=""/>
+  <word form="εἰμὶ" head="11" id="17" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|9|17" relation="ADV" sem=""/>
+  <word form="πολίτης" head="17" id="18" lemma="πολίτης" postag="n-s---mn-" presentation-after="." ref="Leuven|0540-024|9|18" relation="PNOM" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="10">
+  <word form="καὶ" head="3" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|10|1" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="3" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|10|2" relation="AuxY" sem=""/>
+  <word form="οἶμαι" head="0" id="3" lemma="οἴομαι" postag="v1spie---" ref="Leuven|0540-024|10|3" relation="PRED" sem=""/>
+  <word form="δεῖν" head="3" id="4" lemma="δέω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|10|4" relation="OBJ" sem=""/>
+  <word form="ὦ" head="7" id="6" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|10|6" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="3" id="7" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|10|7" relation="ExD" sem=""/>
+  <word form="τὰ" head="12" id="9" lemma="ὁ" postag="l-p---na-" ref="Leuven|0540-024|10|9" relation="ATR" sem=""/>
+  <word form="τοῦ" head="11" id="10" lemma="ὁ" postag="l-s---ng-" ref="Leuven|0540-024|10|10" relation="ATR" sem=""/>
+  <word form="σώματος" head="12" id="11" lemma="σῶμα" postag="n-s---ng-" ref="Leuven|0540-024|10|11" relation="ATR" sem=""/>
+  <word form="δυστυχήματα" head="17" id="12" lemma="δυστύχημα" postag="n-p---na-" ref="Leuven|0540-024|10|12" relation="OBJ" sem=""/>
+  <word form="τοῖς" head="16" id="13" lemma="ὁ" postag="l-p---nd-" ref="Leuven|0540-024|10|13" relation="ATR" sem=""/>
+  <word form="τῆς" head="15" id="14" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|10|14" relation="ATR" sem=""/>
+  <word form="ψυχῆς" head="16" id="15" lemma="ψυχή" postag="n-s---fg-" ref="Leuven|0540-024|10|15" relation="ATR" sem=""/>
+  <word form="ἐπιτηδεύμασιν" head="17" id="16" lemma="ἐπιτήδευμα" postag="n-p---nd-" ref="Leuven|0540-024|10|16" relation="ADV" sem=""/>
+  <word form="ἰᾶσθαι" head="4" id="17" lemma="ἰάομαι" postag="v--pne---" presentation-after="," ref="Leuven|0540-024|10|17" relation="SBJ" sem=""/>
+  <word form="καλῶς" head="17" id="19" lemma="καλός" postag="d--------" presentation-after="." ref="Leuven|0540-024|10|19" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="11">
+  <word form="εἰ" head="19" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|11|1" relation="AuxC" sem=""/>
+  <word form="γὰρ" head="19" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|11|2" relation="AuxY" sem=""/>
+  <word form="ἐξ" head="11" id="3" lemma="ἐκ" postag="r--------" ref="Leuven|0540-024|11|3" relation="AuxP" sem=""/>
+  <word form="ἴσου" head="3" id="4" lemma="ἴσος" postag="a-s---ng-" ref="Leuven|0540-024|11|4" relation="ADV" sem=""/>
+  <word form="τῇ" head="6" id="5" lemma="ὁ" postag="l-s---fd-" ref="Leuven|0540-024|11|5" relation="ATR" sem=""/>
+  <word form="συμφορᾷ" head="4" id="6" lemma="συμφορά" postag="n-s---fd-" ref="Leuven|0540-024|11|6" relation="ADV" sem=""/>
+  <word form="καὶ" head="11" id="7" lemma="καί" postag="b--------" ref="Leuven|0540-024|11|7" relation="AuxY" sem=""/>
+  <word form="τὴν" head="9" id="8" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|11|8" relation="ATR" sem=""/>
+  <word form="διάνοιαν" head="10" id="9" lemma="διάνοια" postag="n-s---fa-" ref="Leuven|0540-024|11|9" relation="OBJ" sem=""/>
+  <word form="ἕξω" head="11" id="10" lemma="ἔχω" postag="v1sfia---" ref="Leuven|0540-024|11|10" relation="ADV_CO" sem=""/>
+  <word form="καὶ" head="1" id="11" lemma="καί" postag="b--------" ref="Leuven|0540-024|11|11" relation="COORD" sem=""/>
+  <word form="τὸν" head="14" id="12" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|11|12" relation="ATR" sem=""/>
+  <word form="ἄλλον" head="14" id="13" lemma="ἄλλος" postag="p-s---ma-" ref="Leuven|0540-024|11|13" relation="ATR" sem=""/>
+  <word form="βίον" head="15" id="14" lemma="βίος" postag="n-s---ma-" ref="Leuven|0540-024|11|14" relation="OBJ" sem=""/>
+  <word form="διάξω" head="11" id="15" lemma="διάγω" postag="v1sfia---" presentation-after="," ref="Leuven|0540-024|11|15" relation="ADV_CO" sem=""/>
+  <word form="τί" head="19" id="17" lemma="τίς" postag="p-s---na-" ref="Leuven|0540-024|11|17" relation="ADV" sem="respect"/>
+  <word form="τούτου" head="19" id="18" lemma="οὗτος" postag="p-s---mg-" ref="Leuven|0540-024|11|18" relation="OBJ" sem=""/>
+  <word form="διοίσω" head="0" id="19" lemma="διαφέρω" postag="v1sfia---" presentation-after=";" ref="Leuven|0540-024|11|19" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="12">
+  <word form="περὶ" head="7" id="1" lemma="περί" postag="r--------" ref="Leuven|0540-024|12|1" relation="AuxP" sem=""/>
+  <word form="μὲν" head="7" id="2" lemma="μέν" postag="d--------" ref="Leuven|0540-024|12|2" relation="AuxY" sem=""/>
+  <word form="οὖν" head="7" id="3" lemma="οὖν" postag="d--------" ref="Leuven|0540-024|12|3" relation="AuxY" sem=""/>
+  <word form="τούτων" head="1" id="4" lemma="οὗτος" postag="p-p---ng-" ref="Leuven|0540-024|12|4" relation="ADV" sem=""/>
+  <word form="τοσαῦτά" head="7" id="5" lemma="τοσοῦτος" postag="p-p---nn-" ref="Leuven|0540-024|12|5" relation="SBJ" sem=""/>
+  <word form="μοι" head="7" id="6" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|12|6" relation="OBJ" sem="agent"/>
+  <word form="εἰρήσθω" head="0" id="7" lemma="λέγω" postag="v3srme---" presentation-after="·" ref="Leuven|0540-024|12|7" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="13">
+  <word form="ὑπὲρ" head="5" id="1" lemma="ὑπέρ" postag="r--------" ref="Leuven|0540-024|13|1" relation="AuxP" sem=""/>
+  <word form="ὧν" head="1" id="2" lemma="ὅς" postag="p-p---mg-" ref="Leuven|0540-024|13|2" relation="ADV" sem=""/>
+  <word form="δέ" head="14" id="3" lemma="δέ" postag="b--------" ref="Leuven|0540-024|13|3" relation="AuxY" sem=""/>
+  <word form="μοι" head="5" id="4" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|13|4" relation="OBJ" sem=""/>
+  <word form="προσήκει" head="14" id="5" lemma="προσήκω" postag="v3spia---" ref="Leuven|0540-024|13|5" relation="ADV" sem=""/>
+  <word form="λέγειν" head="5" id="6" lemma="λέγω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|13|6" relation="SBJ" sem=""/>
+  <word form="ὡς" head="14" id="8" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|13|8" relation="AuxC" sem=""/>
+  <word form="ἂν" head="16" id="9" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|13|9" relation="AuxY" sem=""/>
+  <word form="οἷόν" head="16" id="10" lemma="οἷος" postag="p-s---nn-" ref="Leuven|0540-024|13|10" relation="PNOM" sem=""/>
+  <word form="τε" head="16" id="11" lemma="τε" postag="b--------" ref="Leuven|0540-024|13|11" relation="AuxY" sem=""/>
+  <word form="διὰ" head="14" id="12" lemma="διά" postag="r--------" ref="Leuven|0540-024|13|12" relation="AuxP" sem=""/>
+  <word form="βραχυτάτων" head="12" id="13" lemma="βραχύς" postag="a-p---ngs" ref="Leuven|0540-024|13|13" relation="ADV" sem=""/>
+  <word form="ἐρῶ" head="0" id="14" lemma="λέγω" postag="v1sfia---" presentation-after="." ref="Leuven|0540-024|13|14" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="ἐστὶν" head="8" id="16" insertion_id="0013e" lemma="_" postag="---------" ref="Leuven|0540-024|13|16" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="14">
+  <word form="φησὶ" head="0" id="1" lemma="φημί" postag="v3spia---" ref="Leuven|0540-024|14|1" relation="PRED" sem=""/>
+  <word form="γὰρ" head="1" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|14|2" relation="AuxY" sem=""/>
+  <word form="ὁ" head="4" id="3" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|14|3" relation="ATR" sem=""/>
+  <word form="κατήγορος" head="1" id="4" lemma="κατήγορος" postag="n-s---mn-" ref="Leuven|0540-024|14|4" relation="SBJ" sem=""/>
+  <word form="οὐ" head="6" id="5" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|14|5" relation="AuxZ" sem=""/>
+  <word form="δικαίως" head="8" id="6" lemma="δίκαιος" postag="d--------" ref="Leuven|0540-024|14|6" relation="ADV" sem=""/>
+  <word form="με" head="8" id="7" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|14|7" relation="SBJ" sem=""/>
+  <word form="λαμβάνειν" head="1" id="8" lemma="λαμβάνω" postag="v--pna---" ref="Leuven|0540-024|14|8" relation="OBJ" sem=""/>
+  <word form="τὸ" head="13" id="9" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|14|9" relation="ATR" sem=""/>
+  <word form="παρὰ" head="13" id="10" lemma="παρά" postag="r--------" ref="Leuven|0540-024|14|10" relation="AuxP" sem=""/>
+  <word form="τῆς" head="12" id="11" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|14|11" relation="ATR" sem=""/>
+  <word form="πόλεως" head="10" id="12" lemma="πόλις" postag="n-s---fg-" ref="Leuven|0540-024|14|12" relation="ATR" sem=""/>
+  <word form="ἀργύριον" head="8" id="13" lemma="ἀργύριον" postag="n-s---na-" presentation-after="·" ref="Leuven|0540-024|14|13" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="15">
+  <word form="καὶ" head="12" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|15|1" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="24" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|15|2" relation="AuxY" sem=""/>
+  <word form="τῷ" head="4" id="3" lemma="ὁ" postag="l-s---nd-" ref="Leuven|0540-024|15|3" relation="ATR" sem=""/>
+  <word form="σώματι" head="5" id="4" lemma="σῶμα" postag="n-s---nd-" ref="Leuven|0540-024|15|4" relation="ADV" sem="instrument"/>
+  <word form="δύνασθαι" head="12" id="5" lemma="δύναμαι" postag="v--pne---" ref="Leuven|0540-024|15|5" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="12" id="6" lemma="καί" postag="b--------" ref="Leuven|0540-024|15|6" relation="AuxY" sem=""/>
+  <word form="οὐκ" head="8" id="7" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|15|7" relation="AuxZ" sem=""/>
+  <word form="εἶναι" head="12" id="8" lemma="εἰμί" postag="v--pna---" ref="Leuven|0540-024|15|8" relation="OBJ_CO" sem=""/>
+  <word form="τῶν" head="10" id="9" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|15|9" relation="ATR" sem=""/>
+  <word form="ἀδυνάτων" head="8" id="10" lemma="ἀδύνατος" postag="a-p---mg-" presentation-after="," ref="Leuven|0540-024|15|10" relation="PNOM" sem="totality"/>
+  <word form="καὶ" head="24" id="12" lemma="καί" postag="b--------" ref="Leuven|0540-024|15|12" relation="COORD" sem=""/>
+  <word form="τέχνην" head="14" id="13" lemma="τέχνη" postag="n-s---fa-" ref="Leuven|0540-024|15|13" relation="OBJ" sem=""/>
+  <word form="ἐπίστασθαι" head="12" id="14" lemma="ἐπίσταμαι" postag="v--pne---" ref="Leuven|0540-024|15|14" relation="OBJ_CO" sem=""/>
+  <word form="τοιαύτην" head="13" id="15" lemma="τοιοῦτος" postag="p-s---fa-" ref="Leuven|0540-024|15|15" relation="ATR" sem=""/>
+  <word form="ὥστε" head="14" id="16" lemma="ὥστε" postag="c--------" ref="Leuven|0540-024|15|16" relation="AuxC" sem=""/>
+  <word form="καὶ" head="20" id="17" lemma="καί" postag="d--------" ref="Leuven|0540-024|15|17" relation="AuxZ" sem=""/>
+  <word form="ἄνευ" head="22" id="18" lemma="ἄνευ" postag="r--------" ref="Leuven|0540-024|15|18" relation="AuxP" sem=""/>
+  <word form="τοῦ" head="20" id="19" lemma="ὁ" postag="l-s---ng-" ref="Leuven|0540-024|15|19" relation="ATR" sem=""/>
+  <word form="διδομένου" head="18" id="20" lemma="δίδωμι" postag="v-sppeng-" ref="Leuven|0540-024|15|20" relation="ADV" sem=""/>
+  <word form="τούτου" head="20" id="21" lemma="οὗτος" postag="p-s---ng-" ref="Leuven|0540-024|15|21" relation="ATR" sem=""/>
+  <word form="ζῆν" head="16" id="22" lemma="ζάω" postag="v--pna---" presentation-after="." ref="Leuven|0540-024|15|22" relation="ADV" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="24" insertion_id="0023e" lemma="_" postag="---------" ref="Leuven|0540-024|15|24" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="16">
+  <word form="καὶ" head="3" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|16|1" relation="AuxY" sem=""/>
+  <word form="τεκμηρίοις" head="3" id="2" lemma="τεκμήριον" postag="n-p---nd-" ref="Leuven|0540-024|16|2" relation="OBJ" sem=""/>
+  <word form="χρῆται" head="0" id="3" lemma="χράω" postag="v3spie---" ref="Leuven|0540-024|16|3" relation="PRED" sem=""/>
+  <word form="τῆς" head="8" id="4" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|16|4" relation="ATR" sem=""/>
+  <word form="μὲν" head="17" id="5" lemma="μέν" postag="d--------" ref="Leuven|0540-024|16|5" relation="AuxY" sem=""/>
+  <word form="τοῦ" head="7" id="6" lemma="ὁ" postag="l-s---ng-" ref="Leuven|0540-024|16|6" relation="ATR" sem=""/>
+  <word form="σώματος" head="8" id="7" lemma="σῶμα" postag="n-s---ng-" ref="Leuven|0540-024|16|7" relation="ATR" sem=""/>
+  <word form="ῥώμης" head="17" id="8" lemma="ῥώμη" postag="n-s---fg-" presentation-after="," ref="Leuven|0540-024|16|8" relation="ATR_CO" sem=""/>
+  <word form="ὅτι" head="8" id="10" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|16|10" relation="AuxC" sem=""/>
+  <word form="ἐπὶ" head="14" id="11" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|16|11" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="13" id="12" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|16|12" relation="ATR" sem=""/>
+  <word form="ἵππους" head="11" id="13" lemma="ἵππος" postag="n-p---ma-" ref="Leuven|0540-024|16|13" relation="OBJ" sem=""/>
+  <word form="ἀναβαίνω" head="10" id="14" lemma="ἀναβαίνω" postag="v1spia---" presentation-after="," ref="Leuven|0540-024|16|14" relation="APOS" sem=""/>
+  <word form="τῆς" head="21" id="16" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|16|16" relation="ATR" sem=""/>
+  <word form="δ’" head="2" id="17" lemma="δέ" postag="b--------" ref="Leuven|0540-024|16|17" relation="COORD" sem=""/>
+  <word form="ἐν" head="21" id="18" lemma="ἐν" postag="r--------" ref="Leuven|0540-024|16|18" relation="AuxP" sem=""/>
+  <word form="τῇ" head="20" id="19" lemma="ὁ" postag="l-s---fd-" ref="Leuven|0540-024|16|19" relation="ATR" sem=""/>
+  <word form="τέχνῃ" head="18" id="20" lemma="τέχνη" postag="n-s---fd-" ref="Leuven|0540-024|16|20" relation="ATR" sem=""/>
+  <word form="εὐπορίας" head="17" id="21" lemma="εὐπορία" postag="n-s---fg-" presentation-after="," ref="Leuven|0540-024|16|21" relation="ATR_CO" sem=""/>
+  <word form="ὅτι" head="21" id="23" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|16|23" relation="AuxC" sem=""/>
+  <word form="δύναμαι" head="23" id="24" lemma="δύναμαι" postag="v1spie---" ref="Leuven|0540-024|16|24" relation="APOS" sem=""/>
+  <word form="συνεῖναι" head="24" id="25" lemma="σύνειμι" postag="v--pna---" ref="Leuven|0540-024|16|25" relation="OBJ" sem=""/>
+  <word form="δυναμένοις" head="27" id="26" lemma="δύναμαι" postag="v-pppemd-" ref="Leuven|0540-024|16|26" relation="ADV" sem=""/>
+  <word form="ἀνθρώποις" head="25" id="27" lemma="ἄνθρωπος" postag="n-p---md-" ref="Leuven|0540-024|16|27" relation="OBJ" sem=""/>
+  <word form="ἀναλίσκειν" head="26" id="28" lemma="ἀναλίσκω" postag="v--pna---" presentation-after="." ref="Leuven|0540-024|16|28" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="17">
+  <word form="τὴν" head="7" id="1" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|17|1" relation="ATR" sem=""/>
+  <word form="μὲν" head="8" id="2" lemma="μέν" postag="d--------" ref="Leuven|0540-024|17|2" relation="AuxY" sem=""/>
+  <word form="οὖν" head="20" id="3" lemma="οὖν" postag="d--------" ref="Leuven|0540-024|17|3" relation="AuxY" sem=""/>
+  <word form="ἐκ" head="7" id="4" lemma="ἐκ" postag="r--------" ref="Leuven|0540-024|17|4" relation="AuxP" sem=""/>
+  <word form="τῆς" head="6" id="5" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|17|5" relation="ATR" sem=""/>
+  <word form="τέχνης" head="4" id="6" lemma="τέχνη" postag="n-s---fg-" ref="Leuven|0540-024|17|6" relation="ATR" sem=""/>
+  <word form="εὐπορίαν" head="8" id="7" lemma="εὐπορία" postag="n-s---fa-" ref="Leuven|0540-024|17|7" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="21" id="8" lemma="καί" postag="b--------" ref="Leuven|0540-024|17|8" relation="COORD" sem=""/>
+  <word form="τὸν" head="13" id="9" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|17|9" relation="ATR" sem=""/>
+  <word form="ἄλλον" head="13" id="10" lemma="ἄλλος" postag="p-s---ma-" ref="Leuven|0540-024|17|10" relation="ATR" sem=""/>
+  <word form="τὸν" head="13" id="11" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|17|11" relation="ATR" sem=""/>
+  <word form="ἐμὸν" head="13" id="12" lemma="ἐμός" postag="a-s---ma-" ref="Leuven|0540-024|17|12" relation="ATR" sem=""/>
+  <word form="βίον" head="8" id="13" lemma="βίος" postag="n-s---ma-" presentation-after="," ref="Leuven|0540-024|17|13" relation="OBJ_CO" sem=""/>
+  <word form="οἷος" head="16" id="15" lemma="οἷος" postag="p-s---mn-" ref="Leuven|0540-024|17|15" relation="PNOM" sem=""/>
+  <word form="τυγχάνει" head="13" id="16" lemma="τυγχάνω" postag="v3spia---" presentation-after="," ref="Leuven|0540-024|17|16" relation="ATR" sem=""/>
+  <word form="πάντας" head="19" id="18" lemma="πᾶς" postag="a-p---ma-" ref="Leuven|0540-024|17|18" relation="ATR" sem=""/>
+  <word form="ὑμᾶς" head="21" id="19" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|17|19" relation="SBJ" sem=""/>
+  <word form="οἴμαι" head="0" id="20" lemma="οἶμαι" postag="v1spie---" ref="Leuven|0540-024|17|20" relation="PRED" sem=""/>
+  <word form="γιγνώσκειν" head="20" id="21" lemma="γιγνώσκω" postag="v--pna---" presentation-after="·" ref="Leuven|0540-024|17|21" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="18">
+  <word form="ὅμως" head="7" id="1" lemma="ὅμως" postag="d--------" ref="Leuven|0540-024|18|1" relation="AuxY" sem=""/>
+  <word form="δὲ" head="7" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|18|2" relation="AuxY" sem=""/>
+  <word form="κ-" head="4" id="3" lemma="καί" postag="d-------" ref="Leuven|0540-024|18|3" relation="AuxZ" sem=""/>
+  <word form="ἐγὼ" head="7" id="4" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|18|4" relation="SBJ" sem=""/>
+  <word form="διὰ" head="7" id="5" lemma="διά" postag="r--------" ref="Leuven|0540-024|18|5" relation="AuxP" sem=""/>
+  <word form="βραχέων" head="5" id="6" lemma="βραχύς" postag="a-p---ng-" ref="Leuven|0540-024|18|6" relation="ADV" sem="manner"/>
+  <word form="ἐρῶ" head="0" id="7" lemma="λέγω" postag="v1sfia---" presentation-after="." ref="Leuven|0540-024|18|7" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="19">
+  <word form="ἐμοὶ" head="6" id="1" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|19|1" relation="OBJ" sem="recipient"/>
+  <word form="γὰρ" head="20" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|19|2" relation="AuxY" sem=""/>
+  <word form="ὁ" head="5" id="3" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|19|3" relation="ATR" sem=""/>
+  <word form="μὲν" head="20" id="4" lemma="μέν" postag="d--------" ref="Leuven|0540-024|19|4" relation="AuxY" sem=""/>
+  <word form="πατὴρ" head="6" id="5" lemma="πατήρ" postag="n-s---mn-" ref="Leuven|0540-024|19|5" relation="SBJ" sem=""/>
+  <word form="κατέλιπεν" head="20" id="6" lemma="καταλείπω" postag="v3saia---" ref="Leuven|0540-024|19|6" relation="PRED_CO" sem=""/>
+  <word form="οὐδέν" head="6" id="7" lemma="οὐδείς" postag="p-s---na-" presentation-after="," ref="Leuven|0540-024|19|7" relation="OBJ" sem=""/>
+  <word form="τὴν" head="11" id="9" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|19|9" relation="ATR" sem=""/>
+  <word form="δὲ" head="20" id="10" lemma="δέ" postag="b--------" ref="Leuven|0540-024|19|10" relation="AuxY" sem=""/>
+  <word form="μητέρα" head="14" id="11" lemma="μήτηρ" postag="n-s---fa-" ref="Leuven|0540-024|19|11" relation="OBJ" sem=""/>
+  <word form="τελευτήσασαν" head="11" id="12" lemma="τελευτάω" postag="v-sapafa-" ref="Leuven|0540-024|19|12" relation="ADV" sem=""/>
+  <word form="πέπαυμαι" head="20" id="13" lemma="παύω" postag="v1srie---" ref="Leuven|0540-024|19|13" relation="PRED_CO" sem=""/>
+  <word form="τρέφων" head="13" id="14" lemma="τρέφω" postag="v-sppamn-" ref="Leuven|0540-024|19|14" relation="ADV" sem=""/>
+  <word form="τρίτον" head="16" id="15" lemma="τρίτος" postag="a-s---na-" ref="Leuven|0540-024|19|15" relation="ATR" sem=""/>
+  <word form="ἔτος" head="13" id="16" lemma="ἔτος" postag="n-s---na-" ref="Leuven|0540-024|19|16" relation="ADV" sem=""/>
+  <word form="τουτί" head="16" id="17" lemma="οὗτος" postag="p-s---na-" presentation-after="," ref="Leuven|0540-024|19|17" relation="ATR" sem=""/>
+  <word form="παῖδες" head="23" id="19" lemma="παῖς" postag="n-p---cn-" ref="Leuven|0540-024|19|19" relation="SBJ" sem=""/>
+  <word form="δέ" head="0" id="20" lemma="δέ" postag="b--------" ref="Leuven|0540-024|19|20" relation="COORD" sem=""/>
+  <word form="μοι" head="23" id="21" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|19|21" relation="PNOM" sem="possessor"/>
+  <word form="οὔπω" head="23" id="22" lemma="οὔπω" postag="d--------" ref="Leuven|0540-024|19|22" relation="AuxZ" sem=""/>
+  <word form="εἰσὶν" head="20" id="23" lemma="εἰμί" postag="v3ppia---" ref="Leuven|0540-024|19|23" relation="PRED_CO" sem=""/>
+  <word form="οἵ" head="26" id="24" lemma="ὅς" postag="p-p---mn-" ref="Leuven|0540-024|19|24" relation="SBJ" sem=""/>
+  <word form="με" head="26" id="25" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|19|25" relation="OBJ" sem=""/>
+  <word form="θεραπεύσουσι" head="19" id="26" lemma="θεραπεύω" postag="v3pfia---" presentation-after="." ref="Leuven|0540-024|19|26" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="20">
+  <word form="τέχνην" head="3" id="1" lemma="τέχνη" postag="n-s---fa-" ref="Leuven|0540-024|20|1" relation="OBJ" sem=""/>
+  <word form="δὲ" head="17" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|20|2" relation="AuxY" sem=""/>
+  <word form="κέκτημαι" head="17" id="3" lemma="κτάομαι" postag="v1srie---" ref="Leuven|0540-024|20|3" relation="PRED_CO" sem=""/>
+  <word form="βραχέα" head="6" id="4" lemma="βραχύς" postag="a-p---na-" ref="Leuven|0540-024|20|4" relation="ADV" sem=""/>
+  <word form="δυναμένην" head="1" id="5" lemma="δύναμαι" postag="v-sppefa-" ref="Leuven|0540-024|20|5" relation="ADV" sem=""/>
+  <word form="ὠφελεῖν" head="5" id="6" lemma="ὠφελέω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|20|6" relation="OBJ" sem=""/>
+  <word form="ἣν" head="13" id="8" lemma="ὅς" postag="p-s---fa-" ref="Leuven|0540-024|20|8" relation="OBJ" sem=""/>
+  <word form="αὐτὸς" head="13" id="9" lemma="αὐτός" postag="p-s---mn-" ref="Leuven|0540-024|20|9" relation="ADV" sem=""/>
+  <word form="μὲν" head="13" id="10" lemma="μέν" postag="d--------" ref="Leuven|0540-024|20|10" relation="AuxY" sem=""/>
+  <word form="ἤδη" head="12" id="11" lemma="ἤδη" postag="d--------" ref="Leuven|0540-024|20|11" relation="ADV" sem=""/>
+  <word form="χαλεπῶς" head="13" id="12" lemma="χαλεπός" postag="d--------" ref="Leuven|0540-024|20|12" relation="ADV" sem=""/>
+  <word form="ἐργάζομαι" head="1" id="13" lemma="ἐργάζομαι" postag="v1spie---" presentation-after="," ref="Leuven|0540-024|20|13" relation="ATR" sem=""/>
+  <word form="τὸν" head="16" id="15" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|20|15" relation="ATR" sem=""/>
+  <word form="διαδεξόμενον" head="21" id="16" lemma="διαδέχομαι" postag="v-sfpmma-" ref="Leuven|0540-024|20|16" relation="OBJ" sem=""/>
+  <word form="δ’" head="0" id="17" lemma="δέ" postag="b--------" ref="Leuven|0540-024|20|17" relation="COORD" sem=""/>
+  <word form="αὐτὴν" head="16" id="18" lemma="αὐτός" postag="p-s---fa-" ref="Leuven|0540-024|20|18" relation="OBJ" sem=""/>
+  <word form="οὔπω" head="20" id="19" lemma="οὔπω" postag="d--------" ref="Leuven|0540-024|20|19" relation="AuxZ" sem=""/>
+  <word form="δύναμαι" head="17" id="20" lemma="δύναμαι" postag="v1spie---" ref="Leuven|0540-024|20|20" relation="PRED_CO" sem=""/>
+  <word form="κτήσασθαι" head="20" id="21" lemma="κτάομαι" postag="v--anm---" presentation-after="." ref="Leuven|0540-024|20|21" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="21">
+  <word form="πρόσοδος" head="5" id="1" lemma="πρόσοδος" postag="n-s---fn-" ref="Leuven|0540-024|21|1" relation="SBJ" sem=""/>
+  <word form="δέ" head="5" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|21|2" relation="AuxY" sem=""/>
+  <word form="μοι" head="5" id="3" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|21|3" relation="PNOM" sem="possessor"/>
+  <word form="οὐκ" head="6" id="4" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|21|4" relation="AuxZ" sem=""/>
+  <word form="ἔστιν" head="0" id="5" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|21|5" relation="PRED" sem=""/>
+  <word form="ἄλλη" head="1" id="6" lemma="ἄλλος" postag="p-s---fn-" ref="Leuven|0540-024|21|6" relation="ATR" sem=""/>
+  <word form="πλὴν" head="6" id="7" lemma="πλήν" postag="r--------" ref="Leuven|0540-024|21|7" relation="AuxP" sem=""/>
+  <word form="ταύτης" head="7" id="8" lemma="οὗτος" postag="p-s---fg-" presentation-after="," ref="Leuven|0540-024|21|8" relation="ADV" sem=""/>
+  <word form="ἣν" head="12" id="10" lemma="ὅς" postag="p-s---fa-" ref="Leuven|0540-024|21|10" relation="OBJ" sem=""/>
+  <word form="ἂν" head="15" id="11" lemma="ἐάν" postag="c--------" ref="Leuven|0540-024|21|11" relation="AuxC" sem=""/>
+  <word form="ἀφέλησθέ" head="11" id="12" lemma="ἀφαιρέω" postag="v2pasa---" ref="Leuven|0540-024|21|12" relation="ADV" sem=""/>
+  <word form="με" head="12" id="13" lemma="ἐγώ" postag="p1s---ca-" presentation-after="," ref="Leuven|0540-024|21|13" relation="OBJ" sem=""/>
+  <word form="κινδυνεύσαιμ’" head="1" id="15" lemma="κινδυνεύω" postag="v1saoa---" ref="Leuven|0540-024|21|15" relation="ATR" sem=""/>
+  <word form="ἂν" head="15" id="16" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|21|16" relation="AuxY" sem=""/>
+  <word form="ὑπὸ" head="20" id="17" lemma="ὑπό" postag="r--------" ref="Leuven|0540-024|21|17" relation="AuxP" sem=""/>
+  <word form="τῇ" head="21" id="18" lemma="ὁ" postag="l-s---fd-" ref="Leuven|0540-024|21|18" relation="ATR" sem=""/>
+  <word form="δυσχερεστάτῃ" head="21" id="19" lemma="δυσχερής" postag="a-s---fds" ref="Leuven|0540-024|21|19" relation="ATR" sem=""/>
+  <word form="γενέσθαι" head="15" id="20" lemma="γίγνομαι" postag="v--anm---" ref="Leuven|0540-024|21|20" relation="OBJ" sem=""/>
+  <word form="τύχῃ" head="17" id="21" lemma="τύχη" postag="n-s---fd-" presentation-after="." ref="Leuven|0540-024|21|21" relation="PNOM" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="22">
+  <word form="μὴ" head="15" id="1" lemma="μή" postag="d--------" ref="Leuven|0540-024|22|1" relation="AuxZ" sem=""/>
+  <word form="τοίνυν" head="15" id="2" lemma="τοίνυν" postag="d--------" presentation-after="," ref="Leuven|0540-024|22|2" relation="AuxY" sem=""/>
+  <word form="ἐπειδή" head="15" id="4" lemma="ἐπεί" postag="c--------" ref="Leuven|0540-024|22|4" relation="AuxC" sem=""/>
+  <word form="γε" head="6" id="5" lemma="γε" postag="d--------" ref="Leuven|0540-024|22|5" relation="AuxZ" sem=""/>
+  <word form="ἔστιν" head="4" id="6" lemma="εἰμί" postag="v3spia---" presentation-after="," ref="Leuven|0540-024|22|6" relation="ADV" sem=""/>
+  <word form="ὦ" head="9" id="8" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|22|8" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="15" id="9" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|22|9" relation="ExD" sem=""/>
+  <word form="σῶσαί" head="6" id="11" lemma="σῴζω" postag="v--ana---" ref="Leuven|0540-024|22|11" relation="SBJ" sem=""/>
+  <word form="με" head="11" id="12" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|22|12" relation="OBJ" sem=""/>
+  <word form="δικαίως" head="11" id="13" lemma="δίκαιος" postag="d--------" presentation-after="," ref="Leuven|0540-024|22|13" relation="ADV" sem=""/>
+  <word form="ἀπολέσητε" head="0" id="15" lemma="ἀπόλλυμι" postag="v2pasa---" ref="Leuven|0540-024|22|15" relation="PRED" sem=""/>
+  <word form="ἀδίκως" head="15" id="16" lemma="ἄδικος" postag="d--------" presentation-after="·" ref="Leuven|0540-024|22|16" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="23">
+  <word form="μηδὲ" head="14" id="1" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|23|1" relation="AuxZ" sem=""/>
+  <word form="ἃ" head="8" id="2" lemma="ὅς" postag="p-p---na-" ref="Leuven|0540-024|23|2" relation="OBJ" sem=""/>
+  <word form="νεωτέρῳ" head="4" id="3" lemma="νέος" postag="a-s---mdc" ref="Leuven|0540-024|23|3" relation="PNOM_CO" sem="recipient"/>
+  <word form="καὶ" head="7" id="4" lemma="καί" postag="b--------" ref="Leuven|0540-024|23|4" relation="COORD" sem=""/>
+  <word form="μᾶλλον" head="6" id="5" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|23|5" relation="ADV" sem=""/>
+  <word form="ἐρρωμένῳ" head="4" id="6" lemma="ἐρρωμένος" postag="a-s---md-" ref="Leuven|0540-024|23|6" relation="PNOM_CO" sem=""/>
+  <word form="ὄντι" head="8" id="7" lemma="εἰμί" postag="v-sppamd-" ref="Leuven|0540-024|23|7" relation="OBJ" sem="recipient"/>
+  <word form="ἔδοτε" head="14" id="8" lemma="δίδωμι" postag="v2paia---" presentation-after="," ref="Leuven|0540-024|23|8" relation="OBJ" sem=""/>
+  <word form="πρεσβύτερον" head="11" id="10" lemma="πρέσβυς" postag="a-s---mac" ref="Leuven|0540-024|23|10" relation="PNOM_CO" sem=""/>
+  <word form="καὶ" head="13" id="11" lemma="καί" postag="b--------" ref="Leuven|0540-024|23|11" relation="COORD" sem=""/>
+  <word form="ἀσθενέστερον" head="11" id="12" lemma="ἀσθενής" postag="a-s---mac" ref="Leuven|0540-024|23|12" relation="PNOM_CO" sem=""/>
+  <word form="γιγνόμενον" head="14" id="13" lemma="γίγνομαι" postag="v-sppema-" ref="Leuven|0540-024|23|13" relation="OBJ" sem=""/>
+  <word form="ἀφέλησθε" head="0" id="14" lemma="ἀφαιρέω" postag="v2pasa---" presentation-after="·" ref="Leuven|0540-024|23|14" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="24">
+  <word form="μηδὲ" head="22" id="1" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|24|1" relation="AuxZ" sem=""/>
+  <word form="πρότερον" head="11" id="2" lemma="πρότερος" postag="d-------c" ref="Leuven|0540-024|24|2" relation="ADV" sem=""/>
+  <word form="καὶ" head="7" id="3" lemma="καί" postag="d--------" ref="Leuven|0540-024|24|3" relation="AuxZ" sem=""/>
+  <word form="περὶ" head="11" id="4" lemma="περί" postag="r--------" ref="Leuven|0540-024|24|4" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="7" id="5" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|24|5" relation="ATR" sem=""/>
+  <word form="οὐδὲν" head="8" id="6" lemma="οὐδείς" postag="p-s---na-" ref="Leuven|0540-024|24|6" relation="ATR" sem=""/>
+  <word form="ἔχοντας" head="4" id="7" lemma="ἔχω" postag="v-pppama-" ref="Leuven|0540-024|24|7" relation="ADV" sem="beneficiary/maleficiary"/>
+  <word form="κακὸν" head="7" id="8" lemma="κακός" postag="a-s---na-" ref="Leuven|0540-024|24|8" relation="OBJ" sem=""/>
+  <word form="ἐλεημονέστατοι" head="11" id="9" lemma="ἐλεήμων" postag="a-p---mns" ref="Leuven|0540-024|24|9" relation="PNOM" sem=""/>
+  <word form="δοκοῦντες" head="22" id="10" lemma="δοκέω" postag="v-pppamn-" ref="Leuven|0540-024|24|10" relation="ADV" sem=""/>
+  <word form="εἶναι" head="10" id="11" lemma="εἰμί" postag="v--pna---" ref="Leuven|0540-024|24|11" relation="OBJ" sem=""/>
+  <word form="νυνὶ" head="22" id="12" lemma="νυνί" postag="d--------" ref="Leuven|0540-024|24|12" relation="ADV" sem=""/>
+  <word form="διὰ" head="22" id="13" lemma="διά" postag="r--------" ref="Leuven|0540-024|24|13" relation="AuxP" sem=""/>
+  <word form="τοῦτον" head="13" id="14" lemma="οὗτος" postag="p-s---ma-" ref="Leuven|0540-024|24|14" relation="ADV" sem=""/>
+  <word form="τοὺς" head="20" id="15" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|24|15" relation="ATR" sem=""/>
+  <word form="καὶ" head="18" id="16" lemma="καί" postag="d--------" ref="Leuven|0540-024|24|16" relation="AuxZ" sem=""/>
+  <word form="τοῖς" head="18" id="17" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|24|17" relation="ATR" sem=""/>
+  <word form="ἐχθροῖς" head="19" id="18" lemma="ἐχθρός" postag="a-p---md-" ref="Leuven|0540-024|24|18" relation="ADV" sem=""/>
+  <word form="ἐλεινοὺς" head="20" id="19" lemma="ἐλεεινός" postag="a-p---ma-" ref="Leuven|0540-024|24|19" relation="PNOM" sem=""/>
+  <word form="ὄντας" head="22" id="20" lemma="εἰμί" postag="v-pppama-" ref="Leuven|0540-024|24|20" relation="OBJ" sem=""/>
+  <word form="ἀγρίως" head="22" id="21" lemma="ἄγριος" postag="d--------" ref="Leuven|0540-024|24|21" relation="ADV" sem=""/>
+  <word form="ἀποδέξησθε" head="0" id="22" lemma="ἀποδέχομαι" postag="v2pasm" presentation-after="·" ref="Leuven|0540-024|24|22" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="25">
+  <word form="μηδ’" head="13" id="1" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|25|1" relation="AuxZ" sem=""/>
+  <word form="ἐμὲ" head="4" id="2" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|25|2" relation="OBJ" sem=""/>
+  <word form="τολμήσαντες" head="13" id="3" lemma="τολμάω" postag="v-papamn-" ref="Leuven|0540-024|25|3" relation="ADV" sem=""/>
+  <word form="ἀδικῆσαι" head="3" id="4" lemma="ἀδικέω" postag="v--ana---" ref="Leuven|0540-024|25|4" relation="OBJ" sem=""/>
+  <word form="καὶ" head="7" id="5" lemma="καί" postag="d--------" ref="Leuven|0540-024|25|5" relation="AuxZ" sem=""/>
+  <word form="τοὺς" head="7" id="6" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|25|6" relation="ATR" sem=""/>
+  <word form="ἄλλους" head="12" id="7" lemma="ἄλλος" postag="p-p---ma-" ref="Leuven|0540-024|25|7" relation="SBJ" sem=""/>
+  <word form="τοὺς" head="7" id="8" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|25|8" relation="ATR" sem=""/>
+  <word form="ὁμοίως" head="11" id="9" lemma="ὅμοιος" postag="d--------" ref="Leuven|0540-024|25|9" relation="ADV" sem=""/>
+  <word form="ἐμοὶ" head="9" id="10" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|25|10" relation="ADV" sem="comparison"/>
+  <word form="διακειμένους" head="7" id="11" lemma="διάκειμαι" postag="v-prpema-" ref="Leuven|0540-024|25|11" relation="ATR" sem=""/>
+  <word form="ἀθυμῆσαι" head="13" id="12" lemma="ἀθυμέω" postag="v--ana---" ref="Leuven|0540-024|25|12" relation="OBJ" sem=""/>
+  <word form="ποιήσητε" head="0" id="13" lemma="ποιέω" postag="v2pasa---" presentation-after="." ref="Leuven|0540-024|25|13" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="26">
+  <word form="καὶ" head="5" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|26|1" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="5" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|26|2" relation="AuxY" sem=""/>
+  <word form="ἂν" head="5" id="3" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|26|3" relation="AuxY" sem=""/>
+  <word form="ἄτοπον" head="5" id="4" lemma="ἄτοπος" postag="a-s---nn-" ref="Leuven|0540-024|26|4" relation="PNOM" sem=""/>
+  <word form="εἴη" head="0" id="5" lemma="εἰμί" postag="v3spoa---" presentation-after="," ref="Leuven|0540-024|26|5" relation="PRED" sem=""/>
+  <word form="ὦ" head="8" id="7" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|26|7" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="5" id="8" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|26|8" relation="ExD" sem=""/>
+  <word form="εἰ" head="5" id="10" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|26|10" relation="AuxC" sem=""/>
+  <word form="ὅτε" head="21" id="11" lemma="ὅτε" postag="c--------" ref="Leuven|0540-024|26|11" relation="AuxC" sem=""/>
+  <word form="μὲν" head="28" id="12" lemma="μέν" postag="d--------" ref="Leuven|0540-024|26|12" relation="AuxY" sem=""/>
+  <word form="ἁπλῆ" head="15" id="13" lemma="ἁπλόος" postag="a-s---fn-" ref="Leuven|0540-024|26|13" relation="PNOM" sem=""/>
+  <word form="μοι" head="15" id="14" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|26|14" relation="ADV" sem=""/>
+  <word form="ἦν" head="11" id="15" lemma="εἰμί" postag="v3siia---" ref="Leuven|0540-024|26|15" relation="ADV" sem=""/>
+  <word form="ἡ" head="17" id="16" lemma="ὁ" postag="l-s---fn-" ref="Leuven|0540-024|26|16" relation="ATR" sem=""/>
+  <word form="συμφορά" head="15" id="17" lemma="συμφορά" postag="n-s---fn-" presentation-after="," ref="Leuven|0540-024|26|17" relation="SBJ" sem=""/>
+  <word form="τότε" head="21" id="19" lemma="τότε" postag="d--------" ref="Leuven|0540-024|26|19" relation="ADV" sem=""/>
+  <word form="μὲν" head="21" id="20" lemma="μέν" postag="d--------" ref="Leuven|0540-024|26|20" relation="AuxY" sem=""/>
+  <word form="φαινοίμην" head="28" id="21" lemma="φαίνω" postag="v1spoe---" ref="Leuven|0540-024|26|21" relation="ADV_CO" sem=""/>
+  <word form="λαμβάνων" head="21" id="22" lemma="λαμβάνω" postag="v-sppamn-" ref="Leuven|0540-024|26|22" relation="ADV" sem=""/>
+  <word form="τὸ" head="24" id="23" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|26|23" relation="ATR" sem=""/>
+  <word form="ἀργύριον" head="22" id="24" lemma="ἀργύριον" postag="n-s---na-" ref="Leuven|0540-024|26|24" relation="OBJ" sem=""/>
+  <word form="τοῦτο" head="24" id="25" lemma="οὗτος" postag="p-s---na-" presentation-after="," ref="Leuven|0540-024|26|25" relation="ATR" sem=""/>
+  <word form="νῦν" head="43" id="27" lemma="νῦν" postag="d--------" ref="Leuven|0540-024|26|27" relation="ADV" sem=""/>
+  <word form="δ’" head="10" id="28" lemma="δέ" postag="b--------" ref="Leuven|0540-024|26|28" relation="COORD" sem=""/>
+  <word form="ἐπειδὴ" head="43" id="29" lemma="ἐπεί" postag="c--------" ref="Leuven|0540-024|26|29" relation="AuxC" sem=""/>
+  <word form="καὶ" head="34" id="30" lemma="καί" postag="b--------" ref="Leuven|0540-024|26|30" relation="AuxY" sem=""/>
+  <word form="γῆρας" head="34" id="31" lemma="γῆρας" postag="n-s---nn-" ref="Leuven|0540-024|26|31" relation="SBJ_CO" sem=""/>
+  <word form="καὶ" head="34" id="32" lemma="καί" postag="b--------" ref="Leuven|0540-024|26|32" relation="AuxY" sem=""/>
+  <word form="νόσοι" head="34" id="33" lemma="νόσος" postag="n-p---fn-" ref="Leuven|0540-024|26|33" relation="SBJ_CO" sem=""/>
+  <word form="καὶ" head="39" id="34" lemma="καί" postag="b--------" ref="Leuven|0540-024|26|34" relation="COORD" sem=""/>
+  <word form="τὰ" head="38" id="35" lemma="ὁ" postag="l-p---nn-" ref="Leuven|0540-024|26|35" relation="ATR" sem=""/>
+  <word form="τούτοις" head="37" id="36" lemma="οὗτος" postag="p-p---nd-" ref="Leuven|0540-024|26|36" relation="OBJ" sem=""/>
+  <word form="ἑπόμενα" head="38" id="37" lemma="ἕπομαι" postag="v-pppenn-" ref="Leuven|0540-024|26|37" relation="ATR" sem=""/>
+  <word form="κακὰ" head="34" id="38" lemma="κακός" postag="a-p---nn-" ref="Leuven|0540-024|26|38" relation="SBJ_CO" sem=""/>
+  <word form="προσγίγνεταί" head="29" id="39" lemma="προσγίγνομαι" postag="v3spie---" ref="Leuven|0540-024|26|39" relation="ADV" sem=""/>
+  <word form="μοι" head="39" id="40" lemma="ἐγώ" postag="p1s---cd-" presentation-after="," ref="Leuven|0540-024|26|40" relation="OBJ" sem=""/>
+  <word form="τότε" head="43" id="42" lemma="τότε" postag="d--------" ref="Leuven|0540-024|26|42" relation="ADV" sem=""/>
+  <word form="ἀφαιρεθείην" head="28" id="43" lemma="ἀφαιρέω" postag="v1saop---" presentation-after="." ref="Leuven|0540-024|26|43" relation="ADV_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="27">
+  <word form="δοκεῖ" head="0" id="1" lemma="δοκέω" postag="v3spia---" ref="Leuven|0540-024|27|1" relation="PRED" sem=""/>
+  <word form="δέ" head="1" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|27|2" relation="AuxY" sem=""/>
+  <word form="μοι" head="1" id="3" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|27|3" relation="OBJ" sem=""/>
+  <word form="τῆς" head="5" id="4" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|27|4" relation="ATR" sem=""/>
+  <word form="πενίας" head="9" id="5" lemma="πενία" postag="n-s---fg-" ref="Leuven|0540-024|27|5" relation="ATR" sem=""/>
+  <word form="τῆς" head="5" id="6" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|27|6" relation="ATR" sem=""/>
+  <word form="ἐμῆς" head="5" id="7" lemma="ἐμός" postag="a-s---fg-" ref="Leuven|0540-024|27|7" relation="ATR" sem=""/>
+  <word form="τὸ" head="9" id="8" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|27|8" relation="ATR" sem=""/>
+  <word form="μέγεθος" head="13" id="9" lemma="μέγεθος" postag="n-s---na-" ref="Leuven|0540-024|27|9" relation="OBJ" sem=""/>
+  <word form="ὁ" head="11" id="10" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|27|10" relation="ATR" sem=""/>
+  <word form="κατήγορος" head="1" id="11" lemma="κατήγορος" postag="n-s---mn-" ref="Leuven|0540-024|27|11" relation="SBJ" sem=""/>
+  <word form="ἂν" head="13" id="12" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|27|12" relation="AuxY" sem=""/>
+  <word form="ἐπιδεῖξαι" head="1" id="13" lemma="ἐπιδείκνυμι" postag="v--ana---" ref="Leuven|0540-024|27|13" relation="OBJ" sem=""/>
+  <word form="σαφέστατα" head="13" id="14" lemma="σαφής" postag="a-p---nas" ref="Leuven|0540-024|27|14" relation="ADV" sem=""/>
+  <word form="μόνος" head="1" id="15" lemma="μόνος" postag="a-s---mn-" ref="Leuven|0540-024|27|15" relation="ADV" sem=""/>
+  <word form="ἀνθρώπων" head="15" id="16" lemma="ἄνθρωπος" postag="n-p---mg-" presentation-after="." ref="Leuven|0540-024|27|16" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="28">
+  <word form="εἰ" head="14" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|28|1" relation="AuxC" sem=""/>
+  <word form="γὰρ" head="14" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|28|2" relation="AuxY" sem=""/>
+  <word form="ἐγὼ" head="7" id="3" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|28|3" relation="SBJ" sem=""/>
+  <word form="κατασταθεὶς" head="7" id="4" lemma="καθίστημι" postag="v-sappmn-" ref="Leuven|0540-024|28|4" relation="ADV" sem=""/>
+  <word form="χορηγὸς" head="4" id="5" lemma="χορηγός" postag="n-s---mn-" ref="Leuven|0540-024|28|5" relation="PNOM" sem=""/>
+  <word form="τραγῳδοῖς" head="5" id="6" lemma="τραγῳδός" postag="n-p---md-" ref="Leuven|0540-024|28|6" relation="ATR" sem=""/>
+  <word form="προκαλεσαίμην" head="1" id="7" lemma="προκαλέω" postag="v1saom---" ref="Leuven|0540-024|28|7" relation="ADV" sem=""/>
+  <word form="αὐτὸν" head="7" id="8" lemma="αὐτός" postag="p-s---ma-" ref="Leuven|0540-024|28|8" relation="OBJ" sem=""/>
+  <word form="εἰς" head="7" id="9" lemma="εἰς" postag="r--------" ref="Leuven|0540-024|28|9" relation="AuxP" sem=""/>
+  <word form="ἀντίδοσιν" head="9" id="10" lemma="ἀντίδοσις" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|28|10" relation="OBJ" sem=""/>
+  <word form="δεκάκις" head="14" id="12" lemma="δεκάκις" postag="d--------" ref="Leuven|0540-024|28|12" relation="ADV" sem=""/>
+  <word form="ἂν" head="14" id="13" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|28|13" relation="AuxY" sem=""/>
+  <word form="ἕλοιτο" head="0" id="14" lemma="αἱρέω" postag="v3saom---" ref="Leuven|0540-024|28|14" relation="ADV" sem=""/>
+  <word form="χορηγῆσαι" head="14" id="15" lemma="χορηγέω" postag="v--ana---" ref="Leuven|0540-024|28|15" relation="OBJ" sem=""/>
+  <word form="μᾶλλον" head="15" id="16" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|28|16" relation="ADV" sem=""/>
+  <word form="ἢ" head="16" id="17" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|28|17" relation="AuxC" sem=""/>
+  <word form="ἀντιδοῦναι" head="17" id="18" lemma="ἀντιδίδωμι" postag="v--ana---" ref="Leuven|0540-024|28|18" relation="ADV" sem=""/>
+  <word form="ἅπαξ" head="18" id="19" lemma="ἅπαξ" postag="d--------" presentation-after="." ref="Leuven|0540-024|28|19" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="29">
+  <word form="καὶ" head="5" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|29|1" relation="AuxY" sem=""/>
+  <word form="πῶς" head="5" id="2" lemma="πῶς" postag="d--------" ref="Leuven|0540-024|29|2" relation="ADV" sem=""/>
+  <word form="οὐ" head="5" id="3" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|29|3" relation="AuxZ" sem=""/>
+  <word form="δεινόν" head="5" id="4" lemma="δεινός" postag="a-s---nn-" ref="Leuven|0540-024|29|4" relation="PNOM" sem=""/>
+  <word form="ἐστι" head="0" id="5" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|29|5" relation="PRED" sem=""/>
+  <word form="νῦν" head="8" id="6" lemma="νῦν" postag="d--------" ref="Leuven|0540-024|29|6" relation="ADV" sem=""/>
+  <word form="μὲν" head="21" id="7" lemma="μέν" postag="d--------" ref="Leuven|0540-024|29|7" relation="AuxY" sem=""/>
+  <word form="κατηγορεῖν" head="21" id="8" lemma="κατηγορέω" postag="v--pna---" ref="Leuven|0540-024|29|8" relation="SBJ_CO" sem=""/>
+  <word form="ὡς" head="8" id="9" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|29|9" relation="AuxC" sem=""/>
+  <word form="διὰ" head="15" id="10" lemma="διά" postag="r--------" ref="Leuven|0540-024|29|10" relation="AuxP" sem=""/>
+  <word form="πολλὴν" head="12" id="11" lemma="πολύς" postag="a-s---fa-" ref="Leuven|0540-024|29|11" relation="ATR" sem=""/>
+  <word form="εὐπορίαν" head="10" id="12" lemma="εὐπορία" postag="n-s---fa-" ref="Leuven|0540-024|29|12" relation="ADV" sem=""/>
+  <word form="ἐξ" head="16" id="13" lemma="ἐκ" postag="r--------" ref="Leuven|0540-024|29|13" relation="AuxP" sem=""/>
+  <word form="ἴσου" head="13" id="14" lemma="ἴσος" postag="a-s---ng-" ref="Leuven|0540-024|29|14" relation="ADV" sem=""/>
+  <word form="δύναμαι" head="9" id="15" lemma="δύναμαι" postag="v1spie---" ref="Leuven|0540-024|29|15" relation="OBJ" sem=""/>
+  <word form="συνεῖναι" head="15" id="16" lemma="σύνειμι" postag="v--pna---" ref="Leuven|0540-024|29|16" relation="OBJ" sem=""/>
+  <word form="τοῖς" head="18" id="17" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|29|17" relation="ATR" sem=""/>
+  <word form="πλουσιωτάτοις" head="16" id="18" lemma="πλούσιος" postag="a-p---mds" presentation-after="," ref="Leuven|0540-024|29|18" relation="OBJ" sem=""/>
+  <word form="εἰ" head="30" id="20" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|29|20" relation="AuxC" sem=""/>
+  <word form="δὲ" head="5" id="21" lemma="δέ" postag="b--------" ref="Leuven|0540-024|29|21" relation="COORD" sem=""/>
+  <word form="ὧν" head="24" id="22" lemma="ὅς" postag="p-p---ng-" ref="Leuven|0540-024|29|22" relation="OBJ" sem=""/>
+  <word form="ἐγὼ" head="24" id="23" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|29|23" relation="SBJ" sem=""/>
+  <word form="λέγω" head="26" id="24" lemma="λέγω" postag="v1spia---" ref="Leuven|0540-024|29|24" relation="ATR" sem=""/>
+  <word form="τύχοι" head="20" id="25" lemma="τυγχάνω" postag="v3saoa---" ref="Leuven|0540-024|29|25" relation="ADV" sem=""/>
+  <word form="τι" head="25" id="26" lemma="τις" postag="p-s---nn-" ref="Leuven|0540-024|29|26" relation="SBJ" sem=""/>
+  <word form="γενόμενον" head="25" id="27" lemma="γίγνομαι" postag="v-sapmnn-" presentation-after="," ref="Leuven|0540-024|29|27" relation="SBJ" sem=""/>
+  <word form="τοιοῦτον" head="30" id="29" lemma="τοιοῦτος" postag="p-s---ma-" ref="Leuven|0540-024|29|29" relation="PNOM" sem=""/>
+  <word form="εἶναι" head="21" id="30" lemma="εἰμί" postag="v--pna---" presentation-after=";" ref="Leuven|0540-024|29|30" relation="SBJ_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="30">
+  <word form="καὶ" head="5" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|30|1" relation="AuxY" sem=""/>
+  <word form="τί" head="5" id="2" lemma="τίς" postag="p-s---nn-" ref="Leuven|0540-024|30|2" relation="SBJ" sem=""/>
+  <word form="πονηρότερον" head="5" id="3" lemma="πονηρός" postag="a-s---nnc" presentation-after=";" ref="Leuven|0540-024|30|3" relation="PNOM" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="5" insertion_id="0004e" lemma="ἐστι" postag="v3spia---" ref="Leuven|0540-024|30|5" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="31">
+  <word form="περὶ" head="27" id="1" lemma="περί" postag="r--------" ref="Leuven|0540-024|31|1" relation="AuxP" sem=""/>
+  <word form="δὲ" head="27" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|31|2" relation="AuxY" sem=""/>
+  <word form="τῆς" head="5" id="3" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|31|3" relation="ATR" sem=""/>
+  <word form="ἐμῆς" head="5" id="4" lemma="ἐμός" postag="a-s---fg-" ref="Leuven|0540-024|31|4" relation="ATR" sem=""/>
+  <word form="ἱππικῆς" head="1" id="5" lemma="ἱππικός" postag="a-s---fg-" presentation-after="," ref="Leuven|0540-024|31|5" relation="ADV" sem=""/>
+  <word form="ἧς" head="10" id="7" lemma="ὅς" postag="p-s---fg-" ref="Leuven|0540-024|31|7" relation="OBJ" sem=""/>
+  <word form="οὗτος" head="9" id="8" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|31|8" relation="SBJ" sem=""/>
+  <word form="ἐτόλμησε" head="5" id="9" lemma="τολμάω" postag="v3saia---" ref="Leuven|0540-024|31|9" relation="ATR" sem=""/>
+  <word form="μνησθῆναι" head="9" id="10" lemma="μιμνῄσκω" postag="v--anp---" ref="Leuven|0540-024|31|10" relation="OBJ" sem=""/>
+  <word form="πρὸς" head="10" id="11" lemma="πρός" postag="r--------" ref="Leuven|0540-024|31|11" relation="AuxP" sem=""/>
+  <word form="ὑμᾶς" head="11" id="12" lemma="σύ" postag="p2p---ca-" presentation-after="," ref="Leuven|0540-024|31|12" relation="ADV" sem="recipient"/>
+  <word form="οὔτε" head="18" id="14" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|31|14" relation="AuxY" sem=""/>
+  <word form="τὴν" head="16" id="15" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|31|15" relation="ATR" sem=""/>
+  <word form="τύχην" head="17" id="16" lemma="τύχη" postag="n-s---fa-" ref="Leuven|0540-024|31|16" relation="OBJ" sem=""/>
+  <word form="δείσας" head="18" id="17" lemma="δείδω" postag="v-sapamn-" ref="Leuven|0540-024|31|17" relation="ADV_CO" sem=""/>
+  <word form="οὔτε" head="9" id="18" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|31|18" relation="COORD" sem=""/>
+  <word form="ὑμᾶς" head="20" id="19" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|31|19" relation="OBJ" sem=""/>
+  <word form="αἰσχυνθείς" head="18" id="20" lemma="αἰσχύνω" postag="v-sappmn-" presentation-after="," ref="Leuven|0540-024|31|20" relation="ADV_CO" sem=""/>
+  <word form="οὐ" head="23" id="22" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|31|22" relation="AuxZ" sem=""/>
+  <word form="πολὺς" head="27" id="23" lemma="πολύς" postag="a-s---mn-" ref="Leuven|0540-024|31|23" relation="PNOM" sem=""/>
+  <word form="ὁ" head="25" id="24" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|31|24" relation="ATR" sem=""/>
+  <word form="λόγος" head="27" id="25" lemma="λόγος" postag="n-s---mn-" presentation-after="." ref="Leuven|0540-024|31|25" relation="SBJ" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="27" insertion_id="0026e" lemma="_" postag="---------" ref="Leuven|0540-024|31|27" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="32">
+  <word form="ἐγὼ" head="8" id="1" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|32|1" relation="SBJ" sem=""/>
+  <word form="γὰρ" head="8" id="2" lemma="γάρ" postag="d--------" presentation-after="," ref="Leuven|0540-024|32|2" relation="AuxY" sem=""/>
+  <word form="ὦ" head="5" id="4" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|32|4" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="8" id="5" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|32|5" relation="ExD" sem=""/>
+  <word form="πάντας" head="10" id="7" lemma="πᾶς" postag="a-p---ma-" ref="Leuven|0540-024|32|7" relation="ATR" sem=""/>
+  <word form="οἶμαι" head="0" id="8" lemma="οἴομαι" postag="v1spie---" ref="Leuven|0540-024|32|8" relation="PRED" sem=""/>
+  <word form="τοὺς" head="10" id="9" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|32|9" relation="ATR" sem=""/>
+  <word form="ἔχοντάς" head="15" id="10" lemma="ἔχω" postag="v-pppama-" ref="Leuven|0540-024|32|10" relation="SBJ" sem=""/>
+  <word form="τι" head="12" id="11" lemma="τις" postag="p-s---na-" ref="Leuven|0540-024|32|11" relation="ATR" sem=""/>
+  <word form="δυστύχημα" head="10" id="12" lemma="δυστύχημα" postag="n-s---na-" ref="Leuven|0540-024|32|12" relation="OBJ" sem=""/>
+  <word form="τοῦτο" head="14" id="13" lemma="οὗτος" postag="p-s---na-" ref="Leuven|0540-024|32|13" relation="OBJ" sem=""/>
+  <word form="ζητεῖν" head="15" id="14" lemma="ζητέω" postag="v--pna---" ref="Leuven|0540-024|32|14" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="8" id="15" lemma="καί" postag="b--------" ref="Leuven|0540-024|32|15" relation="COORD" sem=""/>
+  <word form="τοῦτο" head="17" id="16" lemma="οὗτος" postag="p-s---na-" ref="Leuven|0540-024|32|16" relation="OBJ" sem=""/>
+  <word form="φιλοσοφεῖν" head="15" id="17" lemma="φιλοσοφέω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|32|17" relation="OBJ_CO" sem=""/>
+  <word form="ὅπως" head="15" id="19" lemma="ὅπως" postag="c--------" ref="Leuven|0540-024|32|19" relation="AuxC" sem=""/>
+  <word form="ὡς" head="21" id="20" lemma="ὡς" postag="d--------" ref="Leuven|0540-024|32|20" relation="AuxZ" sem=""/>
+  <word form="ἀλυπότατα" head="22" id="21" lemma="ἄλυπος" postag="a-p---nas" ref="Leuven|0540-024|32|21" relation="ADV" sem=""/>
+  <word form="μεταχειριοῦνται" head="19" id="22" lemma="μεταχειρίζω" postag="v3pfim---" ref="Leuven|0540-024|32|22" relation="ADV" sem=""/>
+  <word form="τὸ" head="25" id="23" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|32|23" relation="ATR" sem=""/>
+  <word form="συμβεβηκὸς" head="25" id="24" lemma="συμβαίνω" postag="v-srpana-" ref="Leuven|0540-024|32|24" relation="ATR" sem=""/>
+  <word form="πάθος" head="22" id="25" lemma="πάθος" postag="n-s---na-" presentation-after="." ref="Leuven|0540-024|32|25" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="33">
+  <word form="ὧν" head="2" id="1" lemma="ὅς" postag="p-p---mg-" ref="Leuven|0540-024|33|1" relation="ATR" sem=""/>
+  <word form="εἷς" head="21" id="2" lemma="εἷς" postag="m-s---mn-" ref="Leuven|0540-024|33|2" relation="PNOM" sem=""/>
+  <word form="ἐγώ" head="21" id="3" lemma="ἐγώ" postag="p1s---cn-" presentation-after="," ref="Leuven|0540-024|33|3" relation="SBJ" sem=""/>
+  <word form="καὶ" head="0" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|33|5" relation="COORD" sem=""/>
+  <word form="περιπεπτωκὼς" head="12" id="6" lemma="περιπίπτω" postag="v-srpamn-" ref="Leuven|0540-024|33|6" relation="ADV" sem="time"/>
+  <word form="τοιαύτῃ" head="8" id="7" lemma="τοιοῦτος" postag="p-s---fd-" ref="Leuven|0540-024|33|7" relation="ATR" sem=""/>
+  <word form="συμφορᾷ" head="6" id="8" lemma="συμφορά" postag="n-s---fd-" ref="Leuven|0540-024|33|8" relation="ADV" sem=""/>
+  <word form="ταύτην" head="12" id="9" lemma="οὗτος" postag="p-s---fa-" ref="Leuven|0540-024|33|9" relation="OBJ" sem=""/>
+  <word form="ἐμαυτῷ" head="12" id="10" lemma="ἐμαυτοῦ" postag="p-s---md-" ref="Leuven|0540-024|33|10" relation="ADV" sem="beneficiary/maleficiary"/>
+  <word form="ῥᾳστώνην" head="12" id="11" lemma="ῥᾳστώνη" postag="n-s---fa-" ref="Leuven|0540-024|33|11" relation="OCOMP" sem=""/>
+  <word form="ἐξηῦρον" head="5" id="12" lemma="ἐξευρίσκω" postag="v1saia---" ref="Leuven|0540-024|33|12" relation="PRED_CO" sem=""/>
+  <word form="εἰς" head="12" id="13" lemma="εἰς" postag="r--------" ref="Leuven|0540-024|33|13" relation="AuxP" sem=""/>
+  <word form="τὰς" head="15" id="14" lemma="ὁ" postag="l-p---fa-" ref="Leuven|0540-024|33|14" relation="ATR" sem=""/>
+  <word form="ὁδοὺς" head="13" id="15" lemma="ὁδός" postag="n-p---fa-" ref="Leuven|0540-024|33|15" relation="OBJ" sem=""/>
+  <word form="τὰς" head="15" id="16" lemma="ὁ" postag="l-p---fa-" ref="Leuven|0540-024|33|16" relation="ATR" sem=""/>
+  <word form="μακροτέρας" head="15" id="17" lemma="μακρός" postag="a-p---fac" ref="Leuven|0540-024|33|17" relation="ATR" sem=""/>
+  <word form="τῶν" head="19" id="18" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|33|18" relation="ATR" sem=""/>
+  <word form="ἀναγκαίων" head="15" id="19" lemma="ἀναγκαῖος" postag="a-p---fg-" presentation-after="." ref="Leuven|0540-024|33|19" relation="ATR" sem="totality"/>
+  <word artificial="elliptic" form="εἰμί" head="5" id="21" insertion_id="0001e" lemma="_" postag="---------" ref="Leuven|0540-024|33|21" relation="PRED_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="34">
+  <word form="ὃ" head="31" id="1" lemma="ὅς" postag="p-s---na-" ref="Leuven|0540-024|34|1" relation="SBJ" sem=""/>
+  <word form="δὲ" head="28" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|34|2" relation="AuxY" sem=""/>
+  <word form="μέγιστον" head="8" id="3" lemma="μέγας" postag="a-s---nns" presentation-after="," ref="Leuven|0540-024|34|3" relation="ATR" sem=""/>
+  <word form="ὦ" head="6" id="5" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|34|5" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="28" id="6" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|34|6" relation="ExD" sem=""/>
+  <word form="τεκμήριον" head="31" id="8" lemma="τεκμήριον" postag="n-s---nn-" ref="Leuven|0540-024|34|8" relation="PNOM" sem=""/>
+  <word form="ὅτι" head="8" id="9" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|34|9" relation="AuxC" sem=""/>
+  <word form="διὰ" head="13" id="10" lemma="διά" postag="r--------" ref="Leuven|0540-024|34|10" relation="AuxP" sem=""/>
+  <word form="τὴν" head="12" id="11" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|34|11" relation="ATR" sem=""/>
+  <word form="συμφορὰν" head="10" id="12" lemma="συμφορά" postag="n-s---fa-" ref="Leuven|0540-024|34|12" relation="ADV_CO" sem=""/>
+  <word form="ἀλλ’" head="26" id="13" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|34|13" relation="COORD" sem=""/>
+  <word form="οὐ" head="17" id="14" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|34|14" relation="AuxZ" sem=""/>
+  <word form="διὰ" head="13" id="15" lemma="διά" postag="r--------" ref="Leuven|0540-024|34|15" relation="AuxP" sem=""/>
+  <word form="τὴν" head="17" id="16" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|34|16" relation="ATR" sem=""/>
+  <word form="ὕβριν" head="15" id="17" lemma="ὕβρις" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|34|17" relation="ADV_CO" sem=""/>
+  <word form="ὡς" head="17" id="19" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|34|19" relation="AuxC" sem=""/>
+  <word form="οὗτός" head="21" id="20" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|34|20" relation="SBJ" sem=""/>
+  <word form="φησιν" head="19" id="21" lemma="φημί" postag="v3spia---" presentation-after="," ref="Leuven|0540-024|34|21" relation="ADV" sem="comparison"/>
+  <word form="ἐπὶ" head="26" id="23" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|34|23" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="25" id="24" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|34|24" relation="ATR" sem=""/>
+  <word form="ἵππους" head="23" id="25" lemma="ἵππος" postag="n-p---ma-" ref="Leuven|0540-024|34|25" relation="OBJ" sem=""/>
+  <word form="ἀναβαίνω" head="9" id="26" lemma="ἀναβαίνω" postag="v1spia---" ref="Leuven|0540-024|34|26" relation="OBJ" sem=""/>
+  <word form="ῥᾴδιόν" head="28" id="27" lemma="ῥᾴδιος" postag="a-s---nn-" ref="Leuven|0540-024|34|27" relation="PNOM" sem=""/>
+  <word form="ἐστι" head="0" id="28" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|34|28" relation="PRED" sem=""/>
+  <word form="μαθεῖν" head="27" id="29" lemma="μανθάνω" postag="v--ana---" presentation-after="·" ref="Leuven|0540-024|34|29" relation="ADV" sem="goal"/>
+  <word artificial="elliptic" form="[0]" head="28" id="31" insertion_id="0007e" lemma="" postag="" ref="Leuven|0540-024|34|31" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="35">
+  <word form="εἰ" head="9" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|35|1" relation="AuxC" sem=""/>
+  <word form="γὰρ" head="9" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|35|2" relation="AuxY" sem=""/>
+  <word form="ἐκεκτήμην" head="1" id="3" lemma="κτάομαι" postag="v1slie---" ref="Leuven|0540-024|35|3" relation="ADV" sem=""/>
+  <word form="οὐσίαν" head="3" id="4" lemma="οὐσία" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|35|4" relation="OBJ" sem=""/>
+  <word form="ἐπ’" head="9" id="6" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|35|6" relation="AuxP" sem=""/>
+  <word form="ἀστράβης" head="6" id="7" lemma="ἀστράβη" postag="n-s---fg-" ref="Leuven|0540-024|35|7" relation="ADV" sem="instrument"/>
+  <word form="ἂν" head="9" id="8" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|35|8" relation="AuxY" sem=""/>
+  <word form="ὠχούμην" head="11" id="9" lemma="ὀχέω" postag="v1siie---" presentation-after="," ref="Leuven|0540-024|35|9" relation="PRED_CO" sem=""/>
+  <word form="ἀλλ’" head="0" id="11" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|35|11" relation="COORD" sem=""/>
+  <word form="οὐκ" head="17" id="12" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|35|12" relation="AuxZ" sem=""/>
+  <word form="ἐπὶ" head="17" id="13" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|35|13" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="16" id="14" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|35|14" relation="ATR" sem=""/>
+  <word form="ἀλλοτρίους" head="16" id="15" lemma="ἀλλότριος" postag="a-p---ma-" ref="Leuven|0540-024|35|15" relation="ATR" sem=""/>
+  <word form="ἵππους" head="13" id="16" lemma="ἵππος" postag="n-p---ma-" ref="Leuven|0540-024|35|16" relation="OBJ" sem=""/>
+  <word form="ἀνέβαινον" head="11" id="17" lemma="ἀναβαίνω" postag="v1siia---" presentation-after="·" ref="Leuven|0540-024|35|17" relation="PRED_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="36">
+  <word form="νυνὶ" head="12" id="1" lemma="νυνί" postag="d--------" ref="Leuven|0540-024|36|1" relation="ADV" sem=""/>
+  <word form="δ’" head="12" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|36|2" relation="AuxY" sem=""/>
+  <word form="ἐπειδὴ" head="12" id="3" lemma="ἐπειδή" postag="c--------" ref="Leuven|0540-024|36|3" relation="AuxC" sem=""/>
+  <word form="τοιοῦτον" head="7" id="4" lemma="τοιοῦτος" postag="p-s---na-" ref="Leuven|0540-024|36|4" relation="OBJ" sem=""/>
+  <word form="οὐ" head="6" id="5" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|36|5" relation="AuxZ" sem=""/>
+  <word form="δύναμαι" head="3" id="6" lemma="δύναμαι" postag="v1spie---" ref="Leuven|0540-024|36|6" relation="ADV" sem=""/>
+  <word form="κτήσασθαι" head="6" id="7" lemma="κτάομαι" postag="v--anm---" presentation-after="," ref="Leuven|0540-024|36|7" relation="OBJ" sem=""/>
+  <word form="τοῖς" head="11" id="9" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|36|9" relation="ATR" sem=""/>
+  <word form="ἀλλοτρίοις" head="11" id="10" lemma="ἀλλότριος" postag="a-p---md-" ref="Leuven|0540-024|36|10" relation="ATR" sem=""/>
+  <word form="ἵπποις" head="13" id="11" lemma="ἵππος" postag="n-p---md-" ref="Leuven|0540-024|36|11" relation="OBJ" sem=""/>
+  <word form="ἀναγκάζομαι" head="0" id="12" lemma="ἀναγκάζω" postag="v1spie---" ref="Leuven|0540-024|36|12" relation="PRED" sem=""/>
+  <word form="χρῆσθαι" head="12" id="13" lemma="χράω" postag="v--pne---" ref="Leuven|0540-024|36|13" relation="OBJ" sem=""/>
+  <word form="πολλάκις" head="12" id="14" lemma="πολλάκις" postag="d--------" presentation-after="." ref="Leuven|0540-024|36|14" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="37">
+  <word form="καίτοι" head="5" id="1" lemma="καίτοι" postag="d--------" ref="Leuven|0540-024|37|1" relation="AuxY" sem=""/>
+  <word form="πῶς" head="5" id="2" lemma="πῶς" postag="d--------" ref="Leuven|0540-024|37|2" relation="ADV" sem=""/>
+  <word form="οὐκ" head="4" id="3" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|37|3" relation="AuxZ" sem=""/>
+  <word form="ἄτοπόν" head="5" id="4" lemma="ἄτοπος" postag="a-s---nn-" ref="Leuven|0540-024|37|4" relation="PNOM" sem=""/>
+  <word form="ἐστιν" head="0" id="5" lemma="εἰμί" postag="v3spia---" presentation-after="," ref="Leuven|0540-024|37|5" relation="PRED" sem=""/>
+  <word form="ὦ" head="8" id="7" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|37|7" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="5" id="8" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|37|8" relation="ExD" sem=""/>
+  <word form="τοῦτον" head="21" id="10" lemma="οὗτος" postag="p-s---ma-" ref="Leuven|0540-024|37|10" relation="SBJ" sem=""/>
+  <word form="ἄν" head="21" id="11" lemma="ἄν" postag="d--------" presentation-after="," ref="Leuven|0540-024|37|11" relation="AuxY" sem=""/>
+  <word form="εἰ" head="21" id="13" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|37|13" relation="AuxC" sem=""/>
+  <word form="μὲν" head="18" id="14" lemma="μέν" postag="d--------" ref="Leuven|0540-024|37|14" relation="AuxY" sem=""/>
+  <word form="ἐπ’" head="17" id="15" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|37|15" relation="AuxP" sem=""/>
+  <word form="ἀστράβης" head="15" id="16" lemma="ἀστράβη" postag="n-s---fg-" ref="Leuven|0540-024|37|16" relation="ADV" sem="location"/>
+  <word form="ὀχούμενον" head="18" id="17" lemma="ὀχέω" postag="v-sppema-" ref="Leuven|0540-024|37|17" relation="OBJ" sem=""/>
+  <word form="ἑώρα" head="13" id="18" lemma="ὁράω" postag="v3siia---" ref="Leuven|0540-024|37|18" relation="ADV" sem=""/>
+  <word form="με" head="17" id="19" lemma="ἐγώ" postag="p1s---ca-" presentation-after="," ref="Leuven|0540-024|37|19" relation="SBJ" sem=""/>
+  <word form="σιωπᾶν" head="0" id="21" lemma="σιωπάω" postag="v--pna---" presentation-after="(" ref="Leuven|0540-024|37|21" relation="SBJ_CO" sem=""/>
+  <word form="τί" head="27" id="23" lemma="τίς" postag="p-s---na-" ref="Leuven|0540-024|37|23" relation="OBJ" sem=""/>
+  <word form="γὰρ" head="27" id="24" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|37|24" relation="AuxY" sem=""/>
+  <word form="ἂν" head="27" id="25" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|37|25" relation="AuxY" sem=""/>
+  <word form="καὶ" head="27" id="26" lemma="καί" postag="d--------" ref="Leuven|0540-024|37|26" relation="AuxZ" sem=""/>
+  <word form="ἔλεγεν" head="0" id="27" lemma="λέγω" postag="v3siia---" presentation-after=";)" ref="Leuven|0540-024|37|27" relation="ExD" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="39">
+  <word form="καὶ" head="22" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|39|1" relation="AuxY" sem=""/>
+  <word form="ὅτι" head="22" id="2" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|39|2" relation="AuxC" sem=""/>
+  <word form="μὲν" head="22" id="3" lemma="μέν" postag="d--------" ref="Leuven|0540-024|39|3" relation="AuxY" sem=""/>
+  <word form="δυοῖν" head="5" id="4" lemma="δύο" postag="m-d----d-" ref="Leuven|0540-024|39|4" relation="ATR" sem=""/>
+  <word form="βακτηρίαιν" head="6" id="5" lemma="βακτηρία" postag="n-d---fd-" ref="Leuven|0540-024|39|5" relation="OBJ" sem=""/>
+  <word form="χρῶμαι" head="2" id="6" lemma="χράω" postag="v1spie---" presentation-after="," ref="Leuven|0540-024|39|6" relation="ADV" sem=""/>
+  <word form="τῶν" head="9" id="8" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|39|8" relation="ATR" sem=""/>
+  <word form="ἄλλων" head="11" id="9" lemma="ἄλλος" postag="p-p---mg-" ref="Leuven|0540-024|39|9" relation="SBJ" sem=""/>
+  <word form="μιᾷ" head="11" id="10" lemma="εἷς" postag="m-s---fd-" ref="Leuven|0540-024|39|10" relation="OBJ" sem=""/>
+  <word form="χρωμένων" head="6" id="11" lemma="χράω" postag="v-pppemg-" presentation-after="," ref="Leuven|0540-024|39|11" relation="ADV" sem=""/>
+  <word form="μὴ" head="14" id="13" lemma="μή" postag="d--------" ref="Leuven|0540-024|39|13" relation="AuxZ" sem=""/>
+  <word form="κατηγορεῖν" head="22" id="14" lemma="κατηγορέω" postag="v--pna---" ref="Leuven|0540-024|39|14" relation="SBJ" sem=""/>
+  <word form="ὡς" head="14" id="15" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|39|15" relation="AuxC" sem=""/>
+  <word form="καὶ" head="17" id="16" lemma="καί" postag="d--------" ref="Leuven|0540-024|39|16" relation="AuxZ" sem=""/>
+  <word form="τοῦτο" head="20" id="17" lemma="οὗτος" postag="p-s---nn-" ref="Leuven|0540-024|39|17" relation="SBJ" sem=""/>
+  <word form="τῶν" head="19" id="18" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|39|18" relation="ATR" sem=""/>
+  <word form="δυναμένων" head="20" id="19" lemma="δύναμαι" postag="v-pppemg-" ref="Leuven|0540-024|39|19" relation="PNOM" sem="property"/>
+  <word form="ἐστιν" head="15" id="20" lemma="εἰμί" postag="v3spia---" presentation-after="·" ref="Leuven|0540-024|39|20" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="22" insertion_id="0021e" lemma="_" postag="---------" ref="Leuven|0540-024|39|22" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="40">
+  <word form="ὅτι" head="9" id="1" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|40|1" relation="AuxC" sem=""/>
+  <word form="δ’" head="17" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|40|2" relation="AuxY" sem=""/>
+  <word form="ἐπὶ" head="6" id="3" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|40|3" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="5" id="4" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|40|4" relation="ATR" sem=""/>
+  <word form="ἵππους" head="3" id="5" lemma="ἵππος" postag="n-p---ma-" ref="Leuven|0540-024|40|5" relation="OBJ" sem=""/>
+  <word form="ἀναβαίνω" head="1" id="6" lemma="ἀναβαίνω" postag="v1spia---" presentation-after="," ref="Leuven|0540-024|40|6" relation="OBJ" sem=""/>
+  <word form="τεκμηρίῳ" head="9" id="8" lemma="τεκμήριον" postag="n-s---nd-" ref="Leuven|0540-024|40|8" relation="OCOMP" sem=""/>
+  <word form="χρῆσθαι" head="17" id="9" lemma="χράω" postag="v--pne---" ref="Leuven|0540-024|40|9" relation="SBJ" sem=""/>
+  <word form="πρὸς" head="9" id="10" lemma="πρός" postag="r--------" ref="Leuven|0540-024|40|10" relation="AuxP" sem=""/>
+  <word form="ὑμᾶς" head="10" id="11" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|40|11" relation="ADV" sem="recipient"/>
+  <word form="ὡς" head="8" id="12" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|40|12" relation="AuxC" sem=""/>
+  <word form="εἰμὶ" head="12" id="13" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|40|13" relation="ATR" sem=""/>
+  <word form="τῶν" head="15" id="14" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|40|14" relation="ATR" sem=""/>
+  <word form="δυναμένων" head="13" id="15" lemma="δύναμαι" postag="v-pppemg-" presentation-after=";" ref="Leuven|0540-024|40|15" relation="PNOM" sem="possessor"/>
+  <word artificial="elliptic" form="[0]" head="0" id="17" insertion_id="0016e" lemma="_" postag="---------" ref="Leuven|0540-024|40|17" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="41">
+  <word form="οἷς" head="7" id="1" lemma="ὅς" postag="p-p---nd-" ref="Leuven|0540-024|41|1" relation="ATR" sem=""/>
+  <word form="ἐγώ" head="8" id="2" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|41|2" relation="SBJ" sem=""/>
+  <word form="διὰ" head="8" id="3" lemma="διά" postag="r--------" ref="Leuven|0540-024|41|3" relation="AuxP" sem=""/>
+  <word form="τὴν" head="6" id="4" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|41|4" relation="ATR" sem=""/>
+  <word form="αὐτὴν" head="6" id="5" lemma="αὐτός" postag="p-s---fa-" ref="Leuven|0540-024|41|5" relation="ATR" sem=""/>
+  <word form="αἰτίαν" head="3" id="6" lemma="αἰτία" postag="n-s---fa-" ref="Leuven|0540-024|41|6" relation="ADV" sem=""/>
+  <word form="ἀμφοτέροις" head="8" id="7" lemma="ἀμφότερος" postag="a-p---nd-" ref="Leuven|0540-024|41|7" relation="OBJ" sem=""/>
+  <word form="χρῶμαι" head="0" id="8" lemma="χράω" postag="v1spie---" presentation-after="." ref="Leuven|0540-024|41|8" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="42">
+  <word form="τοσοῦτον" head="3" id="1" lemma="τοσοῦτος" postag="p-s---na-" ref="Leuven|0540-024|42|1" relation="ADV" sem="degree/measure"/>
+  <word form="δὲ" head="3" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|42|2" relation="AuxY" sem=""/>
+  <word form="διενήνοχεν" head="0" id="3" lemma="διαφέρω" postag="v3sria---" ref="Leuven|0540-024|42|3" relation="PRED" sem=""/>
+  <word form="ἀναισχυντίᾳ" head="3" id="4" lemma="ἀναισχυντία" postag="n-s---fd-" ref="Leuven|0540-024|42|4" relation="ADV" sem="respect"/>
+  <word form="τῶν" head="7" id="5" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|42|5" relation="ATR" sem=""/>
+  <word form="ἁπάντων" head="7" id="6" lemma="ἅπας" postag="a-p---mg-" ref="Leuven|0540-024|42|6" relation="ATR" sem=""/>
+  <word form="ἀνθρώπων" head="3" id="7" lemma="ἄνθρωπος" postag="n-p---mg-" presentation-after="," ref="Leuven|0540-024|42|7" relation="OBJ" sem="possessor"/>
+  <word form="ὥστε" head="3" id="9" lemma="ὥστε" postag="c--------" ref="Leuven|0540-024|42|9" relation="AuxC" sem=""/>
+  <word form="ὑμᾶς" head="12" id="10" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|42|10" relation="OBJ" sem=""/>
+  <word form="πειρᾶται" head="9" id="11" lemma="πειράω" postag="v3spie---" ref="Leuven|0540-024|42|11" relation="ADV" sem=""/>
+  <word form="πείθειν" head="11" id="12" lemma="πείθω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|42|12" relation="OBJ" sem=""/>
+  <word form="τοσούτους" head="15" id="14" lemma="τοσοῦτος" postag="p-p---ma-" ref="Leuven|0540-024|42|14" relation="PNOM" sem=""/>
+  <word form="ὄντας" head="10" id="15" lemma="εἰμί" postag="v-pppama-" ref="Leuven|0540-024|42|15" relation="ADV" sem=""/>
+  <word form="εἵς" head="17" id="16" lemma="εἷς" postag="m-s---mn-" ref="Leuven|0540-024|42|16" relation="PNOM" sem=""/>
+  <word form="ὤν" head="11" id="17" lemma="εἰμί" postag="v-sppamn-" presentation-after="," ref="Leuven|0540-024|42|17" relation="ADV" sem="concession"/>
+  <word form="ὡς" head="12" id="19" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|42|19" relation="AuxC" sem=""/>
+  <word form="οὐκ" head="21" id="20" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|42|20" relation="AuxZ" sem=""/>
+  <word form="εἰμὶ" head="19" id="21" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|42|21" relation="OBJ" sem=""/>
+  <word form="τῶν" head="23" id="22" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|42|22" relation="ATR" sem=""/>
+  <word form="ἀδυνάτων" head="21" id="23" lemma="ἀδύνατος" postag="a-p---mg-" ref="Leuven|0540-024|42|23" relation="PNOM" sem=""/>
+  <word form="ἐγώ" head="21" id="24" lemma="ἐγώ" postag="p1s---cn-" presentation-after="." ref="Leuven|0540-024|42|24" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="43">
+  <word form="καίτοι" head="13" id="1" lemma="καίτοι" postag="d--------" ref="Leuven|0540-024|43|1" relation="AuxY" sem=""/>
+  <word form="εἰ" head="13" id="2" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|43|2" relation="AuxC" sem=""/>
+  <word form="τοῦτο" head="4" id="3" lemma="οὗτος" postag="p-s---na-" ref="Leuven|0540-024|43|3" relation="OBJ" sem=""/>
+  <word form="πείσει" head="2" id="4" lemma="πείθω" postag="v3sfia---" ref="Leuven|0540-024|43|4" relation="ADV" sem=""/>
+  <word form="τινὰς" head="4" id="5" lemma="τις" postag="p-p---ca-" ref="Leuven|0540-024|43|5" relation="OBJ" sem=""/>
+  <word form="ὑμῶν" head="5" id="6" lemma="σύ" postag="p2p---cg-" presentation-after="," ref="Leuven|0540-024|43|6" relation="ATR" sem="totality"/>
+  <word form="ὦ" head="9" id="8" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|43|8" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="13" id="9" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|43|9" relation="ExD" sem=""/>
+  <word form="τί" head="13" id="11" lemma="τίς" postag="p-s---nn-" ref="Leuven|0540-024|43|11" relation="SBJ" sem=""/>
+  <word form="με" head="14" id="12" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|43|12" relation="SBJ" sem=""/>
+  <word form="κωλύει" head="0" id="13" lemma="κωλύω" postag="v3spia---" ref="Leuven|0540-024|43|13" relation="PRED" sem=""/>
+  <word form="κληροῦσθαι" head="19" id="14" lemma="κληρόω" postag="v--pne---" ref="Leuven|0540-024|43|14" relation="OBJ_CO" sem=""/>
+  <word form="τῶν" head="17" id="15" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|43|15" relation="ATR" sem=""/>
+  <word form="ἐννέα" head="17" id="16" lemma="ἐννέα" postag="m--------" ref="Leuven|0540-024|43|16" relation="ATR" sem=""/>
+  <word form="ἀρχόντων" head="36" id="17" lemma="ἄρχων" postag="n-p---mg-" presentation-after="," ref="Leuven|0540-024|43|17" relation="ATR" sem="totality"/>
+  <word form="καὶ" head="13" id="19" lemma="καί" postag="b--------" ref="Leuven|0540-024|43|19" relation="COORD" sem=""/>
+  <word form="ὑμᾶς" head="30" id="20" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|43|20" relation="SBJ" sem=""/>
+  <word form="ἐμοῦ" head="23" id="21" lemma="ἐγώ" postag="p1s---cg-" ref="Leuven|0540-024|43|21" relation="OBJ" sem=""/>
+  <word form="μὲν" head="30" id="22" lemma="μέν" postag="d--------" ref="Leuven|0540-024|43|22" relation="AuxY" sem=""/>
+  <word form="ἀφελέσθαι" head="30" id="23" lemma="ἀφαιρέω" postag="v--anm---" ref="Leuven|0540-024|43|23" relation="OBJ_CO" sem=""/>
+  <word form="τὸν" head="25" id="24" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|43|24" relation="ATR" sem=""/>
+  <word form="ὀβολὸν" head="23" id="25" lemma="ὀβολός" postag="n-s---ma-" ref="Leuven|0540-024|43|25" relation="OBJ" sem=""/>
+  <word form="ὡς" head="27" id="26" lemma="ὡς" postag="d--------" ref="Leuven|0540-024|43|26" relation="AuxZ" sem=""/>
+  <word form="ὑγιαίνοντος" head="21" id="27" lemma="ὑγιαίνω" postag="v-sppamg-" presentation-after="," ref="Leuven|0540-024|43|27" relation="ADV" sem=""/>
+  <word form="τούτῳ" head="31" id="29" lemma="οὗτος" postag="p-s---md-" ref="Leuven|0540-024|43|29" relation="ADV" sem=""/>
+  <word form="δὲ" head="19" id="30" lemma="δέ" postag="b--------" ref="Leuven|0540-024|43|30" relation="COORD" sem=""/>
+  <word form="ψηφίσασθαι" head="30" id="31" lemma="ψηφίζω" postag="v--anm---" ref="Leuven|0540-024|43|31" relation="OBJ_CO" sem=""/>
+  <word form="πάντας" head="20" id="32" lemma="πᾶς" postag="a-p---ma-" ref="Leuven|0540-024|43|32" relation="ATR" sem=""/>
+  <word form="ὡς" head="34" id="33" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|43|33" relation="AuxZ" sem=""/>
+  <word form="ἀναπήρῳ" head="29" id="34" lemma="ἀνάπηρος" postag="a-s---md-" presentation-after=";" ref="Leuven|0540-024|43|34" relation="ADV" sem=""/>
+  <word artificial="elliptic" form="[0]" head="14" id="36" insertion_id="0014e" lemma="" postag="" ref="Leuven|0540-024|43|36" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="44">
+  <word form="οὐ" head="10" id="1" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|44|1" relation="AuxZ" sem=""/>
+  <word form="γὰρ" head="15" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|44|2" relation="AuxY" sem=""/>
+  <word form="δήπου" head="15" id="3" lemma="δήπου" postag="d--------" ref="Leuven|0540-024|44|3" relation="AuxZ" sem=""/>
+  <word form="τὸν" head="5" id="4" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|44|4" relation="ATR" sem=""/>
+  <word form="αὐτὸν" head="10" id="5" lemma="αὐτός" postag="p-s---ma-" ref="Leuven|0540-024|44|5" relation="OBJ" sem=""/>
+  <word form="ὑμεῖς" head="10" id="6" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|44|6" relation="SBJ" sem=""/>
+  <word form="μὲν" head="15" id="7" lemma="μέν" postag="d--------" ref="Leuven|0540-024|44|7" relation="AuxY" sem=""/>
+  <word form="ὡς" head="9" id="8" lemma="ὡς" postag="d--------" ref="Leuven|0540-024|44|8" relation="AuxZ" sem=""/>
+  <word form="δυνάμενον" head="5" id="9" lemma="δύναμαι" postag="v-sppema-" ref="Leuven|0540-024|44|9" relation="ADV" sem=""/>
+  <word form="ἀφαιρήσεσθε" head="15" id="10" lemma="ἀφαιρέω" postag="v2pfim---" ref="Leuven|0540-024|44|10" relation="PRED_CO" sem=""/>
+  <word form="τὸ" head="12" id="11" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|44|11" relation="ATR" sem=""/>
+  <word form="διδόμενον" head="10" id="12" lemma="δίδωμι" postag="v-sppena-" presentation-after="," ref="Leuven|0540-024|44|12" relation="OBJ" sem=""/>
+  <word form="οἱ" head="16" id="14" lemma="ὁ" postag="l-p---mn-" ref="Leuven|0540-024|44|14" relation="ATR" sem=""/>
+  <word form="δὲ" head="0" id="15" lemma="δέ" postag="b--------" ref="Leuven|0540-024|44|15" relation="COORD" sem=""/>
+  <word form="θεσμοθέται" head="21" id="16" lemma="θεσμοθέτης" postag="n-p---mn-" ref="Leuven|0540-024|44|16" relation="SBJ" sem=""/>
+  <word form="ὡς" head="19" id="17" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|44|17" relation="AuxZ" sem=""/>
+  <word form="ἀδύνατον" head="19" id="18" lemma="ἀδύνατος" postag="a-s---ma-" ref="Leuven|0540-024|44|18" relation="PNOM" sem=""/>
+  <word form="ὄντα" head="20" id="19" lemma="εἰμί" postag="v-sppama-" ref="Leuven|0540-024|44|19" relation="ADV" sem=""/>
+  <word form="κληροῦσθαι" head="21" id="20" lemma="κληρόω" postag="v--pne---" ref="Leuven|0540-024|44|20" relation="OBJ" sem=""/>
+  <word form="κωλύσουσιν" head="15" id="21" lemma="κωλύω" postag="v3pfia---" presentation-after="." ref="Leuven|0540-024|44|21" relation="PRED_CO" sem=""/>
+  <word artificial="elliptic" form="αὐτὸν" head="20" id="23" insertion_id="0015e" lemma="" postag="---------" ref="Leuven|0540-024|44|23" relation="SBJ" sem=""/>
+  <word artificial="elliptic" form="τὸν" head="23" id="24" insertion_id="0014e" lemma="" postag="---------" ref="Leuven|0540-024|44|24" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="45">
+  <word form="ἀλλὰ" head="11" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|45|1" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="11" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|45|2" relation="AuxY" sem=""/>
+  <word form="οὔτε" head="8" id="3" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|45|3" relation="AuxY" sem=""/>
+  <word form="ὑμεῖς" head="8" id="4" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|45|4" relation="SBJ" sem=""/>
+  <word form="τούτῳ" head="7" id="5" lemma="οὗτος" postag="p-s---md-" ref="Leuven|0540-024|45|5" relation="ADV" sem=""/>
+  <word form="τὴν" head="9" id="6" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|45|6" relation="ATR" sem=""/>
+  <word form="αὐτὴν" head="9" id="7" lemma="αὐτός" postag="p-s---fa-" ref="Leuven|0540-024|45|7" relation="ATR" sem=""/>
+  <word form="ἔχετε" head="11" id="8" lemma="ἔχω" postag="v2ppia---" ref="Leuven|0540-024|45|8" relation="PRED_CO" sem=""/>
+  <word form="γνώμην" head="8" id="9" lemma="γνώμη" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|45|9" relation="OBJ" sem=""/>
+  <word form="οὔθ’" head="0" id="11" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|45|11" relation="COORD" sem=""/>
+  <word form="οὗτος" head="16" id="12" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|45|12" relation="SBJ" sem=""/>
+  <word form="εὖ" head="14" id="13" lemma="εὖ" postag="d--------" ref="Leuven|0540-024|45|13" relation="ADV" sem=""/>
+  <word form="ποιῶν" head="16" id="14" lemma="ποιέω" postag="v-sppamn-" presentation-after="." ref="Leuven|0540-024|45|14" relation="ADV" sem=""/>
+  <word artificial="elliptic" form="[0]" head="11" id="16" insertion_id="0011e" lemma="_" postag="---------" ref="Leuven|0540-024|45|16" relation="PRED_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="46">
+  <word form="ὁ" head="11" id="1" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|46|1" relation="SBJ" sem=""/>
+  <word form="μὲν" head="11" id="2" lemma="μέν" postag="d--------" ref="Leuven|0540-024|46|2" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="11" id="3" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|46|3" relation="AuxY" sem=""/>
+  <word form="ὥσπερ" head="8" id="4" lemma="ὥσπερ" postag="c--------" ref="Leuven|0540-024|46|4" relation="AuxZ" sem=""/>
+  <word form="ἐπικλήρου" head="8" id="5" lemma="ἐπίκληρος" postag="n-s---fg-" ref="Leuven|0540-024|46|5" relation="PNOM" sem=""/>
+  <word form="τῆς" head="7" id="6" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|46|6" relation="ATR" sem=""/>
+  <word form="συμφορᾶς" head="8" id="7" lemma="συμφορά" postag="n-s---fg-" ref="Leuven|0540-024|46|7" relation="SBJ" sem=""/>
+  <word form="οὔσης" head="9" id="8" lemma="εἰμί" postag="v-sppafg-" ref="Leuven|0540-024|46|8" relation="ADV" sem=""/>
+  <word form="ἀμφισβητήσων" head="10" id="9" lemma="ἀμφισβητέω" postag="v-sfpamn-" ref="Leuven|0540-024|46|9" relation="ADV" sem="goal"/>
+  <word form="ἥκει" head="11" id="10" lemma="ἥκω" postag="v3spia---" ref="Leuven|0540-024|46|10" relation="PRED_CO" sem=""/>
+  <word form="καὶ" head="0" id="11" lemma="καί" postag="b--------" ref="Leuven|0540-024|46|11" relation="COORD" sem=""/>
+  <word form="πειρᾶται" head="11" id="12" lemma="πειράω" postag="v3spie---" ref="Leuven|0540-024|46|12" relation="PRED_CO" sem=""/>
+  <word form="πείθειν" head="12" id="13" lemma="πείθω" postag="v--pna---" ref="Leuven|0540-024|46|13" relation="OBJ" sem=""/>
+  <word form="ὑμᾶς" head="13" id="14" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|46|14" relation="OBJ" sem=""/>
+  <word form="ὡς" head="13" id="15" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|46|15" relation="AuxC" sem=""/>
+  <word form="οὐκ" head="17" id="16" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|46|16" relation="AuxZ" sem=""/>
+  <word form="εἰμὶ" head="15" id="17" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|46|17" relation="OBJ" sem=""/>
+  <word form="τοιοῦτος" head="17" id="18" lemma="τοιοῦτος" postag="p-s---mn-" ref="Leuven|0540-024|46|18" relation="PNOM" sem=""/>
+  <word form="οἷον" head="17" id="19" lemma="οἷον" postag="c--------" ref="Leuven|0540-024|46|19" relation="AuxC" sem=""/>
+  <word form="ὑμεῖς" head="21" id="20" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|46|20" relation="SBJ" sem=""/>
+  <word form="ὁρᾶτε" head="19" id="21" lemma="ὁράω" postag="v2ppia---" ref="Leuven|0540-024|46|21" relation="ADV" sem=""/>
+  <word form="πάντες" head="20" id="22" lemma="πᾶς" postag="a-p---mn-" presentation-after="·" ref="Leuven|0540-024|46|22" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="47">
+  <word form="ὑμεῖς" head="12" id="1" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|47|1" relation="SBJ" sem=""/>
+  <word form="δὲ" head="12" id="2" lemma="δέ" postag="d--------" presentation-after="(" ref="Leuven|0540-024|47|2" relation="AuxY" sem=""/>
+  <word form="ὃ" head="9" id="4" lemma="ὅς" postag="p-s---nn-" ref="Leuven|0540-024|47|4" relation="SBJ" sem=""/>
+  <word form="τῶν" head="7" id="5" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|47|5" relation="ATR" sem=""/>
+  <word form="εὖ" head="7" id="6" lemma="εὖ" postag="d--------" ref="Leuven|0540-024|47|6" relation="ADV" sem=""/>
+  <word form="φρονούντων" head="8" id="7" lemma="φρονέω" postag="v-pppamg-" ref="Leuven|0540-024|47|7" relation="ATR" sem="possessor"/>
+  <word form="ἔργον" head="9" id="8" lemma="ἔργον" postag="n-s---nn-" ref="Leuven|0540-024|47|8" relation="PNOM" sem=""/>
+  <word form="ἐστί" head="0" id="9" lemma="εἰμί" postag="v3spia---" presentation-after=")" ref="Leuven|0540-024|47|9" relation="ExD" sem=""/>
+  <word form="μᾶλλον" head="12" id="11" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|47|11" relation="ADV" sem=""/>
+  <word form="πιστεύετε" head="0" id="12" lemma="πιστεύω" postag="v2ppma---" ref="Leuven|0540-024|47|12" relation="PRED" sem=""/>
+  <word form="τοῖς" head="16" id="13" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|47|13" relation="ATR" sem=""/>
+  <word form="ὑμετέροις" head="16" id="14" lemma="ὑμέτερος" postag="a-p---md-" ref="Leuven|0540-024|47|14" relation="ATR" sem=""/>
+  <word form="αὐτῶν" head="14" id="15" lemma="αὐτός" postag="p-p---mg-" ref="Leuven|0540-024|47|15" relation="ATR" sem=""/>
+  <word form="ὀφθαλμοῖς" head="12" id="16" lemma="ὀφθαλμός" postag="n-p---md-" ref="Leuven|0540-024|47|16" relation="OBJ" sem=""/>
+  <word form="ἢ" head="11" id="17" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|47|17" relation="AuxC" sem=""/>
+  <word form="τοῖς" head="20" id="18" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|47|18" relation="ATR" sem=""/>
+  <word form="τούτου" head="20" id="19" lemma="οὗτος" postag="p-s---mg-" ref="Leuven|0540-024|47|19" relation="ATR" sem="possessor"/>
+  <word form="λόγοις" head="17" id="20" lemma="λόγος" postag="n-p---md-" presentation-after="." ref="Leuven|0540-024|47|20" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="48">
+  <word form="λέγει" head="0" id="1" lemma="λέγω" postag="v3spia---" ref="Leuven|0540-024|48|1" relation="PRED" sem=""/>
+  <word form="δ’" head="1" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|48|2" relation="AuxY" sem=""/>
+  <word form="ὡς" head="1" id="3" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|48|3" relation="AuxC" sem=""/>
+  <word form="ὑβριστής" head="8" id="4" lemma="ὑβριστής" postag="n-s---mn-" ref="Leuven|0540-024|48|4" relation="PNOM_CO" sem=""/>
+  <word form="εἰμι" head="3" id="5" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|48|5" relation="OBJ" sem=""/>
+  <word form="καὶ" head="8" id="6" lemma="καί" postag="b--------" ref="Leuven|0540-024|48|6" relation="AuxY" sem=""/>
+  <word form="βίαιος" head="8" id="7" lemma="βίαιος" postag="a-s---mn-" ref="Leuven|0540-024|48|7" relation="PNOM_CO" sem=""/>
+  <word form="καὶ" head="5" id="8" lemma="καί" postag="b--------" ref="Leuven|0540-024|48|8" relation="COORD" sem=""/>
+  <word form="λίαν" head="10" id="9" lemma="λίαν" postag="d--------" ref="Leuven|0540-024|48|9" relation="ADV" sem=""/>
+  <word form="ἀσελγῶς" head="11" id="10" lemma="ἀσελγής" postag="d--------" ref="Leuven|0540-024|48|10" relation="ADV" sem=""/>
+  <word form="διακείμενος" head="8" id="11" lemma="διάκειμαι" postag="v-sppemn-" presentation-after="," ref="Leuven|0540-024|48|11" relation="PNOM_CO" sem=""/>
+  <word form="ὥσπερ" head="1" id="13" lemma="ὥσπερ" postag="c--------" ref="Leuven|0540-024|48|13" relation="AuxC" sem=""/>
+  <word form="εἰ" head="34" id="14" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|48|14" relation="AuxC" sem=""/>
+  <word form="φοβερῶς" head="16" id="15" lemma="φοβερός" postag="d--------" ref="Leuven|0540-024|48|15" relation="ADV" sem=""/>
+  <word form="ὀνομάσειε" head="14" id="16" lemma="ὀνομάζω" postag="v3saoa---" presentation-after="," ref="Leuven|0540-024|48|16" relation="ADV" sem=""/>
+  <word form="μέλλων" head="22" id="18" lemma="μέλλω" postag="v-sppamn-" ref="Leuven|0540-024|48|18" relation="ADV_CO" sem=""/>
+  <word form="ἀληθῆ" head="20" id="19" lemma="ἀληθής" postag="a-p---na-" ref="Leuven|0540-024|48|19" relation="OBJ" sem=""/>
+  <word form="λέγειν" head="18" id="20" lemma="λέγω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|48|20" relation="OBJ" sem=""/>
+  <word form="ἀλλ’" head="16" id="22" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|48|22" relation="COORD" sem=""/>
+  <word form="οὐκ" head="32" id="23" lemma="οὐ" postag="d--------" presentation-after="," ref="Leuven|0540-024|48|23" relation="AuxZ" sem=""/>
+  <word form="ἐὰν" head="32" id="25" lemma="ἐάν" postag="c--------" ref="Leuven|0540-024|48|25" relation="AuxC" sem=""/>
+  <word form="πάνυ" head="27" id="26" lemma="πάνυ" postag="d--------" ref="Leuven|0540-024|48|26" relation="ADV" sem=""/>
+  <word form="πραόνως" head="29" id="27" lemma="πραόνως" postag="d--------" ref="Leuven|0540-024|48|27" relation="ADV" sem=""/>
+  <word form="μηδὲ" head="29" id="28" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|48|28" relation="AuxZ" sem=""/>
+  <word form="ψεύδηται" head="25" id="29" lemma="ψεύδω" postag="v3spse---" presentation-after="," ref="Leuven|0540-024|48|29" relation="ADV" sem=""/>
+  <word form="ταῦτα" head="32" id="31" lemma="οὗτος" postag="p-p---na-" ref="Leuven|0540-024|48|31" relation="OBJ" sem=""/>
+  <word form="ποιήσων" head="22" id="32" lemma="ποιέω" postag="v-sfpamn-" presentation-after="." ref="Leuven|0540-024|48|32" relation="ADV_CO" sem=""/>
+  <word artificial="elliptic" form="_" head="13" id="34" insertion_id="0031e" lemma="_" postag="---------" ref="Leuven|0540-024|48|34" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="49">
+  <word form="ἐγὼ" head="9" id="1" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|49|1" relation="SBJ" sem=""/>
+  <word form="δ’" head="9" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|49|2" relation="AuxY" sem=""/>
+  <word form="ὑμᾶς" head="11" id="3" lemma="σύ" postag="p2p---ca-" presentation-after="," ref="Leuven|0540-024|49|3" relation="SBJ" sem=""/>
+  <word form="ὦ" head="6" id="5" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|49|5" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="9" id="6" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|49|6" relation="ExD" sem=""/>
+  <word form="σαφῶς" head="11" id="8" lemma="σαφής" postag="d--------" ref="Leuven|0540-024|49|8" relation="ADV" sem=""/>
+  <word form="οἶμαι" head="0" id="9" lemma="οἴομαι" postag="v1spie---" ref="Leuven|0540-024|49|9" relation="PRED" sem=""/>
+  <word form="δεῖν" head="9" id="10" lemma="δέω" postag="v--pna---" ref="Leuven|0540-024|49|10" relation="OBJ" sem=""/>
+  <word form="διαγιγνώσκειν" head="10" id="11" lemma="διαγιγνώσκω" postag="v--pna---" ref="Leuven|0540-024|49|11" relation="SBJ" sem=""/>
+  <word form="οἷς" head="14" id="12" lemma="ὅς" postag="p-p---md-" ref="Leuven|0540-024|49|12" relation="OBJ" sem=""/>
+  <word form="τ’" head="19" id="13" lemma="τε" postag="b--------" ref="Leuven|0540-024|49|13" relation="AuxY" sem=""/>
+  <word form="ἐγχωρεῖ" head="19" id="14" lemma="ἐγχωρέω" postag="v3spia---" ref="Leuven|0540-024|49|14" relation="OBJ_CO" sem=""/>
+  <word form="τῶν" head="16" id="15" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|49|15" relation="ATR" sem=""/>
+  <word form="ἀνθρώπων" head="12" id="16" lemma="ἄνθρωπος" postag="n-p---mg-" ref="Leuven|0540-024|49|16" relation="ATR" sem="totality"/>
+  <word form="ὑβρισταῖς" head="18" id="17" lemma="ὑβριστής" postag="n-p---md-" ref="Leuven|0540-024|49|17" relation="PNOM" sem=""/>
+  <word form="εἶναι" head="19" id="18" lemma="εἰμί" postag="v--pna---" ref="Leuven|0540-024|49|18" relation="SBJ" sem=""/>
+  <word form="καὶ" head="11" id="19" lemma="καί" postag="b--------" ref="Leuven|0540-024|49|19" relation="COORD" sem=""/>
+  <word form="οἷς" head="22" id="20" lemma="ὅς" postag="p-p---md-" ref="Leuven|0540-024|49|20" relation="OBJ" sem=""/>
+  <word form="οὐ" head="22" id="21" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|49|21" relation="AuxZ" sem=""/>
+  <word form="προσήκει" head="19" id="22" lemma="προσήκω" postag="v3spia---" presentation-after="." ref="Leuven|0540-024|49|22" relation="OBJ_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="50">
+  <word form="οὐ" head="5" id="1" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|50|1" relation="AuxZ" sem=""/>
+  <word form="γὰρ" head="20" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|50|2" relation="AuxY" sem=""/>
+  <word form="τοὺς" head="4" id="3" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|50|3" relation="ATR" sem=""/>
+  <word form="πενομένους" head="5" id="4" lemma="πένομαι" postag="v-pppema-" ref="Leuven|0540-024|50|4" relation="SBJ_CO" sem=""/>
+  <word form="καὶ" head="12" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|50|5" relation="COORD" sem=""/>
+  <word form="λίαν" head="7" id="6" lemma="λίαν" postag="d--------" ref="Leuven|0540-024|50|6" relation="ADV" sem=""/>
+  <word form="ἀπόρως" head="8" id="7" lemma="ἄπορος" postag="d--------" ref="Leuven|0540-024|50|7" relation="ADV" sem=""/>
+  <word form="διακειμένους" head="5" id="8" lemma="διάκειμαι" postag="v-pppema-" ref="Leuven|0540-024|50|8" relation="SBJ_CO" sem=""/>
+  <word form="ὑβρίζειν" head="20" id="9" lemma="ὑβρίζω" postag="v--pna---" ref="Leuven|0540-024|50|9" relation="SBJ" sem=""/>
+  <word form="εἰκός" head="20" id="10" lemma="εἰκός" postag="v-srpann-" presentation-after="," ref="Leuven|0540-024|50|10" relation="PNOM" sem=""/>
+  <word form="ἀλλὰ" head="9" id="12" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|50|12" relation="COORD" sem=""/>
+  <word form="τοὺς" head="18" id="13" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|50|13" relation="ATR" sem=""/>
+  <word form="πολλῷ" head="15" id="14" lemma="πολύς" postag="a-s---nd-" ref="Leuven|0540-024|50|14" relation="ADV" sem=""/>
+  <word form="πλείω" head="18" id="15" lemma="πολύς" postag="a-p---nac" ref="Leuven|0540-024|50|15" relation="OBJ" sem=""/>
+  <word form="τῶν" head="17" id="16" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|50|16" relation="ATR" sem=""/>
+  <word form="ἀναγκαίων" head="15" id="17" lemma="ἀναγκαῖος" postag="a-p---ng-" ref="Leuven|0540-024|50|17" relation="ADV" sem="comparison"/>
+  <word form="κεκτημένους" head="12" id="18" lemma="κτάομαι" postag="v-prpema-" presentation-after="·" ref="Leuven|0540-024|50|18" relation="SBJ_CO" sem=""/>
+  <word artificial="elliptic" form="ἐστιν" head="0" id="20" insertion_id="0019e" lemma="_" postag="---------" ref="Leuven|0540-024|50|20" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="51">
+  <word form="οὐδὲ" head="8" id="1" lemma="οὐδέ" postag="b--------" ref="Leuven|0540-024|51|1" relation="AuxY" sem=""/>
+  <word form="τοὺς" head="6" id="2" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|51|2" relation="ATR" sem=""/>
+  <word form="ἀδυνάτους" head="6" id="3" lemma="ἀδύνατος" postag="a-p---ma-" ref="Leuven|0540-024|51|3" relation="PNOM" sem=""/>
+  <word form="τοῖς" head="5" id="4" lemma="ὁ" postag="l-p---nd-" ref="Leuven|0540-024|51|4" relation="ATR" sem=""/>
+  <word form="σώμασιν" head="3" id="5" lemma="σῶμα" postag="n-p---nd-" ref="Leuven|0540-024|51|5" relation="ADV" sem="respect"/>
+  <word form="ὄντας" head="8" id="6" lemma="εἰμί" postag="v-pppama-" presentation-after="," ref="Leuven|0540-024|51|6" relation="SBJ_CO" sem=""/>
+  <word form="ἀλλὰ" head="18" id="8" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|51|8" relation="COORD" sem=""/>
+  <word form="τοὺς" head="11" id="9" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|51|9" relation="ATR" sem=""/>
+  <word form="μάλιστα" head="11" id="10" lemma="μάλα" postag="d-------s" ref="Leuven|0540-024|51|10" relation="ADV" sem=""/>
+  <word form="πιστεύοντας" head="8" id="11" lemma="πιστεύω" postag="v-pppama-" ref="Leuven|0540-024|51|11" relation="SBJ_CO" sem=""/>
+  <word form="ταῖς" head="14" id="12" lemma="ὁ" postag="l-p---fd-" ref="Leuven|0540-024|51|12" relation="ATR" sem=""/>
+  <word form="αὑτῶν" head="14" id="13" lemma="ἑαυτοῦ" postag="p-p---mg-" ref="Leuven|0540-024|51|13" relation="ATR" sem="possessor"/>
+  <word form="ῥώμαις" head="11" id="14" lemma="ῥώμη" postag="n-p---fd-" presentation-after="·" ref="Leuven|0540-024|51|14" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="ἐστιν" head="0" id="16" insertion_id="0015e" lemma="_" postag="---------" ref="Leuven|0540-024|51|16" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="εἰκός" head="16" id="17" insertion_id="0015d" lemma="_" postag="---------" ref="Leuven|0540-024|51|17" relation="PNOM" sem=""/>
+  <word artificial="elliptic" form="ὑβρίζειν" head="16" id="18" insertion_id="0015c" lemma="_" postag="---------" ref="Leuven|0540-024|51|18" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="52">
+  <word form="οὐδὲ" head="8" id="1" lemma="οὐδέ" postag="b--------" ref="Leuven|0540-024|52|1" relation="AuxY" sem=""/>
+  <word form="τοὺς" head="4" id="2" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|52|2" relation="ATR" sem=""/>
+  <word form="ἤδη" head="4" id="3" lemma="ἤδη" postag="d--------" ref="Leuven|0540-024|52|3" relation="ADV" sem=""/>
+  <word form="προβεβηκότας" head="8" id="4" lemma="προβαίνω" postag="v-prpama-" ref="Leuven|0540-024|52|4" relation="SBJ_CO" sem=""/>
+  <word form="τῇ" head="6" id="5" lemma="ὁ" postag="l-s---fd-" ref="Leuven|0540-024|52|5" relation="ATR" sem=""/>
+  <word form="ἡλικίᾳ" head="4" id="6" lemma="ἡλικία" postag="n-s---fd-" presentation-after="," ref="Leuven|0540-024|52|6" relation="ADV" sem="respect"/>
+  <word form="ἀλλὰ" head="20" id="8" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|52|8" relation="COORD" sem=""/>
+  <word form="τοὺς" head="12" id="9" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|52|9" relation="ATR" sem=""/>
+  <word form="ἔτι" head="11" id="10" lemma="ἔτι" postag="d--------" ref="Leuven|0540-024|52|10" relation="ADV" sem=""/>
+  <word form="νέους" head="12" id="11" lemma="νέος" postag="a-p---ma-" ref="Leuven|0540-024|52|11" relation="SBJ_CO" sem=""/>
+  <word form="καὶ" head="8" id="12" lemma="καί" postag="b--------" ref="Leuven|0540-024|52|12" relation="COORD" sem=""/>
+  <word form="νέαις" head="15" id="13" lemma="νέος" postag="a-p---fd-" ref="Leuven|0540-024|52|13" relation="ATR" sem=""/>
+  <word form="ταῖς" head="15" id="14" lemma="ὁ" postag="l-p---fd-" ref="Leuven|0540-024|52|14" relation="ATR" sem=""/>
+  <word form="διανοίαις" head="16" id="15" lemma="διάνοια" postag="n-p---fd-" ref="Leuven|0540-024|52|15" relation="OBJ" sem=""/>
+  <word form="χρωμένους" head="12" id="16" lemma="χράω" postag="v-pppema-" presentation-after="." ref="Leuven|0540-024|52|16" relation="SBJ_CO" sem=""/>
+  <word artificial="elliptic" form="εἰκός" head="19" id="18" insertion_id="0016e" lemma="_" postag="---------" ref="Leuven|0540-024|52|18" relation="PNOM" sem=""/>
+  <word artificial="elliptic" form="ἐστιν" head="0" id="19" insertion_id="0016f" lemma="_" postag="---------" ref="Leuven|0540-024|52|19" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="ὑβρίζειν" head="19" id="20" insertion_id="0016g" lemma="_" postag="---------" ref="Leuven|0540-024|52|20" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="53">
+  <word form="οἱ" head="4" id="1" lemma="ὁ" postag="l-p---mn-" ref="Leuven|0540-024|53|1" relation="ATR" sem=""/>
+  <word form="μὲν" head="12" id="2" lemma="μέν" postag="d--------" ref="Leuven|0540-024|53|2" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="12" id="3" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|53|3" relation="AuxY" sem=""/>
+  <word form="πλούσιοι" head="7" id="4" lemma="πλούσιος" postag="a-p---mn-" ref="Leuven|0540-024|53|4" relation="SBJ" sem=""/>
+  <word form="τοῖς" head="6" id="5" lemma="ὁ" postag="l-p---nd-" ref="Leuven|0540-024|53|5" relation="ATR" sem=""/>
+  <word form="χρήμασιν" head="7" id="6" lemma="χρῆμα" postag="n-p---nd-" ref="Leuven|0540-024|53|6" relation="ADV" sem="instrument"/>
+  <word form="ἐξωνοῦνται" head="12" id="7" lemma="ἐξωνέομαι" postag="v3ppie---" ref="Leuven|0540-024|53|7" relation="PRED_CO" sem=""/>
+  <word form="τοὺς" head="9" id="8" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|53|8" relation="ATR" sem=""/>
+  <word form="κινδύνους" head="7" id="9" lemma="κίνδυνος" postag="n-p---ma-" presentation-after="," ref="Leuven|0540-024|53|9" relation="OBJ" sem=""/>
+  <word form="οἱ" head="13" id="11" lemma="ὁ" postag="l-p---mn-" ref="Leuven|0540-024|53|11" relation="ATR" sem=""/>
+  <word form="δὲ" head="0" id="12" lemma="δέ" postag="b--------" ref="Leuven|0540-024|53|12" relation="COORD" sem=""/>
+  <word form="πένητες" head="19" id="13" lemma="πένης" postag="n-p---mn-" ref="Leuven|0540-024|53|13" relation="SBJ" sem=""/>
+  <word form="ὑπὸ" head="19" id="14" lemma="ὑπό" postag="r--------" ref="Leuven|0540-024|53|14" relation="AuxP" sem=""/>
+  <word form="τῆς" head="17" id="15" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|53|15" relation="ATR" sem=""/>
+  <word form="παρούσης" head="17" id="16" lemma="πάρειμι" postag="v-sppafg-" ref="Leuven|0540-024|53|16" relation="ATR" sem=""/>
+  <word form="ἀπορίας" head="14" id="17" lemma="ἀπορία" postag="n-s---fg-" ref="Leuven|0540-024|53|17" relation="OBJ" sem="agent"/>
+  <word form="σωφρονεῖν" head="19" id="18" lemma="σωφρονέω" postag="v--pna---" ref="Leuven|0540-024|53|18" relation="OBJ" sem=""/>
+  <word form="ἀναγκάζονται" head="12" id="19" lemma="ἀναγκάζω" postag="v3ppie---" presentation-after="·" ref="Leuven|0540-024|53|19" relation="PRED_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="54">
+  <word form="καὶ" head="13" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|54|1" relation="AuxY" sem=""/>
+  <word form="οἱ" head="4" id="2" lemma="ὁ" postag="l-p---mn-" ref="Leuven|0540-024|54|2" relation="ATR" sem=""/>
+  <word form="μὲν" head="13" id="3" lemma="μέν" postag="d--------" ref="Leuven|0540-024|54|3" relation="AuxY" sem=""/>
+  <word form="νέοι" head="6" id="4" lemma="νέος" postag="a-p---mn-" ref="Leuven|0540-024|54|4" relation="SBJ" sem=""/>
+  <word form="συγγνώμης" head="7" id="5" lemma="συγγνώμη" postag="n-s---fg-" ref="Leuven|0540-024|54|5" relation="OBJ" sem=""/>
+  <word form="ἀξιοῦνται" head="13" id="6" lemma="ἀξιόω" postag="v3ppie---" ref="Leuven|0540-024|54|6" relation="PRED_CO" sem=""/>
+  <word form="τυγχάνειν" head="6" id="7" lemma="τυγχάνω" postag="v--pna---" ref="Leuven|0540-024|54|7" relation="OBJ" sem=""/>
+  <word form="παρὰ" head="7" id="8" lemma="παρά" postag="r--------" ref="Leuven|0540-024|54|8" relation="AuxP" sem=""/>
+  <word form="τῶν" head="10" id="9" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|54|9" relation="ATR" sem=""/>
+  <word form="πρεσβυτέρων" head="8" id="10" lemma="πρέσβυς" postag="a-p---mg-" presentation-after="," ref="Leuven|0540-024|54|10" relation="ADV" sem=""/>
+  <word form="τοῖς" head="14" id="12" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|54|12" relation="ATR" sem=""/>
+  <word form="δὲ" head="0" id="13" lemma="δέ" postag="b--------" ref="Leuven|0540-024|54|13" relation="COORD" sem=""/>
+  <word form="πρεσβυτέροις" head="17" id="14" lemma="πρέσβυς" postag="a-p---mdc" ref="Leuven|0540-024|54|14" relation="OBJ" sem=""/>
+  <word form="ἐξαμαρτάνουσιν" head="14" id="15" lemma="ἐξαμαρτάνω" postag="v-pppamd-" ref="Leuven|0540-024|54|15" relation="ADV" sem=""/>
+  <word form="ὁμοίως" head="17" id="16" lemma="ὅμοιος" postag="d--------" ref="Leuven|0540-024|54|16" relation="ADV" sem=""/>
+  <word form="ἐπιτιμῶσιν" head="13" id="17" lemma="ἐπιτιμάω" postag="v3ppia---" ref="Leuven|0540-024|54|17" relation="PRED_CO" sem=""/>
+  <word form="ἀμφότεροι" head="17" id="18" lemma="ἀμφότερος" postag="a-p---mn-" presentation-after="·" ref="Leuven|0540-024|54|18" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="55">
+  <word form="καὶ" head="17" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|55|1" relation="AuxY" sem=""/>
+  <word form="τοῖς" head="4" id="2" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|55|2" relation="ATR" sem=""/>
+  <word form="μὲν" head="17" id="3" lemma="μέν" postag="d--------" ref="Leuven|0540-024|55|3" relation="AuxY" sem=""/>
+  <word form="ἰσχυροῖς" head="5" id="4" lemma="ἰσχυρός" postag="a-p---md-" ref="Leuven|0540-024|55|4" relation="OBJ" sem=""/>
+  <word form="ἐγχωρεῖ" head="17" id="5" lemma="ἐγχωρέω" postag="v3spia---" ref="Leuven|0540-024|55|5" relation="PRED_CO" sem=""/>
+  <word form="μηδὲν" head="8" id="6" lemma="μηδείς" postag="p-s---na-" ref="Leuven|0540-024|55|6" relation="OBJ" sem=""/>
+  <word form="αὐτοῖς" head="8" id="7" lemma="αὐτός" postag="p-p---md-" ref="Leuven|0540-024|55|7" relation="ADV" sem=""/>
+  <word form="πάσχουσιν" head="4" id="8" lemma="πάσχω" postag="v-pppamd-" presentation-after="," ref="Leuven|0540-024|55|8" relation="ADV" sem=""/>
+  <word form="οὓς" head="33" id="10" lemma="ὅς" postag="p-p---ma-" ref="Leuven|0540-024|55|10" relation="OBJ" sem=""/>
+  <word form="ἂν" head="12" id="11" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|55|11" relation="AuxY" sem=""/>
+  <word form="βουληθῶσιν" head="14" id="12" lemma="βούλομαι" postag="v3pasp---" presentation-after="," ref="Leuven|0540-024|55|12" relation="OBJ" sem=""/>
+  <word form="ὑβρίζειν" head="5" id="14" lemma="ὑβρίζω" postag="v--pna---" presentation-after="," ref="Leuven|0540-024|55|14" relation="SBJ" sem=""/>
+  <word form="τοῖς" head="18" id="16" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|55|16" relation="ATR" sem=""/>
+  <word form="δὲ" head="0" id="17" lemma="δέ" postag="b--------" ref="Leuven|0540-024|55|17" relation="COORD" sem=""/>
+  <word form="ἀσθενέσιν" head="20" id="18" lemma="ἀσθενής" postag="a-p---md-" ref="Leuven|0540-024|55|18" relation="OBJ" sem=""/>
+  <word form="οὐκ" head="20" id="19" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|55|19" relation="AuxZ" sem=""/>
+  <word form="ἔστιν" head="17" id="20" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|55|20" relation="PRED_CO" sem=""/>
+  <word form="οὔτε" head="26" id="21" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|55|21" relation="AuxY" sem=""/>
+  <word form="ὑβριζομένοις" head="23" id="22" lemma="ὑβρίζω" postag="v-pppemd-" ref="Leuven|0540-024|55|22" relation="ADV" sem=""/>
+  <word form="ἀμύνεσθαι" head="26" id="23" lemma="ἀμύνω" postag="v--pne---" ref="Leuven|0540-024|55|23" relation="SBJ_CO" sem=""/>
+  <word form="τοὺς" head="25" id="24" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|55|24" relation="ATR" sem=""/>
+  <word form="ὑπάρξαντας" head="23" id="25" lemma="ὑπάρχω" postag="v-papama-" ref="Leuven|0540-024|55|25" relation="OBJ" sem=""/>
+  <word form="οὔτε" head="20" id="26" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|55|26" relation="COORD" sem=""/>
+  <word form="ὑβρίζειν" head="26" id="27" lemma="ὑβρίζω" postag="v--pna---" ref="Leuven|0540-024|55|27" relation="SBJ_CO" sem=""/>
+  <word form="βουλομένοις" head="27" id="28" lemma="βούλομαι" postag="v-pppemd-" ref="Leuven|0540-024|55|28" relation="ADV" sem=""/>
+  <word form="περιγίγνεσθαι" head="28" id="29" lemma="περιγίγνομαι" postag="v--pne---" ref="Leuven|0540-024|55|29" relation="OBJ" sem=""/>
+  <word form="τῶν" head="31" id="30" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|55|30" relation="ATR" sem=""/>
+  <word form="ἀδικουμένων" head="29" id="31" lemma="ἀδικέω" postag="v-pppemg-" presentation-after="." ref="Leuven|0540-024|55|31" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="[0]" head="12" id="33" insertion_id="0010e" lemma="" postag="" ref="Leuven|0540-024|55|33" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="56">
+  <word form="ὥστε" head="3" id="1" lemma="ὥστε" postag="d--------" ref="Leuven|0540-024|56|1" relation="AuxY" sem=""/>
+  <word form="μοι" head="3" id="2" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|56|2" relation="OBJ" sem=""/>
+  <word form="δοκεῖ" head="0" id="3" lemma="δοκέω" postag="v3spia---" ref="Leuven|0540-024|56|3" relation="PRED" sem=""/>
+  <word form="ὁ" head="5" id="4" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|56|4" relation="ATR" sem=""/>
+  <word form="κατήγορος" head="3" id="5" lemma="κατήγορος" postag="n-s---mn-" ref="Leuven|0540-024|56|5" relation="SBJ" sem=""/>
+  <word form="εἰπεῖν" head="3" id="6" lemma="λέγω" postag="v--ana---" ref="Leuven|0540-024|56|6" relation="OBJ" sem=""/>
+  <word form="περὶ" head="6" id="7" lemma="περί" postag="r--------" ref="Leuven|0540-024|56|7" relation="AuxP" sem=""/>
+  <word form="τῆς" head="10" id="8" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|56|8" relation="ATR" sem=""/>
+  <word form="ἐμῆς" head="10" id="9" lemma="ἐμός" postag="a-s---fg-" ref="Leuven|0540-024|56|9" relation="ATR" sem=""/>
+  <word form="ὕβρεως" head="7" id="10" lemma="ὕβρις" postag="n-s---fg-" ref="Leuven|0540-024|56|10" relation="OBJ" sem=""/>
+  <word form="οὐ" head="12" id="11" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|56|11" relation="AuxZ" sem=""/>
+  <word form="σπουδάζων" head="14" id="12" lemma="σπουδάζω" postag="v-sppamn-" presentation-after="," ref="Leuven|0540-024|56|12" relation="ADV_CO" sem=""/>
+  <word form="ἀλλὰ" head="3" id="14" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|56|14" relation="COORD" sem=""/>
+  <word form="παίζων" head="14" id="15" lemma="παίζω" postag="v-sppamn-" presentation-after="," ref="Leuven|0540-024|56|15" relation="ADV_CO" sem=""/>
+  <word form="οὐδ’" head="20" id="17" lemma="οὐδέ" postag="b--------" ref="Leuven|0540-024|56|17" relation="AuxY" sem=""/>
+  <word form="ὑμᾶς" head="19" id="18" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|56|18" relation="OBJ" sem=""/>
+  <word form="πεῖσαι" head="20" id="19" lemma="πείθω" postag="v--ana---" ref="Leuven|0540-024|56|19" relation="OBJ" sem=""/>
+  <word form="βουλόμενος" head="25" id="20" lemma="βούλομαι" postag="v-sppemn-" ref="Leuven|0540-024|56|20" relation="ADV_CO" sem=""/>
+  <word form="ὡς" head="19" id="21" lemma="ὡς" postag="c--------" ref="Leuven|0540-024|56|21" relation="AuxC" sem=""/>
+  <word form="εἰμὶ" head="21" id="22" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|56|22" relation="OBJ" sem=""/>
+  <word form="τοιοῦτος" head="22" id="23" lemma="τοιοῦτος" postag="p-s---mn-" presentation-after="," ref="Leuven|0540-024|56|23" relation="PNOM" sem=""/>
+  <word form="ἀλλ’" head="3" id="25" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|56|25" relation="COORD" sem=""/>
+  <word form="ἐμὲ" head="27" id="26" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|56|26" relation="OBJ" sem=""/>
+  <word form="κωμῳδεῖν" head="28" id="27" lemma="κωμῳδέω" postag="v--pna---" ref="Leuven|0540-024|56|27" relation="OBJ" sem=""/>
+  <word form="βουλόμενος" head="25" id="28" lemma="βούλομαι" postag="v-sppemn-" presentation-after="," ref="Leuven|0540-024|56|28" relation="ADV_CO" sem=""/>
+  <word form="ὥσπερ" head="33" id="30" lemma="ὥσπερ" postag="c--------" ref="Leuven|0540-024|56|30" relation="AuxZ" sem=""/>
+  <word form="τι" head="33" id="31" lemma="τις" postag="p-s---na-" ref="Leuven|0540-024|56|31" relation="OBJ" sem=""/>
+  <word form="καλὸν" head="31" id="32" lemma="καλός" postag="a-s---na-" ref="Leuven|0540-024|56|32" relation="ATR" sem=""/>
+  <word form="ποιῶν" head="28" id="33" lemma="ποιέω" postag="v-sppamn-" presentation-after="." ref="Leuven|0540-024|56|33" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="57">
+  <word form="ἔτι" head="5" id="1" lemma="ἔτι" postag="d--------" ref="Leuven|0540-024|57|1" relation="ADV" sem=""/>
+  <word form="δὲ" head="5" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|57|2" relation="AuxY" sem=""/>
+  <word form="καὶ" head="5" id="3" lemma="καί" postag="b--------" ref="Leuven|0540-024|57|3" relation="AuxZ" sem=""/>
+  <word form="συλλέγεσθαί" head="5" id="4" lemma="συλλέγω" postag="v--pne---" ref="Leuven|0540-024|57|4" relation="OBJ" sem=""/>
+  <word form="φησιν" head="0" id="5" lemma="φημί" postag="v3spia---" ref="Leuven|0540-024|57|5" relation="PRED" sem=""/>
+  <word form="ἀνθρώπους" head="4" id="6" lemma="ἄνθρωπος" postag="n-p---ma-" ref="Leuven|0540-024|57|6" relation="SBJ" sem=""/>
+  <word form="ὡς" head="4" id="7" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|57|7" relation="AuxP" sem=""/>
+  <word form="ἐμὲ" head="7" id="8" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|57|8" relation="OBJ" sem="direction"/>
+  <word form="πονηροὺς" head="10" id="9" lemma="πονηρός" postag="a-p---ma-" ref="Leuven|0540-024|57|9" relation="ATR_CO" sem=""/>
+  <word form="καὶ" head="6" id="10" lemma="καί" postag="b--------" ref="Leuven|0540-024|57|10" relation="COORD" sem=""/>
+  <word form="πολλούς" head="10" id="11" lemma="πολύς" postag="a-p---ma-" presentation-after="," ref="Leuven|0540-024|57|11" relation="ATR_CO" sem=""/>
+  <word form="οἳ" head="17" id="13" lemma="ὅς" postag="p-p---mn-" ref="Leuven|0540-024|57|13" relation="SBJ" sem=""/>
+  <word form="τὰ" head="17" id="14" lemma="ὁ" postag="l-p---na-" ref="Leuven|0540-024|57|14" relation="OBJ" sem=""/>
+  <word form="μὲν" head="20" id="15" lemma="μέν" postag="d--------" ref="Leuven|0540-024|57|15" relation="AuxY" sem=""/>
+  <word form="ἑαυτῶν" head="14" id="16" lemma="ἑαυτοῦ" postag="p-p---mg-" ref="Leuven|0540-024|57|16" relation="ATR" sem=""/>
+  <word form="ἀνηλώκασι" head="20" id="17" lemma="ἀναλίσκω" postag="v3pria---" presentation-after="," ref="Leuven|0540-024|57|17" relation="ATR_CO" sem=""/>
+  <word form="τοῖς" head="24" id="19" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|57|19" relation="ATR" sem=""/>
+  <word form="δὲ" head="6" id="20" lemma="δέ" postag="b--------" ref="Leuven|0540-024|57|20" relation="COORD" sem=""/>
+  <word form="τὰ" head="22" id="21" lemma="ὁ" postag="l-p---na-" ref="Leuven|0540-024|57|21" relation="ATR" sem=""/>
+  <word form="σφέτερα" head="23" id="22" lemma="σφέτερος" postag="a-p---na-" ref="Leuven|0540-024|57|22" relation="OBJ" sem=""/>
+  <word form="σῴζειν" head="24" id="23" lemma="σῴζω" postag="v--pna---" ref="Leuven|0540-024|57|23" relation="OBJ" sem=""/>
+  <word form="βουλομένοις" head="25" id="24" lemma="βούλομαι" postag="v-pppemd-" ref="Leuven|0540-024|57|24" relation="OBJ" sem=""/>
+  <word form="ἐπιβουλεύουσιν" head="20" id="25" lemma="ἐπιβουλεύω" postag="v3ppia---" presentation-after="." ref="Leuven|0540-024|57|25" relation="ATR_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="58">
+  <word form="ὑμεῖς" head="3" id="1" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|58|1" relation="SBJ" sem=""/>
+  <word form="δὲ" head="3" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|58|2" relation="AuxY" sem=""/>
+  <word form="ἐνθυμήθητε" head="0" id="3" lemma="ἐνθυμέομαι" postag="v2pamp---" ref="Leuven|0540-024|58|3" relation="PRED" sem=""/>
+  <word form="πάντες" head="1" id="4" lemma="πᾶς" postag="a-p---mn-" ref="Leuven|0540-024|58|4" relation="ATR" sem=""/>
+  <word form="ὅτι" head="3" id="5" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|58|5" relation="AuxC" sem=""/>
+  <word form="ταῦτα" head="7" id="6" lemma="οὗτος" postag="p-p---na-" ref="Leuven|0540-024|58|6" relation="OBJ" sem=""/>
+  <word form="λέγων" head="10" id="7" lemma="λέγω" postag="v-sppamn-" ref="Leuven|0540-024|58|7" relation="ADV" sem="manner"/>
+  <word form="οὐδὲν" head="10" id="8" lemma="οὐδείς" postag="p-s---na-" ref="Leuven|0540-024|58|8" relation="ADV" sem="respect"/>
+  <word form="ἐμοῦ" head="18" id="9" lemma="ἐγώ" postag="p1s---cg-" ref="Leuven|0540-024|58|9" relation="OBJ_CO" sem=""/>
+  <word form="κατηγορεῖ" head="5" id="10" lemma="κατηγορέω" postag="v3spia---" ref="Leuven|0540-024|58|10" relation="OBJ" sem=""/>
+  <word form="μᾶλλον" head="9" id="11" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|58|11" relation="ADV" sem=""/>
+  <word form="ἢ" head="11" id="12" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|58|12" relation="AuxC" sem=""/>
+  <word form="τῶν" head="14" id="13" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|58|13" relation="ATR" sem=""/>
+  <word form="ἄλλων" head="12" id="14" lemma="ἄλλος" postag="p-p---mg-" ref="Leuven|0540-024|58|14" relation="OBJ" sem="comparison"/>
+  <word form="ὅσοι" head="17" id="15" lemma="ὅσος" postag="p-p---mn-" ref="Leuven|0540-024|58|15" relation="SBJ" sem=""/>
+  <word form="τέχνας" head="17" id="16" lemma="τέχνη" postag="n-p---fa-" ref="Leuven|0540-024|58|16" relation="OBJ" sem=""/>
+  <word form="ἔχουσιν" head="14" id="17" lemma="ἔχω" postag="v3ppia---" ref="Leuven|0540-024|58|17" relation="ATR" sem=""/>
+  <word form="οὐδὲ" head="10" id="18" lemma="οὐδέ" postag="b--------" ref="Leuven|0540-024|58|18" relation="COORD" sem=""/>
+  <word form="τῶν" head="22" id="19" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|58|19" relation="ATR" sem=""/>
+  <word form="ὡς" head="22" id="20" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|58|20" relation="AuxP" sem=""/>
+  <word form="ἐμὲ" head="20" id="21" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|58|21" relation="OBJ" sem=""/>
+  <word form="εἰσιόντων" head="18" id="22" lemma="εἴσειμι" postag="v-pppamg-" ref="Leuven|0540-024|58|22" relation="OBJ_CO" sem=""/>
+  <word form="μᾶλλον" head="22" id="23" lemma="μάλα" postag="d-------c" ref="Leuven|0540-024|58|23" relation="ADV" sem=""/>
+  <word form="ἢ" head="23" id="24" lemma="ἤ" postag="c--------" ref="Leuven|0540-024|58|24" relation="AuxC" sem=""/>
+  <word form="τῶν" head="24" id="25" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|58|25" relation="OBJ" sem="comparison"/>
+  <word form="ὡς" head="25" id="26" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|58|26" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="29" id="27" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|58|27" relation="ATR" sem=""/>
+  <word form="ἄλλους" head="29" id="28" lemma="ἄλλος" postag="p-p---ma-" ref="Leuven|0540-024|58|28" relation="ATR" sem=""/>
+  <word form="δημιουργούς" head="26" id="29" lemma="δημιουργός" postag="n-p---ma-" presentation-after="." ref="Leuven|0540-024|58|29" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="59">
+  <word form="ἕκαστος" head="4" id="1" lemma="ἕκαστος" postag="a-s---mn-" ref="Leuven|0540-024|59|1" relation="SBJ" sem=""/>
+  <word form="γὰρ" head="4" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|59|2" relation="AuxY" sem=""/>
+  <word form="ὑμῶν" head="1" id="3" lemma="σύ" postag="p2p---cg-" ref="Leuven|0540-024|59|3" relation="ATR" sem="totality"/>
+  <word form="εἴθισται" head="38" id="4" lemma="ἐθίζω" postag="v3srie---" ref="Leuven|0540-024|59|4" relation="PRED_CO" sem=""/>
+  <word form="προσφοιτᾶν" head="4" id="5" lemma="προσφοιτάω" postag="v--pna---" ref="Leuven|0540-024|59|5" relation="OBJ" sem=""/>
+  <word form="ὁ" head="22" id="6" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|59|6" relation="ATR" sem=""/>
+  <word form="μὲν" head="22" id="7" lemma="μέν" postag="d--------" ref="Leuven|0540-024|59|7" relation="AuxY" sem=""/>
+  <word form="πρὸς" head="22" id="8" lemma="πρός" postag="r--------" ref="Leuven|0540-024|59|8" relation="AuxP" sem=""/>
+  <word form="μυροπώλιον" head="8" id="9" lemma="μυροπώλιον" postag="n-s---na-" presentation-after="," ref="Leuven|0540-024|59|9" relation="OBJ_CO" sem="direction"/>
+  <word form="ὁ" head="22" id="11" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|59|11" relation="ATR" sem=""/>
+  <word form="δὲ" head="22" id="12" lemma="δέ" postag="b--------" ref="Leuven|0540-024|59|12" relation="AuxY" sem=""/>
+  <word form="πρὸς" head="22" id="13" lemma="πρός" postag="r--------" ref="Leuven|0540-024|59|13" relation="AuxP" sem=""/>
+  <word form="κουρεῖον" head="13" id="14" lemma="κουρεῖον" postag="n-s---na-" presentation-after="," ref="Leuven|0540-024|59|14" relation="OBJ_CO" sem="direction"/>
+  <word form="ὁ" head="22" id="16" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|59|16" relation="ATR" sem=""/>
+  <word form="δὲ" head="22" id="17" lemma="δέ" postag="b--------" ref="Leuven|0540-024|59|17" relation="AuxY" sem=""/>
+  <word form="πρὸς" head="22" id="18" lemma="πρός" postag="r--------" ref="Leuven|0540-024|59|18" relation="AuxP" sem=""/>
+  <word form="σκυτοτομεῖον" head="18" id="19" lemma="σκυτοτομεῖον" postag="n-s---na-" presentation-after="," ref="Leuven|0540-024|59|19" relation="OBJ_CO" sem=""/>
+  <word form="ὁ" head="25" id="21" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|59|21" relation="SBJ" sem=""/>
+  <word form="δ’" head="5" id="22" lemma="δέ" postag="b--------" ref="Leuven|0540-024|59|22" relation="COORD" sem=""/>
+  <word form="ὅποι" head="25" id="23" lemma="ὅποι" postag="d--------" ref="Leuven|0540-024|59|23" relation="ADV" sem=""/>
+  <word form="ἂν" head="25" id="24" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|59|24" relation="AuxY" sem=""/>
+  <word form="τύχῃ" head="22" id="25" lemma="τυγχάνω" postag="v3sasa---" presentation-after="," ref="Leuven|0540-024|59|25" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="38" id="27" lemma="καί" postag="b--------" ref="Leuven|0540-024|59|27" relation="AuxY" sem=""/>
+  <word form="πλεῖστοι" head="45" id="28" lemma="πολύς" postag="a-p---mns" ref="Leuven|0540-024|59|28" relation="SBJ" sem=""/>
+  <word form="μὲν" head="38" id="29" lemma="μέν" postag="d--------" ref="Leuven|0540-024|59|29" relation="AuxY" sem=""/>
+  <word form="ὡς" head="45" id="30" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|59|30" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="35" id="31" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|59|31" relation="ATR" sem=""/>
+  <word form="ἐγγυτάτω" head="35" id="32" lemma="ἐγγυτάτω" postag="r--------" ref="Leuven|0540-024|59|32" relation="AuxP" sem=""/>
+  <word form="τῆς" head="34" id="33" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|59|33" relation="ATR" sem=""/>
+  <word form="ἀγορᾶς" head="32" id="34" lemma="ἀγορά" postag="n-s---fg-" ref="Leuven|0540-024|59|34" relation="ADV" sem=""/>
+  <word form="κατεσκευασμένους" head="30" id="35" lemma="κατασκευάζω" postag="v-prpema-" presentation-after="," ref="Leuven|0540-024|59|35" relation="OBJ" sem="direction"/>
+  <word form="ἐλάχιστοι" head="46" id="37" lemma="ἐλαχύς" postag="a-p---mns" ref="Leuven|0540-024|59|37" relation="SBJ" sem=""/>
+  <word form="δὲ" head="0" id="38" lemma="δέ" postag="b--------" ref="Leuven|0540-024|59|38" relation="COORD" sem=""/>
+  <word form="ὡς" head="46" id="39" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|59|39" relation="AuxP" sem=""/>
+  <word form="τοὺς" head="42" id="40" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|59|40" relation="ATR" sem=""/>
+  <word form="πλεῖστον" head="42" id="41" lemma="πολύς" postag="a-s---nas" ref="Leuven|0540-024|59|41" relation="ADV" sem=""/>
+  <word form="ἀπέχοντας" head="39" id="42" lemma="ἀπέχω" postag="v-pppama-" ref="Leuven|0540-024|59|42" relation="OBJ" sem="direction"/>
+  <word form="αὐτῆς" head="42" id="43" lemma="αὐτός" postag="p-s---fg-" presentation-after="·" ref="Leuven|0540-024|59|43" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="[0]" head="38" id="45" insertion_id="0028e" lemma="" postag="" ref="Leuven|0540-024|59|45" relation="PRED_CO" sem=""/>
+  <word artificial="elliptic" form="[1]" head="38" id="46" insertion_id="0037e" lemma="" postag="" ref="Leuven|0540-024|59|46" relation="PRED_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="60">
+  <word form="ὥστ’" head="21" id="1" lemma="ὥστε" postag="d--------" ref="Leuven|0540-024|60|1" relation="AuxC" sem=""/>
+  <word form="εἴ" head="21" id="2" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|60|2" relation="AuxC" sem=""/>
+  <word form="τις" head="6" id="3" lemma="τις" postag="p-s---cn-" ref="Leuven|0540-024|60|3" relation="SBJ" sem=""/>
+  <word form="ὑμῶν" head="3" id="4" lemma="σύ" postag="p2p---cg-" ref="Leuven|0540-024|60|4" relation="ATR" sem="totality"/>
+  <word form="πονηρίαν" head="6" id="5" lemma="πονηρία" postag="n-s---fa-" ref="Leuven|0540-024|60|5" relation="OBJ" sem=""/>
+  <word form="καταγνώσεται" head="2" id="6" lemma="καταγιγνώσκω" postag="v3sfim---" ref="Leuven|0540-024|60|6" relation="ADV" sem=""/>
+  <word form="τῶν" head="10" id="7" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|60|7" relation="ATR" sem=""/>
+  <word form="ὡς" head="10" id="8" lemma="ὡς" postag="r--------" ref="Leuven|0540-024|60|8" relation="AuxP" sem=""/>
+  <word form="ἐμὲ" head="8" id="9" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|60|9" relation="OBJ" sem="direction"/>
+  <word form="εἰσιόντων" head="6" id="10" lemma="εἴσειμι" postag="v-pppamg-" presentation-after="," ref="Leuven|0540-024|60|10" relation="OBJ" sem=""/>
+  <word form="δῆλον" head="21" id="12" lemma="δῆλος" postag="a-s---nn-" ref="Leuven|0540-024|60|12" relation="PNOM" sem=""/>
+  <word form="ὅτι" head="21" id="13" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|60|13" relation="AuxC" sem=""/>
+  <word form="καὶ" head="19" id="14" lemma="καί" postag="d--------" ref="Leuven|0540-024|60|14" relation="AuxZ" sem=""/>
+  <word form="τῶν" head="19" id="15" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|60|15" relation="ATR" sem=""/>
+  <word form="παρὰ" head="19" id="16" lemma="παρά" postag="r--------" ref="Leuven|0540-024|60|16" relation="AuxP" sem=""/>
+  <word form="τοῖς" head="18" id="17" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|60|17" relation="ATR" sem=""/>
+  <word form="ἄλλοις" head="16" id="18" lemma="ἄλλος" postag="p-p---md-" ref="Leuven|0540-024|60|18" relation="ADV" sem=""/>
+  <word form="διατριβόντων" head="22" id="19" lemma="διατρίβω" postag="v-pppamg-" presentation-after="·" ref="Leuven|0540-024|60|19" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="ἐστι" head="0" id="21" insertion_id="0012e" lemma="εἰμί" postag="v3spia---" ref="Leuven|0540-024|60|21" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="καταγνώσεται" head="13" id="22" insertion_id="0019e" lemma="καταγιγνώσκω" postag="v3sfim---" ref="Leuven|0540-024|60|22" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="61">
+  <word form="εἰ" head="0" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|61|1" relation="AuxC" sem=""/>
+  <word form="δὲ" head="0" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|61|2" relation="AuxY" sem=""/>
+  <word form="κ-" head="4" id="3" lemma="καί" postag="d--------" ref="Leuven|0540-024|61|3" relation="AuxZ" sem=""/>
+  <word form="ἐκείνων" head="9" id="4" lemma="ἐκεῖνος" postag="p-p---mg-" presentation-after="," ref="Leuven|0540-024|61|4" relation="OBJ" sem=""/>
+  <word form="ἁπάντων" head="7" id="6" lemma="ἅπας" postag="a-p---mg-" ref="Leuven|0540-024|61|6" relation="ATR" sem=""/>
+  <word form="Ἀθηναίων" head="0" id="7" lemma="Ἀθηναῖος" postag="a-p---mg-" presentation-after="·" ref="Leuven|0540-024|61|7" relation="OBJ" sem=""/>
+  <word form="[0]" head="0" id="9" lemma="καταγιγνώσκω" postag="v3sfim---" ref="Leuven|0540-024|61|10" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="62">
+  <word form="ἅπαντες" head="3" id="1" lemma="ἅπας" postag="a-p---mn-" ref="Leuven|0540-024|62|1" relation="ADV" sem=""/>
+  <word form="γὰρ" head="3" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|62|2" relation="AuxY" sem=""/>
+  <word form="εἴθισθε" head="0" id="3" lemma="ἐθίζω" postag="v2prie---" ref="Leuven|0540-024|62|3" relation="PRED" sem=""/>
+  <word form="προσφοιτᾶν" head="5" id="4" lemma="προσφοιτάω" postag="v--pna---" ref="Leuven|0540-024|62|4" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="3" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|62|5" relation="COORD" sem=""/>
+  <word form="διατρίβειν" head="5" id="6" lemma="διατρίβω" postag="v--pna---" ref="Leuven|0540-024|62|6" relation="OBJ_CO" sem=""/>
+  <word form="ἁμοῦ" head="5" id="7" lemma="ἁμοῦ" postag="d--------" ref="Leuven|0540-024|62|7" relation="ADV" sem=""/>
+  <word form="γέ" head="7" id="8" lemma="γε" postag="d--------" ref="Leuven|0540-024|62|8" relation="AuxZ" sem=""/>
+  <word form="που" head="7" id="9" lemma="που" postag="d--------" presentation-after="." ref="Leuven|0540-024|62|9" relation="AuxZ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="63">
+  <word form="ἀλλὰ" head="4" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|63|1" relation="AuxY" sem=""/>
+  <word form="γὰρ" head="4" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|63|2" relation="AuxY" sem=""/>
+  <word form="οὐκ" head="4" id="3" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|63|3" relation="AuxZ" sem=""/>
+  <word form="οἶδ’" head="0" id="4" lemma="οἶδα" postag="v1sria---" ref="Leuven|0540-024|63|4" relation="PRED" sem=""/>
+  <word form="ὅ" head="7" id="5" lemma="ὅς" postag="p-s---na-" ref="Leuven|0540-024|63|5" relation="ADV" sem="respect"/>
+  <word form="τι" head="5" id="6" lemma="τις" postag="p-s---na-" ref="Leuven|0540-024|63|6" relation="ATR" sem=""/>
+  <word form="δεῖ" head="4" id="7" lemma="δέω" postag="v3spia---" ref="Leuven|0540-024|63|7" relation="OBJ" sem=""/>
+  <word form="λίαν" head="10" id="8" lemma="λίαν" postag="d--------" ref="Leuven|0540-024|63|8" relation="ADV" sem=""/>
+  <word form="με" head="18" id="9" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|63|9" relation="SBJ" sem=""/>
+  <word form="ἀκριβῶς" head="11" id="10" lemma="ἀκριβής" postag="d--------" ref="Leuven|0540-024|63|10" relation="ADV" sem=""/>
+  <word form="ἀπολογούμενον" head="18" id="11" lemma="ἀπολογέομαι" postag="v-sppema-" ref="Leuven|0540-024|63|11" relation="ADV" sem=""/>
+  <word form="πρὸς" head="11" id="12" lemma="πρός" postag="r--------" ref="Leuven|0540-024|63|12" relation="AuxP" sem=""/>
+  <word form="ἓν" head="12" id="13" lemma="εἷς" postag="m-s---na-" ref="Leuven|0540-024|63|13" relation="OBJ" sem=""/>
+  <word form="ἕκαστον" head="13" id="14" lemma="ἕκαστος" postag="a-s---na-" ref="Leuven|0540-024|63|14" relation="ATR" sem=""/>
+  <word form="ὑμῖν" head="18" id="15" lemma="σύ" postag="p2p---cd-" ref="Leuven|0540-024|63|15" relation="OBJ" sem=""/>
+  <word form="τῶν" head="17" id="16" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|63|16" relation="ATR" sem=""/>
+  <word form="εἰρημένων" head="13" id="17" lemma="λέγω" postag="v-prpeng-" ref="Leuven|0540-024|63|17" relation="ATR" sem="totality"/>
+  <word form="ἐνοχλεῖν" head="7" id="18" lemma="ἐνοχλέω" postag="v--pna---" ref="Leuven|0540-024|63|18" relation="SBJ" sem=""/>
+  <word form="πλείω" head="20" id="19" lemma="πολύς" postag="a-s---mac" ref="Leuven|0540-024|63|19" relation="ATR" sem=""/>
+  <word form="χρόνον" head="18" id="20" lemma="χρόνος" postag="n-s---ma-" presentation-after="." ref="Leuven|0540-024|63|20" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="64">
+  <word form="εἰ" head="9" id="1" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|64|1" relation="AuxC" sem=""/>
+  <word form="γὰρ" head="9" id="2" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|64|2" relation="AuxY" sem=""/>
+  <word form="ὑπὲρ" head="6" id="3" lemma="ὑπέρ" postag="r--------" ref="Leuven|0540-024|64|3" relation="AuxP" sem=""/>
+  <word form="τῶν" head="5" id="4" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|64|4" relation="ATR" sem=""/>
+  <word form="μεγίστων" head="3" id="5" lemma="μέγας" postag="a-p---ngs" ref="Leuven|0540-024|64|5" relation="OBJ" sem=""/>
+  <word form="εἴρηκα" head="1" id="6" lemma="λέγω" postag="v1sria---" presentation-after="," ref="Leuven|0540-024|64|6" relation="ADV" sem=""/>
+  <word form="τί" head="9" id="8" lemma="τίς" postag="p-s---na-" ref="Leuven|0540-024|64|8" relation="ADV" sem=""/>
+  <word form="δεῖ" head="0" id="9" lemma="δέω" postag="v3spia---" ref="Leuven|0540-024|64|9" relation="PRED" sem=""/>
+  <word form="περὶ" head="15" id="10" lemma="περί" postag="r--------" ref="Leuven|0540-024|64|10" relation="AuxP" sem=""/>
+  <word form="τῶν" head="12" id="11" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|64|11" relation="ATR" sem=""/>
+  <word form="φαύλων" head="10" id="12" lemma="φαῦλος" postag="a-p---ng-" ref="Leuven|0540-024|64|12" relation="ADV" sem=""/>
+  <word form="ὁμοίως" head="15" id="13" lemma="ὅμοιος" postag="d--------" ref="Leuven|0540-024|64|13" relation="ADV" sem=""/>
+  <word form="τούτῳ" head="13" id="14" lemma="οὗτος" postag="p-s---md-" ref="Leuven|0540-024|64|14" relation="ADV" sem=""/>
+  <word form="σπουδάζειν" head="9" id="15" lemma="σπουδάζω" postag="v--pna---" presentation-after=";" ref="Leuven|0540-024|64|15" relation="SBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="65">
+  <word form="ἐγὼ" head="8" id="1" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|65|1" relation="SBJ" sem=""/>
+  <word form="δ’" head="8" id="2" lemma="δέ" postag="d--------" ref="Leuven|0540-024|65|2" relation="AuxY" sem=""/>
+  <word form="ὑμῶν" head="8" id="3" lemma="σύ" postag="p2p---cg-" presentation-after="," ref="Leuven|0540-024|65|3" relation="OBJ" sem=""/>
+  <word form="ὦ" head="6" id="5" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|65|5" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="8" id="6" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|65|6" relation="ExD" sem=""/>
+  <word form="δέομαι" head="0" id="8" lemma="δέω" postag="v1spie---" ref="Leuven|0540-024|65|8" relation="PRED" sem=""/>
+  <word form="πάντων" head="3" id="9" lemma="πᾶς" postag="a-p---mg-" ref="Leuven|0540-024|65|9" relation="ATR" sem=""/>
+  <word form="τὴν" head="11" id="10" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|65|10" relation="ATR" sem=""/>
+  <word form="αὐτὴν" head="15" id="11" lemma="αὐτός" postag="p-s---fa-" ref="Leuven|0540-024|65|11" relation="ATR" sem=""/>
+  <word form="ἔχειν" head="8" id="12" lemma="ἔχω" postag="v--pna---" ref="Leuven|0540-024|65|12" relation="OBJ" sem=""/>
+  <word form="περὶ" head="12" id="13" lemma="περί" postag="r--------" ref="Leuven|0540-024|65|13" relation="AuxP" sem=""/>
+  <word form="ἐμοῦ" head="13" id="14" lemma="ἐγώ" postag="p1s---cg-" ref="Leuven|0540-024|65|14" relation="ADV" sem=""/>
+  <word form="διάνοιαν" head="12" id="15" lemma="διάνοια" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|65|15" relation="OBJ" sem=""/>
+  <word form="ἥνπερ" head="21" id="17" lemma="ὅς" postag="p-s---fa-" ref="Leuven|0540-024|65|17" relation="OBJ" sem=""/>
+  <word form="καὶ" head="19" id="18" lemma="καί" postag="d--------" ref="Leuven|0540-024|65|18" relation="AuxZ" sem=""/>
+  <word form="πρότερον" head="21" id="19" lemma="πρότερος" postag="d-------c" presentation-after="." ref="Leuven|0540-024|65|19" relation="ADV" sem=""/>
+  <word artificial="elliptic" form="[0]" head="15" id="21" insertion_id="0016e" lemma="" postag="" ref="Leuven|0540-024|65|21" relation="ATR" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="66">
+  <word form="μηδ’" head="17" id="1" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|66|1" relation="AuxZ" sem=""/>
+  <word form="οὗ" head="4" id="2" lemma="ὅς" postag="p-s---ng-" ref="Leuven|0540-024|66|2" relation="OBJ" sem=""/>
+  <word form="μόνου" head="2" id="3" lemma="μόνος" postag="a-s---ng-" ref="Leuven|0540-024|66|3" relation="APOS" sem=""/>
+  <word form="μεταλαβεῖν" head="5" id="4" lemma="μεταλαμβάνω" postag="v--ana---" ref="Leuven|0540-024|66|4" relation="ADV" sem=""/>
+  <word form="ἔδωκεν" head="14" id="5" lemma="δίδωμι" postag="v3saia---" ref="Leuven|0540-024|66|5" relation="ATR" sem=""/>
+  <word form="ἡ" head="7" id="6" lemma="ὁ" postag="l-s---fn-" ref="Leuven|0540-024|66|6" relation="ATR" sem=""/>
+  <word artificial="elliptic" form="τύχη" head="5" id="7" insertion_id="0006f" lemma="τύχη" postag="n-s---fn-" ref="Leuven|0540-024|66|7" relation="SBJ" sem=""/>
+  <word form="μοι" head="5" id="8" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|66|8" relation="OBJ" sem=""/>
+  <word form="τῶν" head="3" id="9" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|66|9" relation="ATR" sem="totality"/>
+  <word form="ἐν" head="9" id="10" lemma="ἐν" postag="r--------" ref="Leuven|0540-024|66|10" relation="AuxP" sem=""/>
+  <word form="τῇ" head="12" id="11" lemma="ὁ" postag="l-s---fd-" ref="Leuven|0540-024|66|11" relation="ATR" sem=""/>
+  <word form="πατρίδι" head="10" id="12" lemma="πατρίς" postag="n-s---fd-" presentation-after="," ref="Leuven|0540-024|66|12" relation="ATR" sem=""/>
+  <word form="τούτου" head="17" id="14" lemma="οὗτος" postag="p-s---ng-" ref="Leuven|0540-024|66|14" relation="OBJ" sem=""/>
+  <word form="διὰ" head="17" id="15" lemma="διά" postag="r--------" ref="Leuven|0540-024|66|15" relation="AuxP" sem=""/>
+  <word form="τουτονὶ" head="15" id="16" lemma="οὗτος" postag="p-s---ma-" ref="Leuven|0540-024|66|16" relation="ADV" sem=""/>
+  <word form="ἀποστερήσητέ" head="0" id="17" lemma="ἀποστερέω" postag="v2pasa---" ref="Leuven|0540-024|66|17" relation="PRED" sem=""/>
+  <word form="με" head="17" id="18" lemma="ἐγώ" postag="p1s---ca-" presentation-after="·" ref="Leuven|0540-024|66|18" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="67">
+  <word form="μηδ’" head="13" id="1" lemma="μηδέ" postag="d--------" ref="Leuven|0540-024|67|1" relation="AuxZ" sem=""/>
+  <word form="ἃ" head="6" id="2" lemma="ὅς" postag="p-p---na-" ref="Leuven|0540-024|67|2" relation="OBJ" sem=""/>
+  <word form="πάλαι" head="6" id="3" lemma="πάλαι" postag="d--------" ref="Leuven|0540-024|67|3" relation="ADV" sem=""/>
+  <word form="κοινῇ" head="6" id="4" lemma="κοινῇ" postag="d--------" ref="Leuven|0540-024|67|4" relation="ADV" sem=""/>
+  <word form="πάντες" head="6" id="5" lemma="πᾶς" postag="a-p---mn-" ref="Leuven|0540-024|67|5" relation="SBJ" sem=""/>
+  <word form="ἔδοτέ" head="16" id="6" lemma="δίδωμι" postag="v2paia---" ref="Leuven|0540-024|67|6" relation="OBJ" sem=""/>
+  <word form="μοι" head="6" id="7" lemma="ἐγώ" postag="p1s---cd-" presentation-after="," ref="Leuven|0540-024|67|7" relation="OBJ" sem=""/>
+  <word form="νῦν" head="13" id="9" lemma="νῦν" postag="d--------" ref="Leuven|0540-024|67|9" relation="ADV" sem=""/>
+  <word form="οὗτος" head="13" id="10" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|67|10" relation="SBJ" sem=""/>
+  <word form="εἷς" head="12" id="11" lemma="εἷς" postag="m-s---mn-" ref="Leuven|0540-024|67|11" relation="PNOM" sem=""/>
+  <word form="ὢν" head="13" id="12" lemma="εἰμί" postag="v-sppamn-" ref="Leuven|0540-024|67|12" relation="ADV" sem=""/>
+  <word form="πείσῃ" head="0" id="13" lemma="πείθω" postag="v3sasa---" ref="Leuven|0540-024|67|13" relation="PRED" sem=""/>
+  <word form="πάλιν" head="16" id="14" lemma="πάλιν" postag="d--------" ref="Leuven|0540-024|67|14" relation="ADV" sem=""/>
+  <word form="ὑμᾶς" head="16" id="15" lemma="σύ" postag="p2p---ca-" ref="Leuven|0540-024|67|15" relation="SBJ" sem=""/>
+  <word form="ἀφελέσθαι" head="13" id="16" lemma="ἀφαιρέω" postag="v--anm---" presentation-after="." ref="Leuven|0540-024|67|16" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="68">
+  <word form="ἐπειδὴ" head="18" id="1" lemma="ἐπεί" postag="c--------" ref="Leuven|0540-024|68|1" relation="AuxC" sem=""/>
+  <word form="γὰρ" head="18" id="2" lemma="γάρ" postag="d--------" presentation-after="," ref="Leuven|0540-024|68|2" relation="AuxY" sem=""/>
+  <word form="ὦ" head="5" id="4" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|68|4" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="18" id="5" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|68|5" relation="ExD" sem=""/>
+  <word form="τῶν" head="9" id="7" lemma="ὁ" postag="l-p---fg-" ref="Leuven|0540-024|68|7" relation="ATR" sem=""/>
+  <word form="μεγίστων" head="9" id="8" lemma="μέγας" postag="a-p---fgs" ref="Leuven|0540-024|68|8" relation="ATR" sem=""/>
+  <word form="ἀρχῶν" head="12" id="9" lemma="ἀρχή" postag="n-p---fg-" ref="Leuven|0540-024|68|9" relation="OBJ" sem=""/>
+  <word form="ὁ" head="11" id="10" lemma="ὁ" postag="l-s---mn-" ref="Leuven|0540-024|68|10" relation="ATR" sem=""/>
+  <word form="δαίμων" head="12" id="11" lemma="δαίμων" postag="n-s---mn-" ref="Leuven|0540-024|68|11" relation="SBJ" sem=""/>
+  <word form="ἀπεστέρησεν" head="1" id="12" lemma="ἀποστερέω" postag="v3saia---" ref="Leuven|0540-024|68|12" relation="ADV" sem=""/>
+  <word form="ἡμᾶς" head="12" id="13" lemma="ἐγώ" postag="p1p---ca-" presentation-after="," ref="Leuven|0540-024|68|13" relation="OBJ" sem=""/>
+  <word form="ἡ" head="16" id="15" lemma="ὁ" postag="l-s---fn-" ref="Leuven|0540-024|68|15" relation="ATR" sem=""/>
+  <word form="πόλις" head="18" id="16" lemma="πόλις" postag="n-s---fn-" ref="Leuven|0540-024|68|16" relation="SBJ" sem=""/>
+  <word form="ἡμῖν" head="18" id="17" lemma="ἐγώ" postag="p1p---cd-" ref="Leuven|0540-024|68|17" relation="OBJ" sem=""/>
+  <word form="ἐψηφίσατο" head="0" id="18" lemma="ψηφίζω" postag="v3saim---" ref="Leuven|0540-024|68|18" relation="PRED" sem=""/>
+  <word form="τοῦτο" head="21" id="19" lemma="οὗτος" postag="p-s---na-" ref="Leuven|0540-024|68|19" relation="ATR" sem=""/>
+  <word form="τὸ" head="21" id="20" lemma="ὁ" postag="l-s---na-" ref="Leuven|0540-024|68|20" relation="ATR" sem=""/>
+  <word form="ἀργύριον" head="18" id="21" lemma="ἀργύριον" postag="n-s---na-" presentation-after="," ref="Leuven|0540-024|68|21" relation="OBJ" sem=""/>
+  <word form="ἡγουμένη" head="18" id="23" lemma="ἡγέομαι" postag="v-sppefn-" ref="Leuven|0540-024|68|23" relation="ADV" sem=""/>
+  <word form="κοινὰς" head="25" id="24" lemma="κοινός" postag="a-p---fa-" ref="Leuven|0540-024|68|24" relation="PNOM" sem=""/>
+  <word form="εἶναι" head="23" id="25" lemma="εἰμί" postag="v--pna---" ref="Leuven|0540-024|68|25" relation="OBJ" sem=""/>
+  <word form="τὰς" head="27" id="26" lemma="ὁ" postag="l-p---fa-" ref="Leuven|0540-024|68|26" relation="ATR" sem=""/>
+  <word form="τύχας" head="25" id="27" lemma="τύχη" postag="n-p---fa-" ref="Leuven|0540-024|68|27" relation="SBJ" sem=""/>
+  <word form="τοῖς" head="29" id="28" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|68|28" relation="ATR" sem=""/>
+  <word form="ἅπασι" head="24" id="29" lemma="ἅπας" postag="a-p---md-" ref="Leuven|0540-024|68|29" relation="ADV" sem=""/>
+  <word form="καὶ" head="33" id="30" lemma="καί" postag="b--------" ref="Leuven|0540-024|68|30" relation="AuxY" sem=""/>
+  <word form="τῶν" head="32" id="31" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|68|31" relation="ATR" sem=""/>
+  <word form="κακῶν" head="33" id="32" lemma="κακός" postag="a-p---ng-" ref="Leuven|0540-024|68|32" relation="ATR_CO" sem="agent"/>
+  <word form="καὶ" head="27" id="33" lemma="καί" postag="b--------" ref="Leuven|0540-024|68|33" relation="COORD" sem=""/>
+  <word form="τῶν" head="35" id="34" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|68|34" relation="ATR" sem=""/>
+  <word form="ἀγαθῶν" head="33" id="35" lemma="ἀγαθός" postag="a-p---ng-" presentation-after="." ref="Leuven|0540-024|68|35" relation="ATR_CO" sem="agent"/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="69">
+  <word form="πῶς" head="6" id="1" lemma="πῶς" postag="d--------" ref="Leuven|0540-024|69|1" relation="ADV" sem=""/>
+  <word form="οὖν" head="6" id="2" lemma="οὖν" postag="d--------" ref="Leuven|0540-024|69|2" relation="AuxY" sem=""/>
+  <word form="οὐκ" head="6" id="3" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|69|3" relation="AuxZ" sem=""/>
+  <word form="ἂν" head="6" id="4" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|69|4" relation="AuxY" sem=""/>
+  <word form="δειλαιότατος" head="6" id="5" lemma="δείλαιος" postag="a-s---mns" ref="Leuven|0540-024|69|5" relation="PNOM" sem=""/>
+  <word form="εἴην" head="0" id="6" lemma="εἰμί" postag="v1spoa---" presentation-after="," ref="Leuven|0540-024|69|6" relation="PRED" sem=""/>
+  <word form="εἰ" head="6" id="8" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|69|8" relation="AuxC" sem=""/>
+  <word form="τῶν" head="12" id="9" lemma="ὁ" postag="l-p---ng-" ref="Leuven|0540-024|69|9" relation="ATR" sem=""/>
+  <word form="μὲν" head="21" id="10" lemma="μέν" postag="d--------" ref="Leuven|0540-024|69|10" relation="AuxY" sem=""/>
+  <word form="καλλίστων" head="12" id="11" lemma="καλός" postag="a-p---ngs" ref="Leuven|0540-024|69|11" relation="OBJ_CO" sem=""/>
+  <word form="καὶ" head="17" id="12" lemma="καί" postag="b--------" ref="Leuven|0540-024|69|12" relation="COORD" sem=""/>
+  <word form="μεγίστων" head="12" id="13" lemma="μέγας" postag="a-p---ngs" ref="Leuven|0540-024|69|13" relation="OBJ_CO" sem=""/>
+  <word form="διὰ" head="18" id="14" lemma="διά" postag="r--------" ref="Leuven|0540-024|69|14" relation="AuxP" sem=""/>
+  <word form="τὴν" head="16" id="15" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|69|15" relation="ATR" sem=""/>
+  <word form="συμφορὰν" head="14" id="16" lemma="συμφορά" postag="n-s---fa-" ref="Leuven|0540-024|69|16" relation="ADV" sem=""/>
+  <word form="ἀπεστερημένος" head="18" id="17" lemma="ἀποστερέω" postag="v-srpemn-" ref="Leuven|0540-024|69|17" relation="PNOM" sem=""/>
+  <word form="εἴην" head="21" id="18" lemma="εἰμί" postag="v1spoa---" presentation-after="," ref="Leuven|0540-024|69|18" relation="ADV_CO" sem=""/>
+  <word form="ἃ" head="24" id="20" lemma="ὅς" postag="p-p---na-" ref="Leuven|0540-024|69|20" relation="OBJ" sem=""/>
+  <word form="δ’" head="8" id="21" lemma="δέ" postag="b--------" ref="Leuven|0540-024|69|21" relation="COORD" sem=""/>
+  <word form="ἡ" head="23" id="22" lemma="ὁ" postag="l-s---fn-" ref="Leuven|0540-024|69|22" relation="ATR" sem=""/>
+  <word form="πόλις" head="24" id="23" lemma="πόλις" postag="n-s---fn-" ref="Leuven|0540-024|69|23" relation="SBJ" sem=""/>
+  <word form="ἔδωκε" head="33" id="24" lemma="δίδωμι" postag="v3saia---" ref="Leuven|0540-024|69|24" relation="OBJ" sem=""/>
+  <word form="προνοηθεῖσα" head="24" id="25" lemma="προνοέω" postag="v-sappfn-" ref="Leuven|0540-024|69|25" relation="ADV" sem=""/>
+  <word form="τῶν" head="28" id="26" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|69|26" relation="ATR" sem=""/>
+  <word form="οὕτως" head="28" id="27" lemma="οὕτως" postag="d--------" ref="Leuven|0540-024|69|27" relation="ADV" sem=""/>
+  <word form="διακειμένων" head="25" id="28" lemma="διάκειμαι" postag="v-prpemg-" presentation-after="," ref="Leuven|0540-024|69|28" relation="OBJ" sem=""/>
+  <word form="διὰ" head="33" id="30" lemma="διά" postag="r--------" ref="Leuven|0540-024|69|30" relation="AuxP" sem=""/>
+  <word form="τὸν" head="32" id="31" lemma="ὁ" postag="l-s---ma-" ref="Leuven|0540-024|69|31" relation="ATR" sem=""/>
+  <word form="κατήγορον" head="30" id="32" lemma="κατήγορος" postag="a-s---ma-" ref="Leuven|0540-024|69|32" relation="ADV" sem=""/>
+  <word form="ἀφαιρεθείην" head="21" id="33" lemma="ἀφαιρέω" postag="v1saop---" presentation-after=";" ref="Leuven|0540-024|69|33" relation="ADV_CO" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="70">
+  <word form="μηδαμῶς" head="7" id="1" lemma="μηδαμῶς" postag="d--------" presentation-after="," ref="Leuven|0540-024|70|1" relation="ADV" sem=""/>
+  <word form="ὦ" head="4" id="3" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|70|3" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="7" id="4" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|70|4" relation="ExD" sem=""/>
+  <word form="ταύτῃ" head="7" id="6" lemma="ταύτῃ" postag="d--------" ref="Leuven|0540-024|70|6" relation="ADV" sem=""/>
+  <word form="θῆσθε" head="0" id="7" lemma="τίθημι" postag="v2pasm---" ref="Leuven|0540-024|70|7" relation="PRED" sem=""/>
+  <word form="τὴν" head="9" id="8" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|70|8" relation="ATR" sem=""/>
+  <word form="ψῆφον" head="7" id="9" lemma="ψῆφος" postag="n-s---fa-" presentation-after="." ref="Leuven|0540-024|70|9" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="71">
+  <word form="διὰ" head="6" id="1" lemma="διά" postag="r--------" ref="Leuven|0540-024|71|1" relation="AuxP" sem=""/>
+  <word form="τί" head="1" id="2" lemma="τίς" postag="p-s---na-" ref="Leuven|0540-024|71|2" relation="ADV" sem=""/>
+  <word form="γὰρ" head="6" id="3" lemma="γάρ" postag="d--------" ref="Leuven|0540-024|71|3" relation="AuxY" sem=""/>
+  <word form="ἂν" head="6" id="4" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|71|4" relation="AuxY" sem=""/>
+  <word form="καὶ" head="6" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|71|5" relation="AuxY" sem=""/>
+  <word form="τύχοιμι" head="0" id="6" lemma="τυγχάνω" postag="v1saoa---" ref="Leuven|0540-024|71|6" relation="PRED" sem=""/>
+  <word form="τοιούτων" head="8" id="7" lemma="τοιοῦτος" postag="p-p---mg-" ref="Leuven|0540-024|71|7" relation="ATR" sem=""/>
+  <word form="ὑμῶν" head="6" id="8" lemma="σύ" postag="p2p---cg-" presentation-after=";" ref="Leuven|0540-024|71|8" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="72">
+  <word form="πότερον" head="14" id="1" lemma="πότερον" postag="d--------" ref="Leuven|0540-024|72|1" relation="ADV" sem=""/>
+  <word form="ὅτι" head="14" id="2" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|72|2" relation="AuxC" sem=""/>
+  <word form="δι’" head="10" id="3" lemma="διά" postag="r--------" ref="Leuven|0540-024|72|3" relation="AuxP" sem=""/>
+  <word form="ἐμέ" head="3" id="4" lemma="ἐγώ" postag="p1s---ca-" ref="Leuven|0540-024|72|4" relation="ADV" sem=""/>
+  <word form="τις" head="10" id="5" lemma="τις" postag="p-s---cn-" ref="Leuven|0540-024|72|5" relation="SBJ" sem=""/>
+  <word form="εἰς" head="9" id="6" lemma="εἰς" postag="r--------" ref="Leuven|0540-024|72|6" relation="AuxP" sem=""/>
+  <word form="ἀγῶνα" head="6" id="7" lemma="ἀγών" postag="n-s---ma-" ref="Leuven|0540-024|72|7" relation="OBJ" sem=""/>
+  <word form="πώποτε" head="10" id="8" lemma="πώποτε" postag="d--------" ref="Leuven|0540-024|72|8" relation="ADV" sem=""/>
+  <word form="καταστὰς" head="10" id="9" lemma="καθίστημι" postag="v-sapamn-" ref="Leuven|0540-024|72|9" relation="ADV" sem=""/>
+  <word form="ἀπώλεσε" head="2" id="10" lemma="ἀπόλλυμι" postag="v3saia---" ref="Leuven|0540-024|72|10" relation="ADV" sem=""/>
+  <word form="τὴν" head="12" id="11" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|72|11" relation="ATR" sem=""/>
+  <word form="οὐσίαν" head="10" id="12" lemma="οὐσία" postag="n-s---fa-" presentation-after=";" ref="Leuven|0540-024|72|12" relation="OBJ" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="14" insertion_id="0013e" lemma="_" postag="---------" ref="Leuven|0540-024|72|14" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="73">
+  <word form="ἀλλ’" head="5" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|73|1" relation="AuxY" sem=""/>
+  <word form="οὐδ’" head="4" id="2" lemma="οὐδέ" postag="d--------" ref="Leuven|0540-024|73|2" relation="AuxZ" sem=""/>
+  <word form="ἂν" head="5" id="3" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|73|3" relation="AuxY" sem=""/>
+  <word form="εἷς" head="5" id="4" lemma="εἷς" postag="m-s---mn-" ref="Leuven|0540-024|73|4" relation="SBJ" sem=""/>
+  <word form="ἀποδείξειεν" head="0" id="5" lemma="ἀποδείκνυμι" postag="v3saoa---" presentation-after="." ref="Leuven|0540-024|73|5" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="74">
+  <word form="ἀλλ’" head="10" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|74|1" relation="AuxY" sem=""/>
+  <word form="ὅτι" head="10" id="2" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|74|2" relation="AuxC" sem=""/>
+  <word form="πολυπράγμων" head="7" id="3" lemma="πολυπράγμων" postag="a-s---mn-" ref="Leuven|0540-024|74|3" relation="PNOM_CO" sem=""/>
+  <word form="εἰμὶ" head="2" id="4" lemma="εἰμί" postag="v1spia---" ref="Leuven|0540-024|74|4" relation="ADV" sem=""/>
+  <word form="καὶ" head="7" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|74|5" relation="AuxY" sem=""/>
+  <word form="θρασὺς" head="7" id="6" lemma="θρασύς" postag="a-s---mn-" ref="Leuven|0540-024|74|6" relation="PNOM_CO" sem=""/>
+  <word form="καὶ" head="4" id="7" lemma="καί" postag="b--------" ref="Leuven|0540-024|74|7" relation="COORD" sem=""/>
+  <word form="φιλαπεχθήμων" head="7" id="8" lemma="φιλαπεχθήμων" postag="a-s---mn-" presentation-after=";" ref="Leuven|0540-024|74|8" relation="PNOM_CO" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="10" insertion_id="0009e" lemma="_" postag="---------" ref="Leuven|0540-024|74|10" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="75">
+  <word form="ἀλλ’" head="10" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|75|1" relation="AuxY" sem=""/>
+  <word form="οὐ" head="10" id="2" lemma="οὐ" postag="d--------" ref="Leuven|0540-024|75|2" relation="AuxZ" sem=""/>
+  <word form="τοιαύταις" head="4" id="3" lemma="τοιοῦτος" postag="p-p---fd-" ref="Leuven|0540-024|75|3" relation="ATR" sem=""/>
+  <word form="ἀφορμαῖς" head="11" id="4" lemma="ἀφορμή" postag="n-p---fd-" ref="Leuven|0540-024|75|4" relation="OBJ" sem=""/>
+  <word form="τοῦ" head="6" id="5" lemma="ὁ" postag="l-s---mg-" ref="Leuven|0540-024|75|5" relation="ATR" sem=""/>
+  <word form="βίου" head="4" id="6" lemma="βίος" postag="n-s---mg-" ref="Leuven|0540-024|75|6" relation="ATR" sem=""/>
+  <word form="πρὸς" head="11" id="7" lemma="πρός" postag="r--------" ref="Leuven|0540-024|75|7" relation="AuxP" sem=""/>
+  <word form="τὰ" head="9" id="8" lemma="ὁ" postag="l-p---na-" ref="Leuven|0540-024|75|8" relation="ATR" sem=""/>
+  <word form="τοιαῦτα" head="7" id="9" lemma="τοιοῦτος" postag="p-p---na-" ref="Leuven|0540-024|75|9" relation="OBJ" sem=""/>
+  <word form="τυγχάνω" head="0" id="10" lemma="τυγχάνω" postag="v1spia---" ref="Leuven|0540-024|75|10" relation="PRED" sem=""/>
+  <word form="χρώμενος" head="10" id="11" lemma="χράω" postag="v-sppemn-" presentation-after="." ref="Leuven|0540-024|75|11" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="76">
+  <word form="ἀλλ’" head="8" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|76|1" relation="AuxY" sem=""/>
+  <word form="ὅτι" head="8" id="2" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|76|2" relation="AuxC" sem=""/>
+  <word form="λίαν" head="5" id="3" lemma="λίαν" postag="d--------" ref="Leuven|0540-024|76|3" relation="ADV" sem=""/>
+  <word form="ὑβριστὴς" head="5" id="4" lemma="ὑβριστής" postag="n-s---mn-" ref="Leuven|0540-024|76|4" relation="PNOM_CO" sem=""/>
+  <word form="καὶ" head="9" id="5" lemma="καί" postag="b--------" ref="Leuven|0540-024|76|5" relation="COORD" sem=""/>
+  <word form="βίαιος" head="5" id="6" lemma="βίαιος" postag="a-s---mn-" presentation-after=";" ref="Leuven|0540-024|76|6" relation="PNOM_CO" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="8" insertion_id="0006e" lemma="_" postag="---------" ref="Leuven|0540-024|76|8" relation="PRED" sem=""/>
+  <word artificial="elliptic" form="εἰμι" head="2" id="9" insertion_id="0006d" lemma="_" postag="---------" ref="Leuven|0540-024|76|9" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="77">
+  <word form="ἀλλ’" head="5" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|77|1" relation="AuxY" sem=""/>
+  <word form="οὐδ’" head="5" id="2" lemma="οὐδέ" postag="d--------" ref="Leuven|0540-024|77|2" relation="AuxZ" sem=""/>
+  <word form="ἂν" head="5" id="3" lemma="ἄν" postag="d--------" ref="Leuven|0540-024|77|3" relation="AuxY" sem=""/>
+  <word form="αὐτὸς" head="5" id="4" lemma="αὐτός" postag="p-s---mn-" ref="Leuven|0540-024|77|4" relation="ADV" sem=""/>
+  <word form="φήσειεν" head="0" id="5" lemma="φημί" postag="v3saoa---" presentation-after="," ref="Leuven|0540-024|77|5" relation="PRED" sem=""/>
+  <word form="εἰ" head="5" id="7" lemma="εἰ" postag="c--------" ref="Leuven|0540-024|77|7" relation="AuxC" sem=""/>
+  <word form="μὴ" head="9" id="8" lemma="μή" postag="d--------" ref="Leuven|0540-024|77|8" relation="AuxZ" sem=""/>
+  <word form="βούλοιτο" head="7" id="9" lemma="βούλομαι" postag="v3spoe---" ref="Leuven|0540-024|77|9" relation="ADV" sem=""/>
+  <word form="καὶ" head="11" id="10" lemma="καί" postag="d--------" ref="Leuven|0540-024|77|10" relation="AuxZ" sem=""/>
+  <word form="τοῦτο" head="12" id="11" lemma="οὗτος" postag="p-s---na-" ref="Leuven|0540-024|77|11" relation="OBJ" sem=""/>
+  <word form="ψεύδεσθαι" head="9" id="12" lemma="ψεύδω" postag="v--pne---" ref="Leuven|0540-024|77|12" relation="OBJ" sem=""/>
+  <word form="τοῖς" head="14" id="13" lemma="ὁ" postag="l-p---nd-" ref="Leuven|0540-024|77|13" relation="ATR" sem=""/>
+  <word form="ἄλλοις" head="15" id="14" lemma="ἄλλος" postag="p-p---nd-" ref="Leuven|0540-024|77|14" relation="OBJ" sem=""/>
+  <word form="ὁμοίως" head="12" id="15" lemma="ὅμοιος" postag="d--------" presentation-after="." ref="Leuven|0540-024|77|15" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="78">
+  <word form="ἀλλ’" head="15" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|78|1" relation="AuxY" sem=""/>
+  <word form="ὅτι" head="15" id="2" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|78|2" relation="AuxC" sem=""/>
+  <word form="ἐπὶ" head="8" id="3" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|78|3" relation="AuxP" sem=""/>
+  <word form="τῶν" head="5" id="4" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|78|4" relation="ATR" sem=""/>
+  <word form="τριάκοντα" head="3" id="5" lemma="τριάκοντα" postag="m--------" ref="Leuven|0540-024|78|5" relation="ATR" sem=""/>
+  <word form="γενόμενος" head="10" id="6" lemma="γίγνομαι" postag="v-sapmmn-" ref="Leuven|0540-024|78|6" relation="ADV" sem=""/>
+  <word form="ἐν" head="6" id="7" lemma="ἐν" postag="r--------" ref="Leuven|0540-024|78|7" relation="AuxP" sem=""/>
+  <word form="δυνάμει" head="7" id="8" lemma="δύναμις" postag="n-s---fd-" ref="Leuven|0540-024|78|8" relation="PNOM" sem=""/>
+  <word form="κακῶς" head="10" id="9" lemma="κακός" postag="d--------" ref="Leuven|0540-024|78|9" relation="ADV" sem=""/>
+  <word form="ἐποίησα" head="2" id="10" lemma="ποιέω" postag="v1saia---" ref="Leuven|0540-024|78|10" relation="ADV" sem=""/>
+  <word form="πολλοὺς" head="10" id="11" lemma="πολύς" postag="a-p---ma-" ref="Leuven|0540-024|78|11" relation="OBJ" sem=""/>
+  <word form="τῶν" head="13" id="12" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|78|12" relation="ATR" sem=""/>
+  <word form="πολιτῶν" head="11" id="13" lemma="πολίτης" postag="n-p---mg-" presentation-after=";" ref="Leuven|0540-024|78|13" relation="ATR" sem=""/>
+  <word artificial="elliptic" form="[0]" head="0" id="15" insertion_id="0013e" lemma="_" postag="---------" ref="Leuven|0540-024|78|15" relation="PRED" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="79">
+  <word form="ἀλλὰ" head="13" id="1" lemma="ἀλλά" postag="d--------" ref="Leuven|0540-024|79|1" relation="AuxY" sem=""/>
+  <word form="μετὰ" head="6" id="2" lemma="μετά" postag="r--------" ref="Leuven|0540-024|79|2" relation="AuxP" sem=""/>
+  <word form="τοῦ" head="5" id="3" lemma="ὁ" postag="l-s---ng-" ref="Leuven|0540-024|79|3" relation="ATR" sem=""/>
+  <word form="ὑμετέρου" head="5" id="4" lemma="ὑμέτερος" postag="a-s---ng-" ref="Leuven|0540-024|79|4" relation="ATR" sem=""/>
+  <word form="πλήθους" head="2" id="5" lemma="πλῆθος" postag="n-s---ng-" ref="Leuven|0540-024|79|5" relation="ADV" sem=""/>
+  <word form="ἔφυγον" head="13" id="6" lemma="φεύγω" postag="v3paia---" ref="Leuven|0540-024|79|6" relation="PRED_CO" sem=""/>
+  <word form="εἰς" head="6" id="7" lemma="εἰς" postag="r--------" ref="Leuven|0540-024|79|7" relation="AuxP" sem=""/>
+  <word form="Χαλκίδα" head="7" id="8" lemma="Χαλκίς" postag="n-s---fa-" ref="Leuven|0540-024|79|8" relation="OBJ" sem="direction"/>
+  <word form="τὴν" head="8" id="9" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|79|9" relation="ATR" sem=""/>
+  <word form="ἐπ’" head="8" id="10" lemma="ἐπί" postag="r--------" ref="Leuven|0540-024|79|10" relation="AuxP" sem=""/>
+  <word form="Εὐρίπῳ" head="10" id="11" lemma="Εὔριπος" postag="n-s---md-" presentation-after="," ref="Leuven|0540-024|79|11" relation="ATR" sem=""/>
+  <word form="καὶ" head="0" id="13" lemma="καί" postag="b--------" ref="Leuven|0540-024|79|13" relation="COORD" sem=""/>
+  <word form="ἐξόν" head="23" id="14" lemma="ἔξεστι" postag="v-sppana-" ref="Leuven|0540-024|79|14" relation="ADV" sem=""/>
+  <word form="μοι" head="14" id="15" lemma="ἐγώ" postag="p1s---cd-" ref="Leuven|0540-024|79|15" relation="OBJ" sem=""/>
+  <word form="μετ’" head="19" id="16" lemma="μετά" postag="r--------" ref="Leuven|0540-024|79|16" relation="AuxP" sem=""/>
+  <word form="ἐκείνων" head="16" id="17" lemma="ἐκεῖνος" postag="p-p---mg-" ref="Leuven|0540-024|79|17" relation="ADV" sem=""/>
+  <word form="ἀδεῶς" head="19" id="18" lemma="ἀδεής" postag="d--------" ref="Leuven|0540-024|79|18" relation="ADV" sem=""/>
+  <word form="πολιτεύεσθαι" head="14" id="19" lemma="πολιτεύω" postag="v--pne---" presentation-after="," ref="Leuven|0540-024|79|19" relation="SBJ" sem=""/>
+  <word form="μεθ’" head="24" id="21" lemma="μετά" postag="r--------" ref="Leuven|0540-024|79|21" relation="AuxP" sem=""/>
+  <word form="ὑμῶν" head="21" id="22" lemma="σύ" postag="p2p---cg-" ref="Leuven|0540-024|79|22" relation="ADV" sem=""/>
+  <word form="εἱλόμην" head="13" id="23" lemma="αἱρέω" postag="v1saim---" ref="Leuven|0540-024|79|23" relation="PRED_CO" sem=""/>
+  <word form="κινδυνεύειν" head="23" id="24" lemma="κινδυνεύω" postag="v--pna---" ref="Leuven|0540-024|79|24" relation="OBJ" sem=""/>
+  <word form="ἀπελθών" head="23" id="25" lemma="ἀπέρχομαι" postag="v-sapamn-" presentation-after="." ref="Leuven|0540-024|79|25" relation="ADV" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="80">
+  <word form="μὴ" head="11" id="1" lemma="μή" postag="d--------" ref="Leuven|0540-024|80|1" relation="AuxZ" sem=""/>
+  <word form="τοίνυν" head="11" id="2" lemma="τοίνυν" postag="d--------" presentation-after="," ref="Leuven|0540-024|80|2" relation="AuxY" sem=""/>
+  <word form="ὦ" head="5" id="4" lemma="ὦ" postag="i--------" ref="Leuven|0540-024|80|4" relation="AuxZ" sem=""/>
+  <word form="βουλή" head="16" id="5" lemma="βουλή" postag="n-s---fv-" presentation-after="," ref="Leuven|0540-024|80|5" relation="ExD" sem=""/>
+  <word form="μηδὲν" head="8" id="7" lemma="μηδείς" postag="p-s---na-" ref="Leuven|0540-024|80|7" relation="OBJ" sem=""/>
+  <word form="ἡμαρτηκὼς" head="11" id="8" lemma="ἁμαρτάνω" postag="v-srpamn-" ref="Leuven|0540-024|80|8" relation="ADV" sem="concession"/>
+  <word form="ὁμοίων" head="10" id="9" lemma="ὅμοιος" postag="a-p---mg-" ref="Leuven|0540-024|80|9" relation="ATR" sem=""/>
+  <word form="ὑμῶν" head="11" id="10" lemma="σύ" postag="p2p---cg-" ref="Leuven|0540-024|80|10" relation="OBJ" sem=""/>
+  <word form="τύχοιμι" head="16" id="11" lemma="τυγχάνω" postag="v1saoa---" ref="Leuven|0540-024|80|11" relation="PRED_CO" sem=""/>
+  <word form="τοῖς" head="14" id="12" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|80|12" relation="ATR" sem=""/>
+  <word form="πολλὰ" head="14" id="13" lemma="πολύς" postag="a-p---na-" ref="Leuven|0540-024|80|13" relation="OBJ" sem=""/>
+  <word form="ἠδικηκόσιν" head="9" id="14" lemma="ἀδικέω" postag="v-prpamd-" presentation-after="," ref="Leuven|0540-024|80|14" relation="ADV" sem=""/>
+  <word form="ἀλλὰ" head="0" id="16" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|80|16" relation="COORD" sem=""/>
+  <word form="τὴν" head="19" id="17" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|80|17" relation="ATR" sem=""/>
+  <word form="αὐτὴν" head="19" id="18" lemma="αὐτός" postag="p-s---fa-" ref="Leuven|0540-024|80|18" relation="ATR" sem=""/>
+  <word form="ψῆφον" head="20" id="19" lemma="ψῆφος" postag="n-s---fa-" ref="Leuven|0540-024|80|19" relation="OBJ" sem=""/>
+  <word form="θέσθε" head="16" id="20" lemma="τίθημι" postag="v2pamm---" ref="Leuven|0540-024|80|20" relation="PRED_CO" sem=""/>
+  <word form="περὶ" head="20" id="21" lemma="περί" postag="r--------" ref="Leuven|0540-024|80|21" relation="AuxP" sem=""/>
+  <word form="ἐμοῦ" head="21" id="22" lemma="ἐγώ" postag="p1s---cg-" ref="Leuven|0540-024|80|22" relation="ADV" sem=""/>
+  <word form="ταῖς" head="25" id="23" lemma="ὁ" postag="l-p---fd-" ref="Leuven|0540-024|80|23" relation="ATR" sem=""/>
+  <word form="ἄλλαις" head="25" id="24" lemma="ἄλλος" postag="p-p---fd-" ref="Leuven|0540-024|80|24" relation="ATR" sem=""/>
+  <word form="βουλαῖς" head="18" id="25" lemma="βουλή" postag="n-p---fd-" presentation-after="," ref="Leuven|0540-024|80|25" relation="ADV" sem=""/>
+  <word form="ἀναμνησθέντες" head="20" id="27" lemma="ἀναμιμνῄσκω" postag="v-pappmn-" ref="Leuven|0540-024|80|27" relation="ADV" sem=""/>
+  <word form="ὅτι" head="27" id="28" lemma="ὅτι" postag="c--------" ref="Leuven|0540-024|80|28" relation="AuxC" sem=""/>
+  <word form="οὔτε" head="34" id="29" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|80|29" relation="AuxY" sem=""/>
+  <word form="χρήματα" head="31" id="30" lemma="χρῆμα" postag="n-p---na-" ref="Leuven|0540-024|80|30" relation="OBJ" sem=""/>
+  <word form="διαχειρίσας" head="34" id="31" lemma="διαχειρίζω" postag="v-sapamn-" ref="Leuven|0540-024|80|31" relation="ADV" sem=""/>
+  <word form="τῆς" head="33" id="32" lemma="ὁ" postag="l-s---fg-" ref="Leuven|0540-024|80|32" relation="ATR" sem=""/>
+  <word form="πόλεως" head="30" id="33" lemma="πόλις" postag="n-s---fg-" ref="Leuven|0540-024|80|33" relation="ATR" sem=""/>
+  <word form="δίδωμι" head="47" id="34" lemma="δίδωμι" postag="v1spia---" ref="Leuven|0540-024|80|34" relation="OBJ_CO" sem=""/>
+  <word form="λόγον" head="34" id="35" lemma="λόγος" postag="n-s---ma-" ref="Leuven|0540-024|80|35" relation="OBJ" sem=""/>
+  <word form="αὐτῶν" head="35" id="36" lemma="αὐτός" postag="p-p---mg-" presentation-after="," ref="Leuven|0540-024|80|36" relation="ATR" sem=""/>
+  <word form="οὔτε" head="47" id="38" lemma="οὔτε" postag="b--------" ref="Leuven|0540-024|80|38" relation="AuxY" sem=""/>
+  <word form="ἀρχὴν" head="40" id="39" lemma="ἀρχή" postag="n-s---fa-" ref="Leuven|0540-024|80|39" relation="OBJ" sem=""/>
+  <word form="ἄρξας" head="43" id="40" lemma="ἄρχω" postag="v-sapamn-" ref="Leuven|0540-024|80|40" relation="ADV" sem=""/>
+  <word form="οὐδεμίαν" head="39" id="41" lemma="οὐδείς" postag="p-s---fa-" ref="Leuven|0540-024|80|41" relation="ATR" sem=""/>
+  <word form="εὐθύνας" head="43" id="42" lemma="εὔθυνα" postag="n-p---fa-" ref="Leuven|0540-024|80|42" relation="OBJ" sem=""/>
+  <word form="ὑπέχω" head="47" id="43" lemma="ὑπέχω" postag="v1spia---" ref="Leuven|0540-024|80|43" relation="OBJ_CO" sem=""/>
+  <word form="νῦν" head="43" id="44" lemma="νῦν" postag="d--------" ref="Leuven|0540-024|80|44" relation="ADV" sem=""/>
+  <word form="αὐτῆς" head="42" id="45" lemma="αὐτός" postag="p-s---fg-" presentation-after="," ref="Leuven|0540-024|80|45" relation="ATR" sem=""/>
+  <word form="ἀλλὰ" head="28" id="47" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|80|47" relation="COORD" sem=""/>
+  <word form="περὶ" head="51" id="48" lemma="περί" postag="r--------" ref="Leuven|0540-024|80|48" relation="AuxP" sem=""/>
+  <word form="ὀβολοῦ" head="48" id="49" lemma="ὀβολός" postag="n-s---mg-" ref="Leuven|0540-024|80|49" relation="ADV" sem=""/>
+  <word form="μόνον" head="51" id="50" lemma="μόνον" postag="d--------" ref="Leuven|0540-024|80|50" relation="ADV" sem=""/>
+  <word form="ποιοῦμαι" head="47" id="51" lemma="ποιέω" postag="v1spie---" ref="Leuven|0540-024|80|51" relation="OBJ_CO" sem=""/>
+  <word form="τοὺς" head="53" id="52" lemma="ὁ" postag="l-p---ma-" ref="Leuven|0540-024|80|52" relation="ATR" sem=""/>
+  <word form="λόγους" head="51" id="53" lemma="λόγος" postag="n-p---ma-" presentation-after="." ref="Leuven|0540-024|80|53" relation="OBJ" sem=""/>
+ </sentence>
+ <sentence Author="Lysias" document_id="0540-024" id="81">
+  <word form="καὶ" head="20" id="1" lemma="καί" postag="d--------" ref="Leuven|0540-024|81|1" relation="AuxY" sem=""/>
+  <word form="οὕτως" head="7" id="2" lemma="οὕτως" postag="d--------" ref="Leuven|0540-024|81|2" relation="ADV" sem=""/>
+  <word form="ὑμεῖς" head="7" id="3" lemma="σύ" postag="p2p---cn-" ref="Leuven|0540-024|81|3" relation="SBJ" sem=""/>
+  <word form="μὲν" head="20" id="4" lemma="μέν" postag="d--------" ref="Leuven|0540-024|81|4" relation="AuxY" sem=""/>
+  <word form="τὰ" head="6" id="5" lemma="ὁ" postag="l-p---na-" ref="Leuven|0540-024|81|5" relation="ATR" sem=""/>
+  <word form="δίκαια" head="7" id="6" lemma="δίκαιος" postag="a-p---na-" ref="Leuven|0540-024|81|6" relation="OBJ" sem=""/>
+  <word form="γνώσεσθε" head="20" id="7" lemma="γιγνώσκω" postag="v2pfim---" ref="Leuven|0540-024|81|7" relation="PRED_CO" sem=""/>
+  <word form="πάντες" head="3" id="8" lemma="πᾶς" postag="a-p---mn-" presentation-after="," ref="Leuven|0540-024|81|8" relation="ATR" sem=""/>
+  <word form="ἐγὼ" head="15" id="10" lemma="ἐγώ" postag="p1s---cn-" ref="Leuven|0540-024|81|10" relation="SBJ" sem=""/>
+  <word form="δὲ" head="20" id="11" lemma="δέ" postag="b--------" ref="Leuven|0540-024|81|11" relation="AuxY" sem=""/>
+  <word form="τούτων" head="14" id="12" lemma="οὗτος" postag="p-p---ng-" ref="Leuven|0540-024|81|12" relation="OBJ" sem=""/>
+  <word form="ὑμῖν" head="15" id="13" lemma="σύ" postag="p2p---cd-" ref="Leuven|0540-024|81|13" relation="OBJ" sem=""/>
+  <word form="τυχὼν" head="15" id="14" lemma="τυγχάνω" postag="v-sapamn-" ref="Leuven|0540-024|81|14" relation="ADV" sem="cause"/>
+  <word form="ἕξω" head="20" id="15" lemma="ἔχω" postag="v1sfia---" ref="Leuven|0540-024|81|15" relation="PRED_CO" sem=""/>
+  <word form="τὴν" head="17" id="16" lemma="ὁ" postag="l-s---fa-" ref="Leuven|0540-024|81|16" relation="ATR" sem=""/>
+  <word form="χάριν" head="15" id="17" lemma="χάρις" postag="n-s---fa-" presentation-after="," ref="Leuven|0540-024|81|17" relation="OBJ" sem=""/>
+  <word form="οὗτος" head="23" id="19" lemma="οὗτος" postag="p-s---mn-" ref="Leuven|0540-024|81|19" relation="PNOM" sem=""/>
+  <word form="δὲ" head="0" id="20" lemma="δέ" postag="b--------" ref="Leuven|0540-024|81|20" relation="COORD" sem=""/>
+  <word form="τοῦ" head="22" id="21" lemma="ὁ" postag="l-s---ng-" ref="Leuven|0540-024|81|21" relation="ATR" sem=""/>
+  <word form="λοιποῦ" head="23" id="22" lemma="λοιπός" postag="a-s---ng-" ref="Leuven|0540-024|81|22" relation="ADV" sem="time"/>
+  <word form="μαθήσεται" head="20" id="23" lemma="μανθάνω" postag="v3sfim---" ref="Leuven|0540-024|81|23" relation="PRED_CO" sem=""/>
+  <word form="μὴ" head="27" id="24" lemma="μή" postag="d--------" ref="Leuven|0540-024|81|24" relation="AuxZ" sem=""/>
+  <word form="τοῖς" head="26" id="25" lemma="ὁ" postag="l-p---md-" ref="Leuven|0540-024|81|25" relation="ATR" sem=""/>
+  <word form="ἀσθενεστέροις" head="27" id="26" lemma="ἀσθενής" postag="a-p---mdc" ref="Leuven|0540-024|81|26" relation="OBJ" sem=""/>
+  <word form="ἐπιβουλεύειν" head="28" id="27" lemma="ἐπιβουλεύω" postag="v--pna---" ref="Leuven|0540-024|81|27" relation="OBJ_CO" sem=""/>
+  <word form="ἀλλὰ" head="23" id="28" lemma="ἀλλά" postag="b--------" ref="Leuven|0540-024|81|28" relation="COORD" sem=""/>
+  <word form="τῶν" head="30" id="29" lemma="ὁ" postag="l-p---mg-" ref="Leuven|0540-024|81|29" relation="ATR" sem=""/>
+  <word form="ὁμοίων" head="32" id="30" lemma="ὅμοιος" postag="a-p---mg-" ref="Leuven|0540-024|81|30" relation="OBJ" sem=""/>
+  <word form="αὐτῷ" head="30" id="31" lemma="αὐτός" postag="p-s---md-" ref="Leuven|0540-024|81|31" relation="ADV" sem=""/>
+  <word form="περιγίγνεσθαι" head="28" id="32" lemma="περιγίγνομαι" postag="v--pne---" presentation-after="." ref="Leuven|0540-024|81|32" relation="OBJ_CO" sem=""/>
+ </sentence>
+</treebank>
