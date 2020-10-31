@@ -1,6 +1,8 @@
 import os
 from bs4 import BeautifulSoup
+import time
 from collections import Counter
+
 
 pos0_dict = {'a': 'adj', 'n': 'noun', 'v': 'verb', 'd': 'adv', 'c': 'conj', 'g': 'conj', 'r': 'adposition', 'b': 'conj',
              'p': 'pronoun', 'l': 'article', 'i': 'interjection', 'x': 'other', 'm': 'numeral', 'e': 'interjection'}
@@ -9,9 +11,9 @@ pos4_dict = {'i': 'indicative', 's': 'subjunctive', 'n': 'infinitive', 'm': 'imp
              'o': 'optative'}
 proiel_pos_dict = {'A': 'adj', 'D': 'adv', 'S': 'article', 'M': 'numeral', 'N': 'noun', 'C': 'conj', 'G': 'conj',
                    'P': 'pronoun', 'I': 'interjection', 'R': 'adposition', 'V': 'verb'}
-original_folder = os.getcwd()
-folder_path = os.path.join(os.environ['HOME'], 'Google Drive', 'Greek Texts', 'Annotated')
-indir = os.listdir(os.path.join('data', 'corpora', 'greek', 'annotated'))
+
+corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
+indir = os.listdir(corpora_folder)
 file_count = 0
 
 
@@ -40,16 +42,30 @@ def poser(f_word):
     return f_pos
 
 
+def header(f_sentence, f_word):
+    return_head = False
+    f_head_id = 0
+    if f_word.has_attr('head'):
+        f_head_id = f_word['head']
+    if f_word.has_attr('head-id'):
+        f_head_id = f_word['head-id']
+    for f_head in f_sentence:
+        if f_head.has_attr('id'):
+            if f_head['id'] == f_head_id:
+                return_head = f_head
+    return return_head
+
+
 for file in indir:
-    if file[-4:] == '.xml':
+    if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
         print(file_count, file)
-        xml_file = open(file, 'r')
+        xml_file = open(os.path.join(corpora_folder, file), 'r', encoding='utf-8')
         soup = BeautifulSoup(xml_file, 'xml')
         sentences = soup.find_all('sentence')
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
                 if token['lemma'] == 'ὁ' and poser(token) == 'article':
-                    pass
-
+                    print(token['form'], header(tokens, token)['form'])
+                    time.sleep(1)
