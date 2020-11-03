@@ -56,6 +56,8 @@ def header(f_sentence, f_word):
     return return_head
 
 
+def toker
+
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
@@ -66,6 +68,6 @@ for file in indir:
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
-                if token['lemma'] == 'ὁ' and poser(token) == 'article':
+                if token['lemma'] == 'ὁ' and poser(token) == 'article' and token.has_attr('artificial') is False and header(tokens, token) is not False:
                     print(token['form'], header(tokens, token)['form'])
                     time.sleep(1)
