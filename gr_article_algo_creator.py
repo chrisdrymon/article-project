@@ -6,9 +6,15 @@ from collections import Counter
 
 pos0_dict = {'a': 'adj', 'n': 'noun', 'v': 'verb', 'd': 'adv', 'c': 'conj', 'g': 'conj', 'r': 'adposition', 'b': 'conj',
              'p': 'pronoun', 'l': 'article', 'i': 'interjection', 'x': 'other', 'm': 'numeral', 'e': 'interjection'}
+pos1_dict = {'1': 'first', '2': 'second', '3': 'third'}
 pos2_dict = {'s': 'singular', 'p': 'plural', 'd': 'dual'}
+pos3_dict = {'p': 'present', 'i': 'imperfect', 'r': 'perfect', 'a': 'aorist', 'l': 'pluperfect', 'f': 'future', 't':
+             'future perfect'}
 pos4_dict = {'i': 'indicative', 's': 'subjunctive', 'n': 'infinitive', 'm': 'imperative', 'p': 'participle',
              'o': 'optative'}
+pos5_dict = {'a': 'active', 'm': 'middle', 'p': 'passive', 'e': 'middle or passive'}
+pos6_dict = {'m': 'masculine', 'f': 'feminine', 'n': 'neuter'}
+pos7_dict = {'n': 'nominative', 'g': 'genitive', 'd': 'dative', 'v': 'vocative', 'a': 'accusative'}
 proiel_pos_dict = {'A': 'adj', 'D': 'adv', 'S': 'article', 'M': 'numeral', 'N': 'noun', 'C': 'conj', 'G': 'conj',
                    'P': 'pronoun', 'I': 'interjection', 'R': 'adposition', 'V': 'verb'}
 
@@ -17,32 +23,24 @@ indir = os.listdir(corpora_folder)
 file_count = 0
 
 
-# This returns the part-of-speech or the mood if the part-of-speech is a verb for a given word.
 def poser(f_word):
+    """Returns the part-of-speech of a token."""
+    f_pos = 'other'
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
             pos0 = f_word['postag'][0]
             if pos0 in pos0_dict:
                 f_pos = pos0_dict[pos0]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
     elif f_word.has_attr('part-of-speech'):
         if len(f_word['part-of-speech']) > 0:
             pos0 = f_word['part-of-speech'][0]
             if pos0 in proiel_pos_dict:
                 f_pos = proiel_pos_dict[pos0]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
-    else:
-        f_pos = 'other'
     return f_pos
 
 
 def header(f_sentence, f_word):
+    """Returns the id of a token's head."""
     return_head = False
     f_head_id = 0
     if f_word.has_attr('head'):
@@ -56,8 +54,6 @@ def header(f_sentence, f_word):
     return return_head
 
 
-def toker
-
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
@@ -68,6 +64,7 @@ for file in indir:
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
-                if token['lemma'] == 'ὁ' and poser(token) == 'article' and token.has_attr('artificial') is False and header(tokens, token) is not False:
-                    print(token['form'], header(tokens, token)['form'])
-                    time.sleep(1)
+                if token.has_attr('artificial') is False:
+                    if token['lemma'] == 'ὁ' and poser(token) == 'article' and header(tokens, token) is not False:
+                        print(token['form'], header(tokens, token)['form'])
+                        time.sleep(1)
