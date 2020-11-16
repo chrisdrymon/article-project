@@ -54,6 +54,9 @@ def header(f_sentence, f_word):
     return return_head
 
 
+# The purpose is to extract data from the annotated corpora to be used to train a machine learning algorithm. Two goals
+# are in focus. 1) Be able to correct identify the POS of any occurrence of the lemma ο. 2) Be able to identify the
+# head of the lemma ο if it is acting as an article.
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
