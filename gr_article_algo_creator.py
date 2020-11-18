@@ -59,7 +59,7 @@ def header(f_sentence, f_word):
 # head of the lemma ο if it is acting as an article.
 
 # 1.1) Consider all tokens which occur six words before the article to 11 words after the article [-6, 11]. Out of the
-# 79,335 articles which occur in this corpus, only 35 have heads which are not elliptical and occur outside of that
+# 79,335 articles which have non-elliptical heads in this corpus, only 35 have heads which which occur outside of that
 # interval.
 # 2.1) If the head is elliptical, recognize that.
 # 2.2) If the head is out of the word range, recognize that.
