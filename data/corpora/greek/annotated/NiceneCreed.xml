@@ -132,7 +132,7 @@
   <word form="καὶ" head="17" id="116" lemma="καί" postag="c--------" relation="ADV"/>
   <word form="εἰς" head="17" id="117" lemma="εἰς" postag="r--------" relation="AuxP"/>
   <word form="τὸ" head="119" id="118" lemma="ὁ" postag="l-s---na-" relation="ATR"/>
-  <word form="ἅγιονπνεῦμα" head="117" id="119" lemma="ἅγιονπνεῦμα" postag="l-s---na-" presentation-after="." relation="A-ORIENT_CO"/>
+  <word form="ἅγιονπνεῦμα" head="117" id="119" lemma="ἅγιονπνεῦμα" postag="n-s---na-" presentation-after="." relation="A-ORIENT_CO"/>
   <word artificial="elliptic" form="(ἐγεννήθη)" head="36" id="121" insertion_id="0041e" relation="NOM-DIRSTAT_PRED"/>
   <word artificial="elliptic" form="(γεννηθέντα)" head="43" id="122" insertion_id="0043e" relation="ATR"/>
   <word artificial="elliptic" form="(γεννηθέντα)" head="47" id="123" insertion_id="0047e" relation="ATR"/>
