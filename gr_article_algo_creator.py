@@ -23,8 +23,23 @@ indir = os.listdir(corpora_folder)
 file_count = 0
 
 
+def header(f_sentence, f_word):
+    """Returns the token's head."""
+    return_head = False
+    f_head_id = 0
+    if f_word.has_attr('head'):
+        f_head_id = f_word['head']
+    if f_word.has_attr('head-id'):
+        f_head_id = f_word['head-id']
+    for f_head in f_sentence:
+        if f_head.has_attr('id'):
+            if f_head['id'] == f_head_id:
+                return_head = f_head
+    return return_head
+
+
 def poser(f_word):
-    """Returns the part-of-speech of a token."""
+    """Returns the part-of-speech of a token. Participles are considered verbs."""
     f_pos = 'other'
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
@@ -39,30 +54,127 @@ def poser(f_word):
     return f_pos
 
 
-def header(f_sentence, f_word):
-    """Returns the id of a token's head."""
-    return_head = False
-    f_head_id = 0
-    if f_word.has_attr('head'):
-        f_head_id = f_word['head']
-    if f_word.has_attr('head-id'):
-        f_head_id = f_word['head-id']
-    for f_head in f_sentence:
-        if f_head.has_attr('id'):
-            if f_head['id'] == f_head_id:
-                return_head = f_head
-    return return_head
+def person(f_word):
+    """Returns a token's person: first, second, third, or other."""
+    f_person = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 1:
+            pos1 = f_word['postag'][1]
+            if pos1 in pos1_dict:
+                f_person = pos1_dict[pos1]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 0:
+            pos1 = f_word['morphology'][0]
+            if pos1 in pos1_dict:
+                f_person = pos1_dict[pos1]
+    return f_person
+
+
+def grammatical_number(f_word):
+    """Returns a token's grammatical number: singular, plural, dual, or other."""
+    gram_num = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 2:
+            pos2 = f_word['postag'][2]
+            if pos2 in pos2_dict:
+                gram_num = pos2_dict[pos2]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 1:
+            pos1 = f_word['morphology'][1]
+            if pos1 in pos2_dict:
+                gram_num = pos2_dict[pos1]
+    return gram_num
+
+
+def tenser(f_word):
+    """Return a token's tense. Return 'other' if not a verb."""
+    f_tense = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 3:
+            pos3 = f_word['postag'][3]
+            if pos3 in pos3_dict:
+                f_tense = pos3_dict[pos3]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 2:
+            pos3 = f_word['morphology'][2]
+            if pos3 in pos3_dict:
+                f_tense = pos3_dict[pos3]
+    return f_tense
+
+
+def mooder(f_word):
+    """Returns a token's mood. Returns 'other' if not a verb. Participles are considered a mood here."""
+    f_mood = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 4:
+            pos4 = f_word['postag'][4]
+            if pos4 in pos4_dict:
+                f_mood = pos4_dict[pos4]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 3:
+            pos4 = f_word['morphology'][3]
+            if pos4 in pos4_dict:
+                f_mood = pos4_dict[pos4]
+    return f_mood
+
+
+def voicer(f_word):
+    """Returns a token's voice. Returns 'other' if not a verb."""
+    f_voice = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 5:
+            pos5 = f_word['postag'][5]
+            if pos5 in pos5_dict:
+                f_voice = pos5_dict[pos5]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 4:
+            pos5 = f_word['morphology'][4]
+            if pos5 in pos5_dict:
+                f_voice = pos5_dict[pos5]
+    return f_voice
+
+
+def gender(f_word):
+    """Returns a token's gender. Returns 'other' if a verb."""
+    f_gender = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 6:
+            pos6 = f_word['postag'][6]
+            if pos6 in pos6_dict:
+                f_gender = pos6_dict[pos6]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 5:
+            pos6 = f_word['morphology'][5]
+            if pos6 in pos6_dict:
+                f_gender = pos6_dict[pos6]
+    return f_gender
+
+
+def caser(f_word):
+    """Returns a token's case. Returns 'other' if it is a non-participle verb."""
+    f_case = 'other'
+    if f_word.has_attr('postag'):
+        if len(f_word['postag']) > 7:
+            pos7 = f_word['postag'][7]
+            if pos7 in pos7_dict:
+                f_case = pos7_dict[pos7]
+    if f_word.has_attr('morphology'):
+        if len(f_word['morphology']) > 6:
+            pos6 = f_word['morphology'][6]
+            if pos6 in pos7_dict:
+                f_case = pos7_dict[pos6]
+    return f_case
 
 
 # The purpose is to extract data from the annotated corpora to be used to train a machine learning algorithm. Two goals
 # are in focus. 1) Be able to correctly identify the POS of any occurrence of the lemma ο. 2) Be able to identify the
 # head of the lemma ο if it is acting as an article.
 
-# 1.1) Consider all tokens which occur six words before the article to 11 words after the article [-6, 11]. Out of the
-# 79,335 articles which have non-elliptical heads in this corpus, only 35 have heads which which occur outside of that
+# 1.1) Consider all tokens which occur 4 words before the article to 10 words after the article [-4, 10]. Out of the
+# 79,335 articles which have non-elliptical heads in this corpus, only 73 have heads which which occur outside of that
 # interval.
-# 2.1) If the head is elliptical, recognize that.
-# 2.2) If the head is out of the word range, recognize that.
+# 2.1) If the head is elliptical, recognize that. Is training data consistent about pointing articles to ellipses?
+# 2.2) If the head is out of the window, recognize that.
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
@@ -74,6 +186,9 @@ for file in indir:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
                 if token.has_attr('artificial') is False:
-                    if token['lemma'] == 'ὁ' and poser(token) == 'article' and header(tokens, token) is not False:
-                        print(token['form'], header(tokens, token)['form'])
-                        time.sleep(1)
+                    # if token['lemma'] == 'ὁ' and poser(token) == 'article' and header(tokens, token) is not False:
+                    head_word = token
+                    print(token['form'], head_word['form'], poser(head_word), person(head_word),
+                          grammatical_number(head_word), tenser(head_word), mooder(head_word), voicer(head_word),
+                          gender(head_word), caser(head_word))
+                    time.sleep(1)
