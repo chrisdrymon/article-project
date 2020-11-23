@@ -41,6 +41,8 @@ def header(f_sentence, f_word):
 def poser(f_word):
     """Returns the part-of-speech of a token. Participles are considered verbs."""
     f_pos = 'other'
+    poses = ('adj', 'adposition', 'adv', 'article', 'conj', 'interjection', 'noun', 'numeral', 'other', 'pronoun',
+             'verb')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
             pos0 = f_word['postag'][0]
@@ -57,6 +59,7 @@ def poser(f_word):
 def person(f_word):
     """Returns a token's person: first, second, third, or other."""
     f_person = 'other'
+    persons = ('first', 'second', 'third', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 1:
             pos1 = f_word['postag'][1]
@@ -73,6 +76,7 @@ def person(f_word):
 def grammatical_number(f_word):
     """Returns a token's grammatical number: singular, plural, dual, or other."""
     gram_num = 'other'
+    numbers = ('singular', 'plural', 'dual', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 2:
             pos2 = f_word['postag'][2]
@@ -89,6 +93,7 @@ def grammatical_number(f_word):
 def tenser(f_word):
     """Return a token's tense. Return 'other' if not a verb."""
     f_tense = 'other'
+    tenses = ('aorist', 'future', 'future perfect', 'imperfect', 'perfect', 'pluperfect', 'present')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 3:
             pos3 = f_word['postag'][3]
@@ -105,6 +110,7 @@ def tenser(f_word):
 def mooder(f_word):
     """Returns a token's mood. Returns 'other' if not a verb. Participles are considered a mood here."""
     f_mood = 'other'
+    moods = ('indicative', 'subjunctive', 'infinitive', 'imperative', 'participle', 'optative')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 4:
             pos4 = f_word['postag'][4]
