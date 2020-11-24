@@ -53,7 +53,9 @@ def poser(f_word):
             pos0 = f_word['part-of-speech'][0]
             if pos0 in proiel_pos_dict:
                 f_pos = proiel_pos_dict[pos0]
-    return f_pos
+    pos_tensor = [0]*11
+    pos_tensor[poses.index(f_pos)] = 1
+    return f_pos, pos_tensor
 
 
 def person(f_word):
@@ -70,7 +72,9 @@ def person(f_word):
             pos1 = f_word['morphology'][0]
             if pos1 in pos1_dict:
                 f_person = pos1_dict[pos1]
-    return f_person
+    person_tensor = [0]*4
+    person_tensor[persons.index(f_person)] = 1
+    return f_person, person_tensor
 
 
 def grammatical_number(f_word):
@@ -87,13 +91,15 @@ def grammatical_number(f_word):
             pos1 = f_word['morphology'][1]
             if pos1 in pos2_dict:
                 gram_num = pos2_dict[pos1]
-    return gram_num
+    number_tensor = [0]*4
+    number_tensor[numbers.index(gram_num)] = 1
+    return gram_num, number_tensor
 
 
 def tenser(f_word):
     """Return a token's tense. Return 'other' if not a verb."""
     f_tense = 'other'
-    tenses = ('aorist', 'future', 'future perfect', 'imperfect', 'perfect', 'pluperfect', 'present')
+    tenses = ('aorist', 'future', 'future perfect', 'imperfect', 'perfect', 'pluperfect', 'present', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 3:
             pos3 = f_word['postag'][3]
@@ -104,13 +110,15 @@ def tenser(f_word):
             pos3 = f_word['morphology'][2]
             if pos3 in pos3_dict:
                 f_tense = pos3_dict[pos3]
-    return f_tense
+    tense_tensor = [0]*8
+    tense_tensor[tenses.index(f_tense)] = 1
+    return f_tense, tense_tensor
 
 
 def mooder(f_word):
     """Returns a token's mood. Returns 'other' if not a verb. Participles are considered a mood here."""
     f_mood = 'other'
-    moods = ('indicative', 'subjunctive', 'infinitive', 'imperative', 'participle', 'optative')
+    moods = ('indicative', 'subjunctive', 'infinitive', 'imperative', 'participle', 'optative', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 4:
             pos4 = f_word['postag'][4]
@@ -121,12 +129,15 @@ def mooder(f_word):
             pos4 = f_word['morphology'][3]
             if pos4 in pos4_dict:
                 f_mood = pos4_dict[pos4]
-    return f_mood
+    mood_tensor = [0]*7
+    mood_tensor[moods.index(f_mood)] = 1
+    return f_mood, mood_tensor
 
 
 def voicer(f_word):
     """Returns a token's voice. Returns 'other' if not a verb."""
     f_voice = 'other'
+    voices = ('active', 'middle', 'passive', 'middle or passive', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 5:
             pos5 = f_word['postag'][5]
@@ -137,12 +148,15 @@ def voicer(f_word):
             pos5 = f_word['morphology'][4]
             if pos5 in pos5_dict:
                 f_voice = pos5_dict[pos5]
-    return f_voice
+    voice_tensor = [0]*5
+    voice_tensor[voices.index(f_voice)] = 1
+    return f_voice, voice_tensor
 
 
 def gender(f_word):
     """Returns a token's gender. Returns 'other' if a verb."""
     f_gender = 'other'
+    genders = ('masculine', 'feminine', 'neuter', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 6:
             pos6 = f_word['postag'][6]
@@ -153,12 +167,15 @@ def gender(f_word):
             pos6 = f_word['morphology'][5]
             if pos6 in pos6_dict:
                 f_gender = pos6_dict[pos6]
-    return f_gender
+    gender_tensor = [0]*4
+    gender_tensor[genders.index(f_gender)] = 1
+    return f_gender, gender_tensor
 
 
 def caser(f_word):
     """Returns a token's case. Returns 'other' if it is a non-participle verb."""
     f_case = 'other'
+    cases = ('nominative', 'genitive', 'dative', 'accusative', 'vocative', 'other')
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 7:
             pos7 = f_word['postag'][7]
@@ -169,7 +186,9 @@ def caser(f_word):
             pos6 = f_word['morphology'][6]
             if pos6 in pos7_dict:
                 f_case = pos7_dict[pos6]
-    return f_case
+    case_tensor = [0]*6
+    case_tensor[cases.index(f_case)] = 1
+    return f_case, case_tensor
 
 
 # The purpose is to extract data from the annotated corpora to be used to train a machine learning algorithm. Two goals
