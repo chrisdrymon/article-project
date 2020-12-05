@@ -1,15 +1,17 @@
 import os
 import time
-from utilities import poser, header, give_dependents, ider
+from utilities import poser, header, caser, grammatical_number, mooder
 from bs4 import BeautifulSoup
 from collections import Counter
 
 corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
 indir = os.listdir(corpora_folder)
 file_count = 0
-distance_counter = Counter()
-long_list = []
-article_count = 0
+relation_counter = Counter()
+token_count = 0
+sub_verb_count = 0
+mismatched_num_count = 0
+
 
 for file in indir:
     if file[-4:] == '.xml':
@@ -21,16 +23,13 @@ for file in indir:
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
-                if token.has_attr('artificial') is False and token.has_attr('lemma'):
-                    if token['lemma'] == 'ὁ' and poser(token) == 'article' and header(tokens, token) is not False:
-                        article_count += 1
-                        if poser(header(tokens, token)) == 'noun':
-                            distance = int(ider(header(tokens, token))) - int(ider(token))
-                            distance_counter[distance] += 1
-                            if distance < -5 or distance > 9:
-                                if header(tokens, token).has_attr('artificial') is False:
-                                    long_list.append([file, sentence['id'], int(ider(token)), ider(header(tokens, token))])
-
-print(article_count)
-print(distance_counter)
-print(long_list)
+                token_count += 1
+                if caser(token)[0] == 'nominative' and poser(header(tokens, token))[0] == 'verb':
+                    if token['relation'] == 'SBJ' or token['relation'] == 'sub':
+                        sub_verb_count += 1
+                        if grammatical_number(token)[0] != grammatical_number(header(tokens, token))[0] and \
+                                verber(header(tokens, token) != 'infinitive'):
+                            mismatched_num_count += 1
+                            print(token['form'], header(tokens, token)['form'], f'{mismatched_num_count} of '
+                                                                                f'{sub_verb_count} mismatching.')
+                            time.sleep(1)

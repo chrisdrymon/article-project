@@ -22,33 +22,25 @@ proiel_pos_dict = {'A': 'adj', 'D': 'adv', 'S': 'article', 'M': 'numeral', 'N': 
                    'P': 'pronoun', 'I': 'interjection', 'R': 'adposition', 'V': 'verb'}
 
 
-# This returns the part-of-speech or the mood if the part-of-speech is a verb for a given word.
 def poser(f_word):
+    """Returns the part-of-speech of a given word."""
+    f_pos = 'other'
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
             pos0 = f_word['postag'][0]
             if pos0 in pos0_dict:
                 f_pos = pos0_dict[pos0]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
     elif f_word.has_attr('part-of-speech'):
         if len(f_word['part-of-speech']) > 0:
             pos0 = f_word['part-of-speech'][0]
             if pos0 in proiel_pos_dict:
                 f_pos = proiel_pos_dict[pos0]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
-    else:
-        f_pos = 'other'
     return f_pos
 
 
-# This returns the part-of-speech or the mood if the part-of-speech is a verb for a given word.
 def posermooder(f_word):
+    """Returns the part-of-speech unless it is a verb. Then it returns the mood."""
+    f_pos = 'other'
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
             pos0 = f_word['postag'][0]
@@ -59,10 +51,6 @@ def posermooder(f_word):
                         pos4 = f_word['postag'][4]
                         if pos4 in pos4_dict:
                             f_pos = pos4_dict[pos4]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
     elif f_word.has_attr('part-of-speech'):
         if len(f_word['part-of-speech']) > 0:
             pos0 = f_word['part-of-speech'][0]
@@ -73,17 +61,11 @@ def posermooder(f_word):
                         pos3 = f_word['morphology'][3]
                         if pos3 in pos4_dict:
                             f_pos = pos4_dict[pos3]
-            else:
-                f_pos = 'other'
-        else:
-            f_pos = 'other'
-    else:
-        f_pos = 'other'
     return f_pos
 
 
-# This returns true if pos is a verb.
 def verber(f_word):
+    """This returns true if pos is a verb."""
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 0:
             pos0 = f_word['postag'][0]
@@ -91,12 +73,6 @@ def verber(f_word):
                 f_pos = pos0_dict[pos0]
                 if f_pos == 'verb':
                     return True
-                else:
-                    return False
-            else:
-                return False
-        else:
-            return False
     elif f_word.has_attr('part-of-speech'):
         if len(f_word['part-of-speech']) > 0:
             pos0 = f_word['part-of-speech'][0]
@@ -104,14 +80,7 @@ def verber(f_word):
                 f_pos = proiel_pos_dict[pos0]
                 if f_pos == 'verb':
                     return True
-                else:
-                    return False
-            else:
-                return False
-        else:
-            return False
-    else:
-        return False
+    return False
 
 
 # This takes a token or word and returns its number: singular, plural, dual, or other.
@@ -162,8 +131,8 @@ def tenser(f_word):
     return f_tense
 
 
-# This takes a token or word and returns its number: singular, plural, dual, or other.
 def mooder(f_word):
+    """Returns the mood of a verb. Returns 'other' if it is not a verb."""
     f_mood = 'other'
     if f_word.has_attr('postag'):
         if len(f_word['postag']) > 4:
