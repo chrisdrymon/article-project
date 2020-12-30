@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import time
-import tensorflow
+# import tensorflow
 from collections import Counter
 
 
@@ -198,9 +198,11 @@ def caser(f_word):
 
 # 1.1) Consider all tokens which occur 4 words before the article to 10 words after the article [-4, 10]. Out of the
 # 79,335 articles which have non-elliptical heads in this corpus, only 73 have heads which which occur outside of that
-# interval.
+# window.
 # 2.1) If the head is elliptical, recognize that. Is training data consistent about pointing articles to ellipses?
 # 2.2) If the head is out of the window, recognize that.
+
+tensor_list = []
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':
         file_count += 1
@@ -212,9 +214,22 @@ for file in indir:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
                 if token.has_attr('artificial') is False:
-                    # if token['lemma'] == 'ὁ' and poser(token) == 'article' and header(tokens, token) is not False:
-                    head_word = token
-                    print(token['form'], head_word['form'], poser(head_word), person(head_word),
-                          grammatical_number(head_word), tenser(head_word), mooder(head_word), voicer(head_word),
-                          gender(head_word), caser(head_word))
-                    time.sleep(1)
+                    if token['lemma'] == 'ὁ' and poser(token)[0] == 'article' and header(tokens, token) is not False:
+                        article_index = tokens.index(token)
+                        window_start = article_index - 4
+                        window_end = article_index + 10
+                        while window_start < 0:
+                            tensor_list.append([0]*49)
+                            window_start += 1
+                        while window_start < window_end:
+                            token_tensor = poser(tokens[window_start])[1] + person(tokens[window_start])[1] + \
+                                           grammatical_number(tokens[window_start])[1] + \
+                                           tenser(tokens[window_start])[1] + mooder(tokens[window_start])[1] + \
+                                           voicer(tokens[window_start])[1] + gender(tokens[window_start])[1] + \
+                                           caser(tokens[window_start])[1]
+                            print(token_tensor, tokens[window_start]['form'], len(token_tensor))
+                            window_start += 1
+                            time.sleep(1)
+                    # print(token['form'], poser(head_word), person(head_word), grammatical_number(head_word),
+                    #       tenser(head_word), mooder(head_word), voicer(head_word), gender(head_word), caser(head_word))
+                    # time.sleep(1)

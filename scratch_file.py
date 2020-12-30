@@ -1,6 +1,6 @@
 import os
 import time
-from utilities import poser, header, caser, grammatical_number, mooder
+from utilities import poser, header, caser, grammatical_number, mooder, verber
 from bs4 import BeautifulSoup
 from collections import Counter
 
