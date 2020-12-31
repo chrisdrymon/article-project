@@ -200,11 +200,12 @@ def caser(f_word):
 # 79,335 articles which have non-elliptical heads in this corpus, only 73 have heads which which occur outside of that
 # window.
 # 2.1) If the head is elliptical, recognize that. Is training data consistent about pointing articles to ellipses?
-# 2.2) If the head is out of the window, recognize that.
 
-tensor_list = []
+samples = []
+labels = []
 for file in indir:
-    if file[-4:] == '.xml' and file[:3] == 'Nic':
+    if file[-4:] == '.xml':
+        article_count = 0
         file_count += 1
         print(file_count, file)
         xml_file = open(os.path.join(corpora_folder, file), 'r', encoding='utf-8')
@@ -214,22 +215,47 @@ for file in indir:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
                 if token.has_attr('artificial') is False:
-                    if token['lemma'] == 'ὁ' and poser(token)[0] == 'article' and header(tokens, token) is not False:
+                    if token['lemma'] == 'ὁ':
+                        article_count += 1
+                        print(f'Article {article_count}: {token["form"]}')
+                        window_sequence = []
+                        label = []
+                        header_tensor = [0] * 15
                         article_index = tokens.index(token)
                         window_start = article_index - 4
                         window_end = article_index + 10
                         while window_start < 0:
-                            tensor_list.append([0]*49)
+                            print([0] * 49, 'Out of Sentence')
+                            window_sequence.append([0] * 49)
                             window_start += 1
                         while window_start < window_end:
-                            token_tensor = poser(tokens[window_start])[1] + person(tokens[window_start])[1] + \
-                                           grammatical_number(tokens[window_start])[1] + \
-                                           tenser(tokens[window_start])[1] + mooder(tokens[window_start])[1] + \
-                                           voicer(tokens[window_start])[1] + gender(tokens[window_start])[1] + \
-                                           caser(tokens[window_start])[1]
-                            print(token_tensor, tokens[window_start]['form'], len(token_tensor))
+                            try:
+                                token_tensor = poser(tokens[window_start])[1] + person(tokens[window_start])[1] + \
+                                               grammatical_number(tokens[window_start])[1] + \
+                                               tenser(tokens[window_start])[1] + mooder(tokens[window_start])[1] + \
+                                               voicer(tokens[window_start])[1] + gender(tokens[window_start])[1] + \
+                                               caser(tokens[window_start])[1]
+                                print(token_tensor, tokens[window_start]['form'])
+                                window_sequence.append(token_tensor)
+                            except IndexError:
+                                print([0]*49, 'Out of Sentence')
+                                window_sequence.append([0]*49)
                             window_start += 1
-                            time.sleep(1)
-                    # print(token['form'], poser(head_word), person(head_word), grammatical_number(head_word),
-                    #       tenser(head_word), mooder(head_word), voicer(head_word), gender(head_word), caser(head_word))
-                    # time.sleep(1)
+                        samples.append(window_sequence)
+                        if caser(token) == 'article':
+                            label.append([1])
+                        else:
+                            label.append([0])
+                        try:
+                            header_index = tokens.index(header(tokens, token))
+                            header_window_location = header_index - article_index
+                            if -4 <= header_window_location <= 11:
+                                header_tensor[header_window_location + 4] = 1
+                            else:
+                                print('Head out of window.')
+                        except ValueError:
+                            print('Head not found.')
+                        label.append(header_tensor)
+                        print(label)
+                        time.sleep(1)
+print('Samples: ', len(samples))
