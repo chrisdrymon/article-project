@@ -19,10 +19,6 @@ pos7_dict = {'n': 'nominative', 'g': 'genitive', 'd': 'dative', 'v': 'vocative',
 proiel_pos_dict = {'A': 'adj', 'D': 'adv', 'S': 'article', 'M': 'numeral', 'N': 'noun', 'C': 'conj', 'G': 'conj',
                    'P': 'pronoun', 'I': 'interjection', 'R': 'adposition', 'V': 'verb'}
 
-corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
-indir = os.listdir(corpora_folder)
-file_count = 0
-
 
 def header(f_sentence, f_word):
     """Returns the token's head."""
@@ -192,6 +188,13 @@ def caser(f_word):
     return f_case, case_tensor
 
 
+def lemmer(f_word):
+    """Returns the token's lemma. If attribute is missing returns 'missing'."""
+    try:
+        return f_word['lemma']
+    except KeyError:
+        return 'missing'
+
 # The purpose is to extract data from the annotated corpora to be used to train a machine learning algorithm. Two goals
 # are in focus. 1) Be able to correctly identify the POS of any occurrence of the lemma ο. 2) Be able to identify the
 # head of the lemma ο if it is acting as an article.
@@ -201,8 +204,13 @@ def caser(f_word):
 # window.
 # 2.1) If the head is elliptical, recognize that. Is training data consistent about pointing articles to ellipses?
 
+
+corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
+indir = os.listdir(corpora_folder)
+file_count = 0
 samples = []
 labels = []
+# Search through every work in the annotated Greek folder
 for file in indir:
     if file[-4:] == '.xml':
         article_count = 0
@@ -214,10 +222,10 @@ for file in indir:
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
-                if token.has_attr('artificial') is False:
-                    if token['lemma'] == 'ὁ':
+                if token.has_attr('artificial') is False and token.has_attr('empty-token-sort') is False:
+                    if lemmer(token) == 'ὁ':
                         article_count += 1
-                        print(f'Article {article_count}: {token["form"]}')
+#                        print(f'Article {article_count}: {token["form"]}')
                         window_sequence = []
                         label = []
                         header_tensor = [0] * 15
@@ -225,7 +233,7 @@ for file in indir:
                         window_start = article_index - 4
                         window_end = article_index + 10
                         while window_start < 0:
-                            print([0] * 49, 'Out of Sentence')
+                            # print([0] * 49, 'Out of Sentence')
                             window_sequence.append([0] * 49)
                             window_start += 1
                         while window_start < window_end:
@@ -235,10 +243,10 @@ for file in indir:
                                                tenser(tokens[window_start])[1] + mooder(tokens[window_start])[1] + \
                                                voicer(tokens[window_start])[1] + gender(tokens[window_start])[1] + \
                                                caser(tokens[window_start])[1]
-                                print(token_tensor, tokens[window_start]['form'])
+                                # print(token_tensor, tokens[window_start]['form'])
                                 window_sequence.append(token_tensor)
                             except IndexError:
-                                print([0]*49, 'Out of Sentence')
+                                # print([0]*49, 'Out of Sentence')
                                 window_sequence.append([0]*49)
                             window_start += 1
                         samples.append(window_sequence)
@@ -249,13 +257,8 @@ for file in indir:
                         try:
                             header_index = tokens.index(header(tokens, token))
                             header_window_location = header_index - article_index
-                            if -4 <= header_window_location <= 11:
+                            if -4 <= header_window_location <= 10:
                                 header_tensor[header_window_location + 4] = 1
-                            else:
-                                print('Head out of window.')
                         except ValueError:
-                            print('Head not found.')
+                            pass
                         label.append(header_tensor)
-                        print(label)
-                        time.sleep(1)
-print('Samples: ', len(samples))
