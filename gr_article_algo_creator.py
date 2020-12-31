@@ -210,10 +210,12 @@ indir = os.listdir(corpora_folder)
 file_count = 0
 samples = []
 labels = []
+total_article_count = 0
+replace_works = []
 # Search through every work in the annotated Greek folder
 for file in indir:
     if file[-4:] == '.xml':
-        article_count = 0
+        work_samples = 0
         file_count += 1
         print(file_count, file)
         xml_file = open(os.path.join(corpora_folder, file), 'r', encoding='utf-8')
@@ -224,7 +226,8 @@ for file in indir:
             for token in tokens:
                 if token.has_attr('artificial') is False and token.has_attr('empty-token-sort') is False:
                     if lemmer(token) == 'ὁ':
-                        article_count += 1
+                        total_article_count += 1
+                        work_samples += 1
 #                        print(f'Article {article_count}: {token["form"]}')
                         window_sequence = []
                         label = []
@@ -262,3 +265,5 @@ for file in indir:
                         except ValueError:
                             pass
                         label.append(header_tensor)
+                        labels.append(label)
+    print(f'Work Samples/Total Samples: {work_samples}/{total_article_count}')
