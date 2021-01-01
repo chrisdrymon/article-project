@@ -7,11 +7,11 @@ from collections import Counter
 corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
 indir = os.listdir(corpora_folder)
 file_count = 0
-relation_counter = Counter()
+subject_counter = Counter()
 token_count = 0
 sub_verb_count = 0
 mismatched_num_count = 0
-
+tense_counter = Counter()
 
 for file in indir:
     if file[-4:] == '.xml' and file[:3] == 'Nic':

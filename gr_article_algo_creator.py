@@ -259,18 +259,25 @@ for file in indir:
                                 window_sequence.append([0]*49)
                             window_start += 1
                         samples.append(window_sequence)
-                        # This will be a binary category. It's either an article or not.
+                        # Create the first classification label: identifies the ὁ as an article or not an article
                         if caser(token) == 'article':
-                            label.append([1])
+                            label.append([1, 0])
                         else:
-                            label.append([0])
+                            label.append([0, 1])
+                        # Makes sure the head word exists. If not, return an "other" label.
                         try:
-                            header_index = tokens.index(header(tokens, token))
-                            header_window_location = header_index - article_index
-                            if -4 <= header_window_location <= 10:
-                                header_tensor[header_window_location + 4] = 1
-                            else:
+                            head = header(tokens, token)
+                            # Checks if head word is explicit. If not, return an "other" label.
+                            if head.has_attr('artificial') or head.has_attr('empty-token-sort'):
                                 header_tensor[15] = 1
+                            else:
+                                header_index = tokens.index(head)
+                                header_window_location = header_index - article_index
+                                # Check if head is inside the window. If not, return an "other" label.
+                                if -4 <= header_window_location <= 10:
+                                    header_tensor[header_window_location + 4] = 1
+                                else:
+                                    header_tensor[15] = 1
                         except ValueError:
                             header_tensor[15] = 1
                         label.append(header_tensor)
