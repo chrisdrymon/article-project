@@ -218,41 +218,48 @@ for file in indir:
         work_samples = 0
         file_count += 1
         print(file_count, file)
+        # Open the files (they are XML's) with beautiful soup and search through every word in every sentence.
         xml_file = open(os.path.join(corpora_folder, file), 'r', encoding='utf-8')
         soup = BeautifulSoup(xml_file, 'xml')
         sentences = soup.find_all('sentence')
         for sentence in sentences:
             tokens = sentence.find_all(['word', 'token'])
             for token in tokens:
+                # The search should ignore elliptical tokens
                 if token.has_attr('artificial') is False and token.has_attr('empty-token-sort') is False:
+                    # I am only interested in finding possible instances of the Greek article.
                     if lemmer(token) == 'ὁ':
                         total_article_count += 1
                         work_samples += 1
-#                        print(f'Article {article_count}: {token["form"]}')
+                        # Record the morphological tags of the tokens around the ὁ to train an LSTM.
                         window_sequence = []
+                        # Record the part-of-speech and the head of the ὁ as training labels for a multi-class LSTM
                         label = []
-                        header_tensor = [0] * 15
+                        # The head could be any of the tokens in the 15-token wide window or an "other" category
+                        header_tensor = [0] * 16
+                        # Create the window around the ὁ
                         article_index = tokens.index(token)
                         window_start = article_index - 4
                         window_end = article_index + 10
+                        # If part of the window exceeds the bounds of the sentence, return a blank tensor for that token
                         while window_start < 0:
-                            # print([0] * 49, 'Out of Sentence')
                             window_sequence.append([0] * 49)
                             window_start += 1
-                        while window_start < window_end:
+                        # We might not be getting the final token into the training data! Check this!
+                        while window_start <= window_end:
                             try:
                                 token_tensor = poser(tokens[window_start])[1] + person(tokens[window_start])[1] + \
                                                grammatical_number(tokens[window_start])[1] + \
                                                tenser(tokens[window_start])[1] + mooder(tokens[window_start])[1] + \
                                                voicer(tokens[window_start])[1] + gender(tokens[window_start])[1] + \
                                                caser(tokens[window_start])[1]
-                                # print(token_tensor, tokens[window_start]['form'])
                                 window_sequence.append(token_tensor)
                             except IndexError:
                                 # print([0]*49, 'Out of Sentence')
                                 window_sequence.append([0]*49)
                             window_start += 1
                         samples.append(window_sequence)
+                        # This will be a binary category. It's either an article or not.
                         if caser(token) == 'article':
                             label.append([1])
                         else:
@@ -262,8 +269,13 @@ for file in indir:
                             header_window_location = header_index - article_index
                             if -4 <= header_window_location <= 10:
                                 header_tensor[header_window_location + 4] = 1
+                            else:
+                                header_tensor[15] = 1
                         except ValueError:
-                            pass
+                            header_tensor[15] = 1
                         label.append(header_tensor)
                         labels.append(label)
+                        if header_tensor[4] == 1:
+                            print('Head is itself!')
+                            print(header_tensor)
     print(f'Work Samples/Total Samples: {work_samples}/{total_article_count}')
