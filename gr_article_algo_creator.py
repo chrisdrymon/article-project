@@ -1,7 +1,7 @@
 import os
 from bs4 import BeautifulSoup
 import time
-# import tensorflow
+import tensorflow
 from collections import Counter
 
 
@@ -240,8 +240,6 @@ for file in indir:
                         work_samples += 1
                         # Record the morphological tags of the tokens around the ὁ to train an LSTM.
                         window_sequence = []
-                        # Record the part-of-speech and the head of the ὁ as training labels for a multi-class LSTM
-                        label = []
                         # The head could be any of the tokens in the 15-token wide window or an "other" category
                         header_tensor = [0] * 16
                         # Create the window around the ὁ
@@ -268,10 +266,10 @@ for file in indir:
                         samples.append(window_sequence)
                         # Create the first classification label: identifies the ὁ as an article or not an article
                         if caser(token) == 'article':
-                            label.append([1, 0])
+                            article_status = [1, 0]
                         else:
-                            label.append([0, 1])
-                        # Makes sure the head word exists. If not, return an "other" label.
+                            article_status = [0, 1]
+                        # Makes sure the head word is tagged. If not, return an "other" label.
                         try:
                             head = header(tokens, token)
                             # Checks if head word is explicit. If not, return an "other" label.
@@ -287,11 +285,13 @@ for file in indir:
                                     header_tensor[15] = 1
                         except AttributeError:
                             header_tensor[15] = 1
-                        label.append(header_tensor)
-                        labels.append(label)
+                        # Record the part-of-speech and the head of the ὁ as training labels for a multi-class LSTM
+                        labels.append([article_status, header_tensor])
                         if header_tensor[4] == 1:
                             print('Head is itself!')
                             print(header_tensor)
     print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
-    print(f'Percent Articles in Work: {(article_count/work_samples):.02%}')
-print(pos_counter)
+    print(f'Percent of Samples in Work are Articles: {(article_count/work_samples):.02%}')
+print(f'Part-of-Speech of instances of ὁ: {pos_counter}')
+
+# Enter the samples and labels into Tensorflow to train a neural network
