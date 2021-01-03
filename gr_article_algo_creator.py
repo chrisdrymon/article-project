@@ -210,12 +210,14 @@ indir = os.listdir(corpora_folder)
 file_count = 0
 samples = []
 labels = []
-total_article_count = 0
+total_samples_count = 0
 replace_works = []
+pos_counter = Counter()
 # Search through every work in the annotated Greek folder
 for file in indir:
     if file[-4:] == '.xml':
         work_samples = 0
+        article_count = 0
         file_count += 1
         print(file_count, file)
         # Open the files (they are XML's) with beautiful soup and search through every word in every sentence.
@@ -229,7 +231,12 @@ for file in indir:
                 if token.has_attr('artificial') is False and token.has_attr('empty-token-sort') is False:
                     # I am only interested in finding possible instances of the Greek article.
                     if lemmer(token) == 'ὁ':
-                        total_article_count += 1
+                        pos_counter[poser(token)[0]] += 1
+                        if poser(token)[0] == 'article':
+                            article_count += 1
+                        if poser(token)[0] not in ['article', 'pronoun']:
+                            print(f'Problem! {file}, sentence {sentence["id"]} token {token["id"]}.')
+                        total_samples_count += 1
                         work_samples += 1
                         # Record the morphological tags of the tokens around the ὁ to train an LSTM.
                         window_sequence = []
@@ -278,11 +285,13 @@ for file in indir:
                                     header_tensor[header_window_location + 4] = 1
                                 else:
                                     header_tensor[15] = 1
-                        except ValueError:
+                        except AttributeError:
                             header_tensor[15] = 1
                         label.append(header_tensor)
                         labels.append(label)
                         if header_tensor[4] == 1:
                             print('Head is itself!')
                             print(header_tensor)
-    print(f'Work Samples/Total Samples: {work_samples}/{total_article_count}')
+    print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
+    print(f'Percent Articles in Work: {(article_count/work_samples):.02%}')
+print(pos_counter)

@@ -496,7 +496,7 @@
   <word form="ζῆν" head="5" id="7" lemma="ζάω" postag="v--pna---" ref="Leuven|0537-012|29|7" relation="OBJ" sem=""/>
   <word form="οὔτε" head="0" id="8" lemma="οὔτε" postag="c--------" ref="Leuven|0537-012|29|8" relation="COORD" sem=""/>
   <word form="φοβεῖται" head="8" id="9" lemma="φοβεῖτημι" postag="v3saom---" ref="Leuven|0537-012|29|9" relation="PRED_CO" sem=""/>
-  <word form="τὸ" head="12" id="10" lemma="ὁ" postag="---------" ref="Leuven|0537-012|29|10" relation="ATR" sem=""/>
+  <word form="τὸ" head="12" id="10" lemma="ὁ" postag="l-s---nn-" ref="Leuven|0537-012|29|10" relation="ATR" sem=""/>
   <word form="μή" head="12" id="11" lemma="μή" postag="d--------" ref="Leuven|0537-012|29|11" relation="AuxZ" sem=""/>
   <word form="ζῆν" head="9" id="12" lemma="ζάω" postag="v--pna---" presentation-after="·" ref="Leuven|0537-012|29|12" relation="OBJ" sem=""/>
  </sentence>

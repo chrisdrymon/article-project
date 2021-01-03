@@ -9487,7 +9487,7 @@
  <sentence Author="Aristophanes" corrupt="" document_id="0019-008" id="976" subdoc="1210">
   <word form="ὦ" head="2" id="1" lemma="ὦ" postag="i--------" ref="Leuven|0019-008|976|1" relation="AuxZ" sem=""/>
   <word form="γρᾴδι’" head="15" id="2" lemma="γρᾴδιον" postag="n-s---nv-" ref="Leuven|0019-008|976|2" relation="ExD" sem=""/>
-  <word form="ὠς" head="4" id="3" lemma="ὁ" postag="v-papamn-" ref="Leuven|0019-008|976|3" relation="ADV" sem=""/>
+  <word form="ὠς" head="4" id="3" lemma="ὠς" postag="d--------" ref="Leuven|0019-008|976|3" relation="ADV" sem=""/>
   <word form="καρίεντό" head="9" id="4" lemma="χαρίεις" postag="a-s---fn_" ref="Leuven|0019-008|976|4" relation="PNOM_CO" sem=""/>
   <word form="σοι" head="15" id="5" lemma="σύ" postag="p2s---cd-" ref="Leuven|0019-008|976|5" relation="ADV" sem=""/>
   <word form="τὸ" head="7" id="6" lemma="ὁ" postag="l-s---nn-" ref="Leuven|0019-008|976|6" relation="ATR" sem=""/>
