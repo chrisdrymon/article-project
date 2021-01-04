@@ -1,7 +1,8 @@
 import os
 from bs4 import BeautifulSoup
 import time
-import tensorflow
+import tensorflow as tf
+from tensorflow.keras import layers
 from collections import Counter
 
 
@@ -209,13 +210,14 @@ corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
 indir = os.listdir(corpora_folder)
 file_count = 0
 samples = []
-labels = []
+pos_labels = []
+head_labels = []
 total_samples_count = 0
 replace_works = []
 pos_counter = Counter()
 # Search through every work in the annotated Greek folder
 for file in indir:
-    if file[-4:] == '.xml':
+    if file[-4:] == '.xml' and file[:3] == 'hes':
         work_samples = 0
         article_count = 0
         file_count += 1
@@ -286,12 +288,17 @@ for file in indir:
                         except AttributeError:
                             header_tensor[15] = 1
                         # Record the part-of-speech and the head of the ὁ as training labels for a multi-class LSTM
-                        labels.append([article_status, header_tensor])
-                        if header_tensor[4] == 1:
-                            print('Head is itself!')
-                            print(header_tensor)
-    print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
-    print(f'Percent of Samples in Work are Articles: {(article_count/work_samples):.02%}')
+                        pos_labels.append(article_status)
+                        head_labels.append(header_tensor)
+        print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
+        print(f'Percent of Samples in Work are Articles: {(article_count/work_samples):.02%}')
 print(f'Part-of-Speech of instances of ὁ: {pos_counter}')
 
 # Enter the samples and labels into Tensorflow to train a neural network
+model = tf.keras.Sequential()
+# Input_shape = (n_steps, n_features). Since I combined everything into one tensor, try 49 features for now.
+model.add(layers.Bidirectional(layers.LSTM(50, activation='relu'), input_shape=(15, 49)))
+model.add(layers.Dense(1))
+model.compile(optimizer='adam', loss='mse')
+
+model.fit(samples, pos_labels, epochs=1)
