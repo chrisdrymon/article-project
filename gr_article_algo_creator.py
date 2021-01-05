@@ -1,9 +1,56 @@
 import os
 from bs4 import BeautifulSoup
 import time
+import datetime
 import tensorflow as tf
 from tensorflow.keras import layers
 from collections import Counter
+
+
+# Create a custom model saver
+class ModelSaver(tf.keras.callbacks.Callback):
+    # A custom tensorflow model saver that returns useful information
+    very_best = 100
+    best_loss = 100
+    best_acc = 0
+    best_val_acc = 0
+    prev_loss = 0
+    rep_loss = 0
+    best_epoch = 0
+    best_mod = 0
+    best_units = 0
+    best_lr = 0
+    best_dropout = 0
+    new_best = False
+
+    def on_train_begin(self, logs=None):
+        self.best_loss = 100
+        self.best_acc = 0
+        self.best_val_acc = 0
+        self.new_best = False
+
+    def on_epoch_end(self, epoch, logs=None):
+        # Save the best model
+        # if logs['loss'] < self.best_loss:
+        #     self.best_loss = logs['loss']
+        #     model_name = "m{0:.3e}val{1:.3e}.m5".format(logs['loss'], logs['val_loss'])
+        #     self.model.save(model_name, overwrite=True)
+        #     self.best_epoch = epoch + 1
+        #     print('\n\nModel saved at epoch', epoch + 1, 'with', self.very_best, 'loss.\n')
+        # print(logs.keys())
+        if logs['val_accuracy'] > self.best_val_acc:
+            self.best_val_acc = logs['val_accuracy']
+            # os.path.join('data', 'tf_logs', "m{0:.3f}val{1:.3f}".format(logs['accuracy'], logs['val_accuracy']))
+            model_name = os.path.join('data', 'tf_logs', "m{0:.3f}val{1:.3f}".format(logs['accuracy'],
+                                                                                     logs['val_accuracy']))
+            tf.saved_model.save(model, model_name)
+            self.best_epoch = epoch + 1
+            self.new_best = True
+            print('\n\nModel saved at epoch', epoch + 1, 'with', self.best_val_acc, 'validation accuracy.\n')
+
+    def on_train_end(self, logs=None):
+        if self.new_best:
+            print('\nBest Model saved at epoch', self.best_epoch, 'with', self.best_val_acc, 'validation accuracy.')
 
 
 pos0_dict = {'a': 'adj', 'n': 'noun', 'v': 'verb', 'd': 'adv', 'c': 'conj', 'g': 'conj', 'r': 'adposition', 'b': 'conj',
@@ -203,7 +250,7 @@ def lemmer(f_word):
 # 1.1) Consider all tokens which occur 4 words before the article to 10 words after the article [-4, 10]. Out of the
 # 79,335 articles which have non-elliptical heads in this corpus, only 73 have heads which which occur outside of that
 # window.
-# 2.1) If the head is elliptical, recognize that. Is training data consistent about pointing articles to ellipses?
+# 2.1) If the head is elliptical, recognize that.
 
 
 corpora_folder = os.path.join('data', 'corpora', 'greek', 'annotated')
@@ -215,9 +262,10 @@ head_labels = []
 total_samples_count = 0
 replace_works = []
 pos_counter = Counter()
+head_loc_counter = Counter()
 # Search through every work in the annotated Greek folder
 for file in indir:
-    if file[-4:] == '.xml' and file[:3] == 'hes':
+    if file[-4:] == '.xml':
         work_samples = 0
         article_count = 0
         file_count += 1
@@ -243,7 +291,7 @@ for file in indir:
                         # Record the morphological tags of the tokens around the ὁ to train an LSTM.
                         window_sequence = []
                         # The head could be any of the tokens in the 15-token wide window or an "other" category
-                        header_tensor = [0] * 16
+                        head_tensor = [0] * 16
                         # Create the window around the ὁ
                         article_index = tokens.index(token)
                         window_start = article_index - 4
@@ -268,37 +316,59 @@ for file in indir:
                         samples.append(window_sequence)
                         # Create the first classification label: identifies the ὁ as an article or not an article
                         if caser(token) == 'article':
-                            article_status = [1, 0]
+                            article_status = [1]
                         else:
-                            article_status = [0, 1]
+                            article_status = [0]
                         # Makes sure the head word is tagged. If not, return an "other" label.
                         try:
                             head = header(tokens, token)
                             # Checks if head word is explicit. If not, return an "other" label.
                             if head.has_attr('artificial') or head.has_attr('empty-token-sort'):
-                                header_tensor[15] = 1
+                                head_tensor[15] = 1
+                                head_loc_counter['other'] += 1
                             else:
-                                header_index = tokens.index(head)
-                                header_window_location = header_index - article_index
+                                head_index = tokens.index(head)
+                                relative_head_location = head_index - article_index
                                 # Check if head is inside the window. If not, return an "other" label.
-                                if -4 <= header_window_location <= 10:
-                                    header_tensor[header_window_location + 4] = 1
+                                if -4 <= relative_head_location <= 10:
+                                    head_tensor[relative_head_location + 4] = 1
+                                    head_loc_counter[relative_head_location] += 1
                                 else:
-                                    header_tensor[15] = 1
+                                    head_tensor[15] = 1
+                                    head_loc_counter['other'] += 1
                         except AttributeError:
-                            header_tensor[15] = 1
+                            head_tensor[15] = 1
+                            head_loc_counter['other'] += 1
                         # Record the part-of-speech and the head of the ὁ as training labels for a multi-class LSTM
                         pos_labels.append(article_status)
-                        head_labels.append(header_tensor)
+                        head_labels.append(head_tensor)
         print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
         print(f'Percent of Samples in Work are Articles: {(article_count/work_samples):.02%}')
 print(f'Part-of-Speech of instances of ὁ: {pos_counter}')
+print(head_loc_counter)
+
+# Split data into an 80%/20% training/validation split.
+split = int(.8*len(head_labels))
+train_data = samples[:split]
+val_data = samples[split:]
+train_labels = head_labels[:split]
+val_labels = head_labels[split:]
 
 # Enter the samples and labels into Tensorflow to train a neural network
 model = tf.keras.Sequential()
 # Input_shape = (n_steps, n_features). Since I combined everything into one tensor, try 49 features for now.
 model.add(layers.Bidirectional(layers.LSTM(50, activation='relu'), input_shape=(15, 49)))
-model.add(layers.Dense(1))
-model.compile(optimizer='adam', loss='mse')
+model.add(layers.Dense(16, activation='softmax'))
+modelSaver = ModelSaver()
 
-model.fit(samples, pos_labels, epochs=1)
+log_dir = "data\\tf_logs\\" + datetime.datetime.now().strftime("%Y%m%d-%H%M")
+# log_dir = os.path.join('data', 'nn_models', datetime.datetime.now().strftime("%Y%m%d-%H%M"))
+tb_cb = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)  # tensorboard --logdir data/tf_logs
+
+model.compile(optimizer='adam', loss=tf.keras.losses.CategoricalCrossentropy(), metrics=['accuracy'])
+model.fit(train_data, train_labels, epochs=50, validation_data=(val_data, val_labels), verbose=2,
+          callbacks=[modelSaver, tb_cb])
+
+print('\nRelative Head Positions:')
+for key in head_loc_counter:
+    print(f'{key}: {head_loc_counter[key]/len(head_labels):.2%}')
