@@ -10,15 +10,10 @@ from collections import Counter
 # Create a custom model saver
 class ModelSaver(tf.keras.callbacks.Callback):
     # A custom tensorflow model saver that returns useful information
-    very_best = 100
     best_loss = 100
     best_acc = 0
     best_val_acc = 0
-    prev_loss = 0
-    rep_loss = 0
     best_epoch = 0
-    best_mod = 0
-    best_units = 0
     best_lr = 0
     best_dropout = 0
     new_best = False
@@ -30,14 +25,7 @@ class ModelSaver(tf.keras.callbacks.Callback):
         self.new_best = False
 
     def on_epoch_end(self, epoch, logs=None):
-        # Save the best model
-        # if logs['loss'] < self.best_loss:
-        #     self.best_loss = logs['loss']
-        #     model_name = "m{0:.3e}val{1:.3e}.m5".format(logs['loss'], logs['val_loss'])
-        #     self.model.save(model_name, overwrite=True)
-        #     self.best_epoch = epoch + 1
-        #     print('\n\nModel saved at epoch', epoch + 1, 'with', self.very_best, 'loss.\n')
-        # print(logs.keys())
+        # Save the best model based on validation accuracy.
         if logs['val_accuracy'] > self.best_val_acc:
             self.best_val_acc = logs['val_accuracy']
             # os.path.join('data', 'tf_logs', "m{0:.3f}val{1:.3f}".format(logs['accuracy'], logs['val_accuracy']))
@@ -284,8 +272,6 @@ for file in indir:
                         pos_counter[poser(token)[0]] += 1
                         if poser(token)[0] == 'article':
                             article_count += 1
-                        if poser(token)[0] not in ['article', 'pronoun']:
-                            print(f'Problem! {file}, sentence {sentence["id"]} token {token["id"]}.')
                         total_samples_count += 1
                         work_samples += 1
                         # Record the morphological tags of the tokens around the ὁ to train an LSTM.
@@ -345,6 +331,7 @@ for file in indir:
         print(f'Work Samples/Total Samples: {work_samples}/{total_samples_count}')
         print(f'Percent of Samples in Work are Articles: {(article_count/work_samples):.02%}')
 print(f'Part-of-Speech of instances of ὁ: {pos_counter}')
+print('Head Locations Relative to ὁ:')
 print(head_loc_counter)
 
 # Split data into an 80%/20% training/validation split.
@@ -357,7 +344,10 @@ val_labels = head_labels[split:]
 # Enter the samples and labels into Tensorflow to train a neural network
 model = tf.keras.Sequential()
 # Input_shape = (n_steps, n_features). Since I combined everything into one tensor, try 49 features for now.
-model.add(layers.Bidirectional(layers.LSTM(50, activation='relu'), input_shape=(15, 49)))
+model.add(layers.Bidirectional(layers.LSTM(128, return_sequences=True, activation='relu'), input_shape=(15, 49)))
+model.add(layers.Bidirectional(layers.LSTM(128, return_sequences=True, activation='relu')))
+model.add(layers.Bidirectional(layers.LSTM(128, return_sequences=True, activation='relu')))
+model.add(layers.Bidirectional(layers.LSTM(128, activation='relu')))
 model.add(layers.Dense(16, activation='softmax'))
 modelSaver = ModelSaver()
 
@@ -366,7 +356,7 @@ log_dir = "data\\tf_logs\\" + datetime.datetime.now().strftime("%Y%m%d-%H%M")
 tb_cb = tf.keras.callbacks.TensorBoard(log_dir=log_dir, histogram_freq=1)  # tensorboard --logdir data/tf_logs
 
 model.compile(optimizer='adam', loss=tf.keras.losses.CategoricalCrossentropy(), metrics=['accuracy'])
-model.fit(train_data, train_labels, epochs=50, validation_data=(val_data, val_labels), verbose=2,
+model.fit(train_data, train_labels, epochs=15, validation_data=(val_data, val_labels), verbose=2,
           callbacks=[modelSaver, tb_cb])
 
 print('\nRelative Head Positions:')
