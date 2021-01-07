@@ -49,8 +49,9 @@ class ModelSaver(tf.keras.callbacks.Callback):
             print('\nBest Model saved at epoch', self.best_epoch, 'with', self.best_val_acc, 'validation accuracy.')
 
 
-pos0_dict = {'a': 'adj', 'n': 'noun', 'v': 'verb', 'd': 'adv', 'c': 'conj', 'g': 'conj', 'r': 'adposition', 'b': 'conj',
-             'p': 'pronoun', 'l': 'article', 'i': 'interjection', 'x': 'other', 'm': 'numeral', 'e': 'interjection'}
+pos0_dict = {'l': 'article', 'n': 'noun', 'a': 'adj', 'r': 'adposition', 'c': 'conj', 'i': 'interjection',
+             'p': 'pronoun', 'v': 'verb', 'd': 'adv', 'm': 'numeral', 'g': 'conj', 'b': 'conj',
+             'x': 'other', 'e': 'interjection'}
 pos1_dict = {'1': 'first', '2': 'second', '3': 'third'}
 pos2_dict = {'s': 'singular', 'p': 'plural', 'd': 'dual'}
 pos3_dict = {'p': 'present', 'i': 'imperfect', 'r': 'perfect', 'a': 'aorist', 'l': 'pluperfect', 'f': 'future', 't':
@@ -159,7 +160,7 @@ print(f'Part-of-Speech of instances of ὁ: {pos_counter}')
 print('Head Locations Relative to ὁ:')
 print(head_loc_counter)
 
-# Split data into 80%/20% training/validation.
+# Split data into an 80%/20% training/validation split.
 split = int(.8*len(labels))
 train_data = samples[:split]
 val_data = samples[split:]

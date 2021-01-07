@@ -2,10 +2,11 @@ import tensorflow as tf
 import os
 from bs4 import BeautifulSoup
 from tensor_utils import header, poser, person, grammatical_number, tenser, mooder, voicer, gender, caser, lemmer
-import time
 import numpy as np
 
-# This program takes in unannotated texts, detects their morphology with CLTK, and
+# This program reviews the annotation of Ancient Greek treebanks. Specifically, it uses a neural network to find
+# possible errors in identifying article heads.
+
 # Enable this to run on CPU instead of GPU
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
 
@@ -23,7 +24,7 @@ problems = []
 #         file_count += 1
 #         print(file_count, file)
 #         xml_file = open(os.path.join(corpora_folder, file), 'r', encoding='utf-8')
-with open(os.path.join('data', 'corpora', 'greek', 'annotated', 'xenophon-hellenica-1.1-1.4-bu2.xml'), 'r',
+with open(os.path.join('data', 'corpora', 'greek', 'annotated', 'appian-the_civil_wars-bc-1.0-1.4-bu1.xml'), 'r',
           encoding='utf-8') as xml_file:
     soup = BeautifulSoup(xml_file, 'xml')
 sentences = soup.find_all('sentence')
@@ -75,8 +76,9 @@ for sentence in sentences:
                             print(f'{tok["form"]}: {predictions[0][i]:.02%}')
                         except TypeError:
                             print(f'Empty: {predictions[0][i]:.02%}')
-                    print('Incorrect!')
-                    problems.append([sentence['id'], token['id']])
+                    print(f'Other: {predictions[0][-1]:.02%}')
+                    problems.append([sentence['id'], token['id'], np.amax(predictions[0])])
+print('\nSummary of Instances Worthy of Review:')
 for item in problems:
-    print(f'Sentence: {item[0]}, Token: {item[1]}')
-print(f'{len(problems)} problems!')
+    print(f'Sentence: {item[0]}, Token: {item[1]}, Max Confidence: {item[2]:.02%}')
+print(f'{len(problems)} Instances!')
